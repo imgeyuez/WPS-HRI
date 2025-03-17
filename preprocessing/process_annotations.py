@@ -73,13 +73,17 @@ def train_dev_test_split():
                                'UNSC_2008_SPV.6005Resumption1_spch020.txt',
                                'UNSC_2000_SPV.4208Resumption2_spch004.txt']
     
-    cleaned_files = [name.strip() for name in filenames if name.strip() not in previous_annotated_speeches]
-    
-    random.shuffle(cleaned_files)
+    cleaned_filenames = list()
 
-    train = cleaned_files[0:40] + previous_annotated_speeches
-    dev = cleaned_files[40:45]
-    test = cleaned_files[45:]
+    for filename in filenames.split():
+        name = filename.strip()
+        cleaned_filenames.append(name)
+   
+    random.shuffle(cleaned_filenames)
+
+    train = cleaned_filenames[0:40] + previous_annotated_speeches
+    dev = cleaned_filenames[40:45]
+    test = cleaned_filenames[45:]
 
     return train, dev, test
 

@@ -235,7 +235,7 @@ train, dev, test = train_dev_test_split()
 """
 
 # changeable variables
-backup_path = 'C:/Users/imgey/Desktop/MASTER_POTSDAM/WiSe2425/PM1_argument_mining/inception_curation_backup/curation'
+backup_path = './inception_curation_backup/curation'
 
 files = read_tsv_files(backup_path=backup_path)
 

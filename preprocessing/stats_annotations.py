@@ -151,7 +151,7 @@ plt.show()
 
 
 ### DO SAME FOR SUBSTRINGS (?)
-'''
+
 def extract_token_counts(json_input):
     # List of words to skip (common words like articles, conjunctions, punctuation)
     skip_words = {"the", "a", "and", "of", ",", ".", "(", ")", "to", "in", "on", "for"}
@@ -181,9 +181,6 @@ def extract_token_counts(json_input):
                     # Count the token under the correct entity label
                     token_counts.setdefault(entity_label, {}).setdefault(token, 0)
                     token_counts[entity_label][token] += 1
-
-                else:  # If it's not part of an entity
-                    entity_label = None  # Reset the entity label when no entity is found
 
     return token_counts
 
@@ -218,4 +215,3 @@ for i, (label, entities) in enumerate(train_tokens.items()):
 
 plt.tight_layout()
 plt.show()
-'''

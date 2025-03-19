@@ -1,0 +1,727 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mr.
+1-1	0-2	Mr	_	
+1-2	2-3	.	_	
+
+#Text=Esono Mbengono (Equatorial Guinea) (spoke in Spanish): At the outset, I would like to congratulate\r
+#Text=South Africa on its successful presidency in October and\r
+#Text=on the Council's adoption of resolution 2439 (2019), on\r
+#Text=women and peace and security.
+2-1	4-9	Esono	_	
+2-2	10-18	Mbengono	_	
+2-3	19-20	(	_	
+2-4	20-30	Equatorial	_	
+2-5	31-37	Guinea	_	
+2-6	37-38	)	_	
+2-7	39-40	(	_	
+2-8	40-45	spoke	_	
+2-9	46-48	in	_	
+2-10	49-56	Spanish	_	
+2-11	56-57	)	_	
+2-12	57-58	:	_	
+2-13	59-61	At	_	
+2-14	62-65	the	_	
+2-15	66-72	outset	_	
+2-16	72-73	,	_	
+2-17	74-75	I	_	
+2-18	76-81	would	_	
+2-19	82-86	like	_	
+2-20	87-89	to	_	
+2-21	90-102	congratulate	_	
+2-22	104-109	South	HERO[1]	
+2-23	110-116	Africa	HERO[1]	
+2-24	117-119	on	_	
+2-25	120-123	its	_	
+2-26	124-134	successful	_	
+2-27	135-145	presidency	_	
+2-28	146-148	in	_	
+2-29	149-156	October	_	
+2-30	157-160	and	_	
+2-31	162-164	on	_	
+2-32	165-168	the	_	
+2-33	169-178	Council's	_	
+2-34	179-187	adoption	_	
+2-35	188-190	of	_	
+2-36	191-201	resolution	_	
+2-37	202-206	2439	_	
+2-38	207-208	(	_	
+2-39	208-212	2019	_	
+2-40	212-213	)	_	
+2-41	213-214	,	_	
+2-42	215-217	on	_	
+2-43	219-224	women	_	
+2-44	225-228	and	_	
+2-45	229-234	peace	_	
+2-46	235-238	and	_	
+2-47	239-247	security	_	
+2-48	247-248	.	_	
+
+#Text=We wish the delegation\r
+#Text=of the United Kingdom a productive presidency and\r
+#Text=would like to assure it of Equatorial Guinea's steadfast\r
+#Text=collaboration and support.
+3-1	249-251	We	_	
+3-2	252-256	wish	_	
+3-3	257-260	the	_	
+3-4	261-271	delegation	_	
+3-5	273-275	of	_	
+3-6	276-279	the	_	
+3-7	280-286	United	_	
+3-8	287-294	Kingdom	_	
+3-9	295-296	a	_	
+3-10	297-307	productive	_	
+3-11	308-318	presidency	_	
+3-12	319-322	and	_	
+3-13	324-329	would	_	
+3-14	330-334	like	_	
+3-15	335-337	to	_	
+3-16	338-344	assure	_	
+3-17	345-347	it	_	
+3-18	348-350	of	_	
+3-19	351-361	Equatorial	_	
+3-20	362-370	Guinea's	_	
+3-21	371-380	steadfast	_	
+3-22	382-395	collaboration	_	
+3-23	396-399	and	_	
+3-24	400-407	support	_	
+3-25	407-408	.	_	
+
+#Text=My thanks also go to the two\r
+#Text=briefers, my sisters Deputy Secretary-General Amina\r
+#Text=Mohammed and Ms.
+4-1	409-411	My	_	
+4-2	412-418	thanks	_	
+4-3	419-423	also	_	
+4-4	424-426	go	_	
+4-5	427-429	to	_	
+4-6	430-433	the	HERO[2]	
+4-7	434-437	two	HERO[2]	
+4-8	439-447	briefers	HERO[2]	
+4-9	447-448	,	HERO[2]	
+4-10	449-451	my	HERO[2]	
+4-11	452-459	sisters	HERO[2]	
+4-12	460-466	Deputy	HERO[2]	
+4-13	467-484	Secretary-General	HERO[2]	
+4-14	485-490	Amina	HERO[2]	
+4-15	492-500	Mohammed	HERO[2]	
+4-16	501-504	and	HERO[2]	
+4-17	505-507	Ms	HERO[2]	
+4-18	507-508	.	HERO[2]	
+
+#Text=Fatima Kyari Mohammed, for\r
+#Text=their informative statements.
+5-1	509-515	Fatima	HERO[2]	
+5-2	516-521	Kyari	HERO[2]	
+5-3	522-530	Mohammed	HERO[2]	
+5-4	530-531	,	_	
+5-5	532-535	for	_	
+5-6	537-542	their	_	
+5-7	543-554	informative	_	
+5-8	555-565	statements	_	
+5-9	565-566	.	_	
+
+#Text=We join others in commemorating the tenth\r
+#Text=anniversary of the establishment of the mandate of the\r
+#Text=Office of the Special Representative of the Secretary\r
+#Text=General on Conflict-Related Sexual Violence.
+6-1	570-572	We	_	
+6-2	573-577	join	_	
+6-3	578-584	others	_	
+6-4	585-587	in	_	
+6-5	588-601	commemorating	_	
+6-6	602-605	the	_	
+6-7	606-611	tenth	_	
+6-8	613-624	anniversary	_	
+6-9	625-627	of	_	
+6-10	628-631	the	_	
+6-11	632-645	establishment	_	
+6-12	646-648	of	_	
+6-13	649-652	the	_	
+6-14	653-660	mandate	_	
+6-15	661-663	of	_	
+6-16	664-667	the	_	
+6-17	669-675	Office	_	
+6-18	676-678	of	_	
+6-19	679-682	the	_	
+6-20	683-690	Special	_	
+6-21	691-705	Representative	_	
+6-22	706-708	of	_	
+6-23	709-712	the	_	
+6-24	713-722	Secretary	_	
+6-25	724-731	General	_	
+6-26	732-734	on	_	
+6-27	735-751	Conflict-Related	_	
+6-28	752-758	Sexual	_	
+6-29	759-767	Violence	_	
+6-30	767-768	.	_	
+
+#Text=Our\r
+#Text=Government will continue to support the various\r
+#Text=elements of the United Nations architecture aimed\r
+#Text=at combating sexual violence in armed conflicts, the\r
+#Text=promotion of women's rights and the inclusion of\r
+#Text=women in decision-making processes.
+7-1	769-772	Our	HERO[3]	
+7-2	774-784	Government	HERO[3]	
+7-3	785-789	will	_	
+7-4	790-798	continue	_	
+7-5	799-801	to	_	
+7-6	802-809	support	_	
+7-7	810-813	the	_	
+7-8	814-821	various	_	
+7-9	823-831	elements	_	
+7-10	832-834	of	_	
+7-11	835-838	the	_	
+7-12	839-845	United	_	
+7-13	846-853	Nations	_	
+7-14	854-866	architecture	_	
+7-15	867-872	aimed	_	
+7-16	874-876	at	_	
+7-17	877-886	combating	_	
+7-18	887-893	sexual	_	
+7-19	894-902	violence	_	
+7-20	903-905	in	_	
+7-21	906-911	armed	_	
+7-22	912-921	conflicts	_	
+7-23	921-922	,	_	
+7-24	923-926	the	_	
+7-25	928-937	promotion	_	
+7-26	938-940	of	_	
+7-27	941-948	women's	VICTIM	
+7-28	949-955	rights	_	
+7-29	956-959	and	_	
+7-30	960-963	the	_	
+7-31	964-973	inclusion	_	
+7-32	974-976	of	_	
+7-33	978-983	women	VICTIM[4]|HERO[5]	
+7-34	984-986	in	_	
+7-35	987-1002	decision-making	_	
+7-36	1003-1012	processes	_	
+7-37	1012-1013	.	_	
+
+#Text=The Republic of Equatorial Guinea believes that the\r
+#Text=enhanced cooperation between the Security Council\r
+#Text=and the African Union's African Peace and Security\r
+#Text=Architecture, which also strengthens subregional\r
+#Text=initiatives in the implementation of Council resolutions\r
+#Text=to advance the women and peace and security agenda,\r
+#Text=among other things, is an example of the type of\r
+#Text=alliance that should continue to be supported in a\r
+#Text=more predictable manner.
+8-1	1017-1020	The	_	
+8-2	1021-1029	Republic	_	
+8-3	1030-1032	of	_	
+8-4	1033-1043	Equatorial	_	
+8-5	1044-1050	Guinea	_	
+8-6	1051-1059	believes	_	
+8-7	1060-1064	that	_	
+8-8	1065-1068	the	_	
+8-9	1070-1078	enhanced	_	
+8-10	1079-1090	cooperation	_	
+8-11	1091-1098	between	_	
+8-12	1099-1102	the	HERO[6]	
+8-13	1103-1111	Security	HERO[6]	
+8-14	1112-1119	Council	HERO[6]	
+8-15	1121-1124	and	HERO[6]	
+8-16	1125-1128	the	HERO[6]	
+8-17	1129-1136	African	HERO[6]	
+8-18	1137-1144	Union's	HERO[6]	
+8-19	1145-1152	African	_	
+8-20	1153-1158	Peace	_	
+8-21	1159-1162	and	_	
+8-22	1163-1171	Security	_	
+8-23	1173-1185	Architecture	_	
+8-24	1185-1186	,	_	
+8-25	1187-1192	which	_	
+8-26	1193-1197	also	_	
+8-27	1198-1209	strengthens	_	
+8-28	1210-1221	subregional	_	
+8-29	1223-1234	initiatives	_	
+8-30	1235-1237	in	_	
+8-31	1238-1241	the	_	
+8-32	1242-1256	implementation	_	
+8-33	1257-1259	of	_	
+8-34	1260-1267	Council	_	
+8-35	1268-1279	resolutions	_	
+8-36	1281-1283	to	_	
+8-37	1284-1291	advance	_	
+8-38	1292-1295	the	_	
+8-39	1296-1301	women	_	
+8-40	1302-1305	and	_	
+8-41	1306-1311	peace	_	
+8-42	1312-1315	and	_	
+8-43	1316-1324	security	_	
+8-44	1325-1331	agenda	_	
+8-45	1331-1332	,	_	
+8-46	1334-1339	among	_	
+8-47	1340-1345	other	_	
+8-48	1346-1352	things	_	
+8-49	1352-1353	,	_	
+8-50	1354-1356	is	_	
+8-51	1357-1359	an	_	
+8-52	1360-1367	example	_	
+8-53	1368-1370	of	_	
+8-54	1371-1374	the	_	
+8-55	1375-1379	type	_	
+8-56	1380-1382	of	_	
+8-57	1384-1392	alliance	_	
+8-58	1393-1397	that	_	
+8-59	1398-1404	should	_	
+8-60	1405-1413	continue	_	
+8-61	1414-1416	to	_	
+8-62	1417-1419	be	_	
+8-63	1420-1429	supported	_	
+8-64	1430-1432	in	_	
+8-65	1433-1434	a	_	
+8-66	1436-1440	more	_	
+8-67	1441-1452	predictable	_	
+8-68	1453-1459	manner	_	
+8-69	1459-1460	.	_	
+
+#Text=In that regard, we would\r
+#Text=like to highlight the high-level visits led by the Deputy\r
+#Text=Secretary-General to the Democratic Republic of\r
+#Text=the Congo and Nigeria in 2017, the Niger, the Sahel,\r
+#Text=South Sudan and Afghanistan in 2018, and to Ethiopia,\r
+#Text=Djibouti, Somalia and Eritrea this year, not forgetting\r
+#Text=the visit to Cameroon in April.
+9-1	1461-1463	In	_	
+9-2	1464-1468	that	_	
+9-3	1469-1475	regard	_	
+9-4	1475-1476	,	_	
+9-5	1477-1479	we	_	
+9-6	1480-1485	would	_	
+9-7	1487-1491	like	_	
+9-8	1492-1494	to	_	
+9-9	1495-1504	highlight	_	
+9-10	1505-1508	the	_	
+9-11	1509-1519	high-level	_	
+9-12	1520-1526	visits	_	
+9-13	1527-1530	led	_	
+9-14	1531-1533	by	_	
+9-15	1534-1537	the	_	
+9-16	1538-1544	Deputy	_	
+9-17	1546-1563	Secretary-General	_	
+9-18	1564-1566	to	_	
+9-19	1567-1570	the	_	
+9-20	1571-1581	Democratic	_	
+9-21	1582-1590	Republic	_	
+9-22	1591-1593	of	_	
+9-23	1595-1598	the	_	
+9-24	1599-1604	Congo	_	
+9-25	1605-1608	and	_	
+9-26	1609-1616	Nigeria	_	
+9-27	1617-1619	in	_	
+9-28	1620-1624	2017	_	
+9-29	1624-1625	,	_	
+9-30	1626-1629	the	_	
+9-31	1630-1635	Niger	_	
+9-32	1635-1636	,	_	
+9-33	1637-1640	the	_	
+9-34	1641-1646	Sahel	_	
+9-35	1646-1647	,	_	
+9-36	1649-1654	South	_	
+9-37	1655-1660	Sudan	_	
+9-38	1661-1664	and	_	
+9-39	1665-1676	Afghanistan	_	
+9-40	1677-1679	in	_	
+9-41	1680-1684	2018	_	
+9-42	1684-1685	,	_	
+9-43	1686-1689	and	_	
+9-44	1690-1692	to	_	
+9-45	1693-1701	Ethiopia	_	
+9-46	1701-1702	,	_	
+9-47	1704-1712	Djibouti	_	
+9-48	1712-1713	,	_	
+9-49	1714-1721	Somalia	_	
+9-50	1722-1725	and	_	
+9-51	1726-1733	Eritrea	_	
+9-52	1734-1738	this	_	
+9-53	1739-1743	year	_	
+9-54	1743-1744	,	_	
+9-55	1745-1748	not	_	
+9-56	1749-1759	forgetting	_	
+9-57	1761-1764	the	_	
+9-58	1765-1770	visit	_	
+9-59	1771-1773	to	_	
+9-60	1774-1782	Cameroon	_	
+9-61	1783-1785	in	_	
+9-62	1786-1791	April	_	
+9-63	1791-1792	.	_	
+
+#Text=I would also like to\r
+#Text=acknowledge the dedication of the Office of the Special\r
+#Text=Representative of the Secretary-General on Sexual\r
+#Text=Violence in Conflict to mainstreaming this agenda,\r
+#Text=while also encouraging the strategic initiatives within\r
+#Text=the Joint United Nations-African Union Framework for\r
+#Text=Enhanced Partnership in Peace and Security concerning\r
+#Text=the prevention of and response to conflict-related\r
+#Text=sexual violence in Africa, bolstered by the support of\r
+#Text=UN-Women, the African Women Leaders Network and\r
+#Text=FemWise-Africa.
+10-1	1793-1794	I	_	
+10-2	1795-1800	would	_	
+10-3	1801-1805	also	_	
+10-4	1806-1810	like	_	
+10-5	1811-1813	to	_	
+10-6	1815-1826	acknowledge	_	
+10-7	1827-1830	the	_	
+10-8	1831-1841	dedication	_	
+10-9	1842-1844	of	_	
+10-10	1845-1848	the	HERO[7]	
+10-11	1849-1855	Office	HERO[7]	
+10-12	1856-1858	of	HERO[7]	
+10-13	1859-1862	the	HERO[7]	
+10-14	1863-1870	Special	HERO[7]	
+10-15	1872-1886	Representative	HERO[7]	
+10-16	1887-1889	of	HERO[7]	
+10-17	1890-1893	the	HERO[7]	
+10-18	1894-1911	Secretary-General	HERO[7]	
+10-19	1912-1914	on	HERO[7]	
+10-20	1915-1921	Sexual	HERO[7]	
+10-21	1923-1931	Violence	HERO[7]	
+10-22	1932-1934	in	HERO[7]	
+10-23	1935-1943	Conflict	HERO[7]	
+10-24	1944-1946	to	_	
+10-25	1947-1960	mainstreaming	_	
+10-26	1961-1965	this	_	
+10-27	1966-1972	agenda	_	
+10-28	1972-1973	,	_	
+10-29	1975-1980	while	_	
+10-30	1981-1985	also	_	
+10-31	1986-1997	encouraging	_	
+10-32	1998-2001	the	_	
+10-33	2002-2011	strategic	_	
+10-34	2012-2023	initiatives	_	
+10-35	2024-2030	within	_	
+10-36	2032-2035	the	_	
+10-37	2036-2041	Joint	_	
+10-38	2042-2048	United	_	
+10-39	2049-2064	Nations-African	_	
+10-40	2065-2070	Union	_	
+10-41	2071-2080	Framework	_	
+10-42	2081-2084	for	_	
+10-43	2086-2094	Enhanced	_	
+10-44	2095-2106	Partnership	_	
+10-45	2107-2109	in	_	
+10-46	2110-2115	Peace	_	
+10-47	2116-2119	and	_	
+10-48	2120-2128	Security	_	
+10-49	2129-2139	concerning	_	
+10-50	2141-2144	the	_	
+10-51	2145-2155	prevention	_	
+10-52	2156-2158	of	_	
+10-53	2159-2162	and	_	
+10-54	2163-2171	response	_	
+10-55	2172-2174	to	_	
+10-56	2175-2191	conflict-related	_	
+10-57	2193-2199	sexual	_	
+10-58	2200-2208	violence	_	
+10-59	2209-2211	in	_	
+10-60	2212-2218	Africa	_	
+10-61	2218-2219	,	_	
+10-62	2220-2229	bolstered	_	
+10-63	2230-2232	by	_	
+10-64	2233-2236	the	_	
+10-65	2237-2244	support	_	
+10-66	2245-2247	of	_	
+10-67	2249-2257	UN-Women	HERO[8]	
+10-68	2257-2258	,	HERO[8]	
+10-69	2259-2262	the	HERO[8]	
+10-70	2263-2270	African	HERO[8]	
+10-71	2271-2276	Women	HERO[8]	
+10-72	2277-2284	Leaders	HERO[8]	
+10-73	2285-2292	Network	HERO[8]	
+10-74	2293-2296	and	HERO[8]	
+10-75	2298-2312	FemWise-Africa	HERO[8]	
+10-76	2312-2313	.	_	
+
+#Text=The strategic importance of the Horn of Africa and\r
+#Text=the generally positive evolution of events in the region\r
+#Text=made ajoint visit of the United Nations and the African\r
+#Text=Union more than necessary.
+11-1	2317-2320	The	_	
+11-2	2321-2330	strategic	_	
+11-3	2331-2341	importance	_	
+11-4	2342-2344	of	_	
+11-5	2345-2348	the	_	
+11-6	2349-2353	Horn	_	
+11-7	2354-2356	of	_	
+11-8	2357-2363	Africa	_	
+11-9	2364-2367	and	_	
+11-10	2369-2372	the	_	
+11-11	2373-2382	generally	_	
+11-12	2383-2391	positive	_	
+11-13	2392-2401	evolution	_	
+11-14	2402-2404	of	_	
+11-15	2405-2411	events	_	
+11-16	2412-2414	in	_	
+11-17	2415-2418	the	_	
+11-18	2419-2425	region	_	
+11-19	2427-2431	made	_	
+11-20	2432-2438	ajoint	_	
+11-21	2439-2444	visit	_	
+11-22	2445-2447	of	_	
+11-23	2448-2451	the	_	
+11-24	2452-2458	United	_	
+11-25	2459-2466	Nations	_	
+11-26	2467-2470	and	_	
+11-27	2471-2474	the	_	
+11-28	2475-2482	African	_	
+11-29	2484-2489	Union	_	
+11-30	2490-2494	more	_	
+11-31	2495-2499	than	_	
+11-32	2500-2509	necessary	_	
+11-33	2509-2510	.	_	
+
+#Text=These visits are becoming\r
+#Text=something of a tradition for the two institutions, which\r
+#Text=complement one another in the quest for solutions to\r
+#Text=issues affecting life on the African continent.
+12-1	2511-2516	These	_	
+12-2	2517-2523	visits	_	
+12-3	2524-2527	are	_	
+12-4	2528-2536	becoming	_	
+12-5	2538-2547	something	_	
+12-6	2548-2550	of	_	
+12-7	2551-2552	a	_	
+12-8	2553-2562	tradition	_	
+12-9	2563-2566	for	_	
+12-10	2567-2570	the	_	
+12-11	2571-2574	two	_	
+12-12	2575-2587	institutions	_	
+12-13	2587-2588	,	_	
+12-14	2589-2594	which	_	
+12-15	2596-2606	complement	_	
+12-16	2607-2610	one	_	
+12-17	2611-2618	another	_	
+12-18	2619-2621	in	_	
+12-19	2622-2625	the	_	
+12-20	2626-2631	quest	_	
+12-21	2632-2635	for	_	
+12-22	2636-2645	solutions	_	
+12-23	2646-2648	to	_	
+12-24	2650-2656	issues	_	
+12-25	2657-2666	affecting	_	
+12-26	2667-2671	life	_	
+12-27	2672-2674	on	_	
+12-28	2675-2678	the	_	
+12-29	2679-2686	African	_	
+12-30	2687-2696	continent	_	
+12-31	2696-2697	.	_	
+
+#Text=Equatorial\r
+#Text=Guinea has always applauded the cooperation between\r
+#Text=the two organizations in Africa, given that their\r
+#Text=partnership is a valid formula that is bound to have\r
+#Text=positive results.
+13-1	2698-2708	Equatorial	HERO[9]	
+13-2	2710-2716	Guinea	HERO[9]	
+13-3	2717-2720	has	_	
+13-4	2721-2727	always	_	
+13-5	2728-2737	applauded	_	
+13-6	2738-2741	the	_	
+13-7	2742-2753	cooperation	_	
+13-8	2754-2761	between	_	
+13-9	2763-2766	the	HERO[10]	
+13-10	2767-2770	two	HERO[10]	
+13-11	2771-2784	organizations	HERO[10]	
+13-12	2785-2787	in	HERO[10]	
+13-13	2788-2794	Africa	HERO[10]	
+13-14	2794-2795	,	_	
+13-15	2796-2801	given	_	
+13-16	2802-2806	that	_	
+13-17	2807-2812	their	_	
+13-18	2814-2825	partnership	_	
+13-19	2826-2828	is	_	
+13-20	2829-2830	a	_	
+13-21	2831-2836	valid	_	
+13-22	2837-2844	formula	_	
+13-23	2845-2849	that	_	
+13-24	2850-2852	is	_	
+13-25	2853-2858	bound	_	
+13-26	2859-2861	to	_	
+13-27	2862-2866	have	_	
+13-28	2868-2876	positive	_	
+13-29	2877-2884	results	_	
+13-30	2884-2885	.	_	
+
+#Text=The promotion of the women and peace\r
+#Text=and security agenda must continue to be united in its\r
+#Text=criteria and actions with a View to making more room\r
+#Text=for women at the negotiating and decision-making\r
+#Text=tables and benefiting from their unique perspective.
+14-1	2886-2889	The	_	
+14-2	2890-2899	promotion	_	
+14-3	2900-2902	of	_	
+14-4	2903-2906	the	_	
+14-5	2907-2912	women	_	
+14-6	2913-2916	and	_	
+14-7	2917-2922	peace	_	
+14-8	2924-2927	and	_	
+14-9	2928-2936	security	_	
+14-10	2937-2943	agenda	_	
+14-11	2944-2948	must	_	
+14-12	2949-2957	continue	_	
+14-13	2958-2960	to	_	
+14-14	2961-2963	be	_	
+14-15	2964-2970	united	_	
+14-16	2971-2973	in	_	
+14-17	2974-2977	its	_	
+14-18	2979-2987	criteria	_	
+14-19	2988-2991	and	_	
+14-20	2992-2999	actions	_	
+14-21	3000-3004	with	_	
+14-22	3005-3006	a	_	
+14-23	3007-3011	View	_	
+14-24	3012-3014	to	_	
+14-25	3015-3021	making	_	
+14-26	3022-3026	more	_	
+14-27	3027-3031	room	_	
+14-28	3033-3036	for	_	
+14-29	3037-3042	women	VICTIM[11]|HERO[12]	
+14-30	3043-3045	at	_	
+14-31	3046-3049	the	_	
+14-32	3050-3061	negotiating	_	
+14-33	3062-3065	and	_	
+14-34	3066-3081	decision-making	_	
+14-35	3083-3089	tables	_	
+14-36	3090-3093	and	_	
+14-37	3094-3104	benefiting	_	
+14-38	3105-3109	from	_	
+14-39	3110-3115	their	_	
+14-40	3116-3122	unique	_	
+14-41	3123-3134	perspective	_	
+14-42	3134-3135	.	_	
+
+#Text=Only in this way, and with the support of subregional\r
+#Text=institutions such as the Intergovernmental Authority on\r
+#Text=Development, will it be possible to make progress in\r
+#Text=terms of conflict resolution and peacebuilding in the\r
+#Text=subregion and throughout the continent.
+15-1	3137-3141	Only	_	
+15-2	3142-3144	in	_	
+15-3	3145-3149	this	_	
+15-4	3150-3153	way	_	
+15-5	3153-3154	,	_	
+15-6	3155-3158	and	_	
+15-7	3159-3163	with	_	
+15-8	3164-3167	the	_	
+15-9	3168-3175	support	_	
+15-10	3176-3178	of	_	
+15-11	3179-3190	subregional	_	
+15-12	3192-3204	institutions	_	
+15-13	3205-3209	such	_	
+15-14	3210-3212	as	_	
+15-15	3213-3216	the	HERO[13]	
+15-16	3217-3234	Intergovernmental	HERO[13]	
+15-17	3235-3244	Authority	HERO[13]	
+15-18	3245-3247	on	HERO[13]	
+15-19	3249-3260	Development	HERO[13]	
+15-20	3260-3261	,	_	
+15-21	3262-3266	will	_	
+15-22	3267-3269	it	_	
+15-23	3270-3272	be	_	
+15-24	3273-3281	possible	_	
+15-25	3282-3284	to	_	
+15-26	3285-3289	make	_	
+15-27	3290-3298	progress	_	
+15-28	3299-3301	in	_	
+15-29	3303-3308	terms	_	
+15-30	3309-3311	of	_	
+15-31	3312-3320	conflict	_	
+15-32	3321-3331	resolution	_	
+15-33	3332-3335	and	_	
+15-34	3336-3349	peacebuilding	_	
+15-35	3350-3352	in	_	
+15-36	3353-3356	the	_	
+15-37	3358-3367	subregion	_	
+15-38	3368-3371	and	_	
+15-39	3372-3382	throughout	_	
+15-40	3383-3386	the	_	
+15-41	3387-3396	continent	_	
+15-42	3396-3397	.	_	
+
+#Text=The participation of women in the quest for\r
+#Text=solutions to the problems affecting the region should\r
+#Text=be encouraged.
+16-1	3401-3404	The	_	
+16-2	3405-3418	participation	_	
+16-3	3419-3421	of	_	
+16-4	3422-3427	women	VICTIM[14]|HERO[15]	
+16-5	3428-3430	in	_	
+16-6	3431-3434	the	_	
+16-7	3435-3440	quest	_	
+16-8	3441-3444	for	_	
+16-9	3446-3455	solutions	_	
+16-10	3456-3458	to	_	
+16-11	3459-3462	the	_	
+16-12	3463-3471	problems	_	
+16-13	3472-3481	affecting	_	
+16-14	3482-3485	the	_	
+16-15	3486-3492	region	_	
+16-16	3493-3499	should	_	
+16-17	3501-3503	be	_	
+16-18	3504-3514	encouraged	_	
+16-19	3514-3515	.	_	
+
+#Text=Women, together with young people,\r
+#Text=must be at the heart of those efforts in order to forge\r
+#Text=sustainable peace and development and seek out\r
+#Text=lasting solutions in a context of humanitarian crisis.
+17-1	3516-3521	Women	HERO[16]	
+17-2	3521-3522	,	HERO[16]	
+17-3	3523-3531	together	HERO[16]	
+17-4	3532-3536	with	HERO[16]	
+17-5	3537-3542	young	HERO[16]	
+17-6	3543-3549	people	HERO[16]	
+17-7	3549-3550	,	_	
+17-8	3552-3556	must	_	
+17-9	3557-3559	be	_	
+17-10	3560-3562	at	_	
+17-11	3563-3566	the	_	
+17-12	3567-3572	heart	_	
+17-13	3573-3575	of	_	
+17-14	3576-3581	those	_	
+17-15	3582-3589	efforts	_	
+17-16	3590-3592	in	_	
+17-17	3593-3598	order	_	
+17-18	3599-3601	to	_	
+17-19	3602-3607	forge	_	
+17-20	3609-3620	sustainable	_	
+17-21	3621-3626	peace	_	
+17-22	3627-3630	and	_	
+17-23	3631-3642	development	_	
+17-24	3643-3646	and	_	
+17-25	3647-3651	seek	_	
+17-26	3652-3655	out	_	
+17-27	3657-3664	lasting	_	
+17-28	3665-3674	solutions	_	
+17-29	3675-3677	in	_	
+17-30	3678-3679	a	_	
+17-31	3680-3687	context	_	
+17-32	3688-3690	of	_	
+17-33	3691-3703	humanitarian	_	
+17-34	3704-3710	crisis	_	
+17-35	3710-3711	.	_	
+
+#Text=And women must always play a principal role in post-\r
+#Text=conflict situations.
+18-1	3713-3716	And	_	
+18-2	3717-3722	women	HERO	
+18-3	3723-3727	must	_	
+18-4	3728-3734	always	_	
+18-5	3735-3739	play	_	
+18-6	3740-3741	a	_	
+18-7	3742-3751	principal	_	
+18-8	3752-3756	role	_	
+18-9	3757-3759	in	_	
+18-10	3760-3764	post	_	
+18-11	3764-3765	-	_	
+18-12	3767-3775	conflict	_	
+18-13	3776-3786	situations	_	
+18-14	3786-3787	.	_	

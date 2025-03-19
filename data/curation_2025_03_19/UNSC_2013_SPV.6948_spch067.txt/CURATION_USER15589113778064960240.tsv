@@ -1,0 +1,906 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mr.
+1-1	0-2	Mr	_	
+1-2	2-3	.	_	
+
+#Text=Khan (Indonesia): Allow me to begin by\r
+#Text=commending the President's work on convening today's\r
+#Text=debate on the issue of sexual violence in conflict.
+2-1	4-8	Khan	_	
+2-2	9-10	(	_	
+2-3	10-19	Indonesia	_	
+2-4	19-20	)	_	
+2-5	20-21	:	_	
+2-6	22-27	Allow	_	
+2-7	28-30	me	_	
+2-8	31-33	to	_	
+2-9	34-39	begin	_	
+2-10	40-42	by	_	
+2-11	44-54	commending	_	
+2-12	55-58	the	_	
+2-13	59-70	President's	HERO	
+2-14	71-75	work	_	
+2-15	76-78	on	_	
+2-16	79-88	convening	_	
+2-17	89-96	today's	_	
+2-18	98-104	debate	_	
+2-19	105-107	on	_	
+2-20	108-111	the	_	
+2-21	112-117	issue	_	
+2-22	118-120	of	_	
+2-23	121-127	sexual	_	
+2-24	128-136	violence	_	
+2-25	137-139	in	_	
+2-26	140-148	conflict	_	
+2-27	148-149	.	_	
+
+#Text=This\r
+#Text=timely debate highlights the urgent need to address the\r
+#Text=various forms of violence perpetrated against women\r
+#Text=and girls.
+3-1	150-154	This	_	
+3-2	156-162	timely	_	
+3-3	163-169	debate	_	
+3-4	170-180	highlights	_	
+3-5	181-184	the	_	
+3-6	185-191	urgent	_	
+3-7	192-196	need	_	
+3-8	197-199	to	_	
+3-9	200-207	address	_	
+3-10	208-211	the	_	
+3-11	213-220	various	_	
+3-12	221-226	forms	_	
+3-13	227-229	of	_	
+3-14	230-238	violence	_	
+3-15	239-250	perpetrated	_	
+3-16	251-258	against	_	
+3-17	259-264	women	VICTIM[1]	
+3-18	266-269	and	VICTIM[1]	
+3-19	270-275	girls	VICTIM[1]	
+3-20	275-276	.	_	
+
+#Text=Despite all the achievements and progress\r
+#Text=that have been made in promoting the protection and\r
+#Text=rights of women, such violence persists all over the\r
+#Text=world.
+4-1	277-284	Despite	_	
+4-2	285-288	all	_	
+4-3	289-292	the	_	
+4-4	293-305	achievements	_	
+4-5	306-309	and	_	
+4-6	310-318	progress	_	
+4-7	320-324	that	_	
+4-8	325-329	have	_	
+4-9	330-334	been	_	
+4-10	335-339	made	_	
+4-11	340-342	in	_	
+4-12	343-352	promoting	_	
+4-13	353-356	the	_	
+4-14	357-367	protection	_	
+4-15	368-371	and	_	
+4-16	373-379	rights	_	
+4-17	380-382	of	_	
+4-18	383-388	women	VICTIM	
+4-19	388-389	,	_	
+4-20	390-394	such	_	
+4-21	395-403	violence	_	
+4-22	404-412	persists	_	
+4-23	413-416	all	_	
+4-24	417-421	over	_	
+4-25	422-425	the	_	
+4-26	427-432	world	_	
+4-27	432-433	.	_	
+
+#Text=Indonesia also wishes to thank the Secretary-\r
+#Text=General for his report on sexual violence in conflict\r
+#Text=(S/2013/l49), which is a valuable starting point for our\r
+#Text=deliberations today on improving ways to eliminate\r
+#Text=and prevent violence against women, particularly in\r
+#Text=conflict situations.
+5-1	434-443	Indonesia	_	
+5-2	444-448	also	_	
+5-3	449-455	wishes	_	
+5-4	456-458	to	_	
+5-5	459-464	thank	_	
+5-6	465-468	the	HERO[2]	
+5-7	469-478	Secretary	HERO[2]	
+5-8	478-479	-	HERO[2]	
+5-9	481-488	General	HERO[2]	
+5-10	489-492	for	_	
+5-11	493-496	his	_	
+5-12	497-503	report	_	
+5-13	504-506	on	_	
+5-14	507-513	sexual	_	
+5-15	514-522	violence	_	
+5-16	523-525	in	_	
+5-17	526-534	conflict	_	
+5-18	536-537	(	_	
+5-19	537-538	S	_	
+5-20	538-539	/	_	
+5-21	539-543	2013	_	
+5-22	543-544	/	_	
+5-23	544-547	l49	_	
+5-24	547-548	)	_	
+5-25	548-549	,	_	
+5-26	550-555	which	_	
+5-27	556-558	is	_	
+5-28	559-560	a	_	
+5-29	561-569	valuable	_	
+5-30	570-578	starting	_	
+5-31	579-584	point	_	
+5-32	585-588	for	_	
+5-33	589-592	our	_	
+5-34	594-607	deliberations	_	
+5-35	608-613	today	_	
+5-36	614-616	on	_	
+5-37	617-626	improving	_	
+5-38	627-631	ways	_	
+5-39	632-634	to	_	
+5-40	635-644	eliminate	_	
+5-41	646-649	and	_	
+5-42	650-657	prevent	_	
+5-43	658-666	violence	_	
+5-44	667-674	against	_	
+5-45	675-680	women	VICTIM	
+5-46	680-681	,	_	
+5-47	682-694	particularly	_	
+5-48	695-697	in	_	
+5-49	699-707	conflict	_	
+5-50	708-718	situations	_	
+5-51	718-719	.	_	
+
+#Text=At the outset, Indonesia associates itself with the\r
+#Text=statement delivered by the representative of Viet Nam\r
+#Text=on behalf of the member countries of the Association of\r
+#Text=Southeast Asian Nations.
+6-1	723-725	At	_	
+6-2	726-729	the	_	
+6-3	730-736	outset	_	
+6-4	736-737	,	_	
+6-5	738-747	Indonesia	_	
+6-6	748-758	associates	_	
+6-7	759-765	itself	_	
+6-8	766-770	with	_	
+6-9	771-774	the	_	
+6-10	776-785	statement	_	
+6-11	786-795	delivered	_	
+6-12	796-798	by	_	
+6-13	799-802	the	_	
+6-14	803-817	representative	_	
+6-15	818-820	of	_	
+6-16	821-825	Viet	_	
+6-17	826-829	Nam	_	
+6-18	831-833	on	_	
+6-19	834-840	behalf	_	
+6-20	841-843	of	_	
+6-21	844-847	the	_	
+6-22	848-854	member	_	
+6-23	855-864	countries	_	
+6-24	865-867	of	_	
+6-25	868-871	the	_	
+6-26	872-883	Association	_	
+6-27	884-886	of	_	
+6-28	888-897	Southeast	_	
+6-29	898-903	Asian	_	
+6-30	904-911	Nations	_	
+6-31	911-912	.	_	
+
+#Text=Indonesia notes with deep concern the use of\r
+#Text=sexual violence as a tactic of war and one that worsens\r
+#Text=its consequences, as highlighted in the Secretary-\r
+#Text=General's report.
+7-1	916-925	Indonesia	HERO	
+7-2	926-931	notes	_	
+7-3	932-936	with	_	
+7-4	937-941	deep	_	
+7-5	942-949	concern	_	
+7-6	950-953	the	_	
+7-7	954-957	use	_	
+7-8	958-960	of	_	
+7-9	962-968	sexual	_	
+7-10	969-977	violence	_	
+7-11	978-980	as	_	
+7-12	981-982	a	_	
+7-13	983-989	tactic	_	
+7-14	990-992	of	_	
+7-15	993-996	war	_	
+7-16	997-1000	and	_	
+7-17	1001-1004	one	_	
+7-18	1005-1009	that	_	
+7-19	1010-1017	worsens	_	
+7-20	1019-1022	its	_	
+7-21	1023-1035	consequences	_	
+7-22	1035-1036	,	_	
+7-23	1037-1039	as	_	
+7-24	1040-1051	highlighted	_	
+7-25	1052-1054	in	_	
+7-26	1055-1058	the	_	
+7-27	1059-1068	Secretary	_	
+7-28	1068-1069	-	_	
+7-29	1071-1080	General's	_	
+7-30	1081-1087	report	_	
+7-31	1087-1088	.	_	
+
+#Text=Against that backdrop, Indonesia\r
+#Text=condemns all forms of violence against women and\r
+#Text=girls in armed conflicts, particularly sexual violence,\r
+#Text=which, as the report states, predominantly affects\r
+#Text=women and girls but can also affect men and boys.
+8-1	1089-1096	Against	_	
+8-2	1097-1101	that	_	
+8-3	1102-1110	backdrop	_	
+8-4	1110-1111	,	_	
+8-5	1112-1121	Indonesia	HERO	
+8-6	1123-1131	condemns	_	
+8-7	1132-1135	all	_	
+8-8	1136-1141	forms	_	
+8-9	1142-1144	of	_	
+8-10	1145-1153	violence	_	
+8-11	1154-1161	against	_	
+8-12	1162-1167	women	VICTIM[3]	
+8-13	1168-1171	and	VICTIM[3]	
+8-14	1173-1178	girls	VICTIM[3]	
+8-15	1179-1181	in	VICTIM[3]	
+8-16	1182-1187	armed	VICTIM[3]	
+8-17	1188-1197	conflicts	VICTIM[3]	
+8-18	1197-1198	,	_	
+8-19	1199-1211	particularly	_	
+8-20	1212-1218	sexual	_	
+8-21	1219-1227	violence	_	
+8-22	1227-1228	,	_	
+8-23	1230-1235	which	_	
+8-24	1235-1236	,	_	
+8-25	1237-1239	as	_	
+8-26	1240-1243	the	_	
+8-27	1244-1250	report	_	
+8-28	1251-1257	states	_	
+8-29	1257-1258	,	_	
+8-30	1259-1272	predominantly	_	
+8-31	1273-1280	affects	_	
+8-32	1282-1287	women	VICTIM[4]	
+8-33	1288-1291	and	VICTIM[4]	
+8-34	1292-1297	girls	VICTIM[4]	
+8-35	1298-1301	but	_	
+8-36	1302-1305	can	_	
+8-37	1306-1310	also	_	
+8-38	1311-1317	affect	_	
+8-39	1318-1321	men	VICTIM[5]	
+8-40	1322-1325	and	VICTIM[5]	
+8-41	1326-1330	boys	VICTIM[5]	
+8-42	1330-1331	.	_	
+
+#Text=We wish to reaffirm our support for resolution 1325\r
+#Text=(2000), the first to specifically address the impact of\r
+#Text=war on women and women's contributions to conflict\r
+#Text=resolution and sustainable peace.
+9-1	1333-1335	We	HERO	
+9-2	1336-1340	wish	_	
+9-3	1341-1343	to	_	
+9-4	1344-1352	reaffirm	_	
+9-5	1353-1356	our	_	
+9-6	1357-1364	support	_	
+9-7	1365-1368	for	_	
+9-8	1369-1379	resolution	HERO[6]	
+9-9	1380-1384	1325	HERO[6]	
+9-10	1386-1387	(	HERO[6]	
+9-11	1387-1391	2000	HERO[6]	
+9-12	1391-1392	)	HERO[6]	
+9-13	1392-1393	,	_	
+9-14	1394-1397	the	_	
+9-15	1398-1403	first	_	
+9-16	1404-1406	to	_	
+9-17	1407-1419	specifically	_	
+9-18	1420-1427	address	_	
+9-19	1428-1431	the	_	
+9-20	1432-1438	impact	_	
+9-21	1439-1441	of	_	
+9-22	1443-1446	war	_	
+9-23	1447-1449	on	_	
+9-24	1450-1455	women	VICTIM	
+9-25	1456-1459	and	_	
+9-26	1460-1467	women's	HERO	
+9-27	1468-1481	contributions	_	
+9-28	1482-1484	to	_	
+9-29	1485-1493	conflict	_	
+9-30	1495-1505	resolution	_	
+9-31	1506-1509	and	_	
+9-32	1510-1521	sustainable	_	
+9-33	1522-1527	peace	_	
+9-34	1527-1528	.	_	
+
+#Text=The follow-up Security\r
+#Text=Council resolutions on women, peace and security also\r
+#Text=constitute a milestone for protection and empowerment\r
+#Text=measures for women in the special situation of conflict.
+10-1	1529-1532	The	_	
+10-2	1533-1542	follow-up	_	
+10-3	1543-1551	Security	_	
+10-4	1553-1560	Council	_	
+10-5	1561-1572	resolutions	_	
+10-6	1573-1575	on	_	
+10-7	1576-1581	women	_	
+10-8	1581-1582	,	_	
+10-9	1583-1588	peace	_	
+10-10	1589-1592	and	_	
+10-11	1593-1601	security	_	
+10-12	1602-1606	also	_	
+10-13	1608-1618	constitute	_	
+10-14	1619-1620	a	_	
+10-15	1621-1630	milestone	_	
+10-16	1631-1634	for	_	
+10-17	1635-1645	protection	_	
+10-18	1646-1649	and	_	
+10-19	1650-1661	empowerment	_	
+10-20	1663-1671	measures	_	
+10-21	1672-1675	for	_	
+10-22	1676-1681	women	HERO[7]|VICTIM[8]	
+10-23	1682-1684	in	_	
+10-24	1685-1688	the	_	
+10-25	1689-1696	special	_	
+10-26	1697-1706	situation	_	
+10-27	1707-1709	of	_	
+10-28	1710-1718	conflict	_	
+10-29	1718-1719	.	_	
+
+#Text=Indonesia commends the adoption of the agreed\r
+#Text=conclusions of the fifty-seventh session of the\r
+#Text=Commission on the Status of Women (CSW), last month,\r
+#Text=as a manifestation of the intergovernmental efforts\r
+#Text=that have been made by countries under the United\r
+#Text=Nations framework.
+11-1	1723-1732	Indonesia	_	
+11-2	1733-1741	commends	_	
+11-3	1742-1745	the	_	
+11-4	1746-1754	adoption	_	
+11-5	1755-1757	of	_	
+11-6	1758-1761	the	_	
+11-7	1762-1768	agreed	_	
+11-8	1770-1781	conclusions	_	
+11-9	1782-1784	of	_	
+11-10	1785-1788	the	_	
+11-11	1789-1802	fifty-seventh	_	
+11-12	1803-1810	session	_	
+11-13	1811-1813	of	_	
+11-14	1814-1817	the	HERO[9]	
+11-15	1819-1829	Commission	HERO[9]	
+11-16	1830-1832	on	HERO[9]	
+11-17	1833-1836	the	HERO[9]	
+11-18	1837-1843	Status	HERO[9]	
+11-19	1844-1846	of	HERO[9]	
+11-20	1847-1852	Women	HERO[9]	
+11-21	1853-1854	(	HERO[9]	
+11-22	1854-1857	CSW	HERO[9]	
+11-23	1857-1858	)	HERO[9]	
+11-24	1858-1859	,	_	
+11-25	1860-1864	last	_	
+11-26	1865-1870	month	_	
+11-27	1870-1871	,	_	
+11-28	1873-1875	as	_	
+11-29	1876-1877	a	_	
+11-30	1878-1891	manifestation	_	
+11-31	1892-1894	of	_	
+11-32	1895-1898	the	_	
+11-33	1899-1916	intergovernmental	_	
+11-34	1917-1924	efforts	_	
+11-35	1926-1930	that	_	
+11-36	1931-1935	have	_	
+11-37	1936-1940	been	_	
+11-38	1941-1945	made	_	
+11-39	1946-1948	by	_	
+11-40	1949-1958	countries	HERO[10]	
+11-41	1959-1964	under	HERO[10]	
+11-42	1965-1968	the	HERO[10]	
+11-43	1969-1975	United	HERO[10]	
+11-44	1977-1984	Nations	HERO[10]	
+11-45	1985-1994	framework	HERO[10]	
+11-46	1994-1995	.	_	
+
+#Text=The agreement reached on the\r
+#Text=agreed conclusions is a step forward in strengthening\r
+#Text=countries' commitment to tackling violence against\r
+#Text=women and girls.
+12-1	1996-1999	The	_	
+12-2	2000-2009	agreement	_	
+12-3	2010-2017	reached	_	
+12-4	2018-2020	on	_	
+12-5	2021-2024	the	_	
+12-6	2026-2032	agreed	_	
+12-7	2033-2044	conclusions	_	
+12-8	2045-2047	is	_	
+12-9	2048-2049	a	_	
+12-10	2050-2054	step	_	
+12-11	2055-2062	forward	_	
+12-12	2063-2065	in	_	
+12-13	2066-2079	strengthening	_	
+12-14	2081-2090	countries	HERO	
+12-15	2090-2091	'	_	
+12-16	2092-2102	commitment	_	
+12-17	2103-2105	to	_	
+12-18	2106-2114	tackling	_	
+12-19	2115-2123	violence	_	
+12-20	2124-2131	against	_	
+12-21	2133-2138	women	VICTIM[11]	
+12-22	2139-2142	and	VICTIM[11]	
+12-23	2143-2148	girls	VICTIM[11]	
+12-24	2148-2149	.	_	
+
+#Text=The CSW conclusions send a clear and strong\r
+#Text=message: violence against women and girls committed\r
+#Text=in armed conflict and post-conflict situations is strongly\r
+#Text=condemned; sexual and gender-based violence, which\r
+#Text=affects victims, families, communities and societies,\r
+#Text=is recognized; and effective accountability and redress\r
+#Text=measures, as well remedies, are required.
+13-1	2153-2156	The	HERO[12]	
+13-2	2157-2160	CSW	HERO[12]	
+13-3	2161-2172	conclusions	_	
+13-4	2173-2177	send	_	
+13-5	2178-2179	a	_	
+13-6	2180-2185	clear	_	
+13-7	2186-2189	and	_	
+13-8	2190-2196	strong	_	
+13-9	2198-2205	message	_	
+13-10	2205-2206	:	_	
+13-11	2207-2215	violence	_	
+13-12	2216-2223	against	_	
+13-13	2224-2229	women	VICTIM[13]	
+13-14	2230-2233	and	VICTIM[13]	
+13-15	2234-2239	girls	VICTIM[13]	
+13-16	2240-2249	committed	_	
+13-17	2251-2253	in	_	
+13-18	2254-2259	armed	_	
+13-19	2260-2268	conflict	_	
+13-20	2269-2272	and	_	
+13-21	2273-2286	post-conflict	_	
+13-22	2287-2297	situations	_	
+13-23	2298-2300	is	_	
+13-24	2301-2309	strongly	_	
+13-25	2311-2320	condemned	_	
+13-26	2320-2321	;	_	
+13-27	2322-2328	sexual	_	
+13-28	2329-2332	and	_	
+13-29	2333-2345	gender-based	_	
+13-30	2346-2354	violence	_	
+13-31	2354-2355	,	_	
+13-32	2356-2361	which	_	
+13-33	2363-2370	affects	_	
+13-34	2371-2378	victims	VICTIM[14]	
+13-35	2378-2379	,	VICTIM[14]	
+13-36	2380-2388	families	VICTIM[14]	
+13-37	2388-2389	,	VICTIM[14]	
+13-38	2390-2401	communities	VICTIM[14]	
+13-39	2402-2405	and	VICTIM[14]	
+13-40	2406-2415	societies	VICTIM[14]	
+13-41	2415-2416	,	_	
+13-42	2418-2420	is	_	
+13-43	2421-2431	recognized	_	
+13-44	2431-2432	;	_	
+13-45	2433-2436	and	_	
+13-46	2437-2446	effective	_	
+13-47	2447-2461	accountability	_	
+13-48	2462-2465	and	_	
+13-49	2466-2473	redress	_	
+13-50	2475-2483	measures	_	
+13-51	2483-2484	,	_	
+13-52	2485-2487	as	_	
+13-53	2488-2492	well	_	
+13-54	2493-2501	remedies	_	
+13-55	2501-2502	,	_	
+13-56	2503-2506	are	_	
+13-57	2507-2515	required	_	
+13-58	2515-2516	.	_	
+
+#Text=At the national level, Indonesia's national action\r
+#Text=plan on human rights serves as a strong platform for our\r
+#Text=commitment to eliminate and prevent violence against\r
+#Text=women.
+14-1	2520-2522	At	_	
+14-2	2523-2526	the	_	
+14-3	2527-2535	national	_	
+14-4	2536-2541	level	_	
+14-5	2541-2542	,	_	
+14-6	2543-2554	Indonesia's	HERO	
+14-7	2555-2563	national	_	
+14-8	2564-2570	action	_	
+14-9	2572-2576	plan	_	
+14-10	2577-2579	on	_	
+14-11	2580-2585	human	_	
+14-12	2586-2592	rights	_	
+14-13	2593-2599	serves	_	
+14-14	2600-2602	as	_	
+14-15	2603-2604	a	_	
+14-16	2605-2611	strong	_	
+14-17	2612-2620	platform	_	
+14-18	2621-2624	for	_	
+14-19	2625-2628	our	_	
+14-20	2630-2640	commitment	_	
+14-21	2641-2643	to	_	
+14-22	2644-2653	eliminate	_	
+14-23	2654-2657	and	_	
+14-24	2658-2665	prevent	_	
+14-25	2666-2674	violence	_	
+14-26	2675-2682	against	_	
+14-27	2684-2689	women	VICTIM	
+14-28	2689-2690	.	_	
+
+#Text=The process of drafting a presidential decree is\r
+#Text=ongoing, as a legal basis to formulate a national action\r
+#Text=plan on the implementation of resolution 1325 (2000).
+15-1	2691-2694	The	_	
+15-2	2695-2702	process	_	
+15-3	2703-2705	of	_	
+15-4	2706-2714	drafting	_	
+15-5	2715-2716	a	_	
+15-6	2717-2729	presidential	_	
+15-7	2730-2736	decree	_	
+15-8	2737-2739	is	_	
+15-9	2741-2748	ongoing	_	
+15-10	2748-2749	,	_	
+15-11	2750-2752	as	_	
+15-12	2753-2754	a	_	
+15-13	2755-2760	legal	_	
+15-14	2761-2766	basis	_	
+15-15	2767-2769	to	_	
+15-16	2770-2779	formulate	_	
+15-17	2780-2781	a	_	
+15-18	2782-2790	national	_	
+15-19	2791-2797	action	_	
+15-20	2799-2803	plan	_	
+15-21	2804-2806	on	_	
+15-22	2807-2810	the	_	
+15-23	2811-2825	implementation	_	
+15-24	2826-2828	of	_	
+15-25	2829-2839	resolution	_	
+15-26	2840-2844	1325	_	
+15-27	2845-2846	(	_	
+15-28	2846-2850	2000	_	
+15-29	2850-2851	)	_	
+15-30	2851-2852	.	_	
+
+#Text=When completed, the action plan, among things, will\r
+#Text=cover all phases ofthe peace process - from prevention\r
+#Text=to ending conflict to recovery from social conflict.
+16-1	2854-2858	When	_	
+16-2	2859-2868	completed	_	
+16-3	2868-2869	,	_	
+16-4	2870-2873	the	_	
+16-5	2874-2880	action	_	
+16-6	2881-2885	plan	_	
+16-7	2885-2886	,	_	
+16-8	2887-2892	among	_	
+16-9	2893-2899	things	_	
+16-10	2899-2900	,	_	
+16-11	2901-2905	will	_	
+16-12	2907-2912	cover	_	
+16-13	2913-2916	all	_	
+16-14	2917-2923	phases	_	
+16-15	2924-2929	ofthe	_	
+16-16	2930-2935	peace	_	
+16-17	2936-2943	process	_	
+16-18	2944-2945	-	_	
+16-19	2946-2950	from	_	
+16-20	2951-2961	prevention	_	
+16-21	2963-2965	to	_	
+16-22	2966-2972	ending	_	
+16-23	2973-2981	conflict	_	
+16-24	2982-2984	to	_	
+16-25	2985-2993	recovery	_	
+16-26	2994-2998	from	_	
+16-27	2999-3005	social	_	
+16-28	3006-3014	conflict	_	
+16-29	3014-3015	.	_	
+
+#Text=Indonesia wishes to highlight some of the main\r
+#Text=challenges in our efforts to eliminate and further\r
+#Text=\r
+#Text=prevent violence against women, including sexual\r
+#Text=violence: first, insufficient gender-sensitive policies;\r
+#Text=secondly, inadequate implementation of legal and\r
+#Text=policy frameworks; thirdly, inadequate data collection,\r
+#Text=analysis and research; fourthly, the lack of financial\r
+#Text=and human resources and insufficient allocation of\r
+#Text=such resources; and, fifthly, the lack of comprehensive,\r
+#Text=consistent, sustained, transparent and adequately\r
+#Text=monitored and evaluated efforts.
+17-1	3019-3028	Indonesia	_	
+17-2	3029-3035	wishes	_	
+17-3	3036-3038	to	_	
+17-4	3039-3048	highlight	_	
+17-5	3049-3053	some	_	
+17-6	3054-3056	of	_	
+17-7	3057-3060	the	_	
+17-8	3061-3065	main	_	
+17-9	3067-3077	challenges	_	
+17-10	3078-3080	in	_	
+17-11	3081-3084	our	_	
+17-12	3085-3092	efforts	_	
+17-13	3093-3095	to	_	
+17-14	3096-3105	eliminate	_	
+17-15	3106-3109	and	_	
+17-16	3110-3117	further	_	
+17-17	3121-3128	prevent	_	
+17-18	3129-3137	violence	_	
+17-19	3138-3145	against	_	
+17-20	3146-3151	women	VICTIM	
+17-21	3151-3152	,	_	
+17-22	3153-3162	including	_	
+17-23	3163-3169	sexual	_	
+17-24	3171-3179	violence	_	
+17-25	3179-3180	:	_	
+17-26	3181-3186	first	_	
+17-27	3186-3187	,	_	
+17-28	3188-3200	insufficient	_	
+17-29	3201-3217	gender-sensitive	_	
+17-30	3218-3226	policies	_	
+17-31	3226-3227	;	_	
+17-32	3229-3237	secondly	_	
+17-33	3237-3238	,	_	
+17-34	3239-3249	inadequate	_	
+17-35	3250-3264	implementation	_	
+17-36	3265-3267	of	_	
+17-37	3268-3273	legal	_	
+17-38	3274-3277	and	_	
+17-39	3279-3285	policy	_	
+17-40	3286-3296	frameworks	_	
+17-41	3296-3297	;	_	
+17-42	3298-3305	thirdly	_	
+17-43	3305-3306	,	_	
+17-44	3307-3317	inadequate	_	
+17-45	3318-3322	data	_	
+17-46	3323-3333	collection	_	
+17-47	3333-3334	,	_	
+17-48	3336-3344	analysis	_	
+17-49	3345-3348	and	_	
+17-50	3349-3357	research	_	
+17-51	3357-3358	;	_	
+17-52	3359-3367	fourthly	_	
+17-53	3367-3368	,	_	
+17-54	3369-3372	the	_	
+17-55	3373-3377	lack	_	
+17-56	3378-3380	of	_	
+17-57	3381-3390	financial	_	
+17-58	3392-3395	and	_	
+17-59	3396-3401	human	_	
+17-60	3402-3411	resources	_	
+17-61	3412-3415	and	_	
+17-62	3416-3428	insufficient	_	
+17-63	3429-3439	allocation	_	
+17-64	3440-3442	of	_	
+17-65	3444-3448	such	_	
+17-66	3449-3458	resources	_	
+17-67	3458-3459	;	_	
+17-68	3460-3463	and	_	
+17-69	3463-3464	,	_	
+17-70	3465-3472	fifthly	_	
+17-71	3472-3473	,	_	
+17-72	3474-3477	the	_	
+17-73	3478-3482	lack	_	
+17-74	3483-3485	of	_	
+17-75	3486-3499	comprehensive	_	
+17-76	3499-3500	,	_	
+17-77	3502-3512	consistent	_	
+17-78	3512-3513	,	_	
+17-79	3514-3523	sustained	_	
+17-80	3523-3524	,	_	
+17-81	3525-3536	transparent	_	
+17-82	3537-3540	and	_	
+17-83	3541-3551	adequately	_	
+17-84	3553-3562	monitored	_	
+17-85	3563-3566	and	_	
+17-86	3567-3576	evaluated	_	
+17-87	3577-3584	efforts	_	
+17-88	3584-3585	.	_	
+
+#Text=Those gaps have yet to be bridged by States as the\r
+#Text=bearers of the primary responsibility in addressing the\r
+#Text=issue ofviolence against women and its impact, in order\r
+#Text=to translate commitments into practical approaches and\r
+#Text=actions on the ground, to fashion more compassionate\r
+#Text=responses for victims, to pursue more aggressive\r
+#Text=prosecutions of perpetrators and to create more secure\r
+#Text=communities and environments.
+18-1	3589-3594	Those	_	
+18-2	3595-3599	gaps	_	
+18-3	3600-3604	have	_	
+18-4	3605-3608	yet	_	
+18-5	3609-3611	to	_	
+18-6	3612-3614	be	_	
+18-7	3615-3622	bridged	_	
+18-8	3623-3625	by	_	
+18-9	3626-3632	States	_	
+18-10	3633-3635	as	_	
+18-11	3636-3639	the	_	
+18-12	3641-3648	bearers	_	
+18-13	3649-3651	of	_	
+18-14	3652-3655	the	_	
+18-15	3656-3663	primary	_	
+18-16	3664-3678	responsibility	_	
+18-17	3679-3681	in	_	
+18-18	3682-3692	addressing	_	
+18-19	3693-3696	the	_	
+18-20	3698-3703	issue	_	
+18-21	3704-3714	ofviolence	_	
+18-22	3715-3722	against	_	
+18-23	3723-3728	women	VICTIM	
+18-24	3729-3732	and	_	
+18-25	3733-3736	its	_	
+18-26	3737-3743	impact	_	
+18-27	3743-3744	,	_	
+18-28	3745-3747	in	_	
+18-29	3748-3753	order	_	
+18-30	3755-3757	to	_	
+18-31	3758-3767	translate	_	
+18-32	3768-3779	commitments	_	
+18-33	3780-3784	into	_	
+18-34	3785-3794	practical	_	
+18-35	3795-3805	approaches	_	
+18-36	3806-3809	and	_	
+18-37	3811-3818	actions	_	
+18-38	3819-3821	on	_	
+18-39	3822-3825	the	_	
+18-40	3826-3832	ground	_	
+18-41	3832-3833	,	_	
+18-42	3834-3836	to	_	
+18-43	3837-3844	fashion	_	
+18-44	3845-3849	more	_	
+18-45	3850-3863	compassionate	_	
+18-46	3865-3874	responses	_	
+18-47	3875-3878	for	_	
+18-48	3879-3886	victims	VICTIM	
+18-49	3886-3887	,	_	
+18-50	3888-3890	to	_	
+18-51	3891-3897	pursue	_	
+18-52	3898-3902	more	_	
+18-53	3903-3913	aggressive	_	
+18-54	3915-3927	prosecutions	_	
+18-55	3928-3930	of	_	
+18-56	3931-3943	perpetrators	VILLAIN	
+18-57	3944-3947	and	_	
+18-58	3948-3950	to	_	
+18-59	3951-3957	create	_	
+18-60	3958-3962	more	_	
+18-61	3963-3969	secure	_	
+18-62	3971-3982	communities	_	
+18-63	3983-3986	and	_	
+18-64	3987-3999	environments	_	
+18-65	3999-4000	.	_	
+
+#Text=With its multifold economic, social and cultural\r
+#Text=consequences, sexual violence in conflict hampers not\r
+#Text=only women and men victims, but also their families\r
+#Text=and communities.
+19-1	4004-4008	With	_	
+19-2	4009-4012	its	_	
+19-3	4013-4022	multifold	_	
+19-4	4023-4031	economic	_	
+19-5	4031-4032	,	_	
+19-6	4033-4039	social	_	
+19-7	4040-4043	and	_	
+19-8	4044-4052	cultural	_	
+19-9	4054-4066	consequences	_	
+19-10	4066-4067	,	_	
+19-11	4068-4074	sexual	_	
+19-12	4075-4083	violence	_	
+19-13	4084-4086	in	_	
+19-14	4087-4095	conflict	_	
+19-15	4096-4103	hampers	_	
+19-16	4104-4107	not	_	
+19-17	4109-4113	only	_	
+19-18	4114-4119	women	VICTIM[15]	
+19-19	4120-4123	and	VICTIM[15]	
+19-20	4124-4127	men	VICTIM[15]	
+19-21	4128-4135	victims	VICTIM[15]	
+19-22	4135-4136	,	_	
+19-23	4137-4140	but	_	
+19-24	4141-4145	also	_	
+19-25	4146-4151	their	VICTIM[16]	
+19-26	4152-4160	families	VICTIM[16]	
+19-27	4162-4165	and	VICTIM[16]	
+19-28	4166-4177	communities	VICTIM[16]	
+19-29	4177-4178	.	_	
+
+#Text=Therefore, Indonesia supports the\r
+#Text=six-point priority agenda established by the former\r
+#Text=and current Special Representatives of the Secretary-\r
+#Text=General on Sexual Violence in Conflict.
+20-1	4179-4188	Therefore	_	
+20-2	4188-4189	,	_	
+20-3	4190-4199	Indonesia	HERO	
+20-4	4200-4208	supports	_	
+20-5	4209-4212	the	_	
+20-6	4214-4223	six-point	_	
+20-7	4224-4232	priority	_	
+20-8	4233-4239	agenda	_	
+20-9	4240-4251	established	_	
+20-10	4252-4254	by	_	
+20-11	4255-4258	the	HERO[17]	
+20-12	4259-4265	former	HERO[17]	
+20-13	4267-4270	and	HERO[17]	
+20-14	4271-4278	current	HERO[17]	
+20-15	4279-4286	Special	HERO[17]	
+20-16	4287-4302	Representatives	HERO[17]	
+20-17	4303-4305	of	HERO[17]	
+20-18	4306-4309	the	HERO[17]	
+20-19	4310-4319	Secretary	HERO[17]	
+20-20	4319-4320	-	HERO[17]	
+20-21	4322-4329	General	HERO[17]	
+20-22	4330-4332	on	_	
+20-23	4333-4339	Sexual	_	
+20-24	4340-4348	Violence	_	
+20-25	4349-4351	in	_	
+20-26	4352-4360	Conflict	_	
+20-27	4360-4361	.	_	
+
+#Text=To conclude, Indonesia would like to reiterate the\r
+#Text=importance of the international community, including\r
+#Text=the United Nations, as the key stakeholder, joining\r
+#Text=hands and providing support for States to address the\r
+#Text=remaining gaps and tackle the gravity of the situation.
+21-1	4365-4367	To	_	
+21-2	4368-4376	conclude	_	
+21-3	4376-4377	,	_	
+21-4	4378-4387	Indonesia	HERO	
+21-5	4388-4393	would	_	
+21-6	4394-4398	like	_	
+21-7	4399-4401	to	_	
+21-8	4402-4411	reiterate	_	
+21-9	4412-4415	the	_	
+21-10	4417-4427	importance	_	
+21-11	4428-4430	of	_	
+21-12	4431-4434	the	_	
+21-13	4435-4448	international	_	
+21-14	4449-4458	community	_	
+21-15	4458-4459	,	_	
+21-16	4460-4469	including	_	
+21-17	4471-4474	the	_	
+21-18	4475-4481	United	_	
+21-19	4482-4489	Nations	_	
+21-20	4489-4490	,	_	
+21-21	4491-4493	as	_	
+21-22	4494-4497	the	_	
+21-23	4498-4501	key	_	
+21-24	4502-4513	stakeholder	_	
+21-25	4513-4514	,	_	
+21-26	4515-4522	joining	_	
+21-27	4524-4529	hands	_	
+21-28	4530-4533	and	_	
+21-29	4534-4543	providing	_	
+21-30	4544-4551	support	_	
+21-31	4552-4555	for	_	
+21-32	4556-4562	States	VICTIM	
+21-33	4563-4565	to	_	
+21-34	4566-4573	address	_	
+21-35	4574-4577	the	_	
+21-36	4579-4588	remaining	_	
+21-37	4589-4593	gaps	_	
+21-38	4594-4597	and	_	
+21-39	4598-4604	tackle	_	
+21-40	4605-4608	the	_	
+21-41	4609-4616	gravity	_	
+21-42	4617-4619	of	_	
+21-43	4620-4623	the	_	
+21-44	4624-4633	situation	_	
+21-45	4633-4634	.	_	
+
+#Text=Indonesia also urges all parties to conflict to comply\r
+#Text=with international humanitarian and human rights law.
+22-1	4636-4645	Indonesia	HERO	
+22-2	4646-4650	also	_	
+22-3	4651-4656	urges	_	
+22-4	4657-4660	all	*[18]	
+22-5	4661-4668	parties	*[18]	
+22-6	4669-4671	to	*[18]	
+22-7	4672-4680	conflict	*[18]	
+22-8	4681-4683	to	_	
+22-9	4684-4690	comply	_	
+22-10	4692-4696	with	_	
+22-11	4697-4710	international	_	
+22-12	4711-4723	humanitarian	_	
+22-13	4724-4727	and	_	
+22-14	4728-4733	human	_	
+22-15	4734-4740	rights	_	
+22-16	4741-4744	law	_	
+22-17	4744-4745	.	_	

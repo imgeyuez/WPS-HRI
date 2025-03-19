@@ -1,0 +1,1822 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mr.
+1-1	0-2	Mr	_	
+1-2	2-3	.	_	
+
+#Text=Guerber (Switzerland): I have the honour to\r
+#Text=speak on behalf of the Human Security Network,\r
+#Text=namely, Austria, Chile, Costa Rica, Greece, Ireland,\r
+#Text=Jordan, Mali, Norway, Panama, Slovenia, Thailand,\r
+#Text=South Africa as an observer, and my own country,\r
+#Text=Switzerland.
+2-1	4-11	Guerber	_	
+2-2	12-13	(	_	
+2-3	13-24	Switzerland	_	
+2-4	24-25	)	_	
+2-5	25-26	:	_	
+2-6	27-28	I	_	
+2-7	29-33	have	_	
+2-8	34-37	the	_	
+2-9	38-44	honour	_	
+2-10	45-47	to	_	
+2-11	49-54	speak	_	
+2-12	55-57	on	_	
+2-13	58-64	behalf	_	
+2-14	65-67	of	_	
+2-15	68-71	the	_	
+2-16	72-77	Human	_	
+2-17	78-86	Security	_	
+2-18	87-94	Network	_	
+2-19	94-95	,	_	
+2-20	97-103	namely	_	
+2-21	103-104	,	_	
+2-22	105-112	Austria	_	
+2-23	112-113	,	_	
+2-24	114-119	Chile	_	
+2-25	119-120	,	_	
+2-26	121-126	Costa	_	
+2-27	127-131	Rica	_	
+2-28	131-132	,	_	
+2-29	133-139	Greece	_	
+2-30	139-140	,	_	
+2-31	141-148	Ireland	_	
+2-32	148-149	,	_	
+2-33	151-157	Jordan	_	
+2-34	157-158	,	_	
+2-35	159-163	Mali	_	
+2-36	163-164	,	_	
+2-37	165-171	Norway	_	
+2-38	171-172	,	_	
+2-39	173-179	Panama	_	
+2-40	179-180	,	_	
+2-41	181-189	Slovenia	_	
+2-42	189-190	,	_	
+2-43	191-199	Thailand	_	
+2-44	199-200	,	_	
+2-45	202-207	South	_	
+2-46	208-214	Africa	_	
+2-47	215-217	as	_	
+2-48	218-220	an	_	
+2-49	221-229	observer	_	
+2-50	229-230	,	_	
+2-51	231-234	and	_	
+2-52	235-237	my	_	
+2-53	238-241	own	_	
+2-54	242-249	country	_	
+2-55	249-250	,	_	
+2-56	252-263	Switzerland	_	
+2-57	263-264	.	_	
+
+#Text=We would like to thank the Togolese presidency\r
+#Text=for having convened this important open debate on\r
+#Text=women, peace and security, an issue that is at the core\r
+#Text=of the Human Security Network.
+3-1	268-270	We	_	
+3-2	271-276	would	_	
+3-3	277-281	like	_	
+3-4	282-284	to	_	
+3-5	285-290	thank	_	
+3-6	291-294	the	HERO[1]	
+3-7	295-303	Togolese	HERO[1]	
+3-8	304-314	presidency	HERO[1]	
+3-9	316-319	for	_	
+3-10	320-326	having	_	
+3-11	327-335	convened	_	
+3-12	336-340	this	_	
+3-13	341-350	important	_	
+3-14	351-355	open	_	
+3-15	356-362	debate	_	
+3-16	363-365	on	_	
+3-17	367-372	women	_	
+3-18	372-373	,	_	
+3-19	374-379	peace	_	
+3-20	380-383	and	_	
+3-21	384-392	security	_	
+3-22	392-393	,	_	
+3-23	394-396	an	_	
+3-24	397-402	issue	_	
+3-25	403-407	that	_	
+3-26	408-410	is	_	
+3-27	411-413	at	_	
+3-28	414-417	the	_	
+3-29	418-422	core	_	
+3-30	424-426	of	_	
+3-31	427-430	the	_	
+3-32	431-436	Human	_	
+3-33	437-445	Security	_	
+3-34	446-453	Network	_	
+3-35	453-454	.	_	
+
+#Text=Let us further thank the Secretary-General for his\r
+#Text=report and his Special Representative on Sexual\r
+#Text=Violence in Conflict, Ms.
+4-1	458-461	Let	_	
+4-2	462-464	us	_	
+4-3	465-472	further	_	
+4-4	473-478	thank	_	
+4-5	479-482	the	HERO[2]	
+4-6	483-500	Secretary-General	HERO[2]	
+4-7	501-504	for	_	
+4-8	505-508	his	_	
+4-9	510-516	report	_	
+4-10	517-520	and	_	
+4-11	521-524	his	HERO[3]	
+4-12	525-532	Special	HERO[3]	
+4-13	533-547	Representative	HERO[3]	
+4-14	548-550	on	HERO[3]	
+4-15	551-557	Sexual	HERO[3]	
+4-16	559-567	Violence	HERO[3]	
+4-17	568-570	in	HERO[3]	
+4-18	571-579	Conflict	HERO[3]	
+4-19	579-580	,	HERO[3]	
+4-20	581-583	Ms	HERO[3]	
+4-21	583-584	.	HERO[3]	
+
+#Text=Margot Wallstrom, for her\r
+#Text=outstanding work and commitment to this sensitive and\r
+#Text=complex issue.
+5-1	585-591	Margot	HERO[3]	
+5-2	592-601	Wallstrom	HERO[3]	
+5-3	601-602	,	_	
+5-4	603-606	for	_	
+5-5	607-610	her	_	
+5-6	612-623	outstanding	_	
+5-7	624-628	work	_	
+5-8	629-632	and	_	
+5-9	633-643	commitment	_	
+5-10	644-646	to	_	
+5-11	647-651	this	_	
+5-12	652-661	sensitive	_	
+5-13	662-665	and	_	
+5-14	667-674	complex	_	
+5-15	675-680	issue	_	
+5-16	680-681	.	_	
+
+#Text=The Human Security Network shares\r
+#Text=the views expressed by the Secretary-General in his\r
+#Text=recommendations to the Security Council, Member\r
+#Text=States, donors and regional organizations.\r
+#Text=12-23937\r
+#Text=\r
+#Text=Since the adoption of Security Council resolution\r
+#Text=1325 (2000), we have witnessed significant advances\r
+#Text=in this field, including resolutions 1820 (2008), 1888\r
+#Text=(2009) and 1960 (2010), the creation of the post of the\r
+#Text=Special Representative on Sexual Violence in Conflict,\r
+#Text=as well as the Team of Experts on the Rule of Law and\r
+#Text=Sexual Violence in Conflict, which contribute\r
+#Text=significantly to strengthening the cooperation between\r
+#Text=the United Nations system and Member States in order\r
+#Text=to prevent crimes against women and girls.
+6-1	682-685	The	_	
+6-2	686-691	Human	_	
+6-3	692-700	Security	_	
+6-4	701-708	Network	_	
+6-5	709-715	shares	_	
+6-6	717-720	the	_	
+6-7	721-726	views	_	
+6-8	727-736	expressed	_	
+6-9	737-739	by	_	
+6-10	740-743	the	_	
+6-11	744-761	Secretary-General	_	
+6-12	762-764	in	_	
+6-13	765-768	his	_	
+6-14	770-785	recommendations	_	
+6-15	786-788	to	_	
+6-16	789-792	the	_	
+6-17	793-801	Security	_	
+6-18	802-809	Council	_	
+6-19	809-810	,	_	
+6-20	811-817	Member	_	
+6-21	819-825	States	_	
+6-22	825-826	,	_	
+6-23	827-833	donors	_	
+6-24	834-837	and	_	
+6-25	838-846	regional	_	
+6-26	847-860	organizations	_	
+6-27	860-861	.	_	
+6-28	863-865	12	_	
+6-29	865-866	-	_	
+6-30	866-871	23937	_	
+6-31	875-880	Since	_	
+6-32	881-884	the	_	
+6-33	885-893	adoption	_	
+6-34	894-896	of	_	
+6-35	897-905	Security	_	
+6-36	906-913	Council	_	
+6-37	914-924	resolution	_	
+6-38	926-930	1325	_	
+6-39	931-932	(	_	
+6-40	932-936	2000	_	
+6-41	936-937	)	_	
+6-42	937-938	,	_	
+6-43	939-941	we	_	
+6-44	942-946	have	_	
+6-45	947-956	witnessed	_	
+6-46	957-968	significant	_	
+6-47	969-977	advances	_	
+6-48	979-981	in	_	
+6-49	982-986	this	_	
+6-50	987-992	field	_	
+6-51	992-993	,	_	
+6-52	994-1003	including	_	
+6-53	1004-1015	resolutions	_	
+6-54	1016-1020	1820	_	
+6-55	1021-1022	(	_	
+6-56	1022-1026	2008	_	
+6-57	1026-1027	)	_	
+6-58	1027-1028	,	_	
+6-59	1029-1033	1888	_	
+6-60	1035-1036	(	_	
+6-61	1036-1040	2009	_	
+6-62	1040-1041	)	_	
+6-63	1042-1045	and	_	
+6-64	1046-1050	1960	_	
+6-65	1051-1052	(	_	
+6-66	1052-1056	2010	_	
+6-67	1056-1057	)	_	
+6-68	1057-1058	,	_	
+6-69	1059-1062	the	_	
+6-70	1063-1071	creation	_	
+6-71	1072-1074	of	_	
+6-72	1075-1078	the	_	
+6-73	1079-1083	post	_	
+6-74	1084-1086	of	_	
+6-75	1087-1090	the	_	
+6-76	1092-1099	Special	_	
+6-77	1100-1114	Representative	_	
+6-78	1115-1117	on	_	
+6-79	1118-1124	Sexual	_	
+6-80	1125-1133	Violence	_	
+6-81	1134-1136	in	_	
+6-82	1137-1145	Conflict	_	
+6-83	1145-1146	,	_	
+6-84	1148-1150	as	_	
+6-85	1151-1155	well	_	
+6-86	1156-1158	as	_	
+6-87	1159-1162	the	HERO[4]	
+6-88	1163-1167	Team	HERO[4]	
+6-89	1168-1170	of	HERO[4]	
+6-90	1171-1178	Experts	HERO[4]	
+6-91	1179-1181	on	HERO[4]	
+6-92	1182-1185	the	HERO[4]	
+6-93	1186-1190	Rule	HERO[4]	
+6-94	1191-1193	of	HERO[4]	
+6-95	1194-1197	Law	HERO[4]	
+6-96	1198-1201	and	HERO[4]	
+6-97	1203-1209	Sexual	HERO[4]	
+6-98	1210-1218	Violence	HERO[4]	
+6-99	1219-1221	in	HERO[4]	
+6-100	1222-1230	Conflict	HERO[4]	
+6-101	1230-1231	,	_	
+6-102	1232-1237	which	_	
+6-103	1238-1248	contribute	_	
+6-104	1250-1263	significantly	_	
+6-105	1264-1266	to	_	
+6-106	1267-1280	strengthening	_	
+6-107	1281-1284	the	_	
+6-108	1285-1296	cooperation	_	
+6-109	1297-1304	between	_	
+6-110	1306-1309	the	_	
+6-111	1310-1316	United	_	
+6-112	1317-1324	Nations	_	
+6-113	1325-1331	system	_	
+6-114	1332-1335	and	_	
+6-115	1336-1342	Member	_	
+6-116	1343-1349	States	_	
+6-117	1350-1352	in	_	
+6-118	1353-1358	order	_	
+6-119	1360-1362	to	_	
+6-120	1363-1370	prevent	_	
+6-121	1371-1377	crimes	_	
+6-122	1378-1385	against	_	
+6-123	1386-1391	women	VICTIM[5]	
+6-124	1392-1395	and	VICTIM[5]	
+6-125	1396-1401	girls	VICTIM[5]	
+6-126	1401-1402	.	_	
+
+#Text=In addition,\r
+#Text=they help to improve the efficiency of the national\r
+#Text=judicial systems in ensuring the rule of law and\r
+#Text=bringing perpetrators to justice, including to the\r
+#Text=International Criminal Court.
+7-1	1403-1405	In	_	
+7-2	1406-1414	addition	_	
+7-3	1414-1415	,	_	
+7-4	1417-1421	they	HERO	
+7-5	1422-1426	help	_	
+7-6	1427-1429	to	_	
+7-7	1430-1437	improve	_	
+7-8	1438-1441	the	_	
+7-9	1442-1452	efficiency	_	
+7-10	1453-1455	of	_	
+7-11	1456-1459	the	_	
+7-12	1460-1468	national	_	
+7-13	1470-1478	judicial	_	
+7-14	1479-1486	systems	_	
+7-15	1487-1489	in	_	
+7-16	1490-1498	ensuring	_	
+7-17	1499-1502	the	_	
+7-18	1503-1507	rule	_	
+7-19	1508-1510	of	_	
+7-20	1511-1514	law	_	
+7-21	1515-1518	and	_	
+7-22	1520-1528	bringing	_	
+7-23	1529-1541	perpetrators	VILLAIN	
+7-24	1542-1544	to	_	
+7-25	1545-1552	justice	_	
+7-26	1552-1553	,	_	
+7-27	1554-1563	including	_	
+7-28	1564-1566	to	_	
+7-29	1567-1570	the	_	
+7-30	1572-1585	International	_	
+7-31	1586-1594	Criminal	_	
+7-32	1595-1600	Court	_	
+7-33	1600-1601	.	_	
+
+#Text=However, it is deeply disturbing that today we\r
+#Text=continue to witness rapes of women, girls and children\r
+#Text=in general, in countries in armed conflict but also in\r
+#Text=other situations, including post-conflict situations.
+8-1	1605-1612	However	_	
+8-2	1612-1613	,	_	
+8-3	1614-1616	it	_	
+8-4	1617-1619	is	_	
+8-5	1620-1626	deeply	_	
+8-6	1627-1637	disturbing	_	
+8-7	1638-1642	that	_	
+8-8	1643-1648	today	_	
+8-9	1649-1651	we	_	
+8-10	1653-1661	continue	_	
+8-11	1662-1664	to	_	
+8-12	1665-1672	witness	_	
+8-13	1673-1678	rapes	_	
+8-14	1679-1681	of	_	
+8-15	1682-1687	women	VICTIM[6]	
+8-16	1687-1688	,	VICTIM[6]	
+8-17	1689-1694	girls	VICTIM[6]	
+8-18	1695-1698	and	VICTIM[6]	
+8-19	1699-1707	children	VICTIM[6]	
+8-20	1709-1711	in	_	
+8-21	1712-1719	general	_	
+8-22	1719-1720	,	_	
+8-23	1721-1723	in	_	
+8-24	1724-1733	countries	_	
+8-25	1734-1736	in	_	
+8-26	1737-1742	armed	_	
+8-27	1743-1751	conflict	_	
+8-28	1752-1755	but	_	
+8-29	1756-1760	also	_	
+8-30	1761-1763	in	_	
+8-31	1765-1770	other	_	
+8-32	1771-1781	situations	_	
+8-33	1781-1782	,	_	
+8-34	1783-1792	including	_	
+8-35	1793-1806	post-conflict	_	
+8-36	1807-1817	situations	_	
+8-37	1817-1818	.	_	
+
+#Text=We\r
+#Text=recognize the efforts made by some Governments to\r
+#Text=put an end to these crimes, to strengthen judicial\r
+#Text=systems and to bring those responsible to justice.
+9-1	1819-1821	We	_	
+9-2	1823-1832	recognize	_	
+9-3	1833-1836	the	_	
+9-4	1837-1844	efforts	_	
+9-5	1845-1849	made	_	
+9-6	1850-1852	by	_	
+9-7	1853-1857	some	HERO[7]	
+9-8	1858-1869	Governments	HERO[7]	
+9-9	1870-1872	to	_	
+9-10	1874-1877	put	_	
+9-11	1878-1880	an	_	
+9-12	1881-1884	end	_	
+9-13	1885-1887	to	_	
+9-14	1888-1893	these	_	
+9-15	1894-1900	crimes	_	
+9-16	1900-1901	,	_	
+9-17	1902-1904	to	_	
+9-18	1905-1915	strengthen	_	
+9-19	1916-1924	judicial	_	
+9-20	1926-1933	systems	_	
+9-21	1934-1937	and	_	
+9-22	1938-1940	to	_	
+9-23	1941-1946	bring	_	
+9-24	1947-1952	those	VILLAIN[8]	
+9-25	1953-1964	responsible	VILLAIN[8]	
+9-26	1965-1967	to	_	
+9-27	1968-1975	justice	_	
+9-28	1975-1976	.	_	
+
+#Text=However, as the Secretary-General's report (S/2012/33)\r
+#Text=shows, progress remains slow, and in practice the\r
+#Text=perpetrators of crimes against women and girls often\r
+#Text=go unpunished.
+10-1	1978-1985	However	_	
+10-2	1985-1986	,	_	
+10-3	1987-1989	as	_	
+10-4	1990-1993	the	HERO[9]	
+10-5	1994-2013	Secretary-General's	HERO[9]	
+10-6	2014-2020	report	_	
+10-7	2021-2022	(	_	
+10-8	2022-2023	S	_	
+10-9	2023-2024	/	_	
+10-10	2024-2028	2012	_	
+10-11	2028-2029	/	_	
+10-12	2029-2031	33	_	
+10-13	2031-2032	)	_	
+10-14	2034-2039	shows	_	
+10-15	2039-2040	,	_	
+10-16	2041-2049	progress	_	
+10-17	2050-2057	remains	_	
+10-18	2058-2062	slow	_	
+10-19	2062-2063	,	_	
+10-20	2064-2067	and	_	
+10-21	2068-2070	in	_	
+10-22	2071-2079	practice	_	
+10-23	2080-2083	the	VILLAIN[10]	
+10-24	2085-2097	perpetrators	VILLAIN[10]	
+10-25	2098-2100	of	VILLAIN[10]	
+10-26	2101-2107	crimes	VILLAIN[10]	
+10-27	2108-2115	against	VILLAIN[10]	
+10-28	2116-2121	women	VILLAIN[10]|VICTIM[11]	
+10-29	2122-2125	and	VILLAIN[10]|VICTIM[11]	
+10-30	2126-2131	girls	VILLAIN[10]|VICTIM[11]	
+10-31	2132-2137	often	_	
+10-32	2139-2141	go	_	
+10-33	2142-2152	unpunished	_	
+10-34	2152-2153	.	_	
+
+#Text=The Human Security Network therefore urges\r
+#Text=Member States to increase their efforts to prevent\r
+#Text=conflict-related sexual violence by undertaking all\r
+#Text=necessary efforts to implement all applicable legal\r
+#Text=provisions in the matter.
+11-1	2157-2160	The	HERO[12]	
+11-2	2161-2166	Human	HERO[12]	
+11-3	2167-2175	Security	HERO[12]	
+11-4	2176-2183	Network	HERO[12]	
+11-5	2184-2193	therefore	_	
+11-6	2194-2199	urges	_	
+11-7	2201-2207	Member	_	
+11-8	2208-2214	States	_	
+11-9	2215-2217	to	_	
+11-10	2218-2226	increase	_	
+11-11	2227-2232	their	_	
+11-12	2233-2240	efforts	_	
+11-13	2241-2243	to	_	
+11-14	2244-2251	prevent	_	
+11-15	2253-2269	conflict-related	_	
+11-16	2270-2276	sexual	_	
+11-17	2277-2285	violence	_	
+11-18	2286-2288	by	_	
+11-19	2289-2300	undertaking	_	
+11-20	2301-2304	all	_	
+11-21	2306-2315	necessary	_	
+11-22	2316-2323	efforts	_	
+11-23	2324-2326	to	_	
+11-24	2327-2336	implement	_	
+11-25	2337-2340	all	_	
+11-26	2341-2351	applicable	_	
+11-27	2352-2357	legal	_	
+11-28	2359-2369	provisions	_	
+11-29	2370-2372	in	_	
+11-30	2373-2376	the	_	
+11-31	2377-2383	matter	_	
+11-32	2383-2384	.	_	
+
+#Text=The primary responsibility is\r
+#Text=theirs.
+12-1	2385-2388	The	_	
+12-2	2389-2396	primary	_	
+12-3	2397-2411	responsibility	_	
+12-4	2412-2414	is	_	
+12-5	2416-2422	theirs	_	
+12-6	2422-2423	.	_	
+
+#Text=But, at the same time, this constitutes a\r
+#Text=challenge for the international community as a whole,\r
+#Text=especially for regional and subregional organizations.
+13-1	2424-2427	But	_	
+13-2	2427-2428	,	_	
+13-3	2429-2431	at	_	
+13-4	2432-2435	the	_	
+13-5	2436-2440	same	_	
+13-6	2441-2445	time	_	
+13-7	2445-2446	,	_	
+13-8	2447-2451	this	_	
+13-9	2452-2463	constitutes	_	
+13-10	2464-2465	a	_	
+13-11	2467-2476	challenge	_	
+13-12	2477-2480	for	_	
+13-13	2481-2484	the	_	
+13-14	2485-2498	international	_	
+13-15	2499-2508	community	_	
+13-16	2509-2511	as	_	
+13-17	2512-2513	a	_	
+13-18	2514-2519	whole	_	
+13-19	2519-2520	,	_	
+13-20	2522-2532	especially	_	
+13-21	2533-2536	for	_	
+13-22	2537-2545	regional	_	
+13-23	2546-2549	and	_	
+13-24	2550-2561	subregional	_	
+13-25	2562-2575	organizations	_	
+13-26	2575-2576	.	_	
+
+#Text=Their role in supporting the efforts of those countries is\r
+#Text=crucial.
+14-1	2578-2583	Their	_	
+14-2	2584-2588	role	_	
+14-3	2589-2591	in	_	
+14-4	2592-2602	supporting	_	
+14-5	2603-2606	the	_	
+14-6	2607-2614	efforts	_	
+14-7	2615-2617	of	_	
+14-8	2618-2623	those	_	
+14-9	2624-2633	countries	_	
+14-10	2634-2636	is	_	
+14-11	2638-2645	crucial	_	
+14-12	2645-2646	.	_	
+
+#Text=The message must be clear; there shall be no\r
+#Text=impunity for the perpetrators of such crimes, and the\r
+#Text=countries affected and the international community will\r
+#Text=not rest until there is accountability and justice is done.
+15-1	2647-2650	The	_	
+15-2	2651-2658	message	_	
+15-3	2659-2663	must	_	
+15-4	2664-2666	be	_	
+15-5	2667-2672	clear	_	
+15-6	2672-2673	;	_	
+15-7	2674-2679	there	_	
+15-8	2680-2685	shall	_	
+15-9	2686-2688	be	_	
+15-10	2689-2691	no	_	
+15-11	2693-2701	impunity	_	
+15-12	2702-2705	for	_	
+15-13	2706-2709	the	VILLAIN[13]	
+15-14	2710-2722	perpetrators	VILLAIN[13]	
+15-15	2723-2725	of	VILLAIN[13]	
+15-16	2726-2730	such	VILLAIN[13]	
+15-17	2731-2737	crimes	VILLAIN[13]	
+15-18	2737-2738	,	_	
+15-19	2739-2742	and	_	
+15-20	2743-2746	the	HERO[14]|VICTIM[15]	
+15-21	2748-2757	countries	HERO[14]|VICTIM[15]	
+15-22	2758-2766	affected	HERO[14]|VICTIM[15]	
+15-23	2767-2770	and	HERO[14]	
+15-24	2771-2774	the	HERO[14]	
+15-25	2775-2788	international	HERO[14]	
+15-26	2789-2798	community	HERO[14]	
+15-27	2799-2803	will	_	
+15-28	2805-2808	not	_	
+15-29	2809-2813	rest	_	
+15-30	2814-2819	until	_	
+15-31	2820-2825	there	_	
+15-32	2826-2828	is	_	
+15-33	2829-2843	accountability	_	
+15-34	2844-2847	and	_	
+15-35	2848-2855	justice	_	
+15-36	2856-2858	is	_	
+15-37	2859-2863	done	_	
+15-38	2863-2864	.	_	
+
+#Text=The provision of genuine support, protection and\r
+#Text=the relevant services to the victims and their families is\r
+#Text=equally as important as rendering justice.
+16-1	2868-2871	The	_	
+16-2	2872-2881	provision	_	
+16-3	2882-2884	of	_	
+16-4	2885-2892	genuine	_	
+16-5	2893-2900	support	_	
+16-6	2900-2901	,	_	
+16-7	2902-2912	protection	_	
+16-8	2913-2916	and	_	
+16-9	2918-2921	the	_	
+16-10	2922-2930	relevant	_	
+16-11	2931-2939	services	_	
+16-12	2940-2942	to	_	
+16-13	2943-2946	the	VICTIM[16]	
+16-14	2947-2954	victims	VICTIM[16]	
+16-15	2955-2958	and	VICTIM[16]	
+16-16	2959-2964	their	VICTIM[16]	
+16-17	2965-2973	families	VICTIM[16]	
+16-18	2974-2976	is	_	
+16-19	2978-2985	equally	_	
+16-20	2986-2988	as	_	
+16-21	2989-2998	important	_	
+16-22	2999-3001	as	_	
+16-23	3002-3011	rendering	_	
+16-24	3012-3019	justice	_	
+16-25	3019-3020	.	_	
+
+#Text=In that\r
+#Text=context, the support given at the community level is\r
+#Text=vital.
+17-1	3021-3023	In	_	
+17-2	3024-3028	that	_	
+17-3	3030-3037	context	_	
+17-4	3037-3038	,	_	
+17-5	3039-3042	the	_	
+17-6	3043-3050	support	_	
+17-7	3051-3056	given	_	
+17-8	3057-3059	at	_	
+17-9	3060-3063	the	_	
+17-10	3064-3073	community	_	
+17-11	3074-3079	level	_	
+17-12	3080-3082	is	_	
+17-13	3084-3089	vital	_	
+17-14	3089-3090	.	_	
+
+#Text=Projects that directly assist victims and their\r
+#Text=families to help them overcome the trauma inflicted\r
+#Text=upon them are of particularly great value.
+18-1	3091-3099	Projects	_	
+18-2	3100-3104	that	_	
+18-3	3105-3113	directly	_	
+18-4	3114-3120	assist	_	
+18-5	3121-3128	victims	VICTIM[17]	
+18-6	3129-3132	and	VICTIM[17]	
+18-7	3133-3138	their	VICTIM[17]	
+18-8	3140-3148	families	VICTIM[17]	
+18-9	3149-3151	to	_	
+18-10	3152-3156	help	_	
+18-11	3157-3161	them	VICTIM	
+18-12	3162-3170	overcome	_	
+18-13	3171-3174	the	_	
+18-14	3175-3181	trauma	_	
+18-15	3182-3191	inflicted	_	
+18-16	3193-3197	upon	_	
+18-17	3198-3202	them	VICTIM	
+18-18	3203-3206	are	_	
+18-19	3207-3209	of	_	
+18-20	3210-3222	particularly	_	
+18-21	3223-3228	great	_	
+18-22	3229-3234	value	_	
+18-23	3234-3235	.	_	
+
+#Text=One of the key issues in a post-conflict country is\r
+#Text=security sector reform.
+19-1	3239-3242	One	_	
+19-2	3243-3245	of	_	
+19-3	3246-3249	the	_	
+19-4	3250-3253	key	_	
+19-5	3254-3260	issues	_	
+19-6	3261-3263	in	_	
+19-7	3264-3265	a	VICTIM[18]	
+19-8	3266-3279	post-conflict	VICTIM[18]	
+19-9	3280-3287	country	VICTIM[18]	
+19-10	3288-3290	is	_	
+19-11	3292-3300	security	_	
+19-12	3301-3307	sector	_	
+19-13	3308-3314	reform	_	
+19-14	3314-3315	.	_	
+
+#Text=Security is not a "men's issue";\r
+#Text=it is a gender issue, and women must be involved in all\r
+#Text=\r
+#Text=relevant discussions and negotiations from their\r
+#Text=inception, and they must also be part of the higher\r
+#Text=military ranks, which is where security-related issues\r
+#Text=are usually discussed.
+20-1	3316-3324	Security	_	
+20-2	3325-3327	is	_	
+20-3	3328-3331	not	_	
+20-4	3332-3333	a	_	
+20-5	3334-3335	"	_	
+20-6	3335-3340	men's	_	
+20-7	3341-3346	issue	_	
+20-8	3346-3347	"	_	
+20-9	3347-3348	;	_	
+20-10	3350-3352	it	_	
+20-11	3353-3355	is	_	
+20-12	3356-3357	a	_	
+20-13	3358-3364	gender	_	
+20-14	3365-3370	issue	_	
+20-15	3370-3371	,	_	
+20-16	3372-3375	and	_	
+20-17	3376-3381	women	HERO[19]|VICTIM[20]	
+20-18	3382-3386	must	_	
+20-19	3387-3389	be	_	
+20-20	3390-3398	involved	_	
+20-21	3399-3401	in	_	
+20-22	3402-3405	all	_	
+20-23	3409-3417	relevant	_	
+20-24	3418-3429	discussions	_	
+20-25	3430-3433	and	_	
+20-26	3434-3446	negotiations	_	
+20-27	3447-3451	from	_	
+20-28	3452-3457	their	_	
+20-29	3459-3468	inception	_	
+20-30	3468-3469	,	_	
+20-31	3470-3473	and	_	
+20-32	3474-3478	they	VICTIM[21]|HERO[22]	
+20-33	3479-3483	must	_	
+20-34	3484-3488	also	_	
+20-35	3489-3491	be	_	
+20-36	3492-3496	part	_	
+20-37	3497-3499	of	_	
+20-38	3500-3503	the	_	
+20-39	3504-3510	higher	_	
+20-40	3512-3520	military	_	
+20-41	3521-3526	ranks	_	
+20-42	3526-3527	,	_	
+20-43	3528-3533	which	_	
+20-44	3534-3536	is	_	
+20-45	3537-3542	where	_	
+20-46	3543-3559	security-related	_	
+20-47	3560-3566	issues	_	
+20-48	3568-3571	are	_	
+20-49	3572-3579	usually	_	
+20-50	3580-3589	discussed	_	
+20-51	3589-3590	.	_	
+
+#Text=The gender perspective must be\r
+#Text=part of the reform and training of all security forces.
+21-1	3591-3594	The	_	
+21-2	3595-3601	gender	_	
+21-3	3602-3613	perspective	_	
+21-4	3614-3618	must	_	
+21-5	3619-3621	be	_	
+21-6	3623-3627	part	_	
+21-7	3628-3630	of	_	
+21-8	3631-3634	the	_	
+21-9	3635-3641	reform	_	
+21-10	3642-3645	and	_	
+21-11	3646-3654	training	_	
+21-12	3655-3657	of	_	
+21-13	3658-3661	all	_	
+21-14	3662-3670	security	_	
+21-15	3671-3677	forces	_	
+21-16	3677-3678	.	_	
+
+#Text=The Human Security Network emphasizes the\r
+#Text=importance of the full and equal participation of\r
+#Text=women in political processes, including in\r
+#Text=peacemaking and peacebuilding.
+22-1	3682-3685	The	HERO[23]	
+22-2	3686-3691	Human	HERO[23]	
+22-3	3692-3700	Security	HERO[23]	
+22-4	3701-3708	Network	HERO[23]	
+22-5	3709-3719	emphasizes	_	
+22-6	3720-3723	the	_	
+22-7	3725-3735	importance	_	
+22-8	3736-3738	of	_	
+22-9	3739-3742	the	_	
+22-10	3743-3747	full	_	
+22-11	3748-3751	and	_	
+22-12	3752-3757	equal	_	
+22-13	3758-3771	participation	_	
+22-14	3772-3774	of	_	
+22-15	3776-3781	women	HERO	
+22-16	3782-3784	in	_	
+22-17	3785-3794	political	_	
+22-18	3795-3804	processes	_	
+22-19	3804-3805	,	_	
+22-20	3806-3815	including	_	
+22-21	3816-3818	in	_	
+22-22	3820-3831	peacemaking	_	
+22-23	3832-3835	and	_	
+22-24	3836-3849	peacebuilding	_	
+22-25	3849-3850	.	_	
+
+#Text=Their involvement\r
+#Text=ensures the success of those processes.
+23-1	3851-3856	Their	_	
+23-2	3857-3868	involvement	_	
+23-3	3870-3877	ensures	_	
+23-4	3878-3881	the	_	
+23-5	3882-3889	success	_	
+23-6	3890-3892	of	_	
+23-7	3893-3898	those	_	
+23-8	3899-3908	processes	_	
+23-9	3908-3909	.	_	
+
+#Text=At the same\r
+#Text=time, conflict-related sexual violence and the specific\r
+#Text=needs of women and girls have to be addressed\r
+#Text=adequately, both in ceasefire agreements and in peace\r
+#Text=agreements.
+24-1	3910-3912	At	_	
+24-2	3913-3916	the	_	
+24-3	3917-3921	same	_	
+24-4	3923-3927	time	_	
+24-5	3927-3928	,	_	
+24-6	3929-3945	conflict-related	_	
+24-7	3946-3952	sexual	_	
+24-8	3953-3961	violence	_	
+24-9	3962-3965	and	_	
+24-10	3966-3969	the	_	
+24-11	3970-3978	specific	_	
+24-12	3980-3985	needs	_	
+24-13	3986-3988	of	_	
+24-14	3989-3994	women	VICTIM[24]	
+24-15	3995-3998	and	VICTIM[24]	
+24-16	3999-4004	girls	VICTIM[24]	
+24-17	4005-4009	have	_	
+24-18	4010-4012	to	_	
+24-19	4013-4015	be	_	
+24-20	4016-4025	addressed	_	
+24-21	4027-4037	adequately	_	
+24-22	4037-4038	,	_	
+24-23	4039-4043	both	_	
+24-24	4044-4046	in	_	
+24-25	4047-4056	ceasefire	_	
+24-26	4057-4067	agreements	_	
+24-27	4068-4071	and	_	
+24-28	4072-4074	in	_	
+24-29	4075-4080	peace	_	
+24-30	4082-4092	agreements	_	
+24-31	4092-4093	.	_	
+
+#Text=Preventing crimes is as crucial as delivering\r
+#Text=justice and supporting the victims.
+25-1	4097-4107	Preventing	_	
+25-2	4108-4114	crimes	_	
+25-3	4115-4117	is	_	
+25-4	4118-4120	as	_	
+25-5	4121-4128	crucial	_	
+25-6	4129-4131	as	_	
+25-7	4132-4142	delivering	_	
+25-8	4144-4151	justice	_	
+25-9	4152-4155	and	_	
+25-10	4156-4166	supporting	_	
+25-11	4167-4170	the	VICTIM[25]	
+25-12	4171-4178	victims	VICTIM[25]	
+25-13	4178-4179	.	_	
+
+#Text=To that end, we\r
+#Text=have to be able to improve the early warning systems\r
+#Text=and monitoring mechanisms already in place and to\r
+#Text=build upon them where needed.
+26-1	4180-4182	To	_	
+26-2	4183-4187	that	_	
+26-3	4188-4191	end	_	
+26-4	4191-4192	,	_	
+26-5	4193-4195	we	_	
+26-6	4197-4201	have	_	
+26-7	4202-4204	to	_	
+26-8	4205-4207	be	_	
+26-9	4208-4212	able	_	
+26-10	4213-4215	to	_	
+26-11	4216-4223	improve	_	
+26-12	4224-4227	the	_	
+26-13	4228-4233	early	_	
+26-14	4234-4241	warning	_	
+26-15	4242-4249	systems	_	
+26-16	4251-4254	and	_	
+26-17	4255-4265	monitoring	_	
+26-18	4266-4276	mechanisms	_	
+26-19	4277-4284	already	_	
+26-20	4285-4287	in	_	
+26-21	4288-4293	place	_	
+26-22	4294-4297	and	_	
+26-23	4298-4300	to	_	
+26-24	4302-4307	build	_	
+26-25	4308-4312	upon	_	
+26-26	4313-4317	them	_	
+26-27	4318-4323	where	_	
+26-28	4324-4330	needed	_	
+26-29	4330-4331	.	_	
+
+#Text=They must be capable\r
+#Text=of detecting signs of possible crimes and must mobilize\r
+#Text=the political and judicial authorities in order to prevent\r
+#Text=them.
+27-1	4332-4336	They	_	
+27-2	4337-4341	must	_	
+27-3	4342-4344	be	_	
+27-4	4345-4352	capable	_	
+27-5	4354-4356	of	_	
+27-6	4357-4366	detecting	_	
+27-7	4367-4372	signs	_	
+27-8	4373-4375	of	_	
+27-9	4376-4384	possible	_	
+27-10	4385-4391	crimes	_	
+27-11	4392-4395	and	_	
+27-12	4396-4400	must	_	
+27-13	4401-4409	mobilize	_	
+27-14	4411-4414	the	_	
+27-15	4415-4424	political	_	
+27-16	4425-4428	and	_	
+27-17	4429-4437	judicial	_	
+27-18	4438-4449	authorities	_	
+27-19	4450-4452	in	_	
+27-20	4453-4458	order	_	
+27-21	4459-4461	to	_	
+27-22	4462-4469	prevent	_	
+27-23	4471-4475	them	_	
+27-24	4475-4476	.	_	
+
+#Text=They must involve all relevant levels, from the\r
+#Text=community level to the provincial and national levels.
+28-1	4477-4481	They	_	
+28-2	4482-4486	must	_	
+28-3	4487-4494	involve	_	
+28-4	4495-4498	all	_	
+28-5	4499-4507	relevant	_	
+28-6	4508-4514	levels	_	
+28-7	4514-4515	,	_	
+28-8	4516-4520	from	_	
+28-9	4521-4524	the	_	
+28-10	4526-4535	community	_	
+28-11	4536-4541	level	_	
+28-12	4542-4544	to	_	
+28-13	4545-4548	the	_	
+28-14	4549-4559	provincial	_	
+28-15	4560-4563	and	_	
+28-16	4564-4572	national	_	
+28-17	4573-4579	levels	_	
+28-18	4579-4580	.	_	
+
+#Text=Regional organizations can also play an important role\r
+#Text=in the creation of an efficient early warning system.
+29-1	4582-4590	Regional	_	
+29-2	4591-4604	organizations	_	
+29-3	4605-4608	can	_	
+29-4	4609-4613	also	_	
+29-5	4614-4618	play	_	
+29-6	4619-4621	an	_	
+29-7	4622-4631	important	_	
+29-8	4632-4636	role	_	
+29-9	4638-4640	in	_	
+29-10	4641-4644	the	_	
+29-11	4645-4653	creation	_	
+29-12	4654-4656	of	_	
+29-13	4657-4659	an	_	
+29-14	4660-4669	efficient	_	
+29-15	4670-4675	early	_	
+29-16	4676-4683	warning	_	
+29-17	4684-4690	system	_	
+29-18	4690-4691	.	_	
+
+#Text=Finally, we appreciate the information provided\r
+#Text=on the progress made in implementing the monitoring,\r
+#Text=analysis and reporting arrangements.
+30-1	4695-4702	Finally	_	
+30-2	4702-4703	,	_	
+30-3	4704-4706	we	_	
+30-4	4707-4717	appreciate	_	
+30-5	4718-4721	the	_	
+30-6	4722-4733	information	_	
+30-7	4734-4742	provided	_	
+30-8	4744-4746	on	_	
+30-9	4747-4750	the	_	
+30-10	4751-4759	progress	_	
+30-11	4760-4764	made	_	
+30-12	4765-4767	in	_	
+30-13	4768-4780	implementing	_	
+30-14	4781-4784	the	_	
+30-15	4785-4795	monitoring	_	
+30-16	4795-4796	,	_	
+30-17	4798-4806	analysis	_	
+30-18	4807-4810	and	_	
+30-19	4811-4820	reporting	_	
+30-20	4821-4833	arrangements	_	
+30-21	4833-4834	.	_	
+
+#Text=The collection of\r
+#Text=timely, accurate, reliable and objective information on\r
+#Text=conflict-related sexual violence is crucial to tailoring\r
+#Text=the Council's responses, as well as to enhancing action\r
+#Text=to prevent sexual violence.
+31-1	4835-4838	The	_	
+31-2	4839-4849	collection	_	
+31-3	4850-4852	of	_	
+31-4	4854-4860	timely	_	
+31-5	4860-4861	,	_	
+31-6	4862-4870	accurate	_	
+31-7	4870-4871	,	_	
+31-8	4872-4880	reliable	_	
+31-9	4881-4884	and	_	
+31-10	4885-4894	objective	_	
+31-11	4895-4906	information	_	
+31-12	4907-4909	on	_	
+31-13	4911-4927	conflict-related	_	
+31-14	4928-4934	sexual	_	
+31-15	4935-4943	violence	_	
+31-16	4944-4946	is	_	
+31-17	4947-4954	crucial	_	
+31-18	4955-4957	to	_	
+31-19	4958-4967	tailoring	_	
+31-20	4969-4972	the	_	
+31-21	4973-4982	Council's	_	
+31-22	4983-4992	responses	_	
+31-23	4992-4993	,	_	
+31-24	4994-4996	as	_	
+31-25	4997-5001	well	_	
+31-26	5002-5004	as	_	
+31-27	5005-5007	to	_	
+31-28	5008-5017	enhancing	_	
+31-29	5018-5024	action	_	
+31-30	5026-5028	to	_	
+31-31	5029-5036	prevent	_	
+31-32	5037-5043	sexual	_	
+31-33	5044-5052	violence	_	
+31-34	5052-5053	.	_	
+
+#Text=We also wish to encourage\r
+#Text=the deployment of women protection advisers to United\r
+#Text=Nations peacekeeping and special political missions in\r
+#Text=order to strengthen the response of the relevant mission\r
+#Text=components to conflict-related sexual violence.
+32-1	5054-5056	We	HERO	
+32-2	5057-5061	also	_	
+32-3	5062-5066	wish	_	
+32-4	5067-5069	to	_	
+32-5	5070-5079	encourage	_	
+32-6	5081-5084	the	_	
+32-7	5085-5095	deployment	_	
+32-8	5096-5098	of	_	
+32-9	5099-5104	women	HERO[26]	
+32-10	5105-5115	protection	HERO[26]	
+32-11	5116-5124	advisers	HERO[26]	
+32-12	5125-5127	to	_	
+32-13	5128-5134	United	_	
+32-14	5136-5143	Nations	_	
+32-15	5144-5156	peacekeeping	_	
+32-16	5157-5160	and	_	
+32-17	5161-5168	special	_	
+32-18	5169-5178	political	_	
+32-19	5179-5187	missions	_	
+32-20	5188-5190	in	_	
+32-21	5192-5197	order	_	
+32-22	5198-5200	to	_	
+32-23	5201-5211	strengthen	_	
+32-24	5212-5215	the	_	
+32-25	5216-5224	response	_	
+32-26	5225-5227	of	_	
+32-27	5228-5231	the	_	
+32-28	5232-5240	relevant	_	
+32-29	5241-5248	mission	_	
+32-30	5250-5260	components	_	
+32-31	5261-5263	to	_	
+32-32	5264-5280	conflict-related	_	
+32-33	5281-5287	sexual	_	
+32-34	5288-5296	violence	_	
+32-35	5296-5297	.	_	
+
+#Text=We strongly hope that the Council will be able to\r
+#Text=reach an agreement on the presidential statement later\r
+#Text=today.
+33-1	5301-5303	We	_	
+33-2	5304-5312	strongly	_	
+33-3	5313-5317	hope	_	
+33-4	5318-5322	that	_	
+33-5	5323-5326	the	_	
+33-6	5327-5334	Council	_	
+33-7	5335-5339	will	_	
+33-8	5340-5342	be	_	
+33-9	5343-5347	able	_	
+33-10	5348-5350	to	_	
+33-11	5352-5357	reach	_	
+33-12	5358-5360	an	_	
+33-13	5361-5370	agreement	_	
+33-14	5371-5373	on	_	
+33-15	5374-5377	the	_	
+33-16	5378-5390	presidential	_	
+33-17	5391-5400	statement	_	
+33-18	5401-5406	later	_	
+33-19	5408-5413	today	_	
+33-20	5413-5414	.	_	
+
+#Text=(spoke in French)\r
+#Text=\r
+#Text=I will now make a statement in my national\r
+#Text=capacity.
+34-1	5418-5419	(	_	
+34-2	5419-5424	spoke	_	
+34-3	5425-5427	in	_	
+34-4	5428-5434	French	_	
+34-5	5434-5435	)	_	
+34-6	5439-5440	I	_	
+34-7	5441-5445	will	_	
+34-8	5446-5449	now	_	
+34-9	5450-5454	make	_	
+34-10	5455-5456	a	_	
+34-11	5457-5466	statement	_	
+34-12	5467-5469	in	_	
+34-13	5470-5472	my	_	
+34-14	5473-5481	national	_	
+34-15	5483-5491	capacity	_	
+34-16	5491-5492	.	_	
+
+#Text=A more detailed version of my statement can\r
+#Text=be found in the distributed text.
+35-1	5493-5494	A	_	
+35-2	5495-5499	more	_	
+35-3	5500-5508	detailed	_	
+35-4	5509-5516	version	_	
+35-5	5517-5519	of	_	
+35-6	5520-5522	my	_	
+35-7	5523-5532	statement	_	
+35-8	5533-5536	can	_	
+35-9	5538-5540	be	_	
+35-10	5541-5546	found	_	
+35-11	5547-5549	in	_	
+35-12	5550-5553	the	_	
+35-13	5554-5565	distributed	_	
+35-14	5566-5570	text	_	
+35-15	5570-5571	.	_	
+
+#Text=Resolutions 1888 (2009) and 1960 (2010) on\r
+#Text=women and peace and security constitute a robust\r
+#Text=machinery, which demonstrates that the Security\r
+#Text=Council and United Nations members are firmly\r
+#Text=\r
+#Text=resolved to move from advocacy to the effective\r
+#Text=implementation of their commitment to combat\r
+#Text=conflict-related sexual violence.
+36-1	5575-5586	Resolutions	_	
+36-2	5587-5591	1888	_	
+36-3	5592-5593	(	_	
+36-4	5593-5597	2009	_	
+36-5	5597-5598	)	_	
+36-6	5599-5602	and	_	
+36-7	5603-5607	1960	_	
+36-8	5608-5609	(	_	
+36-9	5609-5613	2010	_	
+36-10	5613-5614	)	_	
+36-11	5615-5617	on	_	
+36-12	5619-5624	women	_	
+36-13	5625-5628	and	_	
+36-14	5629-5634	peace	_	
+36-15	5635-5638	and	_	
+36-16	5639-5647	security	_	
+36-17	5648-5658	constitute	_	
+36-18	5659-5660	a	_	
+36-19	5661-5667	robust	_	
+36-20	5669-5678	machinery	_	
+36-21	5678-5679	,	_	
+36-22	5680-5685	which	_	
+36-23	5686-5698	demonstrates	_	
+36-24	5699-5703	that	_	
+36-25	5704-5707	the	HERO[27]	
+36-26	5708-5716	Security	HERO[27]	
+36-27	5718-5725	Council	HERO[27]	
+36-28	5726-5729	and	HERO[27]	
+36-29	5730-5736	United	HERO[27]	
+36-30	5737-5744	Nations	HERO[27]	
+36-31	5745-5752	members	HERO[27]	
+36-32	5753-5756	are	_	
+36-33	5757-5763	firmly	_	
+36-34	5767-5775	resolved	_	
+36-35	5776-5778	to	_	
+36-36	5779-5783	move	_	
+36-37	5784-5788	from	_	
+36-38	5789-5797	advocacy	_	
+36-39	5798-5800	to	_	
+36-40	5801-5804	the	_	
+36-41	5805-5814	effective	_	
+36-42	5816-5830	implementation	_	
+36-43	5831-5833	of	_	
+36-44	5834-5839	their	_	
+36-45	5840-5850	commitment	_	
+36-46	5851-5853	to	_	
+36-47	5854-5860	combat	_	
+36-48	5862-5878	conflict-related	_	
+36-49	5879-5885	sexual	_	
+36-50	5886-5894	violence	_	
+36-51	5894-5895	.	_	
+
+#Text=The establishment of\r
+#Text=new mandates always raises the crucial issue of\r
+#Text=coordination and the efficient use of existing\r
+#Text=structures.
+37-1	5896-5899	The	_	
+37-2	5900-5913	establishment	_	
+37-3	5914-5916	of	_	
+37-4	5918-5921	new	_	
+37-5	5922-5930	mandates	_	
+37-6	5931-5937	always	_	
+37-7	5938-5944	raises	_	
+37-8	5945-5948	the	_	
+37-9	5949-5956	crucial	_	
+37-10	5957-5962	issue	_	
+37-11	5963-5965	of	_	
+37-12	5967-5979	coordination	_	
+37-13	5980-5983	and	_	
+37-14	5984-5987	the	_	
+37-15	5988-5997	efficient	_	
+37-16	5998-6001	use	_	
+37-17	6002-6004	of	_	
+37-18	6005-6013	existing	_	
+37-19	6015-6025	structures	_	
+37-20	6025-6026	.	_	
+
+#Text=We welcome the fact that it is intended to\r
+#Text=preserve the full flexibility of the monitoring, analysis\r
+#Text=and reporting arrangements in order to adapt them to\r
+#Text=the country-specific needs and circumstances.
+38-1	6030-6032	We	_	
+38-2	6033-6040	welcome	_	
+38-3	6041-6044	the	_	
+38-4	6045-6049	fact	_	
+38-5	6050-6054	that	_	
+38-6	6055-6057	it	_	
+38-7	6058-6060	is	_	
+38-8	6061-6069	intended	_	
+38-9	6070-6072	to	_	
+38-10	6074-6082	preserve	_	
+38-11	6083-6086	the	_	
+38-12	6087-6091	full	_	
+38-13	6092-6103	flexibility	_	
+38-14	6104-6106	of	_	
+38-15	6107-6110	the	_	
+38-16	6111-6121	monitoring	_	
+38-17	6121-6122	,	_	
+38-18	6123-6131	analysis	_	
+38-19	6133-6136	and	_	
+38-20	6137-6146	reporting	_	
+38-21	6147-6159	arrangements	_	
+38-22	6160-6162	in	_	
+38-23	6163-6168	order	_	
+38-24	6169-6171	to	_	
+38-25	6172-6177	adapt	_	
+38-26	6178-6182	them	_	
+38-27	6183-6185	to	_	
+38-28	6187-6190	the	_	
+38-29	6191-6207	country-specific	_	
+38-30	6208-6213	needs	_	
+38-31	6214-6217	and	_	
+38-32	6218-6231	circumstances	_	
+38-33	6231-6232	.	_	
+
+#Text=In that\r
+#Text=regard, we would like to underscore the importance of\r
+#Text=the continued and transparent communication of the\r
+#Text=Office of the Special Representative with United\r
+#Text=Nations country teams so as to foster ownership and\r
+#Text=results-oriented implementation of the new structures\r
+#Text=and processes in the field.
+39-1	6233-6235	In	_	
+39-2	6236-6240	that	_	
+39-3	6242-6248	regard	_	
+39-4	6248-6249	,	_	
+39-5	6250-6252	we	HERO	
+39-6	6253-6258	would	_	
+39-7	6259-6263	like	_	
+39-8	6264-6266	to	_	
+39-9	6267-6277	underscore	_	
+39-10	6278-6281	the	_	
+39-11	6282-6292	importance	_	
+39-12	6293-6295	of	_	
+39-13	6297-6300	the	_	
+39-14	6301-6310	continued	_	
+39-15	6311-6314	and	_	
+39-16	6315-6326	transparent	_	
+39-17	6327-6340	communication	_	
+39-18	6341-6343	of	_	
+39-19	6344-6347	the	HERO[28]	
+39-20	6349-6355	Office	HERO[28]	
+39-21	6356-6358	of	HERO[28]	
+39-22	6359-6362	the	HERO[28]	
+39-23	6363-6370	Special	HERO[28]	
+39-24	6371-6385	Representative	HERO[28]	
+39-25	6386-6390	with	_	
+39-26	6391-6397	United	_	
+39-27	6399-6406	Nations	_	
+39-28	6407-6414	country	_	
+39-29	6415-6420	teams	_	
+39-30	6421-6423	so	_	
+39-31	6424-6426	as	_	
+39-32	6427-6429	to	_	
+39-33	6430-6436	foster	_	
+39-34	6437-6446	ownership	_	
+39-35	6447-6450	and	_	
+39-36	6452-6468	results-oriented	_	
+39-37	6469-6483	implementation	_	
+39-38	6484-6486	of	_	
+39-39	6487-6490	the	_	
+39-40	6491-6494	new	_	
+39-41	6495-6505	structures	_	
+39-42	6507-6510	and	_	
+39-43	6511-6520	processes	_	
+39-44	6521-6523	in	_	
+39-45	6524-6527	the	_	
+39-46	6528-6533	field	_	
+39-47	6533-6534	.	_	
+
+#Text=We note with great satisfaction that several\r
+#Text=activities have been launched with UN-Women.
+40-1	6538-6540	We	_	
+40-2	6541-6545	note	_	
+40-3	6546-6550	with	_	
+40-4	6551-6556	great	_	
+40-5	6557-6569	satisfaction	_	
+40-6	6570-6574	that	_	
+40-7	6575-6582	several	_	
+40-8	6584-6594	activities	_	
+40-9	6595-6599	have	_	
+40-10	6600-6604	been	_	
+40-11	6605-6613	launched	_	
+40-12	6614-6618	with	_	
+40-13	6619-6627	UN-Women	HERO	
+40-14	6627-6628	.	_	
+
+#Text=We\r
+#Text=hope that such productive cooperation will continue.
+41-1	6629-6631	We	_	
+41-2	6633-6637	hope	_	
+41-3	6638-6642	that	_	
+41-4	6643-6647	such	_	
+41-5	6648-6658	productive	_	
+41-6	6659-6670	cooperation	_	
+41-7	6671-6675	will	_	
+41-8	6676-6684	continue	_	
+41-9	6684-6685	.	_	
+
+#Text=Switzerland recently contributed 3 million Swiss francs\r
+#Text=to the United Nations Trust Fund to End Violence\r
+#Text=against Women, which is administered by UN-Women.
+42-1	6687-6698	Switzerland	HERO	
+42-2	6699-6707	recently	_	
+42-3	6708-6719	contributed	_	
+42-4	6720-6721	3	_	
+42-5	6722-6729	million	_	
+42-6	6730-6735	Swiss	_	
+42-7	6736-6742	francs	_	
+42-8	6744-6746	to	_	
+42-9	6747-6750	the	_	
+42-10	6751-6757	United	_	
+42-11	6758-6765	Nations	_	
+42-12	6766-6771	Trust	_	
+42-13	6772-6776	Fund	_	
+42-14	6777-6779	to	_	
+42-15	6780-6783	End	_	
+42-16	6784-6792	Violence	_	
+42-17	6794-6801	against	_	
+42-18	6802-6807	Women	_	
+42-19	6807-6808	,	_	
+42-20	6809-6814	which	_	
+42-21	6815-6817	is	_	
+42-22	6818-6830	administered	_	
+42-23	6831-6833	by	_	
+42-24	6834-6842	UN-Women	HERO	
+42-25	6842-6843	.	_	
+
+#Text=The Secretary-General's report on conflict-related\r
+#Text=sexual violence contains useful recommendations to\r
+#Text=the Security Council, Member States and regional\r
+#Text=organizations.
+43-1	6847-6850	The	HERO[29]	
+43-2	6851-6870	Secretary-General's	HERO[29]	
+43-3	6871-6877	report	_	
+43-4	6878-6880	on	_	
+43-5	6881-6897	conflict-related	_	
+43-6	6899-6905	sexual	_	
+43-7	6906-6914	violence	_	
+43-8	6915-6923	contains	_	
+43-9	6924-6930	useful	_	
+43-10	6931-6946	recommendations	_	
+43-11	6947-6949	to	_	
+43-12	6951-6954	the	_	
+43-13	6955-6963	Security	_	
+43-14	6964-6971	Council	_	
+43-15	6971-6972	,	_	
+43-16	6973-6979	Member	_	
+43-17	6980-6986	States	_	
+43-18	6987-6990	and	_	
+43-19	6991-6999	regional	_	
+43-20	7001-7014	organizations	_	
+43-21	7014-7015	.	_	
+
+#Text=I would like to recall three of those, in\r
+#Text=particular.
+44-1	7016-7017	I	_	
+44-2	7018-7023	would	_	
+44-3	7024-7028	like	_	
+44-4	7029-7031	to	_	
+44-5	7032-7038	recall	_	
+44-6	7039-7044	three	_	
+44-7	7045-7047	of	_	
+44-8	7048-7053	those	_	
+44-9	7053-7054	,	_	
+44-10	7055-7057	in	_	
+44-11	7059-7069	particular	_	
+44-12	7069-7070	.	_	
+
+#Text=First, prevention is a priority as it is an essential\r
+#Text=part of our efforts to protect, in which many\r
+#Text=stakeholders have a role to play.
+45-1	7074-7079	First	_	
+45-2	7079-7080	,	_	
+45-3	7081-7091	prevention	_	
+45-4	7092-7094	is	_	
+45-5	7095-7096	a	_	
+45-6	7097-7105	priority	_	
+45-7	7106-7108	as	_	
+45-8	7109-7111	it	_	
+45-9	7112-7114	is	_	
+45-10	7115-7117	an	_	
+45-11	7118-7127	essential	_	
+45-12	7129-7133	part	_	
+45-13	7134-7136	of	_	
+45-14	7137-7140	our	_	
+45-15	7141-7148	efforts	_	
+45-16	7149-7151	to	_	
+45-17	7152-7159	protect	_	
+45-18	7159-7160	,	_	
+45-19	7161-7163	in	_	
+45-20	7164-7169	which	_	
+45-21	7170-7174	many	_	
+45-22	7176-7188	stakeholders	_	
+45-23	7189-7193	have	_	
+45-24	7194-7195	a	_	
+45-25	7196-7200	role	_	
+45-26	7201-7203	to	_	
+45-27	7204-7208	play	_	
+45-28	7208-7209	.	_	
+
+#Text=Specific and time-\r
+#Text=bound commitments to put an end to all acts of sexual\r
+#Text=violence and to bring their perpetrators to justice can\r
+#Text=help to break the cycle of violence.
+46-1	7210-7218	Specific	_	
+46-2	7219-7222	and	_	
+46-3	7223-7227	time	_	
+46-4	7227-7228	-	_	
+46-5	7230-7235	bound	_	
+46-6	7236-7247	commitments	_	
+46-7	7248-7250	to	_	
+46-8	7251-7254	put	_	
+46-9	7255-7257	an	_	
+46-10	7258-7261	end	_	
+46-11	7262-7264	to	_	
+46-12	7265-7268	all	_	
+46-13	7269-7273	acts	_	
+46-14	7274-7276	of	_	
+46-15	7277-7283	sexual	_	
+46-16	7285-7293	violence	_	
+46-17	7294-7297	and	_	
+46-18	7298-7300	to	_	
+46-19	7301-7306	bring	_	
+46-20	7307-7312	their	VILLAIN[30]	
+46-21	7313-7325	perpetrators	VILLAIN[30]	
+46-22	7326-7328	to	_	
+46-23	7329-7336	justice	_	
+46-24	7337-7340	can	_	
+46-25	7342-7346	help	_	
+46-26	7347-7349	to	_	
+46-27	7350-7355	break	_	
+46-28	7356-7359	the	_	
+46-29	7360-7365	cycle	_	
+46-30	7366-7368	of	_	
+46-31	7369-7377	violence	_	
+46-32	7377-7378	.	_	
+
+#Text=We strongly support more systematic measures to\r
+#Text=enhance protection against sexual violence and\r
+#Text=prevention of its recurrence through transitional justice\r
+#Text=mechanisms.
+47-1	7382-7384	We	HERO	
+47-2	7385-7393	strongly	_	
+47-3	7394-7401	support	_	
+47-4	7402-7406	more	_	
+47-5	7407-7417	systematic	_	
+47-6	7418-7426	measures	_	
+47-7	7427-7429	to	_	
+47-8	7431-7438	enhance	_	
+47-9	7439-7449	protection	_	
+47-10	7450-7457	against	_	
+47-11	7458-7464	sexual	_	
+47-12	7465-7473	violence	_	
+47-13	7474-7477	and	_	
+47-14	7479-7489	prevention	_	
+47-15	7490-7492	of	_	
+47-16	7493-7496	its	_	
+47-17	7497-7507	recurrence	_	
+47-18	7508-7515	through	_	
+47-19	7516-7528	transitional	_	
+47-20	7529-7536	justice	_	
+47-21	7538-7548	mechanisms	_	
+47-22	7548-7549	.	_	
+
+#Text=Such measures should link the fight\r
+#Text=against impunity and recognition of victims' rights, for\r
+#Text=example through appropriate reparations, but also\r
+#Text=include strengthening the national capacity to combat\r
+#Text=the causes of violence and, at the same time, to prevent\r
+#Text=new cases.
+48-1	7550-7554	Such	_	
+48-2	7555-7563	measures	_	
+48-3	7564-7570	should	_	
+48-4	7571-7575	link	_	
+48-5	7576-7579	the	_	
+48-6	7580-7585	fight	_	
+48-7	7587-7594	against	_	
+48-8	7595-7603	impunity	_	
+48-9	7604-7607	and	_	
+48-10	7608-7619	recognition	_	
+48-11	7620-7622	of	_	
+48-12	7623-7630	victims	VICTIM	
+48-13	7630-7631	'	_	
+48-14	7632-7638	rights	_	
+48-15	7638-7639	,	_	
+48-16	7640-7643	for	_	
+48-17	7645-7652	example	_	
+48-18	7653-7660	through	_	
+48-19	7661-7672	appropriate	_	
+48-20	7673-7684	reparations	_	
+48-21	7684-7685	,	_	
+48-22	7686-7689	but	_	
+48-23	7690-7694	also	_	
+48-24	7696-7703	include	_	
+48-25	7704-7717	strengthening	_	
+48-26	7718-7721	the	_	
+48-27	7722-7730	national	_	
+48-28	7731-7739	capacity	_	
+48-29	7740-7742	to	_	
+48-30	7743-7749	combat	_	
+48-31	7751-7754	the	_	
+48-32	7755-7761	causes	_	
+48-33	7762-7764	of	_	
+48-34	7765-7773	violence	_	
+48-35	7774-7777	and	_	
+48-36	7777-7778	,	_	
+48-37	7779-7781	at	_	
+48-38	7782-7785	the	_	
+48-39	7786-7790	same	_	
+48-40	7791-7795	time	_	
+48-41	7795-7796	,	_	
+48-42	7797-7799	to	_	
+48-43	7800-7807	prevent	_	
+48-44	7809-7812	new	_	
+48-45	7813-7818	cases	_	
+48-46	7818-7819	.	_	
+
+#Text=Secondly, in resolution 1820 (2008), the Security\r
+#Text=Council resolved to take acts of sexual violence into\r
+#Text=consideration when establishing or renewing State-\r
+#Text=specific sanctions regimes.
+49-1	7823-7831	Secondly	_	
+49-2	7831-7832	,	_	
+49-3	7833-7835	in	_	
+49-4	7836-7846	resolution	_	
+49-5	7847-7851	1820	_	
+49-6	7852-7853	(	_	
+49-7	7853-7857	2008	_	
+49-8	7857-7858	)	_	
+49-9	7858-7859	,	_	
+49-10	7860-7863	the	HERO[31]	
+49-11	7864-7872	Security	HERO[31]	
+49-12	7874-7881	Council	HERO[31]	
+49-13	7882-7890	resolved	_	
+49-14	7891-7893	to	_	
+49-15	7894-7898	take	_	
+49-16	7899-7903	acts	_	
+49-17	7904-7906	of	_	
+49-18	7907-7913	sexual	_	
+49-19	7914-7922	violence	_	
+49-20	7923-7927	into	_	
+49-21	7929-7942	consideration	_	
+49-22	7943-7947	when	_	
+49-23	7948-7960	establishing	_	
+49-24	7961-7963	or	_	
+49-25	7964-7972	renewing	_	
+49-26	7973-7978	State	_	
+49-27	7978-7979	-	_	
+49-28	7981-7989	specific	_	
+49-29	7990-7999	sanctions	_	
+49-30	8000-8007	regimes	_	
+49-31	8007-8008	.	_	
+
+#Text=That opportunity should not\r
+#Text=be forgotten.
+50-1	8009-8013	That	_	
+50-2	8014-8025	opportunity	_	
+50-3	8026-8032	should	_	
+50-4	8033-8036	not	_	
+50-5	8038-8040	be	_	
+50-6	8041-8050	forgotten	_	
+50-7	8050-8051	.	_	
+
+#Text=It thus provides the means to take\r
+#Text=targeted measures against, for example, the parties and\r
+#Text=individuals mentioned in the Secretary-General's report\r
+#Text=on sexual violence in conflict.
+51-1	8052-8054	It	_	
+51-2	8055-8059	thus	_	
+51-3	8060-8068	provides	_	
+51-4	8069-8072	the	_	
+51-5	8073-8078	means	_	
+51-6	8079-8081	to	_	
+51-7	8082-8086	take	_	
+51-8	8088-8096	targeted	_	
+51-9	8097-8105	measures	_	
+51-10	8106-8113	against	_	
+51-11	8113-8114	,	_	
+51-12	8115-8118	for	_	
+51-13	8119-8126	example	_	
+51-14	8126-8127	,	_	
+51-15	8128-8131	the	VILLAIN[32]	
+51-16	8132-8139	parties	VILLAIN[32]	
+51-17	8140-8143	and	VILLAIN[32]	
+51-18	8145-8156	individuals	VILLAIN[32]	
+51-19	8157-8166	mentioned	VILLAIN[32]	
+51-20	8167-8169	in	VILLAIN[32]	
+51-21	8170-8173	the	VILLAIN[32]	
+51-22	8174-8193	Secretary-General's	VILLAIN[32]	
+51-23	8194-8200	report	VILLAIN[32]	
+51-24	8202-8204	on	VILLAIN[32]	
+51-25	8205-8211	sexual	VILLAIN[32]	
+51-26	8212-8220	violence	VILLAIN[32]	
+51-27	8221-8223	in	VILLAIN[32]	
+51-28	8224-8232	conflict	VILLAIN[32]	
+51-29	8232-8233	.	_	
+
+#Text=Finally, in his report, the Secretary-General calls\r
+#Text=on the parties to include training on conflict-related\r
+#Text=sexual violence in training programmes for\r
+#Text=peacekeeping troops.
+52-1	8237-8244	Finally	_	
+52-2	8244-8245	,	_	
+52-3	8246-8248	in	_	
+52-4	8249-8252	his	_	
+52-5	8253-8259	report	_	
+52-6	8259-8260	,	_	
+52-7	8261-8264	the	HERO[33]	
+52-8	8265-8282	Secretary-General	HERO[33]	
+52-9	8283-8288	calls	_	
+52-10	8290-8292	on	_	
+52-11	8293-8296	the	_	
+52-12	8297-8304	parties	_	
+52-13	8305-8307	to	_	
+52-14	8308-8315	include	_	
+52-15	8316-8324	training	_	
+52-16	8325-8327	on	_	
+52-17	8328-8344	conflict-related	_	
+52-18	8346-8352	sexual	_	
+52-19	8353-8361	violence	_	
+52-20	8362-8364	in	_	
+52-21	8365-8373	training	_	
+52-22	8374-8384	programmes	_	
+52-23	8385-8388	for	_	
+52-24	8390-8402	peacekeeping	_	
+52-25	8403-8409	troops	_	
+52-26	8409-8410	.	_	
+
+#Text=In that regard, I would like to\r
+#Text=draw the Council's attention to the handbook prepared\r
+#Text=by the Department of Peacekeeping Operations,\r
+#Text=entitled "Standardized Best Practices Toolkit on\r
+#Text=Gender and Policing in Peacekeeping Operations".
+53-1	8411-8413	In	_	
+53-2	8414-8418	that	_	
+53-3	8419-8425	regard	_	
+53-4	8425-8426	,	_	
+53-5	8427-8428	I	_	
+53-6	8429-8434	would	_	
+53-7	8435-8439	like	_	
+53-8	8440-8442	to	_	
+53-9	8444-8448	draw	_	
+53-10	8449-8452	the	_	
+53-11	8453-8462	Council's	_	
+53-12	8463-8472	attention	_	
+53-13	8473-8475	to	_	
+53-14	8476-8479	the	_	
+53-15	8480-8488	handbook	_	
+53-16	8489-8497	prepared	_	
+53-17	8499-8501	by	_	
+53-18	8502-8505	the	HERO[34]	
+53-19	8506-8516	Department	HERO[34]	
+53-20	8517-8519	of	HERO[34]	
+53-21	8520-8532	Peacekeeping	HERO[34]	
+53-22	8533-8543	Operations	HERO[34]	
+53-23	8543-8544	,	_	
+53-24	8546-8554	entitled	_	
+53-25	8555-8556	"	_	
+53-26	8556-8568	Standardized	_	
+53-27	8569-8573	Best	_	
+53-28	8574-8583	Practices	_	
+53-29	8584-8591	Toolkit	_	
+53-30	8592-8594	on	_	
+53-31	8596-8602	Gender	_	
+53-32	8603-8606	and	_	
+53-33	8607-8615	Policing	_	
+53-34	8616-8618	in	_	
+53-35	8619-8631	Peacekeeping	_	
+53-36	8632-8642	Operations	_	
+53-37	8642-8643	"	_	
+53-38	8643-8644	.	_	
+
+#Text=The\r
+#Text=handbook was co-financed by Switzerland.
+54-1	8645-8648	The	_	
+54-2	8650-8658	handbook	_	
+54-3	8659-8662	was	_	
+54-4	8663-8674	co-financed	_	
+54-5	8675-8677	by	_	
+54-6	8678-8689	Switzerland	HERO	
+54-7	8689-8690	.	_	
+
+#Text=The structures set up by resolutions 1888 (2009),\r
+#Text=1889 (2009) and 1960 (2010) are still in a testing\r
+#Text=phase, and only proof of the reality will make it\r
+#Text=possible to assess their effectiveness.
+55-1	8694-8697	The	_	
+55-2	8698-8708	structures	_	
+55-3	8709-8712	set	_	
+55-4	8713-8715	up	_	
+55-5	8716-8718	by	_	
+55-6	8719-8730	resolutions	_	
+55-7	8731-8735	1888	_	
+55-8	8736-8737	(	_	
+55-9	8737-8741	2009	_	
+55-10	8741-8742	)	_	
+55-11	8742-8743	,	_	
+55-12	8745-8749	1889	_	
+55-13	8750-8751	(	_	
+55-14	8751-8755	2009	_	
+55-15	8755-8756	)	_	
+55-16	8757-8760	and	_	
+55-17	8761-8765	1960	_	
+55-18	8766-8767	(	_	
+55-19	8767-8771	2010	_	
+55-20	8771-8772	)	_	
+55-21	8773-8776	are	_	
+55-22	8777-8782	still	_	
+55-23	8783-8785	in	_	
+55-24	8786-8787	a	_	
+55-25	8788-8795	testing	_	
+55-26	8797-8802	phase	_	
+55-27	8802-8803	,	_	
+55-28	8804-8807	and	_	
+55-29	8808-8812	only	_	
+55-30	8813-8818	proof	_	
+55-31	8819-8821	of	_	
+55-32	8822-8825	the	_	
+55-33	8826-8833	reality	_	
+55-34	8834-8838	will	_	
+55-35	8839-8843	make	_	
+55-36	8844-8846	it	_	
+55-37	8848-8856	possible	_	
+55-38	8857-8859	to	_	
+55-39	8860-8866	assess	_	
+55-40	8867-8872	their	_	
+55-41	8873-8886	effectiveness	_	
+55-42	8886-8887	.	_	
+
+#Text=The path is steep\r
+#Text=and rocky.
+56-1	8888-8891	The	_	
+56-2	8892-8896	path	_	
+56-3	8897-8899	is	_	
+56-4	8900-8905	steep	_	
+56-5	8907-8910	and	_	
+56-6	8911-8916	rocky	_	
+56-7	8916-8917	.	_	
+
+#Text=However, we should move forward\r
+#Text=prudently and resolutely in strengthening the protection\r
+#Text=architecture.
+57-1	8918-8925	However	_	
+57-2	8925-8926	,	_	
+57-3	8927-8929	we	_	
+57-4	8930-8936	should	_	
+57-5	8937-8941	move	_	
+57-6	8942-8949	forward	_	
+57-7	8951-8960	prudently	_	
+57-8	8961-8964	and	_	
+57-9	8965-8975	resolutely	_	
+57-10	8976-8978	in	_	
+57-11	8979-8992	strengthening	_	
+57-12	8993-8996	the	_	
+57-13	8997-9007	protection	_	
+57-14	9009-9021	architecture	_	
+57-15	9021-9022	.	_	
+
+#Text=The establishment of the mandate of the\r
+#Text=Special Representative of the Secretary-General on\r
+#Text=Sexual Violence in Conflict is a significant part of that\r
+#Text=course.
+58-1	9023-9026	The	_	
+58-2	9027-9040	establishment	_	
+58-3	9041-9043	of	_	
+58-4	9044-9047	the	_	
+58-5	9048-9055	mandate	_	
+58-6	9056-9058	of	_	
+58-7	9059-9062	the	_	
+58-8	9064-9071	Special	_	
+58-9	9072-9086	Representative	_	
+58-10	9087-9089	of	_	
+58-11	9090-9093	the	_	
+58-12	9094-9111	Secretary-General	_	
+58-13	9112-9114	on	_	
+58-14	9116-9122	Sexual	_	
+58-15	9123-9131	Violence	_	
+58-16	9132-9134	in	_	
+58-17	9135-9143	Conflict	_	
+58-18	9144-9146	is	_	
+58-19	9147-9148	a	_	
+58-20	9149-9160	significant	_	
+58-21	9161-9165	part	_	
+58-22	9166-9168	of	_	
+58-23	9169-9173	that	_	
+58-24	9175-9181	course	_	
+58-25	9181-9182	.	_	

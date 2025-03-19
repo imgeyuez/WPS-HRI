@@ -1,0 +1,365 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mr.
+1-1	0-2	Mr	_	
+1-2	2-3	.	_	
+
+#Text=Zagaynov (Russian Federation) (spoke in Russian): I would like very briefly to respond to the\r
+#Text=statement made by the representative of Ukraine.
+2-1	4-12	Zagaynov	_	
+2-2	13-14	(	_	
+2-3	14-21	Russian	_	
+2-4	22-32	Federation	_	
+2-5	32-33	)	_	
+2-6	34-35	(	_	
+2-7	35-40	spoke	_	
+2-8	41-43	in	_	
+2-9	44-51	Russian	_	
+2-10	51-52	)	_	
+2-11	52-53	:	_	
+2-12	54-55	I	_	
+2-13	56-61	would	_	
+2-14	62-66	like	_	
+2-15	67-71	very	_	
+2-16	72-79	briefly	_	
+2-17	80-82	to	_	
+2-18	83-90	respond	_	
+2-19	91-93	to	_	
+2-20	94-97	the	_	
+2-21	99-108	statement	_	
+2-22	109-113	made	_	
+2-23	114-116	by	_	
+2-24	117-120	the	_	
+2-25	121-135	representative	_	
+2-26	136-138	of	_	
+2-27	139-146	Ukraine	_	
+2-28	146-147	.	_	
+
+#Text=Such attempts yet again to place all of the blame\r
+#Text=for what takes place in that country onto the Russian\r
+#Text=Federation come as a surprise to no one.
+3-1	151-155	Such	_	
+3-2	156-164	attempts	_	
+3-3	165-168	yet	_	
+3-4	169-174	again	_	
+3-5	175-177	to	_	
+3-6	178-183	place	_	
+3-7	184-187	all	_	
+3-8	188-190	of	_	
+3-9	191-194	the	_	
+3-10	195-200	blame	_	
+3-11	202-205	for	_	
+3-12	206-210	what	_	
+3-13	211-216	takes	_	
+3-14	217-222	place	_	
+3-15	223-225	in	_	
+3-16	226-230	that	_	
+3-17	231-238	country	_	
+3-18	239-243	onto	_	
+3-19	244-247	the	VICTIM[1]	
+3-20	248-255	Russian	VICTIM[1]	
+3-21	257-267	Federation	VICTIM[1]	
+3-22	268-272	come	_	
+3-23	273-275	as	_	
+3-24	276-277	a	_	
+3-25	278-286	surprise	_	
+3-26	287-289	to	_	
+3-27	290-292	no	_	
+3-28	293-296	one	_	
+3-29	296-297	.	_	
+
+#Text=Even the\r
+#Text=reports regarding the shelling by the Ukrainian army\r
+#Text=of residential areas, in violation of international\r
+#Text=humanitarian law - reports coming from a variety\r
+#Text=of sources, which cannot in any way be regarded as\r
+#Text=Russian propaganda - provoke no response from Kyiv\r
+#Text=other than yet further accusations against the Russian\r
+#Text=Federation.
+4-1	298-302	Even	_	
+4-2	303-306	the	_	
+4-3	308-315	reports	_	
+4-4	316-325	regarding	_	
+4-5	326-329	the	_	
+4-6	330-338	shelling	_	
+4-7	339-341	by	_	
+4-8	342-345	the	VILLAIN[2]	
+4-9	346-355	Ukrainian	VILLAIN[2]	
+4-10	356-360	army	VILLAIN[2]	
+4-11	362-364	of	_	
+4-12	365-376	residential	_	
+4-13	377-382	areas	_	
+4-14	382-383	,	_	
+4-15	384-386	in	_	
+4-16	387-396	violation	_	
+4-17	397-399	of	_	
+4-18	400-413	international	_	
+4-19	415-427	humanitarian	_	
+4-20	428-431	law	_	
+4-21	432-433	-	_	
+4-22	434-441	reports	_	
+4-23	442-448	coming	_	
+4-24	449-453	from	_	
+4-25	454-455	a	_	
+4-26	456-463	variety	_	
+4-27	465-467	of	_	
+4-28	468-475	sources	_	
+4-29	475-476	,	_	
+4-30	477-482	which	_	
+4-31	483-489	cannot	_	
+4-32	490-492	in	_	
+4-33	493-496	any	_	
+4-34	497-500	way	_	
+4-35	501-503	be	_	
+4-36	504-512	regarded	_	
+4-37	513-515	as	_	
+4-38	517-524	Russian	_	
+4-39	525-535	propaganda	_	
+4-40	536-537	-	_	
+4-41	538-545	provoke	_	
+4-42	546-548	no	_	
+4-43	549-557	response	_	
+4-44	558-562	from	_	
+4-45	563-567	Kyiv	VILLAIN	
+4-46	569-574	other	_	
+4-47	575-579	than	_	
+4-48	580-583	yet	_	
+4-49	584-591	further	_	
+4-50	592-603	accusations	_	
+4-51	604-611	against	_	
+4-52	612-615	the	VICTIM[3]	
+4-53	616-623	Russian	VICTIM[3]	
+4-54	625-635	Federation	VICTIM[3]	
+4-55	635-636	.	_	
+
+#Text=Quite clearly, our Lithuanian colleagues\r
+#Text=also take a selective attitude to such sources as well.
+5-1	637-642	Quite	_	
+5-2	643-650	clearly	_	
+5-3	650-651	,	_	
+5-4	652-655	our	VILLAIN[4]	
+5-5	656-666	Lithuanian	VILLAIN[4]	
+5-6	667-677	colleagues	VILLAIN[4]	
+5-7	679-683	also	_	
+5-8	684-688	take	_	
+5-9	689-690	a	_	
+5-10	691-700	selective	_	
+5-11	701-709	attitude	_	
+5-12	710-712	to	_	
+5-13	713-717	such	_	
+5-14	718-725	sources	_	
+5-15	726-728	as	_	
+5-16	729-733	well	_	
+5-17	733-734	.	_	
+
+#Text=The reality is that on 13 April 2014, our delegation\r
+#Text=initiated the convening of an emergency meeting of the\r
+#Text=Security Council (see S/PV.7154) in order to attempt\r
+#Text=to prevent the Ukrainian authorities from using armed\r
+#Text=force in south-eastern Ukraine.
+6-1	738-741	The	_	
+6-2	742-749	reality	_	
+6-3	750-752	is	_	
+6-4	753-757	that	_	
+6-5	758-760	on	_	
+6-6	761-763	13	_	
+6-7	764-769	April	_	
+6-8	770-774	2014	_	
+6-9	774-775	,	_	
+6-10	776-779	our	HERO[5]	
+6-11	780-790	delegation	HERO[5]	
+6-12	792-801	initiated	_	
+6-13	802-805	the	_	
+6-14	806-815	convening	_	
+6-15	816-818	of	_	
+6-16	819-821	an	_	
+6-17	822-831	emergency	_	
+6-18	832-839	meeting	_	
+6-19	840-842	of	_	
+6-20	843-846	the	_	
+6-21	848-856	Security	_	
+6-22	857-864	Council	_	
+6-23	865-866	(	_	
+6-24	866-869	see	_	
+6-25	870-871	S	_	
+6-26	871-872	/	_	
+6-27	872-874	PV	_	
+6-28	874-879	.7154	_	
+6-29	879-880	)	_	
+6-30	881-883	in	_	
+6-31	884-889	order	_	
+6-32	890-892	to	_	
+6-33	893-900	attempt	_	
+6-34	902-904	to	_	
+6-35	905-912	prevent	_	
+6-36	913-916	the	VILLAIN[6]	
+6-37	917-926	Ukrainian	VILLAIN[6]	
+6-38	927-938	authorities	VILLAIN[6]	
+6-39	939-943	from	_	
+6-40	944-949	using	_	
+6-41	950-955	armed	_	
+6-42	957-962	force	_	
+6-43	963-965	in	_	
+6-44	966-979	south-eastern	_	
+6-45	980-987	Ukraine	_	
+6-46	987-988	.	_	
+
+#Text=We were unable to do\r
+#Text=so.
+7-1	989-991	We	HERO[7]|VICTIM[8]	
+7-2	992-996	were	_	
+7-3	997-1003	unable	_	
+7-4	1004-1006	to	_	
+7-5	1007-1009	do	_	
+7-6	1011-1013	so	_	
+7-7	1013-1014	.	_	
+
+#Text=The so-called anti-terrorist operation was launched,\r
+#Text=claiming civilian victims in its very first week.
+8-1	1015-1018	The	_	
+8-2	1019-1028	so-called	_	
+8-3	1029-1043	anti-terrorist	_	
+8-4	1044-1053	operation	_	
+8-5	1054-1057	was	_	
+8-6	1058-1066	launched	_	
+8-7	1066-1067	,	_	
+8-8	1069-1077	claiming	_	
+8-9	1078-1086	civilian	VICTIM[9]	
+8-10	1087-1094	victims	VICTIM[9]	
+8-11	1095-1097	in	_	
+8-12	1098-1101	its	_	
+8-13	1102-1106	very	_	
+8-14	1107-1112	first	_	
+8-15	1113-1117	week	_	
+8-16	1117-1118	.	_	
+
+#Text=We\r
+#Text=have called again and again for an end to the violence\r
+#Text=and for the initiation of a full-fledged national dialogue\r
+#Text=that would avert further civilian casualties in Ukraine.
+9-1	1119-1121	We	HERO	
+9-2	1123-1127	have	_	
+9-3	1128-1134	called	_	
+9-4	1135-1140	again	_	
+9-5	1141-1144	and	_	
+9-6	1145-1150	again	_	
+9-7	1151-1154	for	_	
+9-8	1155-1157	an	_	
+9-9	1158-1161	end	_	
+9-10	1162-1164	to	_	
+9-11	1165-1168	the	_	
+9-12	1169-1177	violence	_	
+9-13	1179-1182	and	_	
+9-14	1183-1186	for	_	
+9-15	1187-1190	the	_	
+9-16	1191-1201	initiation	_	
+9-17	1202-1204	of	_	
+9-18	1205-1206	a	_	
+9-19	1207-1219	full-fledged	_	
+9-20	1220-1228	national	_	
+9-21	1229-1237	dialogue	_	
+9-22	1239-1243	that	_	
+9-23	1244-1249	would	_	
+9-24	1250-1255	avert	_	
+9-25	1256-1263	further	_	
+9-26	1264-1272	civilian	_	
+9-27	1273-1283	casualties	_	
+9-28	1284-1286	in	_	
+9-29	1287-1294	Ukraine	_	
+9-30	1294-1295	.	_	
+
+#Text=Such an appeal was made to the authorities in Kyiv\r
+#Text=as recently as today by the Russian Foreign Ministry.
+10-1	1297-1301	Such	_	
+10-2	1302-1304	an	_	
+10-3	1305-1311	appeal	_	
+10-4	1312-1315	was	_	
+10-5	1316-1320	made	_	
+10-6	1321-1323	to	_	
+10-7	1324-1327	the	VILLAIN[10]	
+10-8	1328-1339	authorities	VILLAIN[10]	
+10-9	1340-1342	in	VILLAIN[10]	
+10-10	1343-1347	Kyiv	VILLAIN[10]	
+10-11	1349-1351	as	_	
+10-12	1352-1360	recently	_	
+10-13	1361-1363	as	_	
+10-14	1364-1369	today	_	
+10-15	1370-1372	by	_	
+10-16	1373-1376	the	HERO[11]	
+10-17	1377-1384	Russian	HERO[11]	
+10-18	1385-1392	Foreign	HERO[11]	
+10-19	1393-1401	Ministry	HERO[11]	
+10-20	1401-1402	.	_	
+
+#Text=Unfortunately, those calls have gone unheeded to date.
+11-1	1404-1417	Unfortunately	_	
+11-2	1417-1418	,	_	
+11-3	1419-1424	those	_	
+11-4	1425-1430	calls	_	
+11-5	1431-1435	have	_	
+11-6	1436-1440	gone	_	
+11-7	1441-1449	unheeded	_	
+11-8	1450-1452	to	_	
+11-9	1453-1457	date	_	
+11-10	1457-1458	.	_	
+
+#Text=In conclusion, I recall that the topic of today's\r
+#Text=meeting is the protection of civilians.
+12-1	1462-1464	In	_	
+12-2	1465-1475	conclusion	_	
+12-3	1475-1476	,	_	
+12-4	1477-1478	I	_	
+12-5	1479-1485	recall	_	
+12-6	1486-1490	that	_	
+12-7	1491-1494	the	_	
+12-8	1495-1500	topic	_	
+12-9	1501-1503	of	_	
+12-10	1504-1511	today's	_	
+12-11	1513-1520	meeting	_	
+12-12	1521-1523	is	_	
+12-13	1524-1527	the	_	
+12-14	1528-1538	protection	_	
+12-15	1539-1541	of	_	
+12-16	1542-1551	civilians	VICTIM	
+12-17	1551-1552	.	_	
+
+#Text=Nadiya Savchenko,\r
+#Text=a Ukrainian military officer, is not a civilian.
+13-1	1553-1559	Nadiya	VILLAIN[12]	
+13-2	1560-1569	Savchenko	VILLAIN[12]	
+13-3	1569-1570	,	VILLAIN[12]	
+13-4	1572-1573	a	VILLAIN[12]	
+13-5	1574-1583	Ukrainian	VILLAIN[12]	
+13-6	1584-1592	military	VILLAIN[12]	
+13-7	1593-1600	officer	VILLAIN[12]	
+13-8	1600-1601	,	_	
+13-9	1602-1604	is	_	
+13-10	1605-1608	not	_	
+13-11	1609-1610	a	_	
+13-12	1611-1619	civilian	_	
+13-13	1619-1620	.	_	
+
+#Text=However,\r
+#Text=the Russian journalists were definitely civilians, and\r
+#Text=she is accused of helping to kill them.
+14-1	1621-1628	However	_	
+14-2	1628-1629	,	_	
+14-3	1631-1634	the	VICTIM[13]	
+14-4	1635-1642	Russian	VICTIM[13]	
+14-5	1643-1654	journalists	VICTIM[13]	
+14-6	1655-1659	were	_	
+14-7	1660-1670	definitely	_	
+14-8	1671-1680	civilians	_	
+14-9	1680-1681	,	_	
+14-10	1682-1685	and	_	
+14-11	1687-1690	she	VILLAIN	
+14-12	1691-1693	is	_	
+14-13	1694-1701	accused	_	
+14-14	1702-1704	of	_	
+14-15	1705-1712	helping	_	
+14-16	1713-1715	to	_	
+14-17	1716-1720	kill	_	
+14-18	1721-1725	them	VICTIM	
+14-19	1725-1726	.	_	

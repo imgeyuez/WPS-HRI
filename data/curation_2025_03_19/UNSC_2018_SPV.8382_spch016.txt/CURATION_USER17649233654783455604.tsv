@@ -1,0 +1,816 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mr.
+1-1	0-2	Mr	_	
+1-2	2-3	.	_	
+
+#Text=Meza-Cuadra (Peru) (spoke in Spanish): We\r
+#Text=appreciate the initiative of the Plurinational State of\r
+#Text=Bolivia in convening this timely open debate.
+2-1	4-15	Meza-Cuadra	_	
+2-2	16-17	(	_	
+2-3	17-21	Peru	_	
+2-4	21-22	)	_	
+2-5	23-24	(	_	
+2-6	24-29	spoke	_	
+2-7	30-32	in	_	
+2-8	33-40	Spanish	_	
+2-9	40-41	)	_	
+2-10	41-42	:	_	
+2-11	43-45	We	_	
+2-12	47-57	appreciate	_	
+2-13	58-61	the	_	
+2-14	62-72	initiative	_	
+2-15	73-75	of	_	
+2-16	76-79	the	HERO[1]	
+2-17	80-93	Plurinational	HERO[1]	
+2-18	94-99	State	HERO[1]	
+2-19	100-102	of	HERO[1]	
+2-20	104-111	Bolivia	HERO[1]	
+2-21	112-114	in	_	
+2-22	115-124	convening	_	
+2-23	125-129	this	_	
+2-24	130-136	timely	_	
+2-25	137-141	open	_	
+2-26	142-148	debate	_	
+2-27	148-149	.	_	
+
+#Text=Peru\r
+#Text=is committed to the women and peace and security\r
+#Text=agenda.
+3-1	150-154	Peru	HERO	
+3-2	156-158	is	_	
+3-3	159-168	committed	_	
+3-4	169-171	to	_	
+3-5	172-175	the	_	
+3-6	176-181	women	_	
+3-7	182-185	and	_	
+3-8	186-191	peace	_	
+3-9	192-195	and	_	
+3-10	196-204	security	_	
+3-11	206-212	agenda	_	
+3-12	212-213	.	_	
+
+#Text=Together with Sweden, we have the honour\r
+#Text=of chairing the group of experts that promotes that\r
+#Text=agenda in the Council.
+4-1	214-222	Together	_	
+4-2	223-227	with	_	
+4-3	228-234	Sweden	HERO	
+4-4	234-235	,	_	
+4-5	236-238	we	HERO	
+4-6	239-243	have	_	
+4-7	244-247	the	_	
+4-8	248-254	honour	_	
+4-9	256-258	of	_	
+4-10	259-267	chairing	_	
+4-11	268-271	the	HERO[2]	
+4-12	272-277	group	HERO[2]	
+4-13	278-280	of	HERO[2]	
+4-14	281-288	experts	HERO[2]	
+4-15	289-293	that	_	
+4-16	294-302	promotes	_	
+4-17	303-307	that	_	
+4-18	309-315	agenda	_	
+4-19	316-318	in	_	
+4-20	319-322	the	_	
+4-21	323-330	Council	_	
+4-22	330-331	.	_	
+
+#Text=As such, we fully support\r
+#Text=the statements of Minister Wallstrom of Sweden and\r
+#Text=Minister Brandt of the Netherlands, who today honour\r
+#Text=us with their presence.
+5-1	332-334	As	_	
+5-2	335-339	such	_	
+5-3	339-340	,	_	
+5-4	341-343	we	HERO	
+5-5	344-349	fully	_	
+5-6	350-357	support	_	
+5-7	359-362	the	_	
+5-8	363-373	statements	_	
+5-9	374-376	of	_	
+5-10	377-385	Minister	HERO[3]	
+5-11	386-395	Wallstrom	HERO[3]	
+5-12	396-398	of	HERO[3]	
+5-13	399-405	Sweden	HERO[3]	
+5-14	406-409	and	HERO[3]	
+5-15	411-419	Minister	HERO[3]	
+5-16	420-426	Brandt	HERO[3]	
+5-17	427-429	of	HERO[3]	
+5-18	430-433	the	HERO[3]	
+5-19	434-445	Netherlands	HERO[3]	
+5-20	445-446	,	_	
+5-21	447-450	who	_	
+5-22	451-456	today	_	
+5-23	457-463	honour	_	
+5-24	465-467	us	_	
+5-25	468-472	with	_	
+5-26	473-478	their	_	
+5-27	479-487	presence	_	
+5-28	487-488	.	_	
+
+#Text=We would also like to commend\r
+#Text=the important briefings of the Secretary-General, the\r
+#Text=Executive Director of UN-Women and, on behalf of\r
+#Text=women's organizations, Ms.
+6-1	489-491	We	_	
+6-2	492-497	would	_	
+6-3	498-502	also	_	
+6-4	503-507	like	_	
+6-5	508-510	to	_	
+6-6	511-518	commend	_	
+6-7	520-523	the	_	
+6-8	524-533	important	_	
+6-9	534-543	briefings	_	
+6-10	544-546	of	_	
+6-11	547-550	the	HERO[4]	
+6-12	551-568	Secretary-General	HERO[4]	
+6-13	568-569	,	HERO[4]	
+6-14	570-573	the	HERO[4]	
+6-15	575-584	Executive	HERO[4]	
+6-16	585-593	Director	HERO[4]	
+6-17	594-596	of	HERO[4]	
+6-18	597-605	UN-Women	HERO[4]	
+6-19	606-609	and	HERO[4]	
+6-20	609-610	,	HERO[4]	
+6-21	611-613	on	HERO[4]	
+6-22	614-620	behalf	HERO[4]	
+6-23	621-623	of	HERO[4]	
+6-24	625-632	women's	HERO[4]	
+6-25	633-646	organizations	HERO[4]	
+6-26	646-647	,	HERO[4]	
+6-27	648-650	Ms	HERO[4]	
+6-28	650-651	.	HERO[4]	
+
+#Text=Randa Siniora Atallah.
+7-1	652-657	Randa	HERO[4]	
+7-2	658-665	Siniora	HERO[4]	
+7-3	666-673	Atallah	HERO[4]	
+7-4	673-674	.	HERO[4]	
+
+#Text=Peru emphasizes the importance of women's\r
+#Text=participation and leadership in the maintenance of\r
+#Text=international peace and security and, in relation to\r
+#Text=that, the primary responsibility of national States in\r
+#Text=promoting their political and economic empowerment.
+8-1	678-682	Peru	HERO	
+8-2	683-693	emphasizes	_	
+8-3	694-697	the	_	
+8-4	698-708	importance	_	
+8-5	709-711	of	_	
+8-6	712-719	women's	VICTIM[5]|HERO[6]	
+8-7	721-734	participation	_	
+8-8	735-738	and	_	
+8-9	739-749	leadership	_	
+8-10	750-752	in	_	
+8-11	753-756	the	_	
+8-12	757-768	maintenance	_	
+8-13	769-771	of	_	
+8-14	773-786	international	_	
+8-15	787-792	peace	_	
+8-16	793-796	and	_	
+8-17	797-805	security	_	
+8-18	806-809	and	_	
+8-19	809-810	,	_	
+8-20	811-813	in	_	
+8-21	814-822	relation	_	
+8-22	823-825	to	_	
+8-23	827-831	that	_	
+8-24	831-832	,	_	
+8-25	833-836	the	_	
+8-26	837-844	primary	_	
+8-27	845-859	responsibility	_	
+8-28	860-862	of	_	
+8-29	863-871	national	_	
+8-30	872-878	States	_	
+8-31	879-881	in	_	
+8-32	883-892	promoting	_	
+8-33	893-898	their	_	
+8-34	899-908	political	_	
+8-35	909-912	and	_	
+8-36	913-921	economic	_	
+8-37	922-933	empowerment	_	
+8-38	933-934	.	_	
+
+#Text=Since 2000, the Council has adopted eight resolutions\r
+#Text=that have served to set an agenda and develop good\r
+#Text=practices in that area.
+9-1	936-941	Since	_	
+9-2	942-946	2000	_	
+9-3	946-947	,	_	
+9-4	948-951	the	HERO[7]	
+9-5	952-959	Council	HERO[7]	
+9-6	960-963	has	_	
+9-7	964-971	adopted	_	
+9-8	972-977	eight	_	
+9-9	978-989	resolutions	_	
+9-10	991-995	that	_	
+9-11	996-1000	have	_	
+9-12	1001-1007	served	_	
+9-13	1008-1010	to	_	
+9-14	1011-1014	set	_	
+9-15	1015-1017	an	_	
+9-16	1018-1024	agenda	_	
+9-17	1025-1028	and	_	
+9-18	1029-1036	develop	_	
+9-19	1037-1041	good	_	
+9-20	1043-1052	practices	_	
+9-21	1053-1055	in	_	
+9-22	1056-1060	that	_	
+9-23	1061-1065	area	_	
+9-24	1065-1066	.	_	
+
+#Text=Nevertheless, barriers and\r
+#Text=challenges persist, forcing us to redouble our efforts\r
+#Text=as we approach the commemoration in 2020 of the\r
+#Text=twentieth anniversary of the historic resolution 1325\r
+#Text=(2000).
+10-1	1067-1079	Nevertheless	_	
+10-2	1079-1080	,	_	
+10-3	1081-1089	barriers	_	
+10-4	1090-1093	and	_	
+10-5	1095-1105	challenges	_	
+10-6	1106-1113	persist	_	
+10-7	1113-1114	,	_	
+10-8	1115-1122	forcing	_	
+10-9	1123-1125	us	_	
+10-10	1126-1128	to	_	
+10-11	1129-1137	redouble	_	
+10-12	1138-1141	our	_	
+10-13	1142-1149	efforts	_	
+10-14	1151-1153	as	_	
+10-15	1154-1156	we	_	
+10-16	1157-1165	approach	_	
+10-17	1166-1169	the	_	
+10-18	1170-1183	commemoration	_	
+10-19	1184-1186	in	_	
+10-20	1187-1191	2020	_	
+10-21	1192-1194	of	_	
+10-22	1195-1198	the	_	
+10-23	1200-1209	twentieth	_	
+10-24	1210-1221	anniversary	_	
+10-25	1222-1224	of	_	
+10-26	1225-1228	the	_	
+10-27	1229-1237	historic	_	
+10-28	1238-1248	resolution	_	
+10-29	1249-1253	1325	_	
+10-30	1255-1256	(	_	
+10-31	1256-1260	2000	_	
+10-32	1260-1261	)	_	
+10-33	1261-1262	.	_	
+
+#Text=The evidence shows that when women participate\r
+#Text=more at every level of political life, societies are less\r
+#Text=inclined to conflict and more inclined to maintain\r
+#Text=and consolidate peace.
+11-1	1266-1269	The	_	
+11-2	1270-1278	evidence	_	
+11-3	1279-1284	shows	_	
+11-4	1285-1289	that	_	
+11-5	1290-1294	when	_	
+11-6	1295-1300	women	HERO	
+11-7	1301-1312	participate	_	
+11-8	1314-1318	more	_	
+11-9	1319-1321	at	_	
+11-10	1322-1327	every	_	
+11-11	1328-1333	level	_	
+11-12	1334-1336	of	_	
+11-13	1337-1346	political	_	
+11-14	1347-1351	life	_	
+11-15	1351-1352	,	_	
+11-16	1353-1362	societies	_	
+11-17	1363-1366	are	_	
+11-18	1367-1371	less	_	
+11-19	1373-1381	inclined	_	
+11-20	1382-1384	to	_	
+11-21	1385-1393	conflict	_	
+11-22	1394-1397	and	_	
+11-23	1398-1402	more	_	
+11-24	1403-1411	inclined	_	
+11-25	1412-1414	to	_	
+11-26	1415-1423	maintain	_	
+11-27	1425-1428	and	_	
+11-28	1429-1440	consolidate	_	
+11-29	1441-1446	peace	_	
+11-30	1446-1447	.	_	
+
+#Text=Women bring perspectives\r
+#Text=on future and unity that are essential to building and\r
+#Text=sustaining peace.
+12-1	1448-1453	Women	HERO	
+12-2	1454-1459	bring	_	
+12-3	1460-1472	perspectives	_	
+12-4	1474-1476	on	_	
+12-5	1477-1483	future	_	
+12-6	1484-1487	and	_	
+12-7	1488-1493	unity	_	
+12-8	1494-1498	that	_	
+12-9	1499-1502	are	_	
+12-10	1503-1512	essential	_	
+12-11	1513-1515	to	_	
+12-12	1516-1524	building	_	
+12-13	1525-1528	and	_	
+12-14	1530-1540	sustaining	_	
+12-15	1541-1546	peace	_	
+12-16	1546-1547	.	_	
+
+#Text=In that regard, we emphasize that\r
+#Text=gender equality and women's economic and political\r
+#Text=empowerment contribute to reducing their particular\r
+#Text=vulnerabilities during conflict and in general to\r
+#Text=preventing violence and advancing human resilience,\r
+#Text=as well as achieving the Sustainable Development\r
+#Text=Goals.
+13-1	1548-1550	In	_	
+13-2	1551-1555	that	_	
+13-3	1556-1562	regard	_	
+13-4	1562-1563	,	_	
+13-5	1564-1566	we	_	
+13-6	1567-1576	emphasize	_	
+13-7	1577-1581	that	_	
+13-8	1583-1589	gender	_	
+13-9	1590-1598	equality	_	
+13-10	1599-1602	and	_	
+13-11	1603-1610	women's	HERO[8]|VICTIM[9]	
+13-12	1611-1619	economic	_	
+13-13	1620-1623	and	_	
+13-14	1624-1633	political	_	
+13-15	1635-1646	empowerment	_	
+13-16	1647-1657	contribute	_	
+13-17	1658-1660	to	_	
+13-18	1661-1669	reducing	_	
+13-19	1670-1675	their	_	
+13-20	1676-1686	particular	_	
+13-21	1688-1703	vulnerabilities	_	
+13-22	1704-1710	during	_	
+13-23	1711-1719	conflict	_	
+13-24	1720-1723	and	_	
+13-25	1724-1726	in	_	
+13-26	1727-1734	general	_	
+13-27	1735-1737	to	_	
+13-28	1739-1749	preventing	_	
+13-29	1750-1758	violence	_	
+13-30	1759-1762	and	_	
+13-31	1763-1772	advancing	_	
+13-32	1773-1778	human	_	
+13-33	1779-1789	resilience	_	
+13-34	1789-1790	,	_	
+13-35	1792-1794	as	_	
+13-36	1795-1799	well	_	
+13-37	1800-1802	as	_	
+13-38	1803-1812	achieving	_	
+13-39	1813-1816	the	_	
+13-40	1817-1828	Sustainable	_	
+13-41	1829-1840	Development	_	
+13-42	1842-1847	Goals	_	
+13-43	1847-1848	.	_	
+
+#Text=An investment in women's empowerment is\r
+#Text=an investment in peace and development as well as in\r
+#Text=protecting and promoting their human rights.
+14-1	1849-1851	An	_	
+14-2	1852-1862	investment	_	
+14-3	1863-1865	in	_	
+14-4	1866-1873	women's	VICTIM[10]|HERO[11]	
+14-5	1874-1885	empowerment	_	
+14-6	1886-1888	is	_	
+14-7	1890-1892	an	_	
+14-8	1893-1903	investment	_	
+14-9	1904-1906	in	_	
+14-10	1907-1912	peace	_	
+14-11	1913-1916	and	_	
+14-12	1917-1928	development	_	
+14-13	1929-1931	as	_	
+14-14	1932-1936	well	_	
+14-15	1937-1939	as	_	
+14-16	1940-1942	in	_	
+14-17	1944-1954	protecting	_	
+14-18	1955-1958	and	_	
+14-19	1959-1968	promoting	_	
+14-20	1969-1974	their	_	
+14-21	1975-1980	human	_	
+14-22	1981-1987	rights	_	
+14-23	1987-1988	.	_	
+
+#Text=That is\r
+#Text=why we want to highlight and support the Secretary-\r
+#Text=General's vision and the priority he gives to developing\r
+#Text=and implementing this agenda, based on the concept of\r
+#Text=sustainable peace.
+15-1	1989-1993	That	_	
+15-2	1994-1996	is	_	
+15-3	1998-2001	why	_	
+15-4	2002-2004	we	HERO	
+15-5	2005-2009	want	_	
+15-6	2010-2012	to	_	
+15-7	2013-2022	highlight	_	
+15-8	2023-2026	and	_	
+15-9	2027-2034	support	_	
+15-10	2035-2038	the	HERO[12]	
+15-11	2039-2048	Secretary	HERO[12]	
+15-12	2048-2049	-	HERO[12]	
+15-13	2051-2060	General's	HERO[12]	
+15-14	2061-2067	vision	_	
+15-15	2068-2071	and	_	
+15-16	2072-2075	the	_	
+15-17	2076-2084	priority	_	
+15-18	2085-2087	he	HERO	
+15-19	2088-2093	gives	_	
+15-20	2094-2096	to	_	
+15-21	2097-2107	developing	_	
+15-22	2109-2112	and	_	
+15-23	2113-2125	implementing	_	
+15-24	2126-2130	this	_	
+15-25	2131-2137	agenda	_	
+15-26	2137-2138	,	_	
+15-27	2139-2144	based	_	
+15-28	2145-2147	on	_	
+15-29	2148-2151	the	_	
+15-30	2152-2159	concept	_	
+15-31	2160-2162	of	_	
+15-32	2164-2175	sustainable	_	
+15-33	2176-2181	peace	_	
+15-34	2181-2182	.	_	
+
+#Text=With regard to the role of women in\r
+#Text=the maintenance of international peace and security, we\r
+#Text=underscore the Secretary-General's views on the need\r
+#Text=to promote their participation and leadership in every\r
+#Text=peace effort, starting with active collaboration with\r
+#Text=women's civil-society organizations.
+16-1	2183-2187	With	_	
+16-2	2188-2194	regard	_	
+16-3	2195-2197	to	_	
+16-4	2198-2201	the	_	
+16-5	2202-2206	role	_	
+16-6	2207-2209	of	_	
+16-7	2210-2215	women	HERO	
+16-8	2216-2218	in	_	
+16-9	2220-2223	the	_	
+16-10	2224-2235	maintenance	_	
+16-11	2236-2238	of	_	
+16-12	2239-2252	international	_	
+16-13	2253-2258	peace	_	
+16-14	2259-2262	and	_	
+16-15	2263-2271	security	_	
+16-16	2271-2272	,	_	
+16-17	2273-2275	we	_	
+16-18	2277-2287	underscore	_	
+16-19	2288-2291	the	HERO[13]	
+16-20	2292-2311	Secretary-General's	HERO[13]	
+16-21	2312-2317	views	_	
+16-22	2318-2320	on	_	
+16-23	2321-2324	the	_	
+16-24	2325-2329	need	_	
+16-25	2331-2333	to	_	
+16-26	2334-2341	promote	_	
+16-27	2342-2347	their	_	
+16-28	2348-2361	participation	_	
+16-29	2362-2365	and	_	
+16-30	2366-2376	leadership	_	
+16-31	2377-2379	in	_	
+16-32	2380-2385	every	_	
+16-33	2387-2392	peace	_	
+16-34	2393-2399	effort	_	
+16-35	2399-2400	,	_	
+16-36	2401-2409	starting	_	
+16-37	2410-2414	with	_	
+16-38	2415-2421	active	_	
+16-39	2422-2435	collaboration	_	
+16-40	2436-2440	with	_	
+16-41	2442-2449	women's	HERO[14]	
+16-42	2450-2463	civil-society	HERO[14]	
+16-43	2464-2477	organizations	HERO[14]	
+16-44	2477-2478	.	_	
+
+#Text=In that regard,\r
+#Text=we wan to emphasize the importance of contributing\r
+#Text=to financing the women's organizations that have been\r
+#Text=asked to participate in the peace processes launched by\r
+#Text=the Council.
+17-1	2479-2481	In	_	
+17-2	2482-2486	that	_	
+17-3	2487-2493	regard	_	
+17-4	2493-2494	,	_	
+17-5	2496-2498	we	HERO	
+17-6	2499-2502	wan	_	
+17-7	2503-2505	to	_	
+17-8	2506-2515	emphasize	_	
+17-9	2516-2519	the	_	
+17-10	2520-2530	importance	_	
+17-11	2531-2533	of	_	
+17-12	2534-2546	contributing	_	
+17-13	2548-2550	to	_	
+17-14	2551-2560	financing	_	
+17-15	2561-2564	the	HERO[15]	
+17-16	2565-2572	women's	HERO[15]	
+17-17	2573-2586	organizations	HERO[15]	
+17-18	2587-2591	that	HERO[15]	
+17-19	2592-2596	have	HERO[15]	
+17-20	2597-2601	been	HERO[15]	
+17-21	2603-2608	asked	HERO[15]	
+17-22	2609-2611	to	HERO[15]	
+17-23	2612-2623	participate	HERO[15]	
+17-24	2624-2626	in	HERO[15]	
+17-25	2627-2630	the	HERO[15]	
+17-26	2631-2636	peace	HERO[15]	
+17-27	2637-2646	processes	HERO[15]	
+17-28	2647-2655	launched	HERO[15]	
+17-29	2656-2658	by	HERO[15]	
+17-30	2660-2663	the	HERO[15]|HERO[16]	
+17-31	2664-2671	Council	HERO[15]|HERO[16]	
+17-32	2671-2672	.	HERO[15]	
+
+#Text=We also underscore the importance of incorporating\r
+#Text=gender perspectives into peace operations mandated\r
+#Text=by the Council.
+18-1	2676-2678	We	HERO	
+18-2	2679-2683	also	_	
+18-3	2684-2694	underscore	_	
+18-4	2695-2698	the	_	
+18-5	2699-2709	importance	_	
+18-6	2710-2712	of	_	
+18-7	2713-2726	incorporating	_	
+18-8	2728-2734	gender	_	
+18-9	2735-2747	perspectives	_	
+18-10	2748-2752	into	_	
+18-11	2753-2758	peace	_	
+18-12	2759-2769	operations	_	
+18-13	2770-2778	mandated	_	
+18-14	2780-2782	by	_	
+18-15	2783-2786	the	_	
+18-16	2787-2794	Council	_	
+18-17	2794-2795	.	_	
+
+#Text=In our View it is crucial to train Blue\r
+#Text=Helmets in promoting and protecting women's and\r
+#Text=children's human rights.
+19-1	2796-2798	In	_	
+19-2	2799-2802	our	_	
+19-3	2803-2807	View	_	
+19-4	2808-2810	it	_	
+19-5	2811-2813	is	_	
+19-6	2814-2821	crucial	_	
+19-7	2822-2824	to	_	
+19-8	2825-2830	train	_	
+19-9	2831-2835	Blue	_	
+19-10	2837-2844	Helmets	_	
+19-11	2845-2847	in	_	
+19-12	2848-2857	promoting	_	
+19-13	2858-2861	and	_	
+19-14	2862-2872	protecting	_	
+19-15	2873-2880	women's	VICTIM[17]	
+19-16	2881-2884	and	VICTIM[17]	
+19-17	2886-2896	children's	VICTIM[17]	
+19-18	2897-2902	human	_	
+19-19	2903-2909	rights	_	
+19-20	2909-2910	.	_	
+
+#Text=In that regard, and in view\r
+#Text=of the provisions of resolution 1820 (2008), Peru has\r
+#Text=been gradually increasing women's participation in the\r
+#Text=armed forces we send to United Nations peacekeeping\r
+#Text=operations, and we have already surpassed the minimum\r
+#Text=15 per cent required in the resolution.
+20-1	2911-2913	In	_	
+20-2	2914-2918	that	_	
+20-3	2919-2925	regard	_	
+20-4	2925-2926	,	_	
+20-5	2927-2930	and	_	
+20-6	2931-2933	in	_	
+20-7	2934-2938	view	_	
+20-8	2940-2942	of	_	
+20-9	2943-2946	the	_	
+20-10	2947-2957	provisions	_	
+20-11	2958-2960	of	_	
+20-12	2961-2971	resolution	_	
+20-13	2972-2976	1820	_	
+20-14	2977-2978	(	_	
+20-15	2978-2982	2008	_	
+20-16	2982-2983	)	_	
+20-17	2983-2984	,	_	
+20-18	2985-2989	Peru	HERO	
+20-19	2990-2993	has	_	
+20-20	2995-2999	been	_	
+20-21	3000-3009	gradually	_	
+20-22	3010-3020	increasing	_	
+20-23	3021-3028	women's	HERO	
+20-24	3029-3042	participation	_	
+20-25	3043-3045	in	_	
+20-26	3046-3049	the	_	
+20-27	3051-3056	armed	_	
+20-28	3057-3063	forces	_	
+20-29	3064-3066	we	HERO	
+20-30	3067-3071	send	_	
+20-31	3072-3074	to	_	
+20-32	3075-3081	United	_	
+20-33	3082-3089	Nations	_	
+20-34	3090-3102	peacekeeping	_	
+20-35	3104-3114	operations	_	
+20-36	3114-3115	,	_	
+20-37	3116-3119	and	_	
+20-38	3120-3122	we	HERO	
+20-39	3123-3127	have	_	
+20-40	3128-3135	already	_	
+20-41	3136-3145	surpassed	_	
+20-42	3146-3149	the	_	
+20-43	3150-3157	minimum	_	
+20-44	3159-3161	15	_	
+20-45	3162-3165	per	_	
+20-46	3166-3170	cent	_	
+20-47	3171-3179	required	_	
+20-48	3180-3182	in	_	
+20-49	3183-3186	the	_	
+20-50	3187-3197	resolution	_	
+20-51	3197-3198	.	_	
+
+#Text=Still with regard to the agenda on women and peace\r
+#Text=and security, our Ministry of Women and Vulnerable\r
+#Text=Populations has created a displaced persons registry\r
+#Text=that enables us to quickly recognize and address issues\r
+#Text=relating to the rights of women and girls who were\r
+#Text=affected during the years in which Peru was battling\r
+#Text=terrorism.
+21-1	3202-3207	Still	_	
+21-2	3208-3212	with	_	
+21-3	3213-3219	regard	_	
+21-4	3220-3222	to	_	
+21-5	3223-3226	the	_	
+21-6	3227-3233	agenda	_	
+21-7	3234-3236	on	_	
+21-8	3237-3242	women	_	
+21-9	3243-3246	and	_	
+21-10	3247-3252	peace	_	
+21-11	3254-3257	and	_	
+21-12	3258-3266	security	_	
+21-13	3266-3267	,	_	
+21-14	3268-3271	our	HERO[18]	
+21-15	3272-3280	Ministry	HERO[18]	
+21-16	3281-3283	of	HERO[18]	
+21-17	3284-3289	Women	HERO[18]	
+21-18	3290-3293	and	HERO[18]	
+21-19	3294-3304	Vulnerable	HERO[18]	
+21-20	3306-3317	Populations	HERO[18]	
+21-21	3318-3321	has	_	
+21-22	3322-3329	created	_	
+21-23	3330-3331	a	_	
+21-24	3332-3341	displaced	_	
+21-25	3342-3349	persons	_	
+21-26	3350-3358	registry	_	
+21-27	3360-3364	that	_	
+21-28	3365-3372	enables	_	
+21-29	3373-3375	us	HERO	
+21-30	3376-3378	to	_	
+21-31	3379-3386	quickly	_	
+21-32	3387-3396	recognize	_	
+21-33	3397-3400	and	_	
+21-34	3401-3408	address	_	
+21-35	3409-3415	issues	_	
+21-36	3417-3425	relating	_	
+21-37	3426-3428	to	_	
+21-38	3429-3432	the	_	
+21-39	3433-3439	rights	_	
+21-40	3440-3442	of	_	
+21-41	3443-3448	women	VICTIM[19]	
+21-42	3449-3452	and	VICTIM[19]	
+21-43	3453-3458	girls	VICTIM[19]	
+21-44	3459-3462	who	VICTIM[19]	
+21-45	3463-3467	were	VICTIM[19]	
+21-46	3469-3477	affected	VICTIM[19]	
+21-47	3478-3484	during	VICTIM[19]	
+21-48	3485-3488	the	VICTIM[19]	
+21-49	3489-3494	years	VICTIM[19]	
+21-50	3495-3497	in	VICTIM[19]	
+21-51	3498-3503	which	VICTIM[19]	
+21-52	3504-3508	Peru	VICTIM[19]|HERO[20]	
+21-53	3509-3512	was	VICTIM[19]	
+21-54	3513-3521	battling	VICTIM[19]	
+21-55	3523-3532	terrorism	VICTIM[19]	
+21-56	3532-3533	.	_	
+
+#Text=Our Government has also committed to\r
+#Text=implementing policies aimed at empowering women\r
+#Text=in the political and economic life of the country,\r
+#Text=with a decentralized approach that includes the need\r
+#Text=to guarantee the election of women to positions\r
+#Text=of authority.
+22-1	3534-3537	Our	HERO[21]	
+22-2	3538-3548	Government	HERO[21]	
+22-3	3549-3552	has	_	
+22-4	3553-3557	also	_	
+22-5	3558-3567	committed	_	
+22-6	3568-3570	to	_	
+22-7	3572-3584	implementing	_	
+22-8	3585-3593	policies	_	
+22-9	3594-3599	aimed	_	
+22-10	3600-3602	at	_	
+22-11	3603-3613	empowering	_	
+22-12	3614-3619	women	VICTIM[22]|HERO[23]	
+22-13	3621-3623	in	_	
+22-14	3624-3627	the	_	
+22-15	3628-3637	political	_	
+22-16	3638-3641	and	_	
+22-17	3642-3650	economic	_	
+22-18	3651-3655	life	_	
+22-19	3656-3658	of	_	
+22-20	3659-3662	the	_	
+22-21	3663-3670	country	_	
+22-22	3670-3671	,	_	
+22-23	3673-3677	with	_	
+22-24	3678-3679	a	_	
+22-25	3680-3693	decentralized	_	
+22-26	3694-3702	approach	_	
+22-27	3703-3707	that	_	
+22-28	3708-3716	includes	_	
+22-29	3717-3720	the	_	
+22-30	3721-3725	need	_	
+22-31	3727-3729	to	_	
+22-32	3730-3739	guarantee	_	
+22-33	3740-3743	the	_	
+22-34	3744-3752	election	_	
+22-35	3753-3755	of	_	
+22-36	3756-3761	women	HERO[24]|VICTIM[25]	
+22-37	3762-3764	to	_	
+22-38	3765-3774	positions	_	
+22-39	3776-3778	of	_	
+22-40	3779-3788	authority	_	
+22-41	3788-3789	.	_	
+
+#Text=I would like to conclude by citing in this debate\r
+#Text=the voice of Flora Tristan, a Peruvian citizen who was\r
+#Text=one of the great nineteenth-century pioneers in the\r
+#Text=vindication of the rights of women:\r
+#Text=\r
+#Text="All of the world's misfortunes stem from the\r
+#Text=oblivion and contempt in which the natural and\r
+#Text=essential rights of being a woman have been held\r
+#Text=until now".
+23-1	3793-3794	I	_	
+23-2	3795-3800	would	_	
+23-3	3801-3805	like	_	
+23-4	3806-3808	to	_	
+23-5	3809-3817	conclude	_	
+23-6	3818-3820	by	_	
+23-7	3821-3827	citing	_	
+23-8	3828-3830	in	_	
+23-9	3831-3835	this	_	
+23-10	3836-3842	debate	_	
+23-11	3844-3847	the	_	
+23-12	3848-3853	voice	_	
+23-13	3854-3856	of	_	
+23-14	3857-3862	Flora	HERO[26]	
+23-15	3863-3870	Tristan	HERO[26]	
+23-16	3870-3871	,	HERO[26]	
+23-17	3872-3873	a	HERO[26]	
+23-18	3874-3882	Peruvian	HERO[26]	
+23-19	3883-3890	citizen	HERO[26]	
+23-20	3891-3894	who	HERO[26]	
+23-21	3895-3898	was	HERO[26]	
+23-22	3900-3903	one	HERO[26]	
+23-23	3904-3906	of	HERO[26]	
+23-24	3907-3910	the	HERO[26]	
+23-25	3911-3916	great	HERO[26]	
+23-26	3917-3935	nineteenth-century	HERO[26]	
+23-27	3936-3944	pioneers	HERO[26]	
+23-28	3945-3947	in	HERO[26]	
+23-29	3948-3951	the	HERO[26]	
+23-30	3953-3964	vindication	HERO[26]	
+23-31	3965-3967	of	HERO[26]	
+23-32	3968-3971	the	HERO[26]	
+23-33	3972-3978	rights	HERO[26]	
+23-34	3979-3981	of	HERO[26]	
+23-35	3982-3987	women	HERO[26]	
+23-36	3987-3988	:	_	
+23-37	3992-3993	"	_	
+23-38	3993-3996	All	_	
+23-39	3997-3999	of	_	
+23-40	4000-4003	the	_	
+23-41	4004-4011	world's	_	
+23-42	4012-4023	misfortunes	_	
+23-43	4024-4028	stem	_	
+23-44	4029-4033	from	_	
+23-45	4034-4037	the	_	
+23-46	4039-4047	oblivion	_	
+23-47	4048-4051	and	_	
+23-48	4052-4060	contempt	_	
+23-49	4061-4063	in	_	
+23-50	4064-4069	which	_	
+23-51	4070-4073	the	_	
+23-52	4074-4081	natural	_	
+23-53	4082-4085	and	_	
+23-54	4087-4096	essential	_	
+23-55	4097-4103	rights	_	
+23-56	4104-4106	of	_	
+23-57	4107-4112	being	_	
+23-58	4113-4114	a	_	
+23-59	4115-4120	woman	_	
+23-60	4121-4125	have	_	
+23-61	4126-4130	been	_	
+23-62	4131-4135	held	_	
+23-63	4137-4142	until	_	
+23-64	4143-4146	now	_	
+23-65	4146-4147	"	_	
+23-66	4147-4148	.	_	

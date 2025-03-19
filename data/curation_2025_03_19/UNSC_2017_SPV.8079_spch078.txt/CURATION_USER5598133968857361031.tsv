@@ -1,0 +1,965 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mr.
+1-1	0-2	Mr	_	
+1-2	2-3	.	_	
+
+#Text=Hilale (Morocco) (spoke in French): First of all,\r
+#Text=my delegation would like to thank France for organizing\r
+#Text=this open debate during its presidency of the Security\r
+#Text=Council, on an issue that is of the utmost importance to\r
+#Text=Morocco - women and peace and security.
+2-1	4-10	Hilale	_	
+2-2	11-12	(	_	
+2-3	12-19	Morocco	_	
+2-4	19-20	)	_	
+2-5	21-22	(	_	
+2-6	22-27	spoke	_	
+2-7	28-30	in	_	
+2-8	31-37	French	_	
+2-9	37-38	)	_	
+2-10	38-39	:	_	
+2-11	40-45	First	_	
+2-12	46-48	of	_	
+2-13	49-52	all	_	
+2-14	52-53	,	_	
+2-15	55-57	my	_	
+2-16	58-68	delegation	_	
+2-17	69-74	would	_	
+2-18	75-79	like	_	
+2-19	80-82	to	_	
+2-20	83-88	thank	_	
+2-21	89-95	France	HERO	
+2-22	96-99	for	_	
+2-23	100-110	organizing	_	
+2-24	112-116	this	_	
+2-25	117-121	open	_	
+2-26	122-128	debate	_	
+2-27	129-135	during	_	
+2-28	136-139	its	_	
+2-29	140-150	presidency	_	
+2-30	151-153	of	_	
+2-31	154-157	the	_	
+2-32	158-166	Security	_	
+2-33	168-175	Council	_	
+2-34	175-176	,	_	
+2-35	177-179	on	_	
+2-36	180-182	an	_	
+2-37	183-188	issue	_	
+2-38	189-193	that	_	
+2-39	194-196	is	_	
+2-40	197-199	of	_	
+2-41	200-203	the	_	
+2-42	204-210	utmost	_	
+2-43	211-221	importance	_	
+2-44	222-224	to	_	
+2-45	226-233	Morocco	HERO	
+2-46	234-235	-	_	
+2-47	236-241	women	_	
+2-48	242-245	and	_	
+2-49	246-251	peace	_	
+2-50	252-255	and	_	
+2-51	256-264	security	_	
+2-52	264-265	.	_	
+
+#Text=The historic adoption of resolution 1325 (2000)\r
+#Text=represented international recognition of the role\r
+#Text=played by women in peace and security, not only as\r
+#Text=victims but also as agents of change and essential\r
+#Text=players in restoring, maintaining and consolidating\r
+#Text=peace.
+3-1	269-272	The	_	
+3-2	273-281	historic	_	
+3-3	282-290	adoption	_	
+3-4	291-293	of	_	
+3-5	294-304	resolution	_	
+3-6	305-309	1325	_	
+3-7	310-311	(	_	
+3-8	311-315	2000	_	
+3-9	315-316	)	_	
+3-10	318-329	represented	_	
+3-11	330-343	international	_	
+3-12	344-355	recognition	_	
+3-13	356-358	of	_	
+3-14	359-362	the	_	
+3-15	363-367	role	_	
+3-16	369-375	played	_	
+3-17	376-378	by	_	
+3-18	379-384	women	HERO[1]|VICTIM[2]	
+3-19	385-387	in	_	
+3-20	388-393	peace	_	
+3-21	394-397	and	_	
+3-22	398-406	security	_	
+3-23	406-407	,	_	
+3-24	408-411	not	_	
+3-25	412-416	only	_	
+3-26	417-419	as	_	
+3-27	421-428	victims	_	
+3-28	429-432	but	_	
+3-29	433-437	also	_	
+3-30	438-440	as	_	
+3-31	441-447	agents	_	
+3-32	448-450	of	_	
+3-33	451-457	change	_	
+3-34	458-461	and	_	
+3-35	462-471	essential	_	
+3-36	473-480	players	_	
+3-37	481-483	in	_	
+3-38	484-493	restoring	_	
+3-39	493-494	,	_	
+3-40	495-506	maintaining	_	
+3-41	507-510	and	_	
+3-42	511-524	consolidating	_	
+3-43	526-531	peace	_	
+3-44	531-532	.	_	
+
+#Text=Maintaining peace and security requires the\r
+#Text=integration of the gender perspective into all peace\r
+#Text=efforts, in accordance with the provisions of resolution\r
+#Text=1325 (2000) and the other resolutions that followed in\r
+#Text=that regard.
+4-1	533-544	Maintaining	_	
+4-2	545-550	peace	_	
+4-3	551-554	and	_	
+4-4	555-563	security	_	
+4-5	564-572	requires	_	
+4-6	573-576	the	_	
+4-7	578-589	integration	_	
+4-8	590-592	of	_	
+4-9	593-596	the	_	
+4-10	597-603	gender	_	
+4-11	604-615	perspective	_	
+4-12	616-620	into	_	
+4-13	621-624	all	_	
+4-14	625-630	peace	_	
+4-15	632-639	efforts	_	
+4-16	639-640	,	_	
+4-17	641-643	in	_	
+4-18	644-654	accordance	_	
+4-19	655-659	with	_	
+4-20	660-663	the	_	
+4-21	664-674	provisions	_	
+4-22	675-677	of	_	
+4-23	678-688	resolution	_	
+4-24	690-694	1325	_	
+4-25	695-696	(	_	
+4-26	696-700	2000	_	
+4-27	700-701	)	_	
+4-28	702-705	and	_	
+4-29	706-709	the	_	
+4-30	710-715	other	_	
+4-31	716-727	resolutions	_	
+4-32	728-732	that	_	
+4-33	733-741	followed	_	
+4-34	742-744	in	_	
+4-35	746-750	that	_	
+4-36	751-757	regard	_	
+4-37	757-758	.	_	
+
+#Text=Women's participation in negotiation processes\r
+#Text=increases the chances of settling conflicts and\r
+#Text=sustaining peace.
+5-1	762-769	Women's	HERO	
+5-2	770-783	participation	_	
+5-3	784-786	in	_	
+5-4	787-798	negotiation	_	
+5-5	799-808	processes	_	
+5-6	810-819	increases	_	
+5-7	820-823	the	_	
+5-8	824-831	chances	_	
+5-9	832-834	of	_	
+5-10	835-843	settling	_	
+5-11	844-853	conflicts	_	
+5-12	854-857	and	_	
+5-13	859-869	sustaining	_	
+5-14	870-875	peace	_	
+5-15	875-876	.	_	
+
+#Text=That finding was confirmed by a UN-\r
+#Text=Women-led global study in 2015, which revealed that\r
+#Text=the presence of women in peace negotiations promoted\r
+#Text=the sustainability of peace agreements, and that 35 per\r
+#Text=cent of agreements negotiated by women lasted more\r
+#Text=than 15 years.
+6-1	877-881	That	_	
+6-2	882-889	finding	_	
+6-3	890-893	was	_	
+6-4	894-903	confirmed	_	
+6-5	904-906	by	_	
+6-6	907-908	a	_	
+6-7	909-911	UN	HERO[3]	
+6-8	911-912	-	HERO[3]	
+6-9	914-923	Women-led	HERO[3]	
+6-10	924-930	global	_	
+6-11	931-936	study	_	
+6-12	937-939	in	_	
+6-13	940-944	2015	_	
+6-14	944-945	,	_	
+6-15	946-951	which	_	
+6-16	952-960	revealed	_	
+6-17	961-965	that	_	
+6-18	967-970	the	_	
+6-19	971-979	presence	_	
+6-20	980-982	of	_	
+6-21	983-988	women	HERO	
+6-22	989-991	in	_	
+6-23	992-997	peace	_	
+6-24	998-1010	negotiations	_	
+6-25	1011-1019	promoted	_	
+6-26	1021-1024	the	_	
+6-27	1025-1039	sustainability	_	
+6-28	1040-1042	of	_	
+6-29	1043-1048	peace	_	
+6-30	1049-1059	agreements	_	
+6-31	1059-1060	,	_	
+6-32	1061-1064	and	_	
+6-33	1065-1069	that	_	
+6-34	1070-1072	35	_	
+6-35	1073-1076	per	_	
+6-36	1078-1082	cent	_	
+6-37	1083-1085	of	_	
+6-38	1086-1096	agreements	_	
+6-39	1097-1107	negotiated	_	
+6-40	1108-1110	by	_	
+6-41	1111-1116	women	HERO	
+6-42	1117-1123	lasted	_	
+6-43	1124-1128	more	_	
+6-44	1130-1134	than	_	
+6-45	1135-1137	15	_	
+6-46	1138-1143	years	_	
+6-47	1143-1144	.	_	
+
+#Text=That means that the presence ofwomen in\r
+#Text=peace negotiations is a great help for the sustainability\r
+#Text=ofpeace agreements.
+7-1	1145-1149	That	_	
+7-2	1150-1155	means	_	
+7-3	1156-1160	that	_	
+7-4	1161-1164	the	_	
+7-5	1165-1173	presence	_	
+7-6	1174-1181	ofwomen	HERO	
+7-7	1182-1184	in	_	
+7-8	1186-1191	peace	_	
+7-9	1192-1204	negotiations	_	
+7-10	1205-1207	is	_	
+7-11	1208-1209	a	_	
+7-12	1210-1215	great	_	
+7-13	1216-1220	help	_	
+7-14	1221-1224	for	_	
+7-15	1225-1228	the	_	
+7-16	1229-1243	sustainability	_	
+7-17	1245-1252	ofpeace	_	
+7-18	1253-1263	agreements	_	
+7-19	1263-1264	.	_	
+
+#Text=On 7 September, 2016, Morocco organized an\r
+#Text=international conference on the topic of women and\r
+#Text=peace and security.
+8-1	1268-1270	On	_	
+8-2	1271-1272	7	_	
+8-3	1273-1282	September	_	
+8-4	1282-1283	,	_	
+8-5	1284-1288	2016	_	
+8-6	1288-1289	,	_	
+8-7	1290-1297	Morocco	HERO	
+8-8	1298-1307	organized	_	
+8-9	1308-1310	an	_	
+8-10	1312-1325	international	_	
+8-11	1326-1336	conference	_	
+8-12	1337-1339	on	_	
+8-13	1340-1343	the	_	
+8-14	1344-1349	topic	_	
+8-15	1350-1352	of	_	
+8-16	1353-1358	women	_	
+8-17	1359-1362	and	_	
+8-18	1364-1369	peace	_	
+8-19	1370-1373	and	_	
+8-20	1374-1382	security	_	
+8-21	1382-1383	.	_	
+
+#Text=It contributed to the international\r
+#Text=debate on the role of women in peace processes and\r
+#Text=the implementation of national plans of action to\r
+#Text=promote collective action on implementing resolution\r
+#Text=1325 (2000).
+9-1	1384-1386	It	_	
+9-2	1387-1398	contributed	_	
+9-3	1399-1401	to	_	
+9-4	1402-1405	the	_	
+9-5	1406-1419	international	_	
+9-6	1421-1427	debate	_	
+9-7	1428-1430	on	_	
+9-8	1431-1434	the	_	
+9-9	1435-1439	role	_	
+9-10	1440-1442	of	_	
+9-11	1443-1448	women	_	
+9-12	1449-1451	in	_	
+9-13	1452-1457	peace	_	
+9-14	1458-1467	processes	_	
+9-15	1468-1471	and	_	
+9-16	1473-1476	the	_	
+9-17	1477-1491	implementation	_	
+9-18	1492-1494	of	_	
+9-19	1495-1503	national	_	
+9-20	1504-1509	plans	_	
+9-21	1510-1512	of	_	
+9-22	1513-1519	action	_	
+9-23	1520-1522	to	_	
+9-24	1524-1531	promote	_	
+9-25	1532-1542	collective	_	
+9-26	1543-1549	action	_	
+9-27	1550-1552	on	_	
+9-28	1553-1565	implementing	_	
+9-29	1566-1576	resolution	_	
+9-30	1578-1582	1325	_	
+9-31	1583-1584	(	_	
+9-32	1584-1588	2000	_	
+9-33	1588-1589	)	_	
+9-34	1589-1590	.	_	
+
+#Text=It was an occasion to reaffirm the\r
+#Text=international community's consensus on the need to\r
+#Text=strengthen women's participation in negotiations and\r
+#Text=agreements concerning the settlement of conflicts and\r
+#Text=peacebuilding, as well as to renew the United Nations\r
+#Text=commitment to the issue of the inclusion of women\r
+#Text=and gender equality in all peacebuilding and conflict-\r
+#Text=prevention strategies.
+10-1	1591-1593	It	_	
+10-2	1594-1597	was	_	
+10-3	1598-1600	an	_	
+10-4	1601-1609	occasion	_	
+10-5	1610-1612	to	_	
+10-6	1613-1621	reaffirm	_	
+10-7	1622-1625	the	_	
+10-8	1627-1640	international	_	
+10-9	1641-1652	community's	_	
+10-10	1653-1662	consensus	_	
+10-11	1663-1665	on	_	
+10-12	1666-1669	the	_	
+10-13	1670-1674	need	_	
+10-14	1675-1677	to	_	
+10-15	1679-1689	strengthen	_	
+10-16	1690-1697	women's	VICTIM[4]|HERO[5]	
+10-17	1698-1711	participation	_	
+10-18	1712-1714	in	_	
+10-19	1715-1727	negotiations	_	
+10-20	1728-1731	and	_	
+10-21	1733-1743	agreements	_	
+10-22	1744-1754	concerning	_	
+10-23	1755-1758	the	_	
+10-24	1759-1769	settlement	_	
+10-25	1770-1772	of	_	
+10-26	1773-1782	conflicts	_	
+10-27	1783-1786	and	_	
+10-28	1788-1801	peacebuilding	_	
+10-29	1801-1802	,	_	
+10-30	1803-1805	as	_	
+10-31	1806-1810	well	_	
+10-32	1811-1813	as	_	
+10-33	1814-1816	to	_	
+10-34	1817-1822	renew	_	
+10-35	1823-1826	the	HERO[6]	
+10-36	1827-1833	United	HERO[6]	
+10-37	1834-1841	Nations	HERO[6]	
+10-38	1843-1853	commitment	_	
+10-39	1854-1856	to	_	
+10-40	1857-1860	the	_	
+10-41	1861-1866	issue	_	
+10-42	1867-1869	of	_	
+10-43	1870-1873	the	_	
+10-44	1874-1883	inclusion	_	
+10-45	1884-1886	of	_	
+10-46	1887-1892	women	HERO[7]|VICTIM[8]	
+10-47	1894-1897	and	_	
+10-48	1898-1904	gender	_	
+10-49	1905-1913	equality	_	
+10-50	1914-1916	in	_	
+10-51	1917-1920	all	_	
+10-52	1921-1934	peacebuilding	_	
+10-53	1935-1938	and	_	
+10-54	1939-1947	conflict	_	
+10-55	1947-1948	-	_	
+10-56	1950-1960	prevention	_	
+10-57	1961-1971	strategies	_	
+10-58	1971-1972	.	_	
+
+#Text=During the conference, debates focused on\r
+#Text=three areas: the role of women in mediation and\r
+#Text=conflict-prevention processes, the role of women in\r
+#Text=deradicalization and the lessons learned and best\r
+#Text=practices in the prevention of sexual violence in\r
+#Text=conflict.
+11-1	1976-1982	During	_	
+11-2	1983-1986	the	_	
+11-3	1987-1997	conference	_	
+11-4	1997-1998	,	_	
+11-5	1999-2006	debates	_	
+11-6	2007-2014	focused	_	
+11-7	2015-2017	on	_	
+11-8	2019-2024	three	_	
+11-9	2025-2030	areas	_	
+11-10	2030-2031	:	_	
+11-11	2032-2035	the	_	
+11-12	2036-2040	role	_	
+11-13	2041-2043	of	_	
+11-14	2044-2049	women	HERO	
+11-15	2050-2052	in	_	
+11-16	2053-2062	mediation	_	
+11-17	2063-2066	and	_	
+11-18	2068-2087	conflict-prevention	_	
+11-19	2088-2097	processes	_	
+11-20	2097-2098	,	_	
+11-21	2099-2102	the	_	
+11-22	2103-2107	role	_	
+11-23	2108-2110	of	_	
+11-24	2111-2116	women	HERO	
+11-25	2117-2119	in	_	
+11-26	2121-2137	deradicalization	_	
+11-27	2138-2141	and	_	
+11-28	2142-2145	the	_	
+11-29	2146-2153	lessons	_	
+11-30	2154-2161	learned	_	
+11-31	2162-2165	and	_	
+11-32	2166-2170	best	_	
+11-33	2172-2181	practices	_	
+11-34	2182-2184	in	_	
+11-35	2185-2188	the	_	
+11-36	2189-2199	prevention	_	
+11-37	2200-2202	of	_	
+11-38	2203-2209	sexual	_	
+11-39	2210-2218	violence	_	
+11-40	2219-2221	in	_	
+11-41	2223-2231	conflict	_	
+11-42	2231-2232	.	_	
+
+#Text=At the conference, my country announced the\r
+#Text=creation in Rabat of an independent regional centre, a\r
+#Text=think-tank, dedicated to studying the role of women in\r
+#Text=peacekeeping operations and their contribution to the\r
+#Text=achievement of sustainable development.
+12-1	2233-2235	At	_	
+12-2	2236-2239	the	_	
+12-3	2240-2250	conference	_	
+12-4	2250-2251	,	_	
+12-5	2252-2254	my	HERO[9]	
+12-6	2255-2262	country	HERO[9]	
+12-7	2263-2272	announced	_	
+12-8	2273-2276	the	_	
+12-9	2278-2286	creation	_	
+12-10	2287-2289	in	_	
+12-11	2290-2295	Rabat	_	
+12-12	2296-2298	of	_	
+12-13	2299-2301	an	HERO[10]	
+12-14	2302-2313	independent	HERO[10]	
+12-15	2314-2322	regional	HERO[10]	
+12-16	2323-2329	centre	HERO[10]	
+12-17	2329-2330	,	HERO[10]	
+12-18	2331-2332	a	HERO[10]	
+12-19	2334-2344	think-tank	HERO[10]	
+12-20	2344-2345	,	_	
+12-21	2346-2355	dedicated	_	
+12-22	2356-2358	to	_	
+12-23	2359-2367	studying	_	
+12-24	2368-2371	the	_	
+12-25	2372-2376	role	_	
+12-26	2377-2379	of	_	
+12-27	2380-2385	women	HERO	
+12-28	2386-2388	in	_	
+12-29	2390-2402	peacekeeping	_	
+12-30	2403-2413	operations	_	
+12-31	2414-2417	and	_	
+12-32	2418-2423	their	_	
+12-33	2424-2436	contribution	_	
+12-34	2437-2439	to	_	
+12-35	2440-2443	the	_	
+12-36	2445-2456	achievement	_	
+12-37	2457-2459	of	_	
+12-38	2460-2471	sustainable	_	
+12-39	2472-2483	development	_	
+12-40	2483-2484	.	_	
+
+#Text=The centre\r
+#Text=could serve as a space for reflection, a think-tank and\r
+#Text=a source of independent thought regarding the role and\r
+#Text=place of women in peacekeeping and peacebuilding\r
+#Text=operations in conflict zones.
+13-1	2485-2488	The	_	
+13-2	2489-2495	centre	_	
+13-3	2497-2502	could	_	
+13-4	2503-2508	serve	_	
+13-5	2509-2511	as	_	
+13-6	2512-2513	a	_	
+13-7	2514-2519	space	_	
+13-8	2520-2523	for	_	
+13-9	2524-2534	reflection	_	
+13-10	2534-2535	,	_	
+13-11	2536-2537	a	_	
+13-12	2538-2548	think-tank	_	
+13-13	2549-2552	and	_	
+13-14	2554-2555	a	_	
+13-15	2556-2562	source	_	
+13-16	2563-2565	of	_	
+13-17	2566-2577	independent	_	
+13-18	2578-2585	thought	_	
+13-19	2586-2595	regarding	_	
+13-20	2596-2599	the	_	
+13-21	2600-2604	role	_	
+13-22	2605-2608	and	_	
+13-23	2610-2615	place	_	
+13-24	2616-2618	of	_	
+13-25	2619-2624	women	_	
+13-26	2625-2627	in	_	
+13-27	2628-2640	peacekeeping	_	
+13-28	2641-2644	and	_	
+13-29	2645-2658	peacebuilding	_	
+13-30	2660-2670	operations	_	
+13-31	2671-2673	in	_	
+13-32	2674-2682	conflict	_	
+13-33	2683-2688	zones	_	
+13-34	2688-2689	.	_	
+
+#Text=It is in keeping with the\r
+#Text=priorities ofthe Security Council in promoting women's\r
+#Text=empowerment and gender equality in the establishment\r
+#Text=of peace and international security, the dissemination\r
+#Text=of the culture of peace, ensuring access to justice and\r
+#Text=the protection of civil rights.
+14-1	2690-2692	It	_	
+14-2	2693-2695	is	_	
+14-3	2696-2698	in	_	
+14-4	2699-2706	keeping	_	
+14-5	2707-2711	with	_	
+14-6	2712-2715	the	_	
+14-7	2717-2727	priorities	_	
+14-8	2728-2733	ofthe	HERO[11]	
+14-9	2734-2742	Security	HERO[11]	
+14-10	2743-2750	Council	HERO[11]	
+14-11	2751-2753	in	_	
+14-12	2754-2763	promoting	_	
+14-13	2764-2771	women's	HERO[12]|VICTIM[13]	
+14-14	2773-2784	empowerment	_	
+14-15	2785-2788	and	_	
+14-16	2789-2795	gender	_	
+14-17	2796-2804	equality	_	
+14-18	2805-2807	in	_	
+14-19	2808-2811	the	_	
+14-20	2812-2825	establishment	_	
+14-21	2827-2829	of	_	
+14-22	2830-2835	peace	_	
+14-23	2836-2839	and	_	
+14-24	2840-2853	international	_	
+14-25	2854-2862	security	_	
+14-26	2862-2863	,	_	
+14-27	2864-2867	the	_	
+14-28	2868-2881	dissemination	_	
+14-29	2883-2885	of	_	
+14-30	2886-2889	the	_	
+14-31	2890-2897	culture	_	
+14-32	2898-2900	of	_	
+14-33	2901-2906	peace	_	
+14-34	2906-2907	,	_	
+14-35	2908-2916	ensuring	_	
+14-36	2917-2923	access	_	
+14-37	2924-2926	to	_	
+14-38	2927-2934	justice	_	
+14-39	2935-2938	and	_	
+14-40	2940-2943	the	_	
+14-41	2944-2954	protection	_	
+14-42	2955-2957	of	_	
+14-43	2958-2963	civil	_	
+14-44	2964-2970	rights	_	
+14-45	2970-2971	.	_	
+
+#Text=Women and girls have special needs in the post-\r
+#Text=conflict period, such as health services, livelihood,\r
+#Text=land rights and property rights and employment.
+15-1	2975-2980	Women	VICTIM[14]	
+15-2	2981-2984	and	VICTIM[14]	
+15-3	2985-2990	girls	VICTIM[14]	
+15-4	2991-2995	have	_	
+15-5	2996-3003	special	_	
+15-6	3004-3009	needs	_	
+15-7	3010-3012	in	_	
+15-8	3013-3016	the	_	
+15-9	3017-3021	post	_	
+15-10	3021-3022	-	_	
+15-11	3024-3032	conflict	_	
+15-12	3033-3039	period	_	
+15-13	3039-3040	,	_	
+15-14	3041-3045	such	_	
+15-15	3046-3048	as	_	
+15-16	3049-3055	health	_	
+15-17	3056-3064	services	_	
+15-18	3064-3065	,	_	
+15-19	3066-3076	livelihood	_	
+15-20	3076-3077	,	_	
+15-21	3079-3083	land	_	
+15-22	3084-3090	rights	_	
+15-23	3091-3094	and	_	
+15-24	3095-3103	property	_	
+15-25	3104-3110	rights	_	
+15-26	3111-3114	and	_	
+15-27	3115-3125	employment	_	
+15-28	3125-3126	.	_	
+
+#Text=They must also participate in decision-making and\r
+#Text=the development of national strategies for post-\r
+#Text=conflict economic recovery.
+16-1	3128-3132	They	HERO	
+16-2	3133-3137	must	_	
+16-3	3138-3142	also	_	
+16-4	3143-3154	participate	_	
+16-5	3155-3157	in	_	
+16-6	3158-3173	decision-making	_	
+16-7	3174-3177	and	_	
+16-8	3179-3182	the	_	
+16-9	3183-3194	development	_	
+16-10	3195-3197	of	_	
+16-11	3198-3206	national	_	
+16-12	3207-3217	strategies	_	
+16-13	3218-3221	for	_	
+16-14	3222-3226	post	_	
+16-15	3226-3227	-	_	
+16-16	3229-3237	conflict	_	
+16-17	3238-3246	economic	_	
+16-18	3247-3255	recovery	_	
+16-19	3255-3256	.	_	
+
+#Text=Unfortunately, women\r
+#Text=are often underrepresented in the decision-making\r
+#Text=process associated with economic recovery and public\r
+#Text=governance in the post-conflict phase.
+17-1	3257-3270	Unfortunately	_	
+17-2	3270-3271	,	_	
+17-3	3272-3277	women	VICTIM	
+17-4	3279-3282	are	_	
+17-5	3283-3288	often	_	
+17-6	3289-3305	underrepresented	_	
+17-7	3306-3308	in	_	
+17-8	3309-3312	the	_	
+17-9	3313-3328	decision-making	_	
+17-10	3330-3337	process	_	
+17-11	3338-3348	associated	_	
+17-12	3349-3353	with	_	
+17-13	3354-3362	economic	_	
+17-14	3363-3371	recovery	_	
+17-15	3372-3375	and	_	
+17-16	3376-3382	public	_	
+17-17	3384-3394	governance	_	
+17-18	3395-3397	in	_	
+17-19	3398-3401	the	_	
+17-20	3402-3415	post-conflict	_	
+17-21	3416-3421	phase	_	
+17-22	3421-3422	.	_	
+
+#Text=They are\r
+#Text=not included in formal decision-making structures,\r
+#Text=including key economic sectors, such as infrastructure,\r
+#Text=extractive industries and commercial agriculture.
+18-1	3423-3427	They	VICTIM	
+18-2	3428-3431	are	_	
+18-3	3433-3436	not	_	
+18-4	3437-3445	included	_	
+18-5	3446-3448	in	_	
+18-6	3449-3455	formal	_	
+18-7	3456-3471	decision-making	_	
+18-8	3472-3482	structures	_	
+18-9	3482-3483	,	_	
+18-10	3485-3494	including	_	
+18-11	3495-3498	key	_	
+18-12	3499-3507	economic	_	
+18-13	3508-3515	sectors	_	
+18-14	3515-3516	,	_	
+18-15	3517-3521	such	_	
+18-16	3522-3524	as	_	
+18-17	3525-3539	infrastructure	_	
+18-18	3539-3540	,	_	
+18-19	3542-3552	extractive	_	
+18-20	3553-3563	industries	_	
+18-21	3564-3567	and	_	
+18-22	3568-3578	commercial	_	
+18-23	3579-3590	agriculture	_	
+18-24	3590-3591	.	_	
+
+#Text=To that end, the preparation of an approach based on\r
+#Text=gender and development in a post-conflict context is\r
+#Text=imperative in order to ensure that, from the beginning\r
+#Text=of the reconstruction process, there is sustainable\r
+#Text=and equitable development where both women and\r
+#Text=men share resources, opportunities, decision-making\r
+#Text=and power.
+19-1	3593-3595	To	_	
+19-2	3596-3600	that	_	
+19-3	3601-3604	end	_	
+19-4	3604-3605	,	_	
+19-5	3606-3609	the	_	
+19-6	3610-3621	preparation	_	
+19-7	3622-3624	of	_	
+19-8	3625-3627	an	_	
+19-9	3628-3636	approach	_	
+19-10	3637-3642	based	_	
+19-11	3643-3645	on	_	
+19-12	3647-3653	gender	_	
+19-13	3654-3657	and	_	
+19-14	3658-3669	development	_	
+19-15	3670-3672	in	_	
+19-16	3673-3674	a	_	
+19-17	3675-3688	post-conflict	_	
+19-18	3689-3696	context	_	
+19-19	3697-3699	is	_	
+19-20	3701-3711	imperative	_	
+19-21	3712-3714	in	_	
+19-22	3715-3720	order	_	
+19-23	3721-3723	to	_	
+19-24	3724-3730	ensure	_	
+19-25	3731-3735	that	_	
+19-26	3735-3736	,	_	
+19-27	3737-3741	from	_	
+19-28	3742-3745	the	_	
+19-29	3746-3755	beginning	_	
+19-30	3757-3759	of	_	
+19-31	3760-3763	the	_	
+19-32	3764-3778	reconstruction	_	
+19-33	3779-3786	process	_	
+19-34	3786-3787	,	_	
+19-35	3788-3793	there	_	
+19-36	3794-3796	is	_	
+19-37	3797-3808	sustainable	_	
+19-38	3810-3813	and	_	
+19-39	3814-3823	equitable	_	
+19-40	3824-3835	development	_	
+19-41	3836-3841	where	_	
+19-42	3842-3846	both	_	
+19-43	3847-3852	women	_	
+19-44	3853-3856	and	_	
+19-45	3858-3861	men	_	
+19-46	3862-3867	share	_	
+19-47	3868-3877	resources	_	
+19-48	3877-3878	,	_	
+19-49	3879-3892	opportunities	_	
+19-50	3892-3893	,	_	
+19-51	3894-3909	decision-making	_	
+19-52	3911-3914	and	_	
+19-53	3915-3920	power	_	
+19-54	3920-3921	.	_	
+
+#Text=In that context, the Kingdom of Morocco takes\r
+#Text=this opportunity to commend the work of UN-Women\r
+#Text=to promote the implementation of the Security\r
+#Text=Council resolutions on women and peace and security,\r
+#Text=particularly with regard to economic recovery and\r
+#Text=reconstruction through the three areas of intervention:\r
+#Text=post-conflict planning, economic recovery and\r
+#Text=governance restoration.
+20-1	3925-3927	In	_	
+20-2	3928-3932	that	_	
+20-3	3933-3940	context	_	
+20-4	3940-3941	,	_	
+20-5	3942-3945	the	_	
+20-6	3946-3953	Kingdom	_	
+20-7	3954-3956	of	_	
+20-8	3957-3964	Morocco	_	
+20-9	3965-3970	takes	_	
+20-10	3972-3976	this	_	
+20-11	3977-3988	opportunity	_	
+20-12	3989-3991	to	_	
+20-13	3992-3999	commend	_	
+20-14	4000-4003	the	_	
+20-15	4004-4008	work	_	
+20-16	4009-4011	of	_	
+20-17	4012-4020	UN-Women	HERO	
+20-18	4022-4024	to	_	
+20-19	4025-4032	promote	_	
+20-20	4033-4036	the	_	
+20-21	4037-4051	implementation	_	
+20-22	4052-4054	of	_	
+20-23	4055-4058	the	HERO[15]	
+20-24	4059-4067	Security	HERO[15]	
+20-25	4069-4076	Council	HERO[15]	
+20-26	4077-4088	resolutions	_	
+20-27	4089-4091	on	_	
+20-28	4092-4097	women	_	
+20-29	4098-4101	and	_	
+20-30	4102-4107	peace	_	
+20-31	4108-4111	and	_	
+20-32	4112-4120	security	_	
+20-33	4120-4121	,	_	
+20-34	4123-4135	particularly	_	
+20-35	4136-4140	with	_	
+20-36	4141-4147	regard	_	
+20-37	4148-4150	to	_	
+20-38	4151-4159	economic	_	
+20-39	4160-4168	recovery	_	
+20-40	4169-4172	and	_	
+20-41	4174-4188	reconstruction	_	
+20-42	4189-4196	through	_	
+20-43	4197-4200	the	_	
+20-44	4201-4206	three	_	
+20-45	4207-4212	areas	_	
+20-46	4213-4215	of	_	
+20-47	4216-4228	intervention	_	
+20-48	4228-4229	:	_	
+20-49	4231-4244	post-conflict	_	
+20-50	4245-4253	planning	_	
+20-51	4253-4254	,	_	
+20-52	4255-4263	economic	_	
+20-53	4264-4272	recovery	_	
+20-54	4273-4276	and	_	
+20-55	4278-4288	governance	_	
+20-56	4289-4300	restoration	_	
+20-57	4300-4301	.	_	
+
+#Text=The 2030 Agenda for Sustainable Development\r
+#Text=has placed great emphasis on peace, including the\r
+#Text=prevention of conflict and the elimination of its root\r
+#Text=causes through Sustainable Development Goal 16,\r
+#Text=which seeks to promote peaceful and inclusive societies\r
+#Text=for sustainable development, provide access to justice\r
+#Text=for all and build effective, accountable and inclusive\r
+#Text=institutions at all levels.
+21-1	4305-4308	The	_	
+21-2	4309-4313	2030	_	
+21-3	4314-4320	Agenda	_	
+21-4	4321-4324	for	_	
+21-5	4325-4336	Sustainable	_	
+21-6	4337-4348	Development	_	
+21-7	4350-4353	has	_	
+21-8	4354-4360	placed	_	
+21-9	4361-4366	great	_	
+21-10	4367-4375	emphasis	_	
+21-11	4376-4378	on	_	
+21-12	4379-4384	peace	_	
+21-13	4384-4385	,	_	
+21-14	4386-4395	including	_	
+21-15	4396-4399	the	_	
+21-16	4401-4411	prevention	_	
+21-17	4412-4414	of	_	
+21-18	4415-4423	conflict	_	
+21-19	4424-4427	and	_	
+21-20	4428-4431	the	_	
+21-21	4432-4443	elimination	_	
+21-22	4444-4446	of	_	
+21-23	4447-4450	its	_	
+21-24	4451-4455	root	_	
+21-25	4457-4463	causes	_	
+21-26	4464-4471	through	_	
+21-27	4472-4483	Sustainable	_	
+21-28	4484-4495	Development	_	
+21-29	4496-4500	Goal	_	
+21-30	4501-4503	16	_	
+21-31	4503-4504	,	_	
+21-32	4506-4511	which	_	
+21-33	4512-4517	seeks	_	
+21-34	4518-4520	to	_	
+21-35	4521-4528	promote	_	
+21-36	4529-4537	peaceful	_	
+21-37	4538-4541	and	_	
+21-38	4542-4551	inclusive	_	
+21-39	4552-4561	societies	_	
+21-40	4563-4566	for	_	
+21-41	4567-4578	sustainable	_	
+21-42	4579-4590	development	_	
+21-43	4590-4591	,	_	
+21-44	4592-4599	provide	_	
+21-45	4600-4606	access	_	
+21-46	4607-4609	to	_	
+21-47	4610-4617	justice	_	
+21-48	4619-4622	for	_	
+21-49	4623-4626	all	_	
+21-50	4627-4630	and	_	
+21-51	4631-4636	build	_	
+21-52	4637-4646	effective	_	
+21-53	4646-4647	,	_	
+21-54	4648-4659	accountable	_	
+21-55	4660-4663	and	_	
+21-56	4664-4673	inclusive	_	
+21-57	4675-4687	institutions	_	
+21-58	4688-4690	at	_	
+21-59	4691-4694	all	_	
+21-60	4695-4701	levels	_	
+21-61	4701-4702	.	_	
+
+#Text=The universal 2030 Agenda, which advocates a\r
+#Text=cross-cutting incorporation of gender in all Sustainable\r
+#Text=Development Goals, emphasizes the need to redouble\r
+#Text=efforts to prevent conflict and help countries emerging\r
+#Text=from conflict, while ensuring that women are involved\r
+#Text=in peacekeeping and reconstruction.
+22-1	4704-4707	The	_	
+22-2	4708-4717	universal	_	
+22-3	4718-4722	2030	_	
+22-4	4723-4729	Agenda	_	
+22-5	4729-4730	,	_	
+22-6	4731-4736	which	_	
+22-7	4737-4746	advocates	_	
+22-8	4747-4748	a	_	
+22-9	4750-4763	cross-cutting	_	
+22-10	4764-4777	incorporation	_	
+22-11	4778-4780	of	_	
+22-12	4781-4787	gender	_	
+22-13	4788-4790	in	_	
+22-14	4791-4794	all	_	
+22-15	4795-4806	Sustainable	_	
+22-16	4808-4819	Development	_	
+22-17	4820-4825	Goals	_	
+22-18	4825-4826	,	_	
+22-19	4827-4837	emphasizes	_	
+22-20	4838-4841	the	_	
+22-21	4842-4846	need	_	
+22-22	4847-4849	to	_	
+22-23	4850-4858	redouble	_	
+22-24	4860-4867	efforts	_	
+22-25	4868-4870	to	_	
+22-26	4871-4878	prevent	_	
+22-27	4879-4887	conflict	_	
+22-28	4888-4891	and	_	
+22-29	4892-4896	help	_	
+22-30	4897-4906	countries	VICTIM[16]	
+22-31	4907-4915	emerging	VICTIM[16]	
+22-32	4917-4921	from	VICTIM[16]	
+22-33	4922-4930	conflict	VICTIM[16]	
+22-34	4930-4931	,	_	
+22-35	4932-4937	while	_	
+22-36	4938-4946	ensuring	_	
+22-37	4947-4951	that	_	
+22-38	4952-4957	women	VICTIM[17]|HERO[18]	
+22-39	4958-4961	are	_	
+22-40	4962-4970	involved	_	
+22-41	4972-4974	in	_	
+22-42	4975-4987	peacekeeping	_	
+22-43	4988-4991	and	_	
+22-44	4992-5006	reconstruction	_	
+22-45	5006-5007	.	_	
+
+#Text=In that sense,\r
+#Text=the Goals demonstrate that gender, peace, security\r
+#Text=and development are interconnected, interrelated and\r
+#Text=inseparable from one another.
+23-1	5008-5010	In	_	
+23-2	5011-5015	that	_	
+23-3	5016-5021	sense	_	
+23-4	5021-5022	,	_	
+23-5	5024-5027	the	_	
+23-6	5028-5033	Goals	_	
+23-7	5034-5045	demonstrate	_	
+23-8	5046-5050	that	_	
+23-9	5051-5057	gender	_	
+23-10	5057-5058	,	_	
+23-11	5059-5064	peace	_	
+23-12	5064-5065	,	_	
+23-13	5066-5074	security	_	
+23-14	5076-5079	and	_	
+23-15	5080-5091	development	_	
+23-16	5092-5095	are	_	
+23-17	5096-5110	interconnected	_	
+23-18	5110-5111	,	_	
+23-19	5112-5124	interrelated	_	
+23-20	5125-5128	and	_	
+23-21	5130-5141	inseparable	_	
+23-22	5142-5146	from	_	
+23-23	5147-5150	one	_	
+23-24	5151-5158	another	_	
+23-25	5158-5159	.	_	

@@ -1,0 +1,1102 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mr.
+1-1	0-2	Mr	_	
+1-2	2-3	.	_	
+
+#Text=Faqiri (Afghanistan): I thank you, Madam\r
+#Text=President, for convening today's debate, which offers\r
+#Text=us all an opportunity to reaffirm our commitment to\r
+#Text=protecting and ensuring women's rights and their\r
+#Text=momentous role in peace and security.
+2-1	4-10	Faqiri	_	
+2-2	11-12	(	_	
+2-3	12-23	Afghanistan	_	
+2-4	23-24	)	_	
+2-5	24-25	:	_	
+2-6	26-27	I	_	
+2-7	28-33	thank	_	
+2-8	34-37	you	HERO[1]	
+2-9	37-38	,	HERO[1]	
+2-10	39-44	Madam	HERO[1]	
+2-11	46-55	President	HERO[1]	
+2-12	55-56	,	_	
+2-13	57-60	for	_	
+2-14	61-70	convening	_	
+2-15	71-78	today's	_	
+2-16	79-85	debate	_	
+2-17	85-86	,	_	
+2-18	87-92	which	_	
+2-19	93-99	offers	_	
+2-20	101-103	us	_	
+2-21	104-107	all	_	
+2-22	108-110	an	_	
+2-23	111-122	opportunity	_	
+2-24	123-125	to	_	
+2-25	126-134	reaffirm	_	
+2-26	135-138	our	_	
+2-27	139-149	commitment	_	
+2-28	150-152	to	_	
+2-29	154-164	protecting	_	
+2-30	165-168	and	_	
+2-31	169-177	ensuring	_	
+2-32	178-185	women's	VICTIM[2]|HERO[3]	
+2-33	186-192	rights	_	
+2-34	193-196	and	_	
+2-35	197-202	their	_	
+2-36	204-213	momentous	_	
+2-37	214-218	role	_	
+2-38	219-221	in	_	
+2-39	222-227	peace	_	
+2-40	228-231	and	_	
+2-41	232-240	security	_	
+2-42	240-241	.	_	
+
+#Text=I also take the\r
+#Text=opportunity to thank the Secretary-General for his\r
+#Text=report (S/2011/598*) and his strong words of support.
+3-1	242-243	I	_	
+3-2	244-248	also	_	
+3-3	249-253	take	_	
+3-4	254-257	the	_	
+3-5	259-270	opportunity	_	
+3-6	271-273	to	_	
+3-7	274-279	thank	_	
+3-8	280-283	the	HERO[4]	
+3-9	284-301	Secretary-General	HERO[4]	
+3-10	302-305	for	_	
+3-11	306-309	his	_	
+3-12	311-317	report	_	
+3-13	318-319	(	_	
+3-14	319-320	S	_	
+3-15	320-321	/	_	
+3-16	321-325	2011	_	
+3-17	325-326	/	_	
+3-18	326-329	598	_	
+3-19	329-330	*	_	
+3-20	330-331	)	_	
+3-21	332-335	and	_	
+3-22	336-339	his	_	
+3-23	340-346	strong	_	
+3-24	347-352	words	_	
+3-25	353-355	of	_	
+3-26	356-363	support	_	
+3-27	363-364	.	_	
+
+#Text=And I thank Ms.
+4-1	366-369	And	_	
+4-2	370-371	I	_	
+4-3	372-377	thank	_	
+4-4	378-380	Ms	HERO[5]	
+4-5	380-381	.	HERO[5]	
+
+#Text=Michelle Bachelet, Under-Secretary-\r
+#Text=General for Gender Equality and the Empowerment of\r
+#Text=Women, for her work and for her statement.
+5-1	382-390	Michelle	HERO[5]	
+5-2	391-399	Bachelet	HERO[5]	
+5-3	399-400	,	HERO[5]	
+5-4	401-416	Under-Secretary	HERO[5]	
+5-5	416-417	-	HERO[5]	
+5-6	419-426	General	HERO[5]	
+5-7	427-430	for	HERO[5]	
+5-8	431-437	Gender	HERO[5]	
+5-9	438-446	Equality	HERO[5]	
+5-10	447-450	and	HERO[5]	
+5-11	451-454	the	HERO[5]	
+5-12	455-466	Empowerment	HERO[5]	
+5-13	467-469	of	HERO[5]	
+5-14	471-476	Women	HERO[5]	
+5-15	476-477	,	_	
+5-16	478-481	for	_	
+5-17	482-485	her	_	
+5-18	486-490	work	_	
+5-19	491-494	and	_	
+5-20	495-498	for	_	
+5-21	499-502	her	_	
+5-22	503-512	statement	_	
+5-23	512-513	.	_	
+
+#Text=The history of war and violence has left a\r
+#Text=disconcerting impact on my country.
+6-1	517-520	The	_	
+6-2	521-528	history	_	
+6-3	529-531	of	_	
+6-4	532-535	war	_	
+6-5	536-539	and	_	
+6-6	540-548	violence	_	
+6-7	549-552	has	_	
+6-8	553-557	left	_	
+6-9	558-559	a	_	
+6-10	561-574	disconcerting	_	
+6-11	575-581	impact	_	
+6-12	582-584	on	_	
+6-13	585-587	my	VICTIM[6]	
+6-14	588-595	country	VICTIM[6]	
+6-15	595-596	.	_	
+
+#Text=Violence still\r
+#Text=takes its toll on every Afghan's life.
+7-1	597-605	Violence	_	
+7-2	606-611	still	_	
+7-3	613-618	takes	_	
+7-4	619-622	its	_	
+7-5	623-627	toll	_	
+7-6	628-630	on	_	
+7-7	631-636	every	VICTIM[7]	
+7-8	637-645	Afghan's	VICTIM[7]	
+7-9	646-650	life	_	
+7-10	650-651	.	_	
+
+#Text=I hope that the\r
+#Text=anguish facing every Afghan family will one day come\r
+#Text=to an end.
+8-1	652-653	I	_	
+8-2	654-658	hope	_	
+8-3	659-663	that	_	
+8-4	664-667	the	_	
+8-5	669-676	anguish	_	
+8-6	677-683	facing	_	
+8-7	684-689	every	VICTIM[8]	
+8-8	690-696	Afghan	VICTIM[8]	
+8-9	697-703	family	VICTIM[8]	
+8-10	704-708	will	_	
+8-11	709-712	one	_	
+8-12	713-716	day	_	
+8-13	717-721	come	_	
+8-14	723-725	to	_	
+8-15	726-728	an	_	
+8-16	729-732	end	_	
+8-17	732-733	.	_	
+
+#Text=Women continue to bear the bulk of the\r
+#Text=burden of conflict in Afghanistan, while their right to\r
+#Text=secure, healthy and prosperous lives is still in peril.
+9-1	734-739	Women	VICTIM	
+9-2	740-748	continue	_	
+9-3	749-751	to	_	
+9-4	752-756	bear	_	
+9-5	757-760	the	_	
+9-6	761-765	bulk	_	
+9-7	766-768	of	_	
+9-8	769-772	the	_	
+9-9	774-780	burden	_	
+9-10	781-783	of	_	
+9-11	784-792	conflict	_	
+9-12	793-795	in	_	
+9-13	796-807	Afghanistan	_	
+9-14	807-808	,	_	
+9-15	809-814	while	_	
+9-16	815-820	their	_	
+9-17	821-826	right	_	
+9-18	827-829	to	_	
+9-19	831-837	secure	_	
+9-20	837-838	,	_	
+9-21	839-846	healthy	_	
+9-22	847-850	and	_	
+9-23	851-861	prosperous	_	
+9-24	862-867	lives	_	
+9-25	868-870	is	_	
+9-26	871-876	still	_	
+9-27	877-879	in	_	
+9-28	880-885	peril	_	
+9-29	885-886	.	_	
+
+#Text=We meet today to recognize the crucial role of\r
+#Text=women in the peaceful resolution of conflicts, the\r
+#Text=tangible fruits of which have already been seen in\r
+#Text=Afghanistan in the decisive presence of women at the\r
+#Text=Consultative Peace Jirga in 2010 and in the continuing\r
+#Text=efforts to ensure women's participation in leadership\r
+#Text=positions within and outside of the Afghan\r
+#Text=Government.
+10-1	888-890	We	HERO	
+10-2	891-895	meet	_	
+10-3	896-901	today	_	
+10-4	902-904	to	_	
+10-5	905-914	recognize	_	
+10-6	915-918	the	_	
+10-7	919-926	crucial	_	
+10-8	927-931	role	_	
+10-9	932-934	of	_	
+10-10	936-941	women	HERO	
+10-11	942-944	in	_	
+10-12	945-948	the	_	
+10-13	949-957	peaceful	_	
+10-14	958-968	resolution	_	
+10-15	969-971	of	_	
+10-16	972-981	conflicts	_	
+10-17	981-982	,	_	
+10-18	983-986	the	_	
+10-19	988-996	tangible	_	
+10-20	997-1003	fruits	_	
+10-21	1004-1006	of	_	
+10-22	1007-1012	which	_	
+10-23	1013-1017	have	_	
+10-24	1018-1025	already	_	
+10-25	1026-1030	been	_	
+10-26	1031-1035	seen	_	
+10-27	1036-1038	in	_	
+10-28	1040-1051	Afghanistan	_	
+10-29	1052-1054	in	_	
+10-30	1055-1058	the	_	
+10-31	1059-1067	decisive	_	
+10-32	1068-1076	presence	_	
+10-33	1077-1079	of	_	
+10-34	1080-1085	women	HERO	
+10-35	1086-1088	at	_	
+10-36	1089-1092	the	_	
+10-37	1094-1106	Consultative	_	
+10-38	1107-1112	Peace	_	
+10-39	1113-1118	Jirga	_	
+10-40	1119-1121	in	_	
+10-41	1122-1126	2010	_	
+10-42	1127-1130	and	_	
+10-43	1131-1133	in	_	
+10-44	1134-1137	the	_	
+10-45	1138-1148	continuing	_	
+10-46	1150-1157	efforts	_	
+10-47	1158-1160	to	_	
+10-48	1161-1167	ensure	_	
+10-49	1168-1175	women's	VICTIM[9]|HERO[10]	
+10-50	1176-1189	participation	_	
+10-51	1190-1192	in	_	
+10-52	1193-1203	leadership	_	
+10-53	1205-1214	positions	_	
+10-54	1215-1221	within	_	
+10-55	1222-1225	and	_	
+10-56	1226-1233	outside	_	
+10-57	1234-1236	of	_	
+10-58	1237-1240	the	_	
+10-59	1241-1247	Afghan	_	
+10-60	1249-1259	Government	_	
+10-61	1259-1260	.	_	
+
+#Text=The debate is particularly appropriate as\r
+#Text=Afghanistan is entering the second phase of transition\r
+#Text=to Afghan leadership and ownership and increased\r
+#Text=responsibility for security and economic development.
+11-1	1261-1264	The	_	
+11-2	1265-1271	debate	_	
+11-3	1272-1274	is	_	
+11-4	1275-1287	particularly	_	
+11-5	1288-1299	appropriate	_	
+11-6	1300-1302	as	_	
+11-7	1304-1315	Afghanistan	_	
+11-8	1316-1318	is	_	
+11-9	1319-1327	entering	_	
+11-10	1328-1331	the	_	
+11-11	1332-1338	second	_	
+11-12	1339-1344	phase	_	
+11-13	1345-1347	of	_	
+11-14	1348-1358	transition	_	
+11-15	1360-1362	to	_	
+11-16	1363-1369	Afghan	_	
+11-17	1370-1380	leadership	_	
+11-18	1381-1384	and	_	
+11-19	1385-1394	ownership	_	
+11-20	1395-1398	and	_	
+11-21	1399-1408	increased	_	
+11-22	1410-1424	responsibility	_	
+11-23	1425-1428	for	_	
+11-24	1429-1437	security	_	
+11-25	1438-1441	and	_	
+11-26	1442-1450	economic	_	
+11-27	1451-1462	development	_	
+11-28	1462-1463	.	_	
+
+#Text=With regard to development, we have begun to\r
+#Text=implement our 10-year national action plan for the\r
+#Text=women of Afghanistan based upon the priorities of the\r
+#Text=Afghanistan National Development Strategy.
+12-1	1467-1471	With	_	
+12-2	1472-1478	regard	_	
+12-3	1479-1481	to	_	
+12-4	1482-1493	development	_	
+12-5	1493-1494	,	_	
+12-6	1495-1497	we	HERO	
+12-7	1498-1502	have	_	
+12-8	1503-1508	begun	_	
+12-9	1509-1511	to	_	
+12-10	1513-1522	implement	_	
+12-11	1523-1526	our	_	
+12-12	1527-1529	10	_	
+12-13	1529-1530	-	_	
+12-14	1530-1534	year	_	
+12-15	1535-1543	national	_	
+12-16	1544-1550	action	_	
+12-17	1551-1555	plan	_	
+12-18	1556-1559	for	_	
+12-19	1560-1563	the	VICTIM[11]	
+12-20	1565-1570	women	VICTIM[11]	
+12-21	1571-1573	of	VICTIM[11]	
+12-22	1574-1585	Afghanistan	VICTIM[11]	
+12-23	1586-1591	based	_	
+12-24	1592-1596	upon	_	
+12-25	1597-1600	the	_	
+12-26	1601-1611	priorities	_	
+12-27	1612-1614	of	_	
+12-28	1615-1618	the	_	
+12-29	1620-1631	Afghanistan	_	
+12-30	1632-1640	National	_	
+12-31	1641-1652	Development	_	
+12-32	1653-1661	Strategy	_	
+12-33	1661-1662	.	_	
+
+#Text=As part of\r
+#Text=the action plan, we have established gender units in\r
+#Text=14 of the 25 Government ministries.
+13-1	1663-1665	As	_	
+13-2	1666-1670	part	_	
+13-3	1671-1673	of	_	
+13-4	1675-1678	the	_	
+13-5	1679-1685	action	_	
+13-6	1686-1690	plan	_	
+13-7	1690-1691	,	_	
+13-8	1692-1694	we	HERO	
+13-9	1695-1699	have	_	
+13-10	1700-1711	established	_	
+13-11	1712-1718	gender	_	
+13-12	1719-1724	units	_	
+13-13	1725-1727	in	_	
+13-14	1729-1731	14	_	
+13-15	1732-1734	of	_	
+13-16	1735-1738	the	_	
+13-17	1739-1741	25	_	
+13-18	1742-1752	Government	_	
+13-19	1753-1763	ministries	_	
+13-20	1763-1764	.	_	
+
+#Text=However, given\r
+#Text=the 10-year timeline, accelerated efforts are necessary\r
+#Text=to ensure the full implementation of that very\r
+#Text=comprehensive action plan, which incorporates vital\r
+#Text=goals that include achieving a 30 per cent rate of\r
+#Text=representation of women in governmental positions by\r
+#Text=the end of 2013 and their 35 per cent participation rate\r
+#Text=among university students by the end of 2012.
+14-1	1765-1772	However	_	
+14-2	1772-1773	,	_	
+14-3	1774-1779	given	_	
+14-4	1781-1784	the	_	
+14-5	1785-1787	10	_	
+14-6	1787-1788	-	_	
+14-7	1788-1792	year	_	
+14-8	1793-1801	timeline	_	
+14-9	1801-1802	,	_	
+14-10	1803-1814	accelerated	_	
+14-11	1815-1822	efforts	_	
+14-12	1823-1826	are	_	
+14-13	1827-1836	necessary	_	
+14-14	1838-1840	to	_	
+14-15	1841-1847	ensure	_	
+14-16	1848-1851	the	_	
+14-17	1852-1856	full	_	
+14-18	1857-1871	implementation	_	
+14-19	1872-1874	of	_	
+14-20	1875-1879	that	_	
+14-21	1880-1884	very	_	
+14-22	1886-1899	comprehensive	_	
+14-23	1900-1906	action	_	
+14-24	1907-1911	plan	_	
+14-25	1911-1912	,	_	
+14-26	1913-1918	which	_	
+14-27	1919-1931	incorporates	_	
+14-28	1932-1937	vital	_	
+14-29	1939-1944	goals	_	
+14-30	1945-1949	that	_	
+14-31	1950-1957	include	_	
+14-32	1958-1967	achieving	_	
+14-33	1968-1969	a	_	
+14-34	1970-1972	30	_	
+14-35	1973-1976	per	_	
+14-36	1977-1981	cent	_	
+14-37	1982-1986	rate	_	
+14-38	1987-1989	of	_	
+14-39	1991-2005	representation	_	
+14-40	2006-2008	of	_	
+14-41	2009-2014	women	_	
+14-42	2015-2017	in	_	
+14-43	2018-2030	governmental	_	
+14-44	2031-2040	positions	_	
+14-45	2041-2043	by	_	
+14-46	2045-2048	the	_	
+14-47	2049-2052	end	_	
+14-48	2053-2055	of	_	
+14-49	2056-2060	2013	_	
+14-50	2061-2064	and	_	
+14-51	2065-2070	their	_	
+14-52	2071-2073	35	_	
+14-53	2074-2077	per	_	
+14-54	2078-2082	cent	_	
+14-55	2083-2096	participation	_	
+14-56	2097-2101	rate	_	
+14-57	2103-2108	among	_	
+14-58	2109-2119	university	_	
+14-59	2120-2128	students	_	
+14-60	2129-2131	by	_	
+14-61	2132-2135	the	_	
+14-62	2136-2139	end	_	
+14-63	2140-2142	of	_	
+14-64	2143-2147	2012	_	
+14-65	2147-2148	.	_	
+
+#Text=We have also made strides in ensuring the rule of\r
+#Text=law, most recently the establishment of a national\r
+#Text=commission on the elimination of violence against\r
+#Text=women, following the enactment of the law in that\r
+#Text=regard in December 2010.
+15-1	2152-2154	We	HERO	
+15-2	2155-2159	have	_	
+15-3	2160-2164	also	_	
+15-4	2165-2169	made	_	
+15-5	2170-2177	strides	_	
+15-6	2178-2180	in	_	
+15-7	2181-2189	ensuring	_	
+15-8	2190-2193	the	_	
+15-9	2194-2198	rule	_	
+15-10	2199-2201	of	_	
+15-11	2203-2206	law	_	
+15-12	2206-2207	,	_	
+15-13	2208-2212	most	_	
+15-14	2213-2221	recently	_	
+15-15	2222-2225	the	_	
+15-16	2226-2239	establishment	_	
+15-17	2240-2242	of	_	
+15-18	2243-2244	a	_	
+15-19	2245-2253	national	_	
+15-20	2255-2265	commission	_	
+15-21	2266-2268	on	_	
+15-22	2269-2272	the	_	
+15-23	2273-2284	elimination	_	
+15-24	2285-2287	of	_	
+15-25	2288-2296	violence	_	
+15-26	2297-2304	against	_	
+15-27	2306-2311	women	VICTIM	
+15-28	2311-2312	,	_	
+15-29	2313-2322	following	_	
+15-30	2323-2326	the	_	
+15-31	2327-2336	enactment	_	
+15-32	2337-2339	of	_	
+15-33	2340-2343	the	_	
+15-34	2344-2347	law	_	
+15-35	2348-2350	in	_	
+15-36	2351-2355	that	_	
+15-37	2357-2363	regard	_	
+15-38	2364-2366	in	_	
+15-39	2367-2375	December	_	
+15-40	2376-2380	2010	_	
+15-41	2380-2381	.	_	
+
+#Text=Those steps have been vital\r
+#Text=in enhancing Afghan women's access to legal redress\r
+#Text=and have also sent a strong message that the\r
+#Text=Afghanistan Government is committed to the rights of\r
+#Text=women and to ensuring that there is no impunity for\r
+#Text=those who violate them.
+16-1	2382-2387	Those	_	
+16-2	2388-2393	steps	_	
+16-3	2394-2398	have	_	
+16-4	2399-2403	been	_	
+16-5	2404-2409	vital	_	
+16-6	2411-2413	in	_	
+16-7	2414-2423	enhancing	_	
+16-8	2424-2430	Afghan	VICTIM[12]	
+16-9	2431-2438	women's	VICTIM[12]	
+16-10	2439-2445	access	_	
+16-11	2446-2448	to	_	
+16-12	2449-2454	legal	_	
+16-13	2455-2462	redress	_	
+16-14	2464-2467	and	_	
+16-15	2468-2472	have	_	
+16-16	2473-2477	also	_	
+16-17	2478-2482	sent	_	
+16-18	2483-2484	a	_	
+16-19	2485-2491	strong	_	
+16-20	2492-2499	message	_	
+16-21	2500-2504	that	_	
+16-22	2505-2508	the	HERO[13]	
+16-23	2510-2521	Afghanistan	HERO[13]	
+16-24	2522-2532	Government	HERO[13]	
+16-25	2533-2535	is	_	
+16-26	2536-2545	committed	_	
+16-27	2546-2548	to	_	
+16-28	2549-2552	the	_	
+16-29	2553-2559	rights	_	
+16-30	2560-2562	of	_	
+16-31	2564-2569	women	_	
+16-32	2570-2573	and	_	
+16-33	2574-2576	to	_	
+16-34	2577-2585	ensuring	_	
+16-35	2586-2590	that	_	
+16-36	2591-2596	there	_	
+16-37	2597-2599	is	_	
+16-38	2600-2602	no	_	
+16-39	2603-2611	impunity	_	
+16-40	2612-2615	for	_	
+16-41	2617-2622	those	VILLAIN[14]	
+16-42	2623-2626	who	VILLAIN[14]	
+16-43	2627-2634	violate	VILLAIN[14]	
+16-44	2635-2639	them	VILLAIN[14]	
+16-45	2639-2640	.	_	
+
+#Text=Ensuring the rights of women is only half of the\r
+#Text=battle; we also need to see the full participation of\r
+#Text=women, as resolution 1325 (2000) reminds us that they\r
+#Text=have a vital role to play in peace and security.
+17-1	2644-2652	Ensuring	_	
+17-2	2653-2656	the	_	
+17-3	2657-2663	rights	_	
+17-4	2664-2666	of	_	
+17-5	2667-2672	women	VICTIM	
+17-6	2673-2675	is	_	
+17-7	2676-2680	only	_	
+17-8	2681-2685	half	_	
+17-9	2686-2688	of	_	
+17-10	2689-2692	the	_	
+17-11	2694-2700	battle	_	
+17-12	2700-2701	;	_	
+17-13	2702-2704	we	_	
+17-14	2705-2709	also	_	
+17-15	2710-2714	need	_	
+17-16	2715-2717	to	_	
+17-17	2718-2721	see	_	
+17-18	2722-2725	the	_	
+17-19	2726-2730	full	_	
+17-20	2731-2744	participation	_	
+17-21	2745-2747	of	_	
+17-22	2749-2754	women	HERO	
+17-23	2754-2755	,	_	
+17-24	2756-2758	as	_	
+17-25	2759-2769	resolution	_	
+17-26	2770-2774	1325	_	
+17-27	2775-2776	(	_	
+17-28	2776-2780	2000	_	
+17-29	2780-2781	)	_	
+17-30	2782-2789	reminds	_	
+17-31	2790-2792	us	_	
+17-32	2793-2797	that	_	
+17-33	2798-2802	they	HERO	
+17-34	2804-2808	have	_	
+17-35	2809-2810	a	_	
+17-36	2811-2816	vital	_	
+17-37	2817-2821	role	_	
+17-38	2822-2824	to	_	
+17-39	2825-2829	play	_	
+17-40	2830-2832	in	_	
+17-41	2833-2838	peace	_	
+17-42	2839-2842	and	_	
+17-43	2843-2851	security	_	
+17-44	2851-2852	.	_	
+
+#Text=The\r
+#Text=representation of women in governance and their\r
+#Text=political participation has steadily increased.
+18-1	2853-2856	The	_	
+18-2	2858-2872	representation	_	
+18-3	2873-2875	of	_	
+18-4	2876-2881	women	HERO	
+18-5	2882-2884	in	_	
+18-6	2885-2895	governance	_	
+18-7	2896-2899	and	_	
+18-8	2900-2905	their	_	
+18-9	2907-2916	political	_	
+18-10	2917-2930	participation	_	
+18-11	2931-2934	has	_	
+18-12	2935-2943	steadily	_	
+18-13	2944-2953	increased	_	
+18-14	2953-2954	.	_	
+
+#Text=We have\r
+#Text=succeeded in holding two presidential and two\r
+#Text=parliamentary elections, in which women actively\r
+#Text=participated as candidates, elections staff, poll monitors\r
+#Text=and electorates.
+19-1	2955-2957	We	HERO	
+19-2	2958-2962	have	_	
+19-3	2964-2973	succeeded	_	
+19-4	2974-2976	in	_	
+19-5	2977-2984	holding	_	
+19-6	2985-2988	two	_	
+19-7	2989-3001	presidential	_	
+19-8	3002-3005	and	_	
+19-9	3006-3009	two	_	
+19-10	3011-3024	parliamentary	_	
+19-11	3025-3034	elections	_	
+19-12	3034-3035	,	_	
+19-13	3036-3038	in	_	
+19-14	3039-3044	which	_	
+19-15	3045-3050	women	HERO	
+19-16	3051-3059	actively	_	
+19-17	3061-3073	participated	_	
+19-18	3074-3076	as	_	
+19-19	3077-3087	candidates	_	
+19-20	3087-3088	,	_	
+19-21	3089-3098	elections	_	
+19-22	3099-3104	staff	_	
+19-23	3104-3105	,	_	
+19-24	3106-3110	poll	_	
+19-25	3111-3119	monitors	_	
+19-26	3121-3124	and	_	
+19-27	3125-3136	electorates	_	
+19-28	3136-3137	.	_	
+
+#Text=Women comprise 25 per cent of the Parliament,\r
+#Text=thus ranking Afghanistan thirtieth among the countries\r
+#Text=of the world with the highest rate of women\r
+#Text=representatives in Parliament.
+20-1	3141-3146	Women	HERO	
+20-2	3147-3155	comprise	_	
+20-3	3156-3158	25	_	
+20-4	3159-3162	per	_	
+20-5	3163-3167	cent	_	
+20-6	3168-3170	of	_	
+20-7	3171-3174	the	_	
+20-8	3175-3185	Parliament	_	
+20-9	3185-3186	,	_	
+20-10	3188-3192	thus	_	
+20-11	3193-3200	ranking	_	
+20-12	3201-3212	Afghanistan	HERO	
+20-13	3213-3222	thirtieth	_	
+20-14	3223-3228	among	_	
+20-15	3229-3232	the	_	
+20-16	3233-3242	countries	_	
+20-17	3244-3246	of	_	
+20-18	3247-3250	the	_	
+20-19	3251-3256	world	_	
+20-20	3257-3261	with	_	
+20-21	3262-3265	the	_	
+20-22	3266-3273	highest	_	
+20-23	3274-3278	rate	_	
+20-24	3279-3281	of	_	
+20-25	3282-3287	women	HERO[15]	
+20-26	3289-3304	representatives	HERO[15]	
+20-27	3305-3307	in	_	
+20-28	3308-3318	Parliament	_	
+20-29	3318-3319	.	_	
+
+#Text=The Afghanistan\r
+#Text=National Parliament has also established a resource\r
+#Text=centre for women parliamentarians to enhance their\r
+#Text=capacity to effectively include women's voices and\r
+#Text=perspectives in national development and\r
+#Text=reconstruction plans.
+21-1	3320-3323	The	HERO[16]	
+21-2	3324-3335	Afghanistan	HERO[16]	
+21-3	3337-3345	National	HERO[16]	
+21-4	3346-3356	Parliament	HERO[16]	
+21-5	3357-3360	has	_	
+21-6	3361-3365	also	_	
+21-7	3366-3377	established	_	
+21-8	3378-3379	a	_	
+21-9	3380-3388	resource	_	
+21-10	3390-3396	centre	_	
+21-11	3397-3400	for	_	
+21-12	3401-3406	women	_	
+21-13	3407-3423	parliamentarians	_	
+21-14	3424-3426	to	_	
+21-15	3427-3434	enhance	_	
+21-16	3435-3440	their	_	
+21-17	3442-3450	capacity	_	
+21-18	3451-3453	to	_	
+21-19	3454-3465	effectively	_	
+21-20	3466-3473	include	_	
+21-21	3474-3481	women's	HERO	
+21-22	3482-3488	voices	_	
+21-23	3489-3492	and	_	
+21-24	3494-3506	perspectives	_	
+21-25	3507-3509	in	_	
+21-26	3510-3518	national	_	
+21-27	3519-3530	development	_	
+21-28	3531-3534	and	_	
+21-29	3536-3550	reconstruction	_	
+21-30	3551-3556	plans	_	
+21-31	3556-3557	.	_	
+
+#Text=When reviewing these facts and figures, let us not\r
+#Text=lose sight of the great personal risk that these women\r
+#Text=undertake in order to participate in the governance of\r
+#Text=their country and in their future.
+22-1	3561-3565	When	_	
+22-2	3566-3575	reviewing	_	
+22-3	3576-3581	these	_	
+22-4	3582-3587	facts	_	
+22-5	3588-3591	and	_	
+22-6	3592-3599	figures	_	
+22-7	3599-3600	,	_	
+22-8	3601-3604	let	_	
+22-9	3605-3607	us	_	
+22-10	3608-3611	not	_	
+22-11	3613-3617	lose	_	
+22-12	3618-3623	sight	_	
+22-13	3624-3626	of	_	
+22-14	3627-3630	the	_	
+22-15	3631-3636	great	_	
+22-16	3637-3645	personal	_	
+22-17	3646-3650	risk	_	
+22-18	3651-3655	that	_	
+22-19	3656-3661	these	VICTIM[17]|HERO[18]	
+22-20	3662-3667	women	VICTIM[17]|HERO[18]	
+22-21	3669-3678	undertake	_	
+22-22	3679-3681	in	_	
+22-23	3682-3687	order	_	
+22-24	3688-3690	to	_	
+22-25	3691-3702	participate	_	
+22-26	3703-3705	in	_	
+22-27	3706-3709	the	_	
+22-28	3710-3720	governance	_	
+22-29	3721-3723	of	_	
+22-30	3725-3730	their	_	
+22-31	3731-3738	country	_	
+22-32	3739-3742	and	_	
+22-33	3743-3745	in	_	
+22-34	3746-3751	their	_	
+22-35	3752-3758	future	_	
+22-36	3758-3759	.	_	
+
+#Text=I wish to take this\r
+#Text=opportunity to honour the women who continue take\r
+#Text=risks in order to assume an active role in the future\r
+#Text=direction, peace and security of our country.
+23-1	3760-3761	I	_	
+23-2	3762-3766	wish	_	
+23-3	3767-3769	to	_	
+23-4	3770-3774	take	_	
+23-5	3775-3779	this	_	
+23-6	3781-3792	opportunity	_	
+23-7	3793-3795	to	_	
+23-8	3796-3802	honour	_	
+23-9	3803-3806	the	HERO[19]|VICTIM[20]	
+23-10	3807-3812	women	HERO[19]|VICTIM[20]	
+23-11	3813-3816	who	HERO[19]|VICTIM[20]	
+23-12	3817-3825	continue	HERO[19]|VICTIM[20]	
+23-13	3826-3830	take	HERO[19]|VICTIM[20]	
+23-14	3832-3837	risks	HERO[19]|VICTIM[20]	
+23-15	3838-3840	in	_	
+23-16	3841-3846	order	_	
+23-17	3847-3849	to	_	
+23-18	3850-3856	assume	_	
+23-19	3857-3859	an	_	
+23-20	3860-3866	active	_	
+23-21	3867-3871	role	_	
+23-22	3872-3874	in	_	
+23-23	3875-3878	the	_	
+23-24	3879-3885	future	_	
+23-25	3887-3896	direction	_	
+23-26	3896-3897	,	_	
+23-27	3898-3903	peace	_	
+23-28	3904-3907	and	_	
+23-29	3908-3916	security	_	
+23-30	3917-3919	of	_	
+23-31	3920-3923	our	_	
+23-32	3924-3931	country	_	
+23-33	3931-3932	.	_	
+
+#Text=Our international partners have assisted the\r
+#Text=Afghan Government in our endeavours.
+24-1	3936-3939	Our	HERO[21]	
+24-2	3940-3953	international	HERO[21]	
+24-3	3954-3962	partners	HERO[21]	
+24-4	3963-3967	have	_	
+24-5	3968-3976	assisted	_	
+24-6	3977-3980	the	HERO[22]	
+24-7	3982-3988	Afghan	HERO[22]	
+24-8	3989-3999	Government	HERO[22]	
+24-9	4000-4002	in	_	
+24-10	4003-4006	our	_	
+24-11	4007-4017	endeavours	_	
+24-12	4017-4018	.	_	
+
+#Text=UN-Women\r
+#Text=has administered a multi-donor trust fund for the\r
+#Text=elimination of violence against women that provided\r
+#Text=grants for national organizations to combat violence\r
+#Text=against women.
+25-1	4019-4027	UN-Women	HERO	
+25-2	4029-4032	has	_	
+25-3	4033-4045	administered	_	
+25-4	4046-4047	a	_	
+25-5	4048-4059	multi-donor	_	
+25-6	4060-4065	trust	_	
+25-7	4066-4070	fund	_	
+25-8	4071-4074	for	_	
+25-9	4075-4078	the	_	
+25-10	4080-4091	elimination	_	
+25-11	4092-4094	of	_	
+25-12	4095-4103	violence	_	
+25-13	4104-4111	against	_	
+25-14	4112-4117	women	VICTIM	
+25-15	4118-4122	that	_	
+25-16	4123-4131	provided	_	
+25-17	4133-4139	grants	_	
+25-18	4140-4143	for	_	
+25-19	4144-4152	national	HERO[23]	
+25-20	4153-4166	organizations	HERO[23]	
+25-21	4167-4169	to	_	
+25-22	4170-4176	combat	_	
+25-23	4177-4185	violence	_	
+25-24	4187-4194	against	_	
+25-25	4195-4200	women	VICTIM	
+25-26	4200-4201	.	_	
+
+#Text=I am very pleased to report that, in\r
+#Text=collaboration with UN-Women, Afghanistan has\r
+#Text=submitted its first country report on the Convention on\r
+#Text=the Elimination of All Forms of Discrimination against\r
+#Text=Women.
+26-1	4202-4203	I	_	
+26-2	4204-4206	am	_	
+26-3	4207-4211	very	_	
+26-4	4212-4219	pleased	_	
+26-5	4220-4222	to	_	
+26-6	4223-4229	report	_	
+26-7	4230-4234	that	_	
+26-8	4234-4235	,	_	
+26-9	4236-4238	in	_	
+26-10	4240-4253	collaboration	_	
+26-11	4254-4258	with	_	
+26-12	4259-4267	UN-Women	HERO	
+26-13	4267-4268	,	_	
+26-14	4269-4280	Afghanistan	HERO	
+26-15	4281-4284	has	_	
+26-16	4286-4295	submitted	_	
+26-17	4296-4299	its	_	
+26-18	4300-4305	first	_	
+26-19	4306-4313	country	_	
+26-20	4314-4320	report	_	
+26-21	4321-4323	on	_	
+26-22	4324-4327	the	_	
+26-23	4328-4338	Convention	_	
+26-24	4339-4341	on	_	
+26-25	4343-4346	the	_	
+26-26	4347-4358	Elimination	_	
+26-27	4359-4361	of	_	
+26-28	4362-4365	All	_	
+26-29	4366-4371	Forms	_	
+26-30	4372-4374	of	_	
+26-31	4375-4389	Discrimination	_	
+26-32	4390-4397	against	_	
+26-33	4399-4404	Women	_	
+26-34	4404-4405	.	_	
+
+#Text=The continued collaboration of our\r
+#Text=Government, international partners and both Afghan\r
+#Text=and international civil society groups will be vital to\r
+#Text=ensure the full realization of women's rights in a strong\r
+#Text=and stable Afghanistan.
+27-1	4406-4409	The	_	
+27-2	4410-4419	continued	_	
+27-3	4420-4433	collaboration	_	
+27-4	4434-4436	of	_	
+27-5	4437-4440	our	HERO[24]	
+27-6	4442-4452	Government	HERO[24]	
+27-7	4452-4453	,	HERO[24]	
+27-8	4454-4467	international	HERO[24]	
+27-9	4468-4476	partners	HERO[24]	
+27-10	4477-4480	and	HERO[24]	
+27-11	4481-4485	both	HERO[24]	
+27-12	4486-4492	Afghan	HERO[24]	
+27-13	4494-4497	and	HERO[24]	
+27-14	4498-4511	international	HERO[24]	
+27-15	4512-4517	civil	HERO[24]	
+27-16	4518-4525	society	HERO[24]	
+27-17	4526-4532	groups	HERO[24]	
+27-18	4533-4537	will	_	
+27-19	4538-4540	be	_	
+27-20	4541-4546	vital	_	
+27-21	4547-4549	to	_	
+27-22	4551-4557	ensure	_	
+27-23	4558-4561	the	_	
+27-24	4562-4566	full	_	
+27-25	4567-4578	realization	_	
+27-26	4579-4581	of	_	
+27-27	4582-4589	women's	VICTIM	
+27-28	4590-4596	rights	_	
+27-29	4597-4599	in	_	
+27-30	4600-4601	a	_	
+27-31	4602-4608	strong	_	
+27-32	4610-4613	and	_	
+27-33	4614-4620	stable	_	
+27-34	4621-4632	Afghanistan	_	
+27-35	4632-4633	.	_	
+
+#Text=Building a stable and secure environment that\r
+#Text=enables women to live free of intimidation and\r
+#Text=violence and promotes their participation and\r
+#Text=leadership in efforts to maintain peace and security is\r
+#Text=one of the core objectives of the Afghan Government.
+28-1	4637-4645	Building	_	
+28-2	4646-4647	a	_	
+28-3	4648-4654	stable	_	
+28-4	4655-4658	and	_	
+28-5	4659-4665	secure	_	
+28-6	4666-4677	environment	_	
+28-7	4678-4682	that	_	
+28-8	4684-4691	enables	_	
+28-9	4692-4697	women	VICTIM[25]|HERO[26]	
+28-10	4698-4700	to	_	
+28-11	4701-4705	live	_	
+28-12	4706-4710	free	_	
+28-13	4711-4713	of	_	
+28-14	4714-4726	intimidation	_	
+28-15	4727-4730	and	_	
+28-16	4732-4740	violence	_	
+28-17	4741-4744	and	_	
+28-18	4745-4753	promotes	_	
+28-19	4754-4759	their	_	
+28-20	4760-4773	participation	_	
+28-21	4774-4777	and	_	
+28-22	4779-4789	leadership	_	
+28-23	4790-4792	in	_	
+28-24	4793-4800	efforts	_	
+28-25	4801-4803	to	_	
+28-26	4804-4812	maintain	_	
+28-27	4813-4818	peace	_	
+28-28	4819-4822	and	_	
+28-29	4823-4831	security	_	
+28-30	4832-4834	is	_	
+28-31	4836-4839	one	_	
+28-32	4840-4842	of	_	
+28-33	4843-4846	the	_	
+28-34	4847-4851	core	_	
+28-35	4852-4862	objectives	_	
+28-36	4863-4865	of	_	
+28-37	4866-4869	the	HERO[27]	
+28-38	4870-4876	Afghan	HERO[27]	
+28-39	4877-4887	Government	HERO[27]	
+28-40	4887-4888	.	_	
+
+#Text=We are also focusing on women political actors at\r
+#Text=national, subnational and local levels, as well as on\r
+#Text=capacity-building and advocacy strategies to enable\r
+#Text=them to obtain critical roles in high-level decision-\r
+#Text=making processes, policy and law-making positions in\r
+#Text=key Government institutions and to assist them in\r
+#Text=carrying out their significant political and social\r
+#Text=responsibilities.
+29-1	4892-4894	We	HERO	
+29-2	4895-4898	are	_	
+29-3	4899-4903	also	_	
+29-4	4904-4912	focusing	_	
+29-5	4913-4915	on	_	
+29-6	4916-4921	women	HERO[28]	
+29-7	4922-4931	political	HERO[28]	
+29-8	4932-4938	actors	HERO[28]	
+29-9	4939-4941	at	_	
+29-10	4943-4951	national	_	
+29-11	4951-4952	,	_	
+29-12	4953-4964	subnational	_	
+29-13	4965-4968	and	_	
+29-14	4969-4974	local	_	
+29-15	4975-4981	levels	_	
+29-16	4981-4982	,	_	
+29-17	4983-4985	as	_	
+29-18	4986-4990	well	_	
+29-19	4991-4993	as	_	
+29-20	4994-4996	on	_	
+29-21	4998-5015	capacity-building	_	
+29-22	5016-5019	and	_	
+29-23	5020-5028	advocacy	_	
+29-24	5029-5039	strategies	_	
+29-25	5040-5042	to	_	
+29-26	5043-5049	enable	_	
+29-27	5051-5055	them	VICTIM[29]|HERO[30]	
+29-28	5056-5058	to	_	
+29-29	5059-5065	obtain	_	
+29-30	5066-5074	critical	_	
+29-31	5075-5080	roles	_	
+29-32	5081-5083	in	_	
+29-33	5084-5094	high-level	_	
+29-34	5095-5103	decision	_	
+29-35	5103-5104	-	_	
+29-36	5106-5112	making	_	
+29-37	5113-5122	processes	_	
+29-38	5122-5123	,	_	
+29-39	5124-5130	policy	_	
+29-40	5131-5134	and	_	
+29-41	5135-5145	law-making	_	
+29-42	5146-5155	positions	_	
+29-43	5156-5158	in	_	
+29-44	5160-5163	key	_	
+29-45	5164-5174	Government	_	
+29-46	5175-5187	institutions	_	
+29-47	5188-5191	and	_	
+29-48	5192-5194	to	_	
+29-49	5195-5201	assist	_	
+29-50	5202-5206	them	VICTIM[31]|HERO[32]	
+29-51	5207-5209	in	_	
+29-52	5211-5219	carrying	_	
+29-53	5220-5223	out	_	
+29-54	5224-5229	their	_	
+29-55	5230-5241	significant	_	
+29-56	5242-5251	political	_	
+29-57	5252-5255	and	_	
+29-58	5256-5262	social	_	
+29-59	5264-5280	responsibilities	_	
+29-60	5280-5281	.	_	
+
+#Text=In conclusion, with the support of our partners\r
+#Text=and the international community, we will continue to\r
+#Text=work towards the full implementation of resolution\r
+#Text=1325 (2000), while recognizing that our goal of\r
+#Text=sustainable peace and security in Afghanistan will not\r
+#Text=be achieved without the full participation of the entire\r
+#Text=Afghan nation.
+30-1	5285-5287	In	_	
+30-2	5288-5298	conclusion	_	
+30-3	5298-5299	,	_	
+30-4	5300-5304	with	_	
+30-5	5305-5308	the	_	
+30-6	5309-5316	support	_	
+30-7	5317-5319	of	_	
+30-8	5320-5323	our	HERO[33]	
+30-9	5324-5332	partners	HERO[33]	
+30-10	5334-5337	and	HERO[33]	
+30-11	5338-5341	the	HERO[33]	
+30-12	5342-5355	international	HERO[33]	
+30-13	5356-5365	community	HERO[33]	
+30-14	5365-5366	,	_	
+30-15	5367-5369	we	HERO	
+30-16	5370-5374	will	_	
+30-17	5375-5383	continue	_	
+30-18	5384-5386	to	_	
+30-19	5388-5392	work	_	
+30-20	5393-5400	towards	_	
+30-21	5401-5404	the	_	
+30-22	5405-5409	full	_	
+30-23	5410-5424	implementation	_	
+30-24	5425-5427	of	_	
+30-25	5428-5438	resolution	_	
+30-26	5440-5444	1325	_	
+30-27	5445-5446	(	_	
+30-28	5446-5450	2000	_	
+30-29	5450-5451	)	_	
+30-30	5451-5452	,	_	
+30-31	5453-5458	while	_	
+30-32	5459-5470	recognizing	_	
+30-33	5471-5475	that	_	
+30-34	5476-5479	our	_	
+30-35	5480-5484	goal	_	
+30-36	5485-5487	of	_	
+30-37	5489-5500	sustainable	_	
+30-38	5501-5506	peace	_	
+30-39	5507-5510	and	_	
+30-40	5511-5519	security	_	
+30-41	5520-5522	in	_	
+30-42	5523-5534	Afghanistan	_	
+30-43	5535-5539	will	_	
+30-44	5540-5543	not	_	
+30-45	5545-5547	be	_	
+30-46	5548-5556	achieved	_	
+30-47	5557-5564	without	_	
+30-48	5565-5568	the	_	
+30-49	5569-5573	full	_	
+30-50	5574-5587	participation	_	
+30-51	5588-5590	of	_	
+30-52	5591-5594	the	HERO[34]	
+30-53	5595-5601	entire	HERO[34]	
+30-54	5603-5609	Afghan	HERO[34]	
+30-55	5610-5616	nation	HERO[34]	
+30-56	5616-5617	.	_	

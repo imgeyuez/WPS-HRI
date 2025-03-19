@@ -1,0 +1,698 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mr.
+1-1	0-2	Mr	_	
+1-2	2-3	.	_	
+
+#Text=Barros Melet (Chile) (spoke in Spanish): We\r
+#Text=thank the delegation of France for convening this open\r
+#Text=debate and we appreciate the statements made by the\r
+#Text=briefers.
+2-1	4-10	Barros	_	
+2-2	11-16	Melet	_	
+2-3	17-18	(	_	
+2-4	18-23	Chile	_	
+2-5	23-24	)	_	
+2-6	25-26	(	_	
+2-7	26-31	spoke	_	
+2-8	32-34	in	_	
+2-9	35-42	Spanish	_	
+2-10	42-43	)	_	
+2-11	43-44	:	_	
+2-12	45-47	We	_	
+2-13	49-54	thank	_	
+2-14	55-58	the	HERO[1]	
+2-15	59-69	delegation	HERO[1]	
+2-16	70-72	of	HERO[1]	
+2-17	73-79	France	HERO[1]	
+2-18	80-83	for	_	
+2-19	84-93	convening	_	
+2-20	94-98	this	_	
+2-21	99-103	open	_	
+2-22	105-111	debate	_	
+2-23	112-115	and	_	
+2-24	116-118	we	_	
+2-25	119-129	appreciate	_	
+2-26	130-133	the	_	
+2-27	134-144	statements	_	
+2-28	145-149	made	_	
+2-29	150-152	by	_	
+2-30	153-156	the	HERO[2]	
+2-31	158-166	briefers	HERO[2]	
+2-32	166-167	.	_	
+
+#Text=We extend special greetings to the civil society\r
+#Text=representative from our region.
+3-1	168-170	We	_	
+3-2	171-177	extend	_	
+3-3	178-185	special	_	
+3-4	186-195	greetings	_	
+3-5	196-198	to	_	
+3-6	199-202	the	_	
+3-7	203-208	civil	_	
+3-8	209-216	society	_	
+3-9	218-232	representative	_	
+3-10	233-237	from	_	
+3-11	238-241	our	_	
+3-12	242-248	region	_	
+3-13	248-249	.	_	
+
+#Text=Chile aligns itself with the statements delivered by\r
+#Text=the representatives of Canada, on behalf of the Group of\r
+#Text=Friends of Women, Peace and Security, and of Panama,\r
+#Text=on behalf of the Human Security Network.
+4-1	253-258	Chile	_	
+4-2	259-265	aligns	_	
+4-3	266-272	itself	_	
+4-4	273-277	with	_	
+4-5	278-281	the	_	
+4-6	282-292	statements	_	
+4-7	293-302	delivered	_	
+4-8	303-305	by	_	
+4-9	307-310	the	_	
+4-10	311-326	representatives	_	
+4-11	327-329	of	_	
+4-12	330-336	Canada	_	
+4-13	336-337	,	_	
+4-14	338-340	on	_	
+4-15	341-347	behalf	_	
+4-16	348-350	of	_	
+4-17	351-354	the	_	
+4-18	355-360	Group	_	
+4-19	361-363	of	_	
+4-20	365-372	Friends	_	
+4-21	373-375	of	_	
+4-22	376-381	Women	_	
+4-23	381-382	,	_	
+4-24	383-388	Peace	_	
+4-25	389-392	and	_	
+4-26	393-401	Security	_	
+4-27	401-402	,	_	
+4-28	403-406	and	_	
+4-29	407-409	of	_	
+4-30	410-416	Panama	_	
+4-31	416-417	,	_	
+4-32	419-421	on	_	
+4-33	422-428	behalf	_	
+4-34	429-431	of	_	
+4-35	432-435	the	_	
+4-36	436-441	Human	_	
+4-37	442-450	Security	_	
+4-38	451-458	Network	_	
+4-39	458-459	.	_	
+
+#Text=We welcome the report of the Secretary-General\r
+#Text=(S/2017/861) and express our support for the initiatives\r
+#Text=related to the voluntary compact to end sexual\r
+#Text=exploitation and abuse, which Chile has signed, the\r
+#Text=appointment of the victims' rights advocate, the Senior\r
+#Text=Women Talent Pipeline initiative, and the strategy\r
+#Text=for the equal participation of men and women in\r
+#Text=the Organization.
+5-1	463-465	We	_	
+5-2	466-473	welcome	_	
+5-3	474-477	the	_	
+5-4	478-484	report	_	
+5-5	485-487	of	_	
+5-6	488-491	the	HERO[3]	
+5-7	492-509	Secretary-General	HERO[3]	
+5-8	511-512	(	_	
+5-9	512-513	S	_	
+5-10	513-514	/	_	
+5-11	514-518	2017	_	
+5-12	518-519	/	_	
+5-13	519-522	861	_	
+5-14	522-523	)	_	
+5-15	524-527	and	_	
+5-16	528-535	express	_	
+5-17	536-539	our	_	
+5-18	540-547	support	_	
+5-19	548-551	for	_	
+5-20	552-555	the	_	
+5-21	556-567	initiatives	_	
+5-22	569-576	related	_	
+5-23	577-579	to	_	
+5-24	580-583	the	_	
+5-25	584-593	voluntary	_	
+5-26	594-601	compact	_	
+5-27	602-604	to	_	
+5-28	605-608	end	_	
+5-29	609-615	sexual	_	
+5-30	617-629	exploitation	_	
+5-31	630-633	and	_	
+5-32	634-639	abuse	_	
+5-33	639-640	,	_	
+5-34	641-646	which	_	
+5-35	647-652	Chile	HERO	
+5-36	653-656	has	_	
+5-37	657-663	signed	_	
+5-38	663-664	,	_	
+5-39	665-668	the	_	
+5-40	670-681	appointment	_	
+5-41	682-684	of	_	
+5-42	685-688	the	_	
+5-43	689-696	victims	_	
+5-44	696-697	'	_	
+5-45	698-704	rights	_	
+5-46	705-713	advocate	_	
+5-47	713-714	,	_	
+5-48	715-718	the	_	
+5-49	719-725	Senior	_	
+5-50	727-732	Women	_	
+5-51	733-739	Talent	_	
+5-52	740-748	Pipeline	_	
+5-53	749-759	initiative	_	
+5-54	759-760	,	_	
+5-55	761-764	and	_	
+5-56	765-768	the	_	
+5-57	769-777	strategy	_	
+5-58	779-782	for	_	
+5-59	783-786	the	_	
+5-60	787-792	equal	_	
+5-61	793-806	participation	_	
+5-62	807-809	of	_	
+5-63	810-813	men	_	
+5-64	814-817	and	_	
+5-65	818-823	women	_	
+5-66	824-826	in	_	
+5-67	828-831	the	_	
+5-68	832-844	Organization	_	
+5-69	844-845	.	_	
+
+#Text=Chile was a Latin American pioneer in developing\r
+#Text=an action plan for the implementation of resolution\r
+#Text=1325 (2000) in 2009, under the administration of\r
+#Text=President Bachelet, conscious of the important role\r
+#Text=played by women as agents of change and forgers of\r
+#Text=peace.
+6-1	849-854	Chile	HERO	
+6-2	855-858	was	_	
+6-3	859-860	a	_	
+6-4	861-866	Latin	_	
+6-5	867-875	American	_	
+6-6	876-883	pioneer	_	
+6-7	884-886	in	_	
+6-8	887-897	developing	_	
+6-9	899-901	an	_	
+6-10	902-908	action	_	
+6-11	909-913	plan	_	
+6-12	914-917	for	_	
+6-13	918-921	the	_	
+6-14	922-936	implementation	_	
+6-15	937-939	of	_	
+6-16	940-950	resolution	_	
+6-17	952-956	1325	_	
+6-18	957-958	(	_	
+6-19	958-962	2000	_	
+6-20	962-963	)	_	
+6-21	964-966	in	_	
+6-22	967-971	2009	_	
+6-23	971-972	,	_	
+6-24	973-978	under	_	
+6-25	979-982	the	_	
+6-26	983-997	administration	_	
+6-27	998-1000	of	_	
+6-28	1002-1011	President	HERO[4]	
+6-29	1012-1020	Bachelet	HERO[4]	
+6-30	1020-1021	,	_	
+6-31	1022-1031	conscious	_	
+6-32	1032-1034	of	_	
+6-33	1035-1038	the	_	
+6-34	1039-1048	important	_	
+6-35	1049-1053	role	_	
+6-36	1055-1061	played	_	
+6-37	1062-1064	by	_	
+6-38	1065-1070	women	HERO	
+6-39	1071-1073	as	_	
+6-40	1074-1080	agents	_	
+6-41	1081-1083	of	_	
+6-42	1084-1090	change	_	
+6-43	1091-1094	and	_	
+6-44	1095-1102	forgers	_	
+6-45	1103-1105	of	_	
+6-46	1107-1112	peace	_	
+6-47	1112-1113	.	_	
+
+#Text=The second national action plan is now in full\r
+#Text=implementation, with a strong emphasis on education\r
+#Text=and staff training.
+7-1	1114-1117	The	_	
+7-2	1118-1124	second	_	
+7-3	1125-1133	national	_	
+7-4	1134-1140	action	_	
+7-5	1141-1145	plan	_	
+7-6	1146-1148	is	_	
+7-7	1149-1152	now	_	
+7-8	1153-1155	in	_	
+7-9	1156-1160	full	_	
+7-10	1162-1176	implementation	_	
+7-11	1176-1177	,	_	
+7-12	1178-1182	with	_	
+7-13	1183-1184	a	_	
+7-14	1185-1191	strong	_	
+7-15	1192-1200	emphasis	_	
+7-16	1201-1203	on	_	
+7-17	1204-1213	education	_	
+7-18	1215-1218	and	_	
+7-19	1219-1224	staff	_	
+7-20	1225-1233	training	_	
+7-21	1233-1234	.	_	
+
+#Text=The new plan includes the recommendations of\r
+#Text=the Security Council and international best practices\r
+#Text=in that area, making strides in creating indicators to\r
+#Text=measure progress on specific objectives that facilitate\r
+#Text=and promote women's access within peace operations at\r
+#Text=all levels of action and decision.
+8-1	1238-1241	The	_	
+8-2	1242-1245	new	_	
+8-3	1246-1250	plan	_	
+8-4	1251-1259	includes	_	
+8-5	1260-1263	the	_	
+8-6	1264-1279	recommendations	_	
+8-7	1280-1282	of	_	
+8-8	1284-1287	the	_	
+8-9	1288-1296	Security	_	
+8-10	1297-1304	Council	_	
+8-11	1305-1308	and	_	
+8-12	1309-1322	international	_	
+8-13	1323-1327	best	_	
+8-14	1328-1337	practices	_	
+8-15	1339-1341	in	_	
+8-16	1342-1346	that	_	
+8-17	1347-1351	area	_	
+8-18	1351-1352	,	_	
+8-19	1353-1359	making	_	
+8-20	1360-1367	strides	_	
+8-21	1368-1370	in	_	
+8-22	1371-1379	creating	_	
+8-23	1380-1390	indicators	_	
+8-24	1391-1393	to	_	
+8-25	1395-1402	measure	_	
+8-26	1403-1411	progress	_	
+8-27	1412-1414	on	_	
+8-28	1415-1423	specific	_	
+8-29	1424-1434	objectives	_	
+8-30	1435-1439	that	_	
+8-31	1440-1450	facilitate	_	
+8-32	1452-1455	and	_	
+8-33	1456-1463	promote	_	
+8-34	1464-1471	women's	VICTIM[5]|HERO[6]	
+8-35	1472-1478	access	_	
+8-36	1479-1485	within	_	
+8-37	1486-1491	peace	_	
+8-38	1492-1502	operations	_	
+8-39	1503-1505	at	_	
+8-40	1507-1510	all	_	
+8-41	1511-1517	levels	_	
+8-42	1518-1520	of	_	
+8-43	1521-1527	action	_	
+8-44	1528-1531	and	_	
+8-45	1532-1540	decision	_	
+8-46	1540-1541	.	_	
+
+#Text=We have incorporated\r
+#Text=a gender perspective in doctrine, planning and carrying\r
+#Text=out of Chile's peace operations in all four thematic\r
+#Text=areas and goals established by the United Nations:\r
+#Text=prevention, participation, protection and relief, and\r
+#Text=recovery.
+9-1	1542-1544	We	HERO	
+9-2	1545-1549	have	_	
+9-3	1550-1562	incorporated	_	
+9-4	1564-1565	a	_	
+9-5	1566-1572	gender	_	
+9-6	1573-1584	perspective	_	
+9-7	1585-1587	in	_	
+9-8	1588-1596	doctrine	_	
+9-9	1596-1597	,	_	
+9-10	1598-1606	planning	_	
+9-11	1607-1610	and	_	
+9-12	1611-1619	carrying	_	
+9-13	1621-1624	out	_	
+9-14	1625-1627	of	_	
+9-15	1628-1635	Chile's	_	
+9-16	1636-1641	peace	_	
+9-17	1642-1652	operations	_	
+9-18	1653-1655	in	_	
+9-19	1656-1659	all	_	
+9-20	1660-1664	four	_	
+9-21	1665-1673	thematic	_	
+9-22	1675-1680	areas	_	
+9-23	1681-1684	and	_	
+9-24	1685-1690	goals	_	
+9-25	1691-1702	established	_	
+9-26	1703-1705	by	_	
+9-27	1706-1709	the	HERO[7]	
+9-28	1710-1716	United	HERO[7]	
+9-29	1717-1724	Nations	HERO[7]	
+9-30	1724-1725	:	_	
+9-31	1727-1737	prevention	_	
+9-32	1737-1738	,	_	
+9-33	1739-1752	participation	_	
+9-34	1752-1753	,	_	
+9-35	1754-1764	protection	_	
+9-36	1765-1768	and	_	
+9-37	1769-1775	relief	_	
+9-38	1775-1776	,	_	
+9-39	1777-1780	and	_	
+9-40	1782-1790	recovery	_	
+9-41	1790-1791	.	_	
+
+#Text=Chile co-sponsored resolution 2242 (2015),\r
+#Text=promoted by Spain, and is a founding member of the\r
+#Text=Women, Peace and Security National Focal Points\r
+#Text=Network.
+10-1	1792-1797	Chile	HERO	
+10-2	1798-1810	co-sponsored	_	
+10-3	1811-1821	resolution	_	
+10-4	1822-1826	2242	_	
+10-5	1827-1828	(	_	
+10-6	1828-1832	2015	_	
+10-7	1832-1833	)	_	
+10-8	1833-1834	,	_	
+10-9	1836-1844	promoted	_	
+10-10	1845-1847	by	_	
+10-11	1848-1853	Spain	HERO	
+10-12	1853-1854	,	_	
+10-13	1855-1858	and	_	
+10-14	1859-1861	is	_	
+10-15	1862-1863	a	_	
+10-16	1864-1872	founding	_	
+10-17	1873-1879	member	_	
+10-18	1880-1882	of	_	
+10-19	1883-1886	the	HERO[8]	
+10-20	1888-1893	Women	HERO[8]	
+10-21	1893-1894	,	HERO[8]	
+10-22	1895-1900	Peace	HERO[8]	
+10-23	1901-1904	and	HERO[8]	
+10-24	1905-1913	Security	HERO[8]	
+10-25	1914-1922	National	HERO[8]	
+10-26	1923-1928	Focal	HERO[8]	
+10-27	1929-1935	Points	HERO[8]	
+10-28	1937-1944	Network	HERO[8]	
+10-29	1944-1945	.	_	
+
+#Text=The Network's last meeting in September\r
+#Text=reaffirmed its commitment to continuing to support\r
+#Text=and develop women's participation in decision-making\r
+#Text=in all areas.
+11-1	1946-1949	The	HERO[9]	
+11-2	1950-1959	Network's	HERO[9]	
+11-3	1960-1964	last	_	
+11-4	1965-1972	meeting	_	
+11-5	1973-1975	in	_	
+11-6	1976-1985	September	_	
+11-7	1987-1997	reaffirmed	_	
+11-8	1998-2001	its	_	
+11-9	2002-2012	commitment	_	
+11-10	2013-2015	to	_	
+11-11	2016-2026	continuing	_	
+11-12	2027-2029	to	_	
+11-13	2030-2037	support	_	
+11-14	2039-2042	and	_	
+11-15	2043-2050	develop	_	
+11-16	2051-2058	women's	HERO[10]|VICTIM[11]	
+11-17	2059-2072	participation	_	
+11-18	2073-2075	in	_	
+11-19	2076-2091	decision-making	_	
+11-20	2093-2095	in	_	
+11-21	2096-2099	all	_	
+11-22	2100-2105	areas	_	
+11-23	2105-2106	.	_	
+
+#Text=Equal opportunity and the empowerment of women\r
+#Text=has been a key pillar of our Government's gender\r
+#Text=agenda, which has made solid progress such as the\r
+#Text=incorporation of gender equality in electoral reform,\r
+#Text=and which requires that at least 40 per cent of candidates\r
+#Text=running for Congress be women.
+12-1	2110-2115	Equal	_	
+12-2	2116-2127	opportunity	_	
+12-3	2128-2131	and	_	
+12-4	2132-2135	the	_	
+12-5	2136-2147	empowerment	_	
+12-6	2148-2150	of	_	
+12-7	2151-2156	women	VICTIM[12]|HERO[13]	
+12-8	2158-2161	has	_	
+12-9	2162-2166	been	_	
+12-10	2167-2168	a	_	
+12-11	2169-2172	key	_	
+12-12	2173-2179	pillar	_	
+12-13	2180-2182	of	_	
+12-14	2183-2186	our	_	
+12-15	2187-2199	Government's	_	
+12-16	2200-2206	gender	_	
+12-17	2208-2214	agenda	_	
+12-18	2214-2215	,	_	
+12-19	2216-2221	which	_	
+12-20	2222-2225	has	_	
+12-21	2226-2230	made	_	
+12-22	2231-2236	solid	_	
+12-23	2237-2245	progress	_	
+12-24	2246-2250	such	_	
+12-25	2251-2253	as	_	
+12-26	2254-2257	the	_	
+12-27	2259-2272	incorporation	_	
+12-28	2273-2275	of	_	
+12-29	2276-2282	gender	_	
+12-30	2283-2291	equality	_	
+12-31	2292-2294	in	_	
+12-32	2295-2304	electoral	_	
+12-33	2305-2311	reform	_	
+12-34	2311-2312	,	_	
+12-35	2314-2317	and	_	
+12-36	2318-2323	which	_	
+12-37	2324-2332	requires	_	
+12-38	2333-2337	that	_	
+12-39	2338-2340	at	_	
+12-40	2341-2346	least	_	
+12-41	2347-2349	40	_	
+12-42	2350-2353	per	_	
+12-43	2354-2358	cent	_	
+12-44	2359-2361	of	_	
+12-45	2362-2372	candidates	_	
+12-46	2374-2381	running	_	
+12-47	2382-2385	for	_	
+12-48	2386-2394	Congress	_	
+12-49	2395-2397	be	_	
+12-50	2398-2403	women	_	
+12-51	2403-2404	.	_	
+
+#Text=At the international\r
+#Text=level, we promote and protect women's rights in\r
+#Text=armed conflict, especially given the need to increase\r
+#Text=women's participation in decision-making related to\r
+#Text=international peace and security.
+13-1	2405-2407	At	_	
+13-2	2408-2411	the	_	
+13-3	2412-2425	international	_	
+13-4	2427-2432	level	_	
+13-5	2432-2433	,	_	
+13-6	2434-2436	we	HERO	
+13-7	2437-2444	promote	_	
+13-8	2445-2448	and	_	
+13-9	2449-2456	protect	_	
+13-10	2457-2464	women's	VICTIM	
+13-11	2465-2471	rights	_	
+13-12	2472-2474	in	_	
+13-13	2476-2481	armed	_	
+13-14	2482-2490	conflict	_	
+13-15	2490-2491	,	_	
+13-16	2492-2502	especially	_	
+13-17	2503-2508	given	_	
+13-18	2509-2512	the	_	
+13-19	2513-2517	need	_	
+13-20	2518-2520	to	_	
+13-21	2521-2529	increase	_	
+13-22	2531-2538	women's	VILLAIN[14]|HERO[15]	
+13-23	2539-2552	participation	_	
+13-24	2553-2555	in	_	
+13-25	2556-2571	decision-making	_	
+13-26	2572-2579	related	_	
+13-27	2580-2582	to	_	
+13-28	2584-2597	international	_	
+13-29	2598-2603	peace	_	
+13-30	2604-2607	and	_	
+13-31	2608-2616	security	_	
+13-32	2616-2617	.	_	
+
+#Text=That is how we bolster\r
+#Text=women's presence in peace missions both in Haiti and\r
+#Text=in Colombia's special political mission.
+14-1	2618-2622	That	_	
+14-2	2623-2625	is	_	
+14-3	2626-2629	how	_	
+14-4	2630-2632	we	HERO	
+14-5	2633-2640	bolster	_	
+14-6	2642-2649	women's	HERO	
+14-7	2650-2658	presence	_	
+14-8	2659-2661	in	_	
+14-9	2662-2667	peace	_	
+14-10	2668-2676	missions	_	
+14-11	2677-2681	both	_	
+14-12	2682-2684	in	_	
+14-13	2685-2690	Haiti	_	
+14-14	2691-2694	and	_	
+14-15	2696-2698	in	_	
+14-16	2699-2709	Colombia's	_	
+14-17	2710-2717	special	_	
+14-18	2718-2727	political	_	
+14-19	2728-2735	mission	_	
+14-20	2735-2736	.	_	
+
+#Text=In the field\r
+#Text=of prevention, we are developing academic initiatives\r
+#Text=based on the women and peace and security agenda,\r
+#Text=incentivizing the inclusion of a gender perspective in\r
+#Text=sustaining peace activities.
+15-1	2737-2739	In	_	
+15-2	2740-2743	the	_	
+15-3	2744-2749	field	_	
+15-4	2751-2753	of	_	
+15-5	2754-2764	prevention	_	
+15-6	2764-2765	,	_	
+15-7	2766-2768	we	HERO	
+15-8	2769-2772	are	_	
+15-9	2773-2783	developing	_	
+15-10	2784-2792	academic	_	
+15-11	2793-2804	initiatives	_	
+15-12	2806-2811	based	_	
+15-13	2812-2814	on	_	
+15-14	2815-2818	the	_	
+15-15	2819-2824	women	_	
+15-16	2825-2828	and	_	
+15-17	2829-2834	peace	_	
+15-18	2835-2838	and	_	
+15-19	2839-2847	security	_	
+15-20	2848-2854	agenda	_	
+15-21	2854-2855	,	_	
+15-22	2857-2870	incentivizing	_	
+15-23	2871-2874	the	_	
+15-24	2875-2884	inclusion	_	
+15-25	2885-2887	of	_	
+15-26	2888-2889	a	_	
+15-27	2890-2896	gender	_	
+15-28	2897-2908	perspective	_	
+15-29	2909-2911	in	_	
+15-30	2913-2923	sustaining	_	
+15-31	2924-2929	peace	_	
+15-32	2930-2940	activities	_	
+15-33	2940-2941	.	_	
+
+#Text=The inclusion of women in peace operations raises\r
+#Text=awareness about women's and children's issues on\r
+#Text=the ground in such operations, and their presence has\r
+#Text=helped prevent sexual exploitation and abuse.
+16-1	2945-2948	The	_	
+16-2	2949-2958	inclusion	_	
+16-3	2959-2961	of	_	
+16-4	2962-2967	women	HERO	
+16-5	2968-2970	in	_	
+16-6	2971-2976	peace	_	
+16-7	2977-2987	operations	_	
+16-8	2988-2994	raises	_	
+16-9	2996-3005	awareness	_	
+16-10	3006-3011	about	_	
+16-11	3012-3019	women's	VICTIM[16]	
+16-12	3020-3023	and	VICTIM[16]	
+16-13	3024-3034	children's	VICTIM[16]	
+16-14	3035-3041	issues	_	
+16-15	3042-3044	on	_	
+16-16	3046-3049	the	_	
+16-17	3050-3056	ground	_	
+16-18	3057-3059	in	_	
+16-19	3060-3064	such	_	
+16-20	3065-3075	operations	_	
+16-21	3075-3076	,	_	
+16-22	3077-3080	and	_	
+16-23	3081-3086	their	_	
+16-24	3087-3095	presence	_	
+16-25	3096-3099	has	_	
+16-26	3101-3107	helped	_	
+16-27	3108-3115	prevent	_	
+16-28	3116-3122	sexual	_	
+16-29	3123-3135	exploitation	_	
+16-30	3136-3139	and	_	
+16-31	3140-3145	abuse	_	
+16-32	3145-3146	.	_	
+
+#Text=In that\r
+#Text=context, women both in peace operations and within\r
+#Text=communities have played a central role in sustaining\r
+#Text=peace and protecting women's rights.
+17-1	3147-3149	In	_	
+17-2	3150-3154	that	_	
+17-3	3156-3163	context	_	
+17-4	3163-3164	,	_	
+17-5	3165-3170	women	HERO[17]	
+17-6	3171-3175	both	HERO[17]	
+17-7	3176-3178	in	HERO[17]	
+17-8	3179-3184	peace	HERO[17]	
+17-9	3185-3195	operations	HERO[17]	
+17-10	3196-3199	and	HERO[17]	
+17-11	3200-3206	within	HERO[17]	
+17-12	3208-3219	communities	HERO[17]	
+17-13	3220-3224	have	_	
+17-14	3225-3231	played	_	
+17-15	3232-3233	a	_	
+17-16	3234-3241	central	_	
+17-17	3242-3246	role	_	
+17-18	3247-3249	in	_	
+17-19	3250-3260	sustaining	_	
+17-20	3262-3267	peace	_	
+17-21	3268-3271	and	_	
+17-22	3272-3282	protecting	_	
+17-23	3283-3290	women's	VICTIM	
+17-24	3291-3297	rights	_	
+17-25	3297-3298	.	_	
+
+#Text=We echo the\r
+#Text=sentiments of previous speakers in affirming that one\r
+#Text=of the greatest challenges we face is increasing the\r
+#Text=participation of women in peace operations and, in\r
+#Text=particular, ensuring the presence of gender advisers in\r
+#Text=such operations.
+18-1	3299-3301	We	_	
+18-2	3302-3306	echo	_	
+18-3	3307-3310	the	_	
+18-4	3312-3322	sentiments	_	
+18-5	3323-3325	of	_	
+18-6	3326-3334	previous	_	
+18-7	3335-3343	speakers	_	
+18-8	3344-3346	in	_	
+18-9	3347-3356	affirming	_	
+18-10	3357-3361	that	_	
+18-11	3362-3365	one	_	
+18-12	3367-3369	of	_	
+18-13	3370-3373	the	_	
+18-14	3374-3382	greatest	_	
+18-15	3383-3393	challenges	_	
+18-16	3394-3396	we	_	
+18-17	3397-3401	face	_	
+18-18	3402-3404	is	_	
+18-19	3405-3415	increasing	_	
+18-20	3416-3419	the	_	
+18-21	3421-3434	participation	_	
+18-22	3435-3437	of	_	
+18-23	3438-3443	women	VICTIM[18]|HERO[19]	
+18-24	3444-3446	in	_	
+18-25	3447-3452	peace	_	
+18-26	3453-3463	operations	_	
+18-27	3464-3467	and	_	
+18-28	3467-3468	,	_	
+18-29	3469-3471	in	_	
+18-30	3473-3483	particular	_	
+18-31	3483-3484	,	_	
+18-32	3485-3493	ensuring	_	
+18-33	3494-3497	the	_	
+18-34	3498-3506	presence	_	
+18-35	3507-3509	of	_	
+18-36	3510-3516	gender	HERO[20]	
+18-37	3517-3525	advisers	HERO[20]	
+18-38	3526-3528	in	_	
+18-39	3530-3534	such	_	
+18-40	3535-3545	operations	_	
+18-41	3545-3546	.	_	

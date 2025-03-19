@@ -1,0 +1,1111 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=The Secretary-General: The women and peace\r
+#Text=and security agenda is clearly one of the top priorities\r
+#Text=of the United Nations as a whole.
+1-1	0-3	The	_	
+1-2	4-21	Secretary-General	_	
+1-3	21-22	:	_	
+1-4	23-26	The	_	
+1-5	27-32	women	_	
+1-6	33-36	and	_	
+1-7	37-42	peace	_	
+1-8	44-47	and	_	
+1-9	48-56	security	_	
+1-10	57-63	agenda	_	
+1-11	64-66	is	_	
+1-12	67-74	clearly	_	
+1-13	75-78	one	_	
+1-14	79-81	of	_	
+1-15	82-85	the	_	
+1-16	86-89	top	_	
+1-17	90-100	priorities	_	
+1-18	102-104	of	_	
+1-19	105-108	the	HERO[1]	
+1-20	109-115	United	HERO[1]	
+1-21	116-123	Nations	HERO[1]	
+1-22	124-126	as	_	
+1-23	127-128	a	_	
+1-24	129-134	whole	_	
+1-25	134-135	.	_	
+
+#Text=We see that in the\r
+#Text=adoption of a great many resolutions by the Security\r
+#Text=Council, including landmark resolution 1325 (2000)\r
+#Text=and its many follow-up decisions.
+2-1	136-138	We	_	
+2-2	139-142	see	_	
+2-3	143-147	that	_	
+2-4	148-150	in	_	
+2-5	151-154	the	_	
+2-6	156-164	adoption	_	
+2-7	165-167	of	_	
+2-8	168-169	a	_	
+2-9	170-175	great	_	
+2-10	176-180	many	_	
+2-11	181-192	resolutions	_	
+2-12	193-195	by	_	
+2-13	196-199	the	HERO[2]	
+2-14	200-208	Security	HERO[2]	
+2-15	210-217	Council	HERO[2]	
+2-16	217-218	,	_	
+2-17	219-228	including	_	
+2-18	229-237	landmark	_	
+2-19	238-248	resolution	_	
+2-20	249-253	1325	_	
+2-21	254-255	(	_	
+2-22	255-259	2000	_	
+2-23	259-260	)	_	
+2-24	262-265	and	_	
+2-25	266-269	its	_	
+2-26	270-274	many	_	
+2-27	275-284	follow-up	_	
+2-28	285-294	decisions	_	
+2-29	294-295	.	_	
+
+#Text=We see it in the global\r
+#Text=recognition of the central role that women must play in\r
+#Text=preventing and resolving conflicts.
+3-1	296-298	We	_	
+3-2	299-302	see	_	
+3-3	303-305	it	_	
+3-4	306-308	in	_	
+3-5	309-312	the	_	
+3-6	313-319	global	_	
+3-7	321-332	recognition	_	
+3-8	333-335	of	_	
+3-9	336-339	the	_	
+3-10	340-347	central	_	
+3-11	348-352	role	_	
+3-12	353-357	that	_	
+3-13	358-363	women	HERO	
+3-14	364-368	must	_	
+3-15	369-373	play	_	
+3-16	374-376	in	_	
+3-17	378-388	preventing	_	
+3-18	389-392	and	_	
+3-19	393-402	resolving	_	
+3-20	403-412	conflicts	_	
+3-21	412-413	.	_	
+
+#Text=And we see it when\r
+#Text=we gather to discuss the issue.
+4-1	414-417	And	_	
+4-2	418-420	we	_	
+4-3	421-424	see	_	
+4-4	425-427	it	_	
+4-5	428-432	when	_	
+4-6	434-436	we	_	
+4-7	437-443	gather	_	
+4-8	444-446	to	_	
+4-9	447-454	discuss	_	
+4-10	455-458	the	_	
+4-11	459-464	issue	_	
+4-12	464-465	.	_	
+
+#Text=That is always when the\r
+#Text=Chamber is at its fullest and the list of speakers is the\r
+#Text=longest.
+5-1	466-470	That	_	
+5-2	471-473	is	_	
+5-3	474-480	always	_	
+5-4	481-485	when	_	
+5-5	486-489	the	_	
+5-6	491-498	Chamber	_	
+5-7	499-501	is	_	
+5-8	502-504	at	_	
+5-9	505-508	its	_	
+5-10	509-516	fullest	_	
+5-11	517-520	and	_	
+5-12	521-524	the	_	
+5-13	525-529	list	_	
+5-14	530-532	of	_	
+5-15	533-541	speakers	_	
+5-16	542-544	is	_	
+5-17	545-548	the	_	
+5-18	550-557	longest	_	
+5-19	557-558	.	_	
+
+#Text=We have exactly that same situation today.
+6-1	559-561	We	_	
+6-2	562-566	have	_	
+6-3	567-574	exactly	_	
+6-4	575-579	that	_	
+6-5	580-584	same	_	
+6-6	585-594	situation	_	
+6-7	595-600	today	_	
+6-8	600-601	.	_	
+
+#Text=Given such strong support and common\r
+#Text=understanding, an observer might be forgiven for\r
+#Text=thinking that things are substantially improving.
+7-1	605-610	Given	_	
+7-2	611-615	such	_	
+7-3	616-622	strong	_	
+7-4	623-630	support	_	
+7-5	631-634	and	_	
+7-6	635-641	common	_	
+7-7	643-656	understanding	_	
+7-8	656-657	,	_	
+7-9	658-660	an	_	
+7-10	661-669	observer	_	
+7-11	670-675	might	_	
+7-12	676-678	be	_	
+7-13	679-687	forgiven	_	
+7-14	688-691	for	_	
+7-15	693-701	thinking	_	
+7-16	702-706	that	_	
+7-17	707-713	things	_	
+7-18	714-717	are	_	
+7-19	718-731	substantially	_	
+7-20	732-741	improving	_	
+7-21	741-742	.	_	
+
+#Text=But\r
+#Text=the sad fact is - and we must be blunt about it - that\r
+#Text=the commitment that is always reflected around this\r
+#Text=table is not translating into real change around the\r
+#Text=world.
+8-1	743-746	But	_	
+8-2	748-751	the	_	
+8-3	752-755	sad	_	
+8-4	756-760	fact	_	
+8-5	761-763	is	_	
+8-6	764-765	-	_	
+8-7	766-769	and	_	
+8-8	770-772	we	_	
+8-9	773-777	must	_	
+8-10	778-780	be	_	
+8-11	781-786	blunt	_	
+8-12	787-792	about	_	
+8-13	793-795	it	_	
+8-14	796-797	-	_	
+8-15	798-802	that	_	
+8-16	804-807	the	_	
+8-17	808-818	commitment	_	
+8-18	819-823	that	_	
+8-19	824-826	is	_	
+8-20	827-833	always	_	
+8-21	834-843	reflected	_	
+8-22	844-850	around	_	
+8-23	851-855	this	_	
+8-24	857-862	table	_	
+8-25	863-865	is	_	
+8-26	866-869	not	_	
+8-27	870-881	translating	_	
+8-28	882-886	into	_	
+8-29	887-891	real	_	
+8-30	892-898	change	_	
+8-31	899-905	around	_	
+8-32	906-909	the	_	
+8-33	911-916	world	_	
+8-34	916-917	.	_	
+
+#Text=It is not coming fast enough or far enough.
+9-1	918-920	It	_	
+9-2	921-923	is	_	
+9-3	924-927	not	_	
+9-4	928-934	coming	_	
+9-5	935-939	fast	_	
+9-6	940-946	enough	_	
+9-7	947-949	or	_	
+9-8	950-953	far	_	
+9-9	954-960	enough	_	
+9-10	960-961	.	_	
+
+#Text=Change is coming at a pace that is too slow for the\r
+#Text=women and girls whose lives depend on it, and for the\r
+#Text=effectiveness of our efforts to maintain international\r
+#Text=peace and security.
+10-1	963-969	Change	_	
+10-2	970-972	is	_	
+10-3	973-979	coming	_	
+10-4	980-982	at	_	
+10-5	983-984	a	_	
+10-6	985-989	pace	_	
+10-7	990-994	that	_	
+10-8	995-997	is	_	
+10-9	998-1001	too	_	
+10-10	1002-1006	slow	_	
+10-11	1007-1010	for	_	
+10-12	1011-1014	the	VICTIM[3]	
+10-13	1016-1021	women	VICTIM[3]	
+10-14	1022-1025	and	VICTIM[3]	
+10-15	1026-1031	girls	VICTIM[3]	
+10-16	1032-1037	whose	VICTIM[3]	
+10-17	1038-1043	lives	VICTIM[3]	
+10-18	1044-1050	depend	VICTIM[3]	
+10-19	1051-1053	on	VICTIM[3]	
+10-20	1054-1056	it	VICTIM[3]	
+10-21	1056-1057	,	_	
+10-22	1058-1061	and	_	
+10-23	1062-1065	for	_	
+10-24	1066-1069	the	_	
+10-25	1071-1084	effectiveness	_	
+10-26	1085-1087	of	_	
+10-27	1088-1091	our	_	
+10-28	1092-1099	efforts	_	
+10-29	1100-1102	to	_	
+10-30	1103-1111	maintain	_	
+10-31	1112-1125	international	_	
+10-32	1127-1132	peace	_	
+10-33	1133-1136	and	_	
+10-34	1137-1145	security	_	
+10-35	1145-1146	.	_	
+
+#Text=Nearly two decades after resolution 1325 (2000)\r
+#Text=was adopted, women still face exclusion from many\r
+#Text=peace and political processes.
+11-1	1150-1156	Nearly	_	
+11-2	1157-1160	two	_	
+11-3	1161-1168	decades	_	
+11-4	1169-1174	after	_	
+11-5	1175-1185	resolution	_	
+11-6	1186-1190	1325	_	
+11-7	1191-1192	(	_	
+11-8	1192-1196	2000	_	
+11-9	1196-1197	)	_	
+11-10	1199-1202	was	_	
+11-11	1203-1210	adopted	_	
+11-12	1210-1211	,	_	
+11-13	1212-1217	women	VICTIM	
+11-14	1218-1223	still	_	
+11-15	1224-1228	face	_	
+11-16	1229-1238	exclusion	_	
+11-17	1239-1243	from	_	
+11-18	1244-1248	many	_	
+11-19	1250-1255	peace	_	
+11-20	1256-1259	and	_	
+11-21	1260-1269	political	_	
+11-22	1270-1279	processes	_	
+11-23	1279-1280	.	_	
+
+#Text=Peace agreements are\r
+#Text=adopted without provisions that consider the needs and\r
+#Text=priorities of women and girls.
+12-1	1281-1286	Peace	_	
+12-2	1287-1297	agreements	_	
+12-3	1298-1301	are	_	
+12-4	1303-1310	adopted	_	
+12-5	1311-1318	without	_	
+12-6	1319-1329	provisions	_	
+12-7	1330-1334	that	_	
+12-8	1335-1343	consider	_	
+12-9	1344-1347	the	_	
+12-10	1348-1353	needs	_	
+12-11	1354-1357	and	_	
+12-12	1359-1369	priorities	_	
+12-13	1370-1372	of	_	
+12-14	1373-1378	women	VICTIM[4]	
+12-15	1379-1382	and	VICTIM[4]	
+12-16	1383-1388	girls	VICTIM[4]	
+12-17	1388-1389	.	_	
+
+#Text=A pitifully small 0.2 per\r
+#Text=cent of bilateral aid to fragile and conflict-affected\r
+#Text=situations goes to women's organizations.
+13-1	1390-1391	A	_	
+13-2	1392-1401	pitifully	_	
+13-3	1402-1407	small	_	
+13-4	1408-1411	0.2	_	
+13-5	1412-1415	per	_	
+13-6	1417-1421	cent	_	
+13-7	1422-1424	of	_	
+13-8	1425-1434	bilateral	_	
+13-9	1435-1438	aid	_	
+13-10	1439-1441	to	_	
+13-11	1442-1449	fragile	_	
+13-12	1450-1453	and	_	
+13-13	1454-1471	conflict-affected	_	
+13-14	1473-1483	situations	_	
+13-15	1484-1488	goes	_	
+13-16	1489-1491	to	_	
+13-17	1492-1499	women's	VICTIM[5]|HERO[6]	
+13-18	1500-1513	organizations	VICTIM[5]|HERO[6]	
+13-19	1513-1514	.	_	
+
+#Text=The number\r
+#Text=of attacks against women human rights defenders,\r
+#Text=humanitarians and peacebuilders continues to increase.
+14-1	1515-1518	The	_	
+14-2	1519-1525	number	_	
+14-3	1527-1529	of	_	
+14-4	1530-1537	attacks	_	
+14-5	1538-1545	against	_	
+14-6	1546-1551	women	VICTIM[7]	
+14-7	1552-1557	human	VICTIM[7]	
+14-8	1558-1564	rights	VICTIM[7]	
+14-9	1565-1574	defenders	VICTIM[7]	
+14-10	1574-1575	,	VICTIM[7]	
+14-11	1577-1590	humanitarians	VICTIM[7]	
+14-12	1591-1594	and	VICTIM[7]	
+14-13	1595-1608	peacebuilders	VICTIM[7]	
+14-14	1609-1618	continues	_	
+14-15	1619-1621	to	_	
+14-16	1622-1630	increase	_	
+14-17	1630-1631	.	_	
+
+#Text=Sexual and gender-based violence continues to be\r
+#Text=used as a weapon of war, with the survivors of such\r
+#Text=violence often left without justice or support.
+15-1	1633-1639	Sexual	_	
+15-2	1640-1643	and	_	
+15-3	1644-1656	gender-based	_	
+15-4	1657-1665	violence	_	
+15-5	1666-1675	continues	_	
+15-6	1676-1678	to	_	
+15-7	1679-1681	be	_	
+15-8	1683-1687	used	_	
+15-9	1688-1690	as	_	
+15-10	1691-1692	a	_	
+15-11	1693-1699	weapon	_	
+15-12	1700-1702	of	_	
+15-13	1703-1706	war	_	
+15-14	1706-1707	,	_	
+15-15	1708-1712	with	_	
+15-16	1713-1716	the	VICTIM[8]	
+15-17	1717-1726	survivors	VICTIM[8]	
+15-18	1727-1729	of	VICTIM[8]	
+15-19	1730-1734	such	VICTIM[8]	
+15-20	1736-1744	violence	VICTIM[8]	
+15-21	1745-1750	often	_	
+15-22	1751-1755	left	_	
+15-23	1756-1763	without	_	
+15-24	1764-1771	justice	_	
+15-25	1772-1774	or	_	
+15-26	1775-1782	support	_	
+15-27	1782-1783	.	_	
+
+#Text=This year\r
+#Text=alone, millions of women and girls were in need of\r
+#Text=life-saving sexual and reproductive health services, and\r
+#Text=millions more required interventions to prevent sexual\r
+#Text=and gender-based violence.
+16-1	1784-1788	This	_	
+16-2	1789-1793	year	_	
+16-3	1795-1800	alone	_	
+16-4	1800-1801	,	_	
+16-5	1802-1810	millions	VICTIM[9]	
+16-6	1811-1813	of	VICTIM[9]	
+16-7	1814-1819	women	VICTIM[9]	
+16-8	1820-1823	and	VICTIM[9]	
+16-9	1824-1829	girls	VICTIM[9]	
+16-10	1830-1834	were	_	
+16-11	1835-1837	in	_	
+16-12	1838-1842	need	_	
+16-13	1843-1845	of	_	
+16-14	1847-1858	life-saving	_	
+16-15	1859-1865	sexual	_	
+16-16	1866-1869	and	_	
+16-17	1870-1882	reproductive	_	
+16-18	1883-1889	health	_	
+16-19	1890-1898	services	_	
+16-20	1898-1899	,	_	
+16-21	1900-1903	and	_	
+16-22	1905-1913	millions	VICTIM[10]	
+16-23	1914-1918	more	VICTIM[10]	
+16-24	1919-1927	required	_	
+16-25	1928-1941	interventions	_	
+16-26	1942-1944	to	_	
+16-27	1945-1952	prevent	_	
+16-28	1953-1959	sexual	_	
+16-29	1961-1964	and	_	
+16-30	1965-1977	gender-based	_	
+16-31	1978-1986	violence	_	
+16-32	1986-1987	.	_	
+
+#Text=There is also a growing\r
+#Text=number of armed groups for which gender inequality\r
+#Text=is a strategic objective, and misogyny part of their core\r
+#Text=ideology.
+17-1	1988-1993	There	_	
+17-2	1994-1996	is	_	
+17-3	1997-2001	also	_	
+17-4	2002-2003	a	VILLAIN[11]	
+17-5	2004-2011	growing	VILLAIN[11]	
+17-6	2013-2019	number	VILLAIN[11]	
+17-7	2020-2022	of	VILLAIN[11]	
+17-8	2023-2028	armed	VILLAIN[11]	
+17-9	2029-2035	groups	VILLAIN[11]	
+17-10	2036-2039	for	VILLAIN[11]	
+17-11	2040-2045	which	VILLAIN[11]	
+17-12	2046-2052	gender	VILLAIN[11]	
+17-13	2053-2063	inequality	VILLAIN[11]	
+17-14	2065-2067	is	VILLAIN[11]	
+17-15	2068-2069	a	VILLAIN[11]	
+17-16	2070-2079	strategic	VILLAIN[11]	
+17-17	2080-2089	objective	VILLAIN[11]	
+17-18	2089-2090	,	VILLAIN[11]	
+17-19	2091-2094	and	VILLAIN[11]	
+17-20	2095-2103	misogyny	VILLAIN[11]	
+17-21	2104-2108	part	VILLAIN[11]	
+17-22	2109-2111	of	VILLAIN[11]	
+17-23	2112-2117	their	VILLAIN[11]	
+17-24	2118-2122	core	VILLAIN[11]	
+17-25	2124-2132	ideology	VILLAIN[11]	
+17-26	2132-2133	.	_	
+
+#Text=And, of course, we know that women and\r
+#Text=girls continue to suffer the consequences of conflict in\r
+#Text=general.
+18-1	2134-2137	And	_	
+18-2	2137-2138	,	_	
+18-3	2139-2141	of	_	
+18-4	2142-2148	course	_	
+18-5	2148-2149	,	_	
+18-6	2150-2152	we	_	
+18-7	2153-2157	know	_	
+18-8	2158-2162	that	_	
+18-9	2163-2168	women	VICTIM[12]	
+18-10	2169-2172	and	VICTIM[12]	
+18-11	2174-2179	girls	VICTIM[12]	
+18-12	2180-2188	continue	_	
+18-13	2189-2191	to	_	
+18-14	2192-2198	suffer	_	
+18-15	2199-2202	the	_	
+18-16	2203-2215	consequences	_	
+18-17	2216-2218	of	_	
+18-18	2219-2227	conflict	_	
+18-19	2228-2230	in	_	
+18-20	2232-2239	general	_	
+18-21	2239-2240	.	_	
+
+#Text=To cite just one example, in north-east Syria,\r
+#Text=we saw thousands of women and children fleeing the\r
+#Text=latest violence.
+19-1	2241-2243	To	_	
+19-2	2244-2248	cite	_	
+19-3	2249-2253	just	_	
+19-4	2254-2257	one	_	
+19-5	2258-2265	example	_	
+19-6	2265-2266	,	_	
+19-7	2267-2269	in	_	
+19-8	2270-2280	north-east	_	
+19-9	2281-2286	Syria	_	
+19-10	2286-2287	,	_	
+19-11	2289-2291	we	_	
+19-12	2292-2295	saw	_	
+19-13	2296-2305	thousands	VICTIM[13]	
+19-14	2306-2308	of	VICTIM[13]	
+19-15	2309-2314	women	VICTIM[13]	
+19-16	2315-2318	and	VICTIM[13]	
+19-17	2319-2327	children	VICTIM[13]	
+19-18	2328-2335	fleeing	_	
+19-19	2336-2339	the	_	
+19-20	2341-2347	latest	_	
+19-21	2348-2356	violence	_	
+19-22	2356-2357	.	_	
+
+#Text=But despite this grim litany, we will not\r
+#Text=give up.
+20-1	2358-2361	But	_	
+20-2	2362-2369	despite	_	
+20-3	2370-2374	this	_	
+20-4	2375-2379	grim	_	
+20-5	2380-2386	litany	_	
+20-6	2386-2387	,	_	
+20-7	2388-2390	we	HERO	
+20-8	2391-2395	will	_	
+20-9	2396-2399	not	_	
+20-10	2401-2405	give	_	
+20-11	2406-2408	up	_	
+20-12	2408-2409	.	_	
+
+#Text=This, for me, is an absolute priority.
+21-1	2410-2414	This	_	
+21-2	2414-2415	,	_	
+21-3	2416-2419	for	_	
+21-4	2420-2422	me	HERO	
+21-5	2422-2423	,	_	
+21-6	2424-2426	is	_	
+21-7	2427-2429	an	_	
+21-8	2430-2438	absolute	_	
+21-9	2439-2447	priority	_	
+21-10	2447-2448	.	_	
+
+#Text=We can report at least some progress.
+22-1	2452-2454	We	HERO	
+22-2	2455-2458	can	_	
+22-3	2459-2465	report	_	
+22-4	2466-2468	at	_	
+22-5	2469-2474	least	_	
+22-6	2475-2479	some	_	
+22-7	2480-2488	progress	_	
+22-8	2488-2489	.	_	
+
+#Text=In Yemen,\r
+#Text=where women were absent from the formal rounds\r
+#Text=of consultations, my Special Envoy established a\r
+#Text=Yemeni women's technical advisory group to ensure\r
+#Text=that the perspectives of Yemeni women are included.
+23-1	2490-2492	In	_	
+23-2	2493-2498	Yemen	_	
+23-3	2498-2499	,	_	
+23-4	2501-2506	where	_	
+23-5	2507-2512	women	VICTIM	
+23-6	2513-2517	were	_	
+23-7	2518-2524	absent	_	
+23-8	2525-2529	from	_	
+23-9	2530-2533	the	_	
+23-10	2534-2540	formal	_	
+23-11	2541-2547	rounds	_	
+23-12	2549-2551	of	_	
+23-13	2552-2565	consultations	_	
+23-14	2565-2566	,	_	
+23-15	2567-2569	my	HERO[14]	
+23-16	2570-2577	Special	HERO[14]	
+23-17	2578-2583	Envoy	HERO[14]	
+23-18	2584-2595	established	_	
+23-19	2596-2597	a	HERO[15]	
+23-20	2599-2605	Yemeni	HERO[15]	
+23-21	2606-2613	women's	HERO[15]	
+23-22	2614-2623	technical	HERO[15]	
+23-23	2624-2632	advisory	HERO[15]	
+23-24	2633-2638	group	HERO[15]	
+23-25	2639-2641	to	_	
+23-26	2642-2648	ensure	_	
+23-27	2650-2654	that	_	
+23-28	2655-2658	the	_	
+23-29	2659-2671	perspectives	_	
+23-30	2672-2674	of	_	
+23-31	2675-2681	Yemeni	HERO[16]|VICTIM[17]	
+23-32	2682-2687	women	HERO[16]|VICTIM[17]	
+23-33	2688-2691	are	_	
+23-34	2692-2700	included	_	
+23-35	2700-2701	.	_	
+
+#Text=In Guinea-Bissau, women played a direct role in\r
+#Text=breaking the political impasse last year, supported\r
+#Text=by the Peacebuilding Fund.
+24-1	2703-2705	In	_	
+24-2	2706-2719	Guinea-Bissau	_	
+24-3	2719-2720	,	_	
+24-4	2721-2726	women	HERO	
+24-5	2727-2733	played	_	
+24-6	2734-2735	a	_	
+24-7	2736-2742	direct	_	
+24-8	2743-2747	role	_	
+24-9	2748-2750	in	_	
+24-10	2752-2760	breaking	_	
+24-11	2761-2764	the	_	
+24-12	2765-2774	political	_	
+24-13	2775-2782	impasse	_	
+24-14	2783-2787	last	_	
+24-15	2788-2792	year	_	
+24-16	2792-2793	,	_	
+24-17	2794-2803	supported	_	
+24-18	2805-2807	by	_	
+24-19	2808-2811	the	HERO[18]	
+24-20	2812-2825	Peacebuilding	HERO[18]	
+24-21	2826-2830	Fund	HERO[18]	
+24-22	2830-2831	.	_	
+
+#Text=They led unprecedented\r
+#Text=mobilization for parity laws requiring a minimum of\r
+#Text=36 per cent of women on the ballot, and they were key\r
+#Text=to the success of the elections this year.
+25-1	2832-2836	They	HERO	
+25-2	2837-2840	led	_	
+25-3	2841-2854	unprecedented	_	
+25-4	2856-2868	mobilization	_	
+25-5	2869-2872	for	_	
+25-6	2873-2879	parity	_	
+25-7	2880-2884	laws	_	
+25-8	2885-2894	requiring	_	
+25-9	2895-2896	a	_	
+25-10	2897-2904	minimum	_	
+25-11	2905-2907	of	_	
+25-12	2909-2911	36	_	
+25-13	2912-2915	per	_	
+25-14	2916-2920	cent	_	
+25-15	2921-2923	of	_	
+25-16	2924-2929	women	_	
+25-17	2930-2932	on	_	
+25-18	2933-2936	the	_	
+25-19	2937-2943	ballot	_	
+25-20	2943-2944	,	_	
+25-21	2945-2948	and	_	
+25-22	2949-2953	they	HERO	
+25-23	2954-2958	were	_	
+25-24	2959-2962	key	_	
+25-25	2964-2966	to	_	
+25-26	2967-2970	the	_	
+25-27	2971-2978	success	_	
+25-28	2979-2981	of	_	
+25-29	2982-2985	the	_	
+25-30	2986-2995	elections	_	
+25-31	2996-3000	this	_	
+25-32	3001-3005	year	_	
+25-33	3005-3006	.	_	
+
+#Text=There were\r
+#Text=record numbers of women candidates and voters, and\r
+#Text=the country achieved parity among ministerial posts.
+26-1	3007-3012	There	_	
+26-2	3013-3017	were	_	
+26-3	3019-3025	record	_	
+26-4	3026-3033	numbers	_	
+26-5	3034-3036	of	_	
+26-6	3037-3042	women	HERO[19]	
+26-7	3043-3053	candidates	HERO[19]	
+26-8	3054-3057	and	HERO[19]	
+26-9	3058-3064	voters	HERO[19]	
+26-10	3064-3065	,	_	
+26-11	3066-3069	and	_	
+26-12	3071-3074	the	HERO[20]	
+26-13	3075-3082	country	HERO[20]	
+26-14	3083-3091	achieved	_	
+26-15	3092-3098	parity	_	
+26-16	3099-3104	among	_	
+26-17	3105-3116	ministerial	_	
+26-18	3117-3122	posts	_	
+26-19	3122-3123	.	_	
+
+#Text=In\r
+#Text=Syria, women make up approximately 30 per cent ofthe\r
+#Text=new Constitutional Committee, including some from\r
+#Text=the Women's Advisory Board that has been working for\r
+#Text=peace all these years.
+27-1	3124-3126	In	_	
+27-2	3128-3133	Syria	_	
+27-3	3133-3134	,	_	
+27-4	3135-3140	women	HERO	
+27-5	3141-3145	make	_	
+27-6	3146-3148	up	_	
+27-7	3149-3162	approximately	_	
+27-8	3163-3165	30	_	
+27-9	3166-3169	per	_	
+27-10	3170-3174	cent	_	
+27-11	3175-3180	ofthe	_	
+27-12	3182-3185	new	_	
+27-13	3186-3200	Constitutional	_	
+27-14	3201-3210	Committee	_	
+27-15	3210-3211	,	_	
+27-16	3212-3221	including	_	
+27-17	3222-3226	some	_	
+27-18	3227-3231	from	_	
+27-19	3233-3236	the	HERO[21]	
+27-20	3237-3244	Women's	HERO[21]	
+27-21	3245-3253	Advisory	HERO[21]	
+27-22	3254-3259	Board	HERO[21]	
+27-23	3260-3264	that	_	
+27-24	3265-3268	has	_	
+27-25	3269-3273	been	_	
+27-26	3274-3281	working	_	
+27-27	3282-3285	for	_	
+27-28	3287-3292	peace	_	
+27-29	3293-3296	all	_	
+27-30	3297-3302	these	_	
+27-31	3303-3308	years	_	
+27-32	3308-3309	.	_	
+
+#Text=Within the United Nations itself, the Department of\r
+#Text=Political and Peacebuilding Affairs and the Department\r
+#Text=of Peace Operations are implementing a new and stronger\r
+#Text=policy on women and peace and security.
+28-1	3313-3319	Within	_	
+28-2	3320-3323	the	_	
+28-3	3324-3330	United	_	
+28-4	3331-3338	Nations	_	
+28-5	3339-3345	itself	_	
+28-6	3345-3346	,	_	
+28-7	3347-3350	the	HERO[22]	
+28-8	3351-3361	Department	HERO[22]	
+28-9	3362-3364	of	HERO[22]	
+28-10	3366-3375	Political	HERO[22]	
+28-11	3376-3379	and	HERO[22]	
+28-12	3380-3393	Peacebuilding	HERO[22]	
+28-13	3394-3401	Affairs	HERO[22]	
+28-14	3402-3405	and	HERO[22]	
+28-15	3406-3409	the	HERO[22]	
+28-16	3410-3420	Department	HERO[22]	
+28-17	3422-3424	of	HERO[22]	
+28-18	3425-3430	Peace	HERO[22]	
+28-19	3431-3441	Operations	HERO[22]	
+28-20	3442-3445	are	_	
+28-21	3446-3458	implementing	_	
+28-22	3459-3460	a	_	
+28-23	3461-3464	new	_	
+28-24	3465-3468	and	_	
+28-25	3469-3477	stronger	_	
+28-26	3479-3485	policy	_	
+28-27	3486-3488	on	_	
+28-28	3489-3494	women	_	
+28-29	3495-3498	and	_	
+28-30	3499-3504	peace	_	
+28-31	3505-3508	and	_	
+28-32	3509-3517	security	_	
+28-33	3517-3518	.	_	
+
+#Text=All heads of\r
+#Text=special political missions and my Special Envoys have\r
+#Text=\r
+#Text=been instructed to report regularly on their efforts to\r
+#Text=promote women's direct participation throughout all\r
+#Text=stages of peace processes, in ways that ensure they have\r
+#Text=influence over the outcomes.
+29-1	3519-3522	All	_	
+29-2	3523-3528	heads	_	
+29-3	3529-3531	of	_	
+29-4	3533-3540	special	_	
+29-5	3541-3550	political	_	
+29-6	3551-3559	missions	_	
+29-7	3560-3563	and	_	
+29-8	3564-3566	my	_	
+29-9	3567-3574	Special	_	
+29-10	3575-3581	Envoys	_	
+29-11	3582-3586	have	_	
+29-12	3590-3594	been	_	
+29-13	3595-3605	instructed	_	
+29-14	3606-3608	to	_	
+29-15	3609-3615	report	_	
+29-16	3616-3625	regularly	_	
+29-17	3626-3628	on	_	
+29-18	3629-3634	their	_	
+29-19	3635-3642	efforts	_	
+29-20	3643-3645	to	_	
+29-21	3647-3654	promote	_	
+29-22	3655-3662	women's	VICTIM[23]|HERO[24]	
+29-23	3663-3669	direct	_	
+29-24	3670-3683	participation	_	
+29-25	3684-3694	throughout	_	
+29-26	3695-3698	all	_	
+29-27	3700-3706	stages	_	
+29-28	3707-3709	of	_	
+29-29	3710-3715	peace	_	
+29-30	3716-3725	processes	_	
+29-31	3725-3726	,	_	
+29-32	3727-3729	in	_	
+29-33	3730-3734	ways	_	
+29-34	3735-3739	that	_	
+29-35	3740-3746	ensure	_	
+29-36	3747-3751	they	VICTIM[25]|HERO[26]	
+29-37	3752-3756	have	_	
+29-38	3758-3767	influence	_	
+29-39	3768-3772	over	_	
+29-40	3773-3776	the	_	
+29-41	3777-3785	outcomes	_	
+29-42	3785-3786	.	_	
+
+#Text=An objective related to\r
+#Text=women and peace and security has now been included\r
+#Text=in all senior managers' compacts related to peace and\r
+#Text=security mandates.
+30-1	3787-3789	An	_	
+30-2	3790-3799	objective	_	
+30-3	3800-3807	related	_	
+30-4	3808-3810	to	_	
+30-5	3812-3817	women	_	
+30-6	3818-3821	and	_	
+30-7	3822-3827	peace	_	
+30-8	3828-3831	and	_	
+30-9	3832-3840	security	_	
+30-10	3841-3844	has	_	
+30-11	3845-3848	now	_	
+30-12	3849-3853	been	_	
+30-13	3854-3862	included	_	
+30-14	3864-3866	in	_	
+30-15	3867-3870	all	_	
+30-16	3871-3877	senior	_	
+30-17	3878-3886	managers	_	
+30-18	3886-3887	'	_	
+30-19	3888-3896	compacts	_	
+30-20	3897-3904	related	_	
+30-21	3905-3907	to	_	
+30-22	3908-3913	peace	_	
+30-23	3914-3917	and	_	
+30-24	3919-3927	security	_	
+30-25	3928-3936	mandates	_	
+30-26	3936-3937	.	_	
+
+#Text=In our peacekeeping operations, we\r
+#Text=are working to end sexual exploitation and abuse and\r
+#Text=increase women's participation.
+31-1	3938-3940	In	_	
+31-2	3941-3944	our	_	
+31-3	3945-3957	peacekeeping	_	
+31-4	3958-3968	operations	_	
+31-5	3968-3969	,	_	
+31-6	3970-3972	we	HERO	
+31-7	3974-3977	are	_	
+31-8	3978-3985	working	_	
+31-9	3986-3988	to	_	
+31-10	3989-3992	end	_	
+31-11	3993-3999	sexual	_	
+31-12	4000-4012	exploitation	_	
+31-13	4013-4016	and	_	
+31-14	4017-4022	abuse	_	
+31-15	4023-4026	and	_	
+31-16	4028-4036	increase	_	
+31-17	4037-4044	women's	VICTIM[27]|HERO[28]	
+31-18	4045-4058	participation	_	
+31-19	4058-4059	.	_	
+
+#Text=Incidents of sexual\r
+#Text=exploitation and abuse have been reduced by half, and\r
+#Text=we are finally moving the needle on the percentage of\r
+#Text=women in the military and the police components of\r
+#Text=our operations.
+32-1	4060-4069	Incidents	_	
+32-2	4070-4072	of	_	
+32-3	4073-4079	sexual	_	
+32-4	4081-4093	exploitation	_	
+32-5	4094-4097	and	_	
+32-6	4098-4103	abuse	_	
+32-7	4104-4108	have	_	
+32-8	4109-4113	been	_	
+32-9	4114-4121	reduced	_	
+32-10	4122-4124	by	_	
+32-11	4125-4129	half	_	
+32-12	4129-4130	,	_	
+32-13	4131-4134	and	_	
+32-14	4136-4138	we	HERO	
+32-15	4139-4142	are	_	
+32-16	4143-4150	finally	_	
+32-17	4151-4157	moving	_	
+32-18	4158-4161	the	_	
+32-19	4162-4168	needle	_	
+32-20	4169-4171	on	_	
+32-21	4172-4175	the	_	
+32-22	4176-4186	percentage	_	
+32-23	4187-4189	of	_	
+32-24	4191-4196	women	HERO[29]	
+32-25	4197-4199	in	HERO[29]	
+32-26	4200-4203	the	HERO[29]	
+32-27	4204-4212	military	HERO[29]	
+32-28	4213-4216	and	HERO[29]	
+32-29	4217-4220	the	HERO[29]	
+32-30	4221-4227	police	HERO[29]	
+32-31	4228-4238	components	HERO[29]	
+32-32	4239-4241	of	HERO[29]	
+32-33	4243-4246	our	HERO[29]	
+32-34	4247-4257	operations	HERO[29]	
+32-35	4257-4258	.	_	
+
+#Text=I have appointed many more women as\r
+#Text=heads and deputy heads of missions, and we are pursuing\r
+#Text=emergency measures to achieve gender balance.
+33-1	4259-4260	I	HERO	
+33-2	4261-4265	have	_	
+33-3	4266-4275	appointed	_	
+33-4	4276-4280	many	HERO[30]	
+33-5	4281-4285	more	HERO[30]	
+33-6	4286-4291	women	HERO[30]	
+33-7	4292-4294	as	_	
+33-8	4296-4301	heads	_	
+33-9	4302-4305	and	_	
+33-10	4306-4312	deputy	_	
+33-11	4313-4318	heads	_	
+33-12	4319-4321	of	_	
+33-13	4322-4330	missions	_	
+33-14	4330-4331	,	_	
+33-15	4332-4335	and	_	
+33-16	4336-4338	we	_	
+33-17	4339-4342	are	_	
+33-18	4343-4351	pursuing	_	
+33-19	4353-4362	emergency	_	
+33-20	4363-4371	measures	_	
+33-21	4372-4374	to	_	
+33-22	4375-4382	achieve	_	
+33-23	4383-4389	gender	_	
+33-24	4390-4397	balance	_	
+33-25	4397-4398	.	_	
+
+#Text=Women and peace and security is one of the\r
+#Text=eight priority pillars of our Action for Peacekeeping\r
+#Text=initiative, endorsed now by more than 150 countries.
+34-1	4402-4407	Women	_	
+34-2	4408-4411	and	_	
+34-3	4412-4417	peace	_	
+34-4	4418-4421	and	_	
+34-5	4422-4430	security	_	
+34-6	4431-4433	is	_	
+34-7	4434-4437	one	_	
+34-8	4438-4440	of	_	
+34-9	4441-4444	the	_	
+34-10	4446-4451	eight	_	
+34-11	4452-4460	priority	_	
+34-12	4461-4468	pillars	_	
+34-13	4469-4471	of	_	
+34-14	4472-4475	our	_	
+34-15	4476-4482	Action	_	
+34-16	4483-4486	for	_	
+34-17	4487-4499	Peacekeeping	_	
+34-18	4501-4511	initiative	_	
+34-19	4511-4512	,	_	
+34-20	4513-4521	endorsed	_	
+34-21	4522-4525	now	_	
+34-22	4526-4528	by	_	
+34-23	4529-4533	more	HERO[31]	
+34-24	4534-4538	than	HERO[31]	
+34-25	4539-4542	150	HERO[31]	
+34-26	4543-4552	countries	HERO[31]	
+34-27	4552-4553	.	_	
+
+#Text=I\r
+#Text=have also requested peacekeeping and special political\r
+#Text=missions to improve their monitoring and reporting of\r
+#Text=threats and violence against activists, including women\r
+#Text=human rights defenders, and for that to be built into\r
+#Text=early warning signs of escalating conflict or instability.
+35-1	4554-4555	I	HERO	
+35-2	4557-4561	have	_	
+35-3	4562-4566	also	_	
+35-4	4567-4576	requested	_	
+35-5	4577-4589	peacekeeping	_	
+35-6	4590-4593	and	_	
+35-7	4594-4601	special	_	
+35-8	4602-4611	political	_	
+35-9	4613-4621	missions	_	
+35-10	4622-4624	to	_	
+35-11	4625-4632	improve	_	
+35-12	4633-4638	their	_	
+35-13	4639-4649	monitoring	_	
+35-14	4650-4653	and	_	
+35-15	4654-4663	reporting	_	
+35-16	4664-4666	of	_	
+35-17	4668-4675	threats	_	
+35-18	4676-4679	and	_	
+35-19	4680-4688	violence	_	
+35-20	4689-4696	against	_	
+35-21	4697-4706	activists	VICTIM[32]	
+35-22	4706-4707	,	VICTIM[32]	
+35-23	4708-4717	including	VICTIM[32]	
+35-24	4718-4723	women	VICTIM[32]	
+35-25	4725-4730	human	VICTIM[32]	
+35-26	4731-4737	rights	VICTIM[32]	
+35-27	4738-4747	defenders	VICTIM[32]	
+35-28	4747-4748	,	_	
+35-29	4749-4752	and	_	
+35-30	4753-4756	for	_	
+35-31	4757-4761	that	_	
+35-32	4762-4764	to	_	
+35-33	4765-4767	be	_	
+35-34	4768-4773	built	_	
+35-35	4774-4778	into	_	
+35-36	4780-4785	early	_	
+35-37	4786-4793	warning	_	
+35-38	4794-4799	signs	_	
+35-39	4800-4802	of	_	
+35-40	4803-4813	escalating	_	
+35-41	4814-4822	conflict	_	
+35-42	4823-4825	or	_	
+35-43	4826-4837	instability	_	
+35-44	4837-4838	.	_	
+
+#Text=Without a gender analysis, we are operating on partial\r
+#Text=information and are unable to anticipate and respond\r
+#Text=effectively to early warnings.
+36-1	4840-4847	Without	_	
+36-2	4848-4849	a	_	
+36-3	4850-4856	gender	_	
+36-4	4857-4865	analysis	_	
+36-5	4865-4866	,	_	
+36-6	4867-4869	we	_	
+36-7	4870-4873	are	_	
+36-8	4874-4883	operating	_	
+36-9	4884-4886	on	_	
+36-10	4887-4894	partial	_	
+36-11	4896-4907	information	_	
+36-12	4908-4911	and	_	
+36-13	4912-4915	are	_	
+36-14	4916-4922	unable	_	
+36-15	4923-4925	to	_	
+36-16	4926-4936	anticipate	_	
+36-17	4937-4940	and	_	
+36-18	4941-4948	respond	_	
+36-19	4950-4961	effectively	_	
+36-20	4962-4964	to	_	
+36-21	4965-4970	early	_	
+36-22	4971-4979	warnings	_	
+36-23	4979-4980	.	_	
+
+#Text=Today we recognize both progress and how much\r
+#Text=more we must do.
+37-1	4984-4989	Today	_	
+37-2	4990-4992	we	HERO	
+37-3	4993-5002	recognize	_	
+37-4	5003-5007	both	_	
+37-5	5008-5016	progress	_	
+37-6	5017-5020	and	_	
+37-7	5021-5024	how	_	
+37-8	5025-5029	much	_	
+37-9	5031-5035	more	_	
+37-10	5036-5038	we	_	
+37-11	5039-5043	must	_	
+37-12	5044-5046	do	_	
+37-13	5046-5047	.	_	
+
+#Text=When we fall short, women, girls\r
+#Text=and all members of society suffer the consequences.
+38-1	5048-5052	When	_	
+38-2	5053-5055	we	_	
+38-3	5056-5060	fall	_	
+38-4	5061-5066	short	_	
+38-5	5066-5067	,	_	
+38-6	5068-5073	women	VICTIM[33]	
+38-7	5073-5074	,	VICTIM[33]	
+38-8	5075-5080	girls	VICTIM[33]	
+38-9	5082-5085	and	VICTIM[33]	
+38-10	5086-5089	all	VICTIM[33]	
+38-11	5090-5097	members	VICTIM[33]	
+38-12	5098-5100	of	VICTIM[33]	
+38-13	5101-5108	society	VICTIM[33]	
+38-14	5109-5115	suffer	_	
+38-15	5116-5119	the	_	
+38-16	5120-5132	consequences	_	
+38-17	5132-5133	.	_	
+
+#Text=A\r
+#Text=failure to act on women's rights and the principles of\r
+#Text=the women and peace and security agenda bring about\r
+#Text=enormous costs.
+39-1	5134-5135	A	_	
+39-2	5137-5144	failure	_	
+39-3	5145-5147	to	_	
+39-4	5148-5151	act	_	
+39-5	5152-5154	on	_	
+39-6	5155-5162	women's	VICTIM	
+39-7	5163-5169	rights	_	
+39-8	5170-5173	and	_	
+39-9	5174-5177	the	_	
+39-10	5178-5188	principles	_	
+39-11	5189-5191	of	_	
+39-12	5193-5196	the	_	
+39-13	5197-5202	women	_	
+39-14	5203-5206	and	_	
+39-15	5207-5212	peace	_	
+39-16	5213-5216	and	_	
+39-17	5217-5225	security	_	
+39-18	5226-5232	agenda	_	
+39-19	5233-5238	bring	_	
+39-20	5239-5244	about	_	
+39-21	5246-5254	enormous	_	
+39-22	5255-5260	costs	_	
+39-23	5260-5261	.	_	
+
+#Text=Let us work together to change the\r
+#Text=narrative and improve, through implementation, the\r
+#Text=situation on the ground.
+40-1	5262-5265	Let	_	
+40-2	5266-5268	us	_	
+40-3	5269-5273	work	_	
+40-4	5274-5282	together	_	
+40-5	5283-5285	to	_	
+40-6	5286-5292	change	_	
+40-7	5293-5296	the	_	
+40-8	5298-5307	narrative	_	
+40-9	5308-5311	and	_	
+40-10	5312-5319	improve	_	
+40-11	5319-5320	,	_	
+40-12	5321-5328	through	_	
+40-13	5329-5343	implementation	_	
+40-14	5343-5344	,	_	
+40-15	5345-5348	the	_	
+40-16	5350-5359	situation	_	
+40-17	5360-5362	on	_	
+40-18	5363-5366	the	_	
+40-19	5367-5373	ground	_	
+40-20	5373-5374	.	_	

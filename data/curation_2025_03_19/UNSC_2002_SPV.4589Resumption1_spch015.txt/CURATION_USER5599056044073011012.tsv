@@ -1,0 +1,1346 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mr.
+1-1	0-2	Mr	_	
+1-2	2-3	.	_	
+
+#Text=Stanislaus (Grenada): In my 12 years at the\r
+#Text=United Nations, this is the first time that I avail myself\r
+#Text=of the opportunity to address this body.
+2-1	4-14	Stanislaus	_	
+2-2	15-16	(	_	
+2-3	16-23	Grenada	_	
+2-4	23-24	)	_	
+2-5	24-25	:	_	
+2-6	26-28	In	_	
+2-7	29-31	my	_	
+2-8	32-34	12	_	
+2-9	35-40	years	_	
+2-10	41-43	at	_	
+2-11	44-47	the	_	
+2-12	49-55	United	_	
+2-13	56-63	Nations	_	
+2-14	63-64	,	_	
+2-15	65-69	this	_	
+2-16	70-72	is	_	
+2-17	73-76	the	_	
+2-18	77-82	first	_	
+2-19	83-87	time	_	
+2-20	88-92	that	_	
+2-21	93-94	I	_	
+2-22	95-100	avail	_	
+2-23	101-107	myself	_	
+2-24	109-111	of	_	
+2-25	112-115	the	_	
+2-26	116-127	opportunity	_	
+2-27	128-130	to	_	
+2-28	131-138	address	_	
+2-29	139-143	this	_	
+2-30	144-148	body	_	
+2-31	148-149	.	_	
+
+#Text=Although I\r
+#Text=have spoken many times in other United Nations\r
+#Text=forums, I do so today because the item on the Council's\r
+#Text=agenda - women, peace and security - is near and\r
+#Text=dear to my heart as I approach my fiftieth wedding\r
+#Text=anniversary.
+3-1	150-158	Although	_	
+3-2	159-160	I	_	
+3-3	162-166	have	_	
+3-4	167-173	spoken	_	
+3-5	174-178	many	_	
+3-6	179-184	times	_	
+3-7	185-187	in	_	
+3-8	188-193	other	_	
+3-9	194-200	United	_	
+3-10	201-208	Nations	_	
+3-11	210-216	forums	_	
+3-12	216-217	,	_	
+3-13	218-219	I	HERO	
+3-14	220-222	do	_	
+3-15	223-225	so	_	
+3-16	226-231	today	_	
+3-17	232-239	because	_	
+3-18	240-243	the	_	
+3-19	244-248	item	_	
+3-20	249-251	on	_	
+3-21	252-255	the	_	
+3-22	256-265	Council's	_	
+3-23	267-273	agenda	_	
+3-24	274-275	-	_	
+3-25	276-281	women	_	
+3-26	281-282	,	_	
+3-27	283-288	peace	_	
+3-28	289-292	and	_	
+3-29	293-301	security	_	
+3-30	302-303	-	_	
+3-31	304-306	is	_	
+3-32	307-311	near	_	
+3-33	312-315	and	_	
+3-34	317-321	dear	_	
+3-35	322-324	to	_	
+3-36	325-327	my	_	
+3-37	328-333	heart	_	
+3-38	334-336	as	_	
+3-39	337-338	I	_	
+3-40	339-347	approach	_	
+3-41	348-350	my	_	
+3-42	351-359	fiftieth	_	
+3-43	360-367	wedding	_	
+3-44	369-380	anniversary	_	
+3-45	380-381	.	_	
+
+#Text=I begin with the premise that the family is the\r
+#Text=basis of society and that good family life is inextricably\r
+#Text=intertwined with and interwoven into good national\r
+#Text=life, which by extension can promote good\r
+#Text=international life.
+4-1	385-386	I	_	
+4-2	387-392	begin	_	
+4-3	393-397	with	_	
+4-4	398-401	the	_	
+4-5	402-409	premise	_	
+4-6	410-414	that	_	
+4-7	415-418	the	HERO[1]	
+4-8	419-425	family	HERO[1]	
+4-9	426-428	is	_	
+4-10	429-432	the	_	
+4-11	434-439	basis	_	
+4-12	440-442	of	_	
+4-13	443-450	society	_	
+4-14	451-454	and	_	
+4-15	455-459	that	_	
+4-16	460-464	good	_	
+4-17	465-471	family	_	
+4-18	472-476	life	_	
+4-19	477-479	is	_	
+4-20	480-492	inextricably	_	
+4-21	494-505	intertwined	_	
+4-22	506-510	with	_	
+4-23	511-514	and	_	
+4-24	515-525	interwoven	_	
+4-25	526-530	into	_	
+4-26	531-535	good	_	
+4-27	536-544	national	_	
+4-28	546-550	life	_	
+4-29	550-551	,	_	
+4-30	552-557	which	_	
+4-31	558-560	by	_	
+4-32	561-570	extension	_	
+4-33	571-574	can	_	
+4-34	575-582	promote	_	
+4-35	583-587	good	_	
+4-36	589-602	international	_	
+4-37	603-607	life	_	
+4-38	607-608	.	_	
+
+#Text=From time immemorial, much of the\r
+#Text=peace and harmony of the human family, especially in\r
+#Text=conflict resolution therein, devolves upon the woman\r
+#Text=of the house in her natural milieu as peacemaker.
+5-1	609-613	From	_	
+5-2	614-618	time	_	
+5-3	619-629	immemorial	_	
+5-4	629-630	,	_	
+5-5	631-635	much	_	
+5-6	636-638	of	_	
+5-7	639-642	the	_	
+5-8	644-649	peace	_	
+5-9	650-653	and	_	
+5-10	654-661	harmony	_	
+5-11	662-664	of	_	
+5-12	665-668	the	_	
+5-13	669-674	human	_	
+5-14	675-681	family	_	
+5-15	681-682	,	_	
+5-16	683-693	especially	_	
+5-17	694-696	in	_	
+5-18	698-706	conflict	_	
+5-19	707-717	resolution	_	
+5-20	718-725	therein	_	
+5-21	725-726	,	_	
+5-22	727-735	devolves	_	
+5-23	736-740	upon	_	
+5-24	741-744	the	HERO[2]	
+5-25	745-750	woman	HERO[2]	
+5-26	752-754	of	HERO[2]	
+5-27	755-758	the	HERO[2]	
+5-28	759-764	house	HERO[2]	
+5-29	765-767	in	_	
+5-30	768-771	her	_	
+5-31	772-779	natural	_	
+5-32	780-786	milieu	_	
+5-33	787-789	as	_	
+5-34	790-800	peacemaker	_	
+5-35	800-801	.	_	
+
+#Text=Here lies a glorious opportunity to involve\r
+#Text=women in peacemaking, peace-building and\r
+#Text=peacekeeping at the highest level, nationally and\r
+#Text=internationally.
+6-1	805-809	Here	_	
+6-2	810-814	lies	_	
+6-3	815-816	a	_	
+6-4	817-825	glorious	_	
+6-5	826-837	opportunity	_	
+6-6	838-840	to	_	
+6-7	841-848	involve	_	
+6-8	850-855	women	HERO[3]|VICTIM[4]	
+6-9	856-858	in	_	
+6-10	859-870	peacemaking	_	
+6-11	870-871	,	_	
+6-12	872-886	peace-building	_	
+6-13	887-890	and	_	
+6-14	892-904	peacekeeping	_	
+6-15	905-907	at	_	
+6-16	908-911	the	_	
+6-17	912-919	highest	_	
+6-18	920-925	level	_	
+6-19	925-926	,	_	
+6-20	927-937	nationally	_	
+6-21	938-941	and	_	
+6-22	943-958	internationally	_	
+6-23	958-959	.	_	
+
+#Text=The age-old saying that the hand that\r
+#Text=rocks the cradle rules the world remains only a good\r
+#Text=adage unless women are brought into the mainstream\r
+#Text=of decision-making at the highest political, educational,\r
+#Text=social, economic, cultural and other levels.
+7-1	960-963	The	_	
+7-2	964-971	age-old	_	
+7-3	972-978	saying	_	
+7-4	979-983	that	_	
+7-5	984-987	the	_	
+7-6	988-992	hand	_	
+7-7	993-997	that	_	
+7-8	999-1004	rocks	_	
+7-9	1005-1008	the	_	
+7-10	1009-1015	cradle	_	
+7-11	1016-1021	rules	_	
+7-12	1022-1025	the	_	
+7-13	1026-1031	world	_	
+7-14	1032-1039	remains	_	
+7-15	1040-1044	only	_	
+7-16	1045-1046	a	_	
+7-17	1047-1051	good	_	
+7-18	1053-1058	adage	_	
+7-19	1059-1065	unless	_	
+7-20	1066-1071	women	VICTIM[5]|HERO[6]	
+7-21	1072-1075	are	_	
+7-22	1076-1083	brought	_	
+7-23	1084-1088	into	_	
+7-24	1089-1092	the	_	
+7-25	1093-1103	mainstream	_	
+7-26	1105-1107	of	_	
+7-27	1108-1123	decision-making	_	
+7-28	1124-1126	at	_	
+7-29	1127-1130	the	_	
+7-30	1131-1138	highest	_	
+7-31	1139-1148	political	_	
+7-32	1148-1149	,	_	
+7-33	1150-1161	educational	_	
+7-34	1161-1162	,	_	
+7-35	1164-1170	social	_	
+7-36	1170-1171	,	_	
+7-37	1172-1180	economic	_	
+7-38	1180-1181	,	_	
+7-39	1182-1190	cultural	_	
+7-40	1191-1194	and	_	
+7-41	1195-1200	other	_	
+7-42	1201-1207	levels	_	
+7-43	1207-1208	.	_	
+
+#Text=Then, and\r
+#Text=only then, will the world give credence and substance\r
+#Text=to the ancient Chinese proverb that women hold up half\r
+#Text=the sky.
+8-1	1209-1213	Then	_	
+8-2	1213-1214	,	_	
+8-3	1215-1218	and	_	
+8-4	1220-1224	only	_	
+8-5	1225-1229	then	_	
+8-6	1229-1230	,	_	
+8-7	1231-1235	will	_	
+8-8	1236-1239	the	VILLAIN[7]	
+8-9	1240-1245	world	VILLAIN[7]	
+8-10	1246-1250	give	_	
+8-11	1251-1259	credence	_	
+8-12	1260-1263	and	_	
+8-13	1264-1273	substance	_	
+8-14	1275-1277	to	_	
+8-15	1278-1281	the	_	
+8-16	1282-1289	ancient	_	
+8-17	1290-1297	Chinese	_	
+8-18	1298-1305	proverb	_	
+8-19	1306-1310	that	_	
+8-20	1311-1316	women	HERO	
+8-21	1317-1321	hold	_	
+8-22	1322-1324	up	_	
+8-23	1325-1329	half	_	
+8-24	1331-1334	the	_	
+8-25	1335-1338	sky	_	
+8-26	1338-1339	.	_	
+
+#Text=The Fourth World Conference on Women, held in\r
+#Text=Beijing in September 1995, drew up the Beijing\r
+#Text=Declaration and Programme of Action.
+9-1	1343-1346	The	_	
+9-2	1347-1353	Fourth	_	
+9-3	1354-1359	World	_	
+9-4	1360-1370	Conference	_	
+9-5	1371-1373	on	_	
+9-6	1374-1379	Women	_	
+9-7	1379-1380	,	_	
+9-8	1381-1385	held	_	
+9-9	1386-1388	in	_	
+9-10	1390-1397	Beijing	_	
+9-11	1398-1400	in	_	
+9-12	1401-1410	September	_	
+9-13	1411-1415	1995	_	
+9-14	1415-1416	,	_	
+9-15	1417-1421	drew	_	
+9-16	1422-1424	up	_	
+9-17	1425-1428	the	_	
+9-18	1429-1436	Beijing	_	
+9-19	1438-1449	Declaration	_	
+9-20	1450-1453	and	_	
+9-21	1454-1463	Programme	_	
+9-22	1464-1466	of	_	
+9-23	1467-1473	Action	_	
+9-24	1473-1474	.	_	
+
+#Text=It contains 12\r
+#Text=subject areas, 6 of which are analysed in the United\r
+#Text=Nations publication entitled "The World's Women\r
+#Text=2000: Trends and Statistics".
+10-1	1475-1477	It	_	
+10-2	1478-1486	contains	_	
+10-3	1487-1489	12	_	
+10-4	1491-1498	subject	_	
+10-5	1499-1504	areas	_	
+10-6	1504-1505	,	_	
+10-7	1506-1507	6	_	
+10-8	1508-1510	of	_	
+10-9	1511-1516	which	_	
+10-10	1517-1520	are	_	
+10-11	1521-1529	analysed	_	
+10-12	1530-1532	in	_	
+10-13	1533-1536	the	_	
+10-14	1537-1543	United	_	
+10-15	1545-1552	Nations	_	
+10-16	1553-1564	publication	_	
+10-17	1565-1573	entitled	_	
+10-18	1574-1575	"	_	
+10-19	1575-1578	The	_	
+10-20	1579-1586	World's	_	
+10-21	1587-1592	Women	_	
+10-22	1594-1598	2000	_	
+10-23	1598-1599	:	_	
+10-24	1600-1606	Trends	_	
+10-25	1607-1610	and	_	
+10-26	1611-1621	Statistics	_	
+10-27	1621-1622	"	_	
+10-28	1622-1623	.	_	
+
+#Text=This was issued just\r
+#Text=before the twenty-third special session of the General\r
+#Text=Assembly in June 2000, entitled "Women 2000:\r
+#Text=Gender, Equality, Development and Peace for the\r
+#Text=Twenty-First Century".
+11-1	1624-1628	This	_	
+11-2	1629-1632	was	_	
+11-3	1633-1639	issued	_	
+11-4	1640-1644	just	_	
+11-5	1646-1652	before	_	
+11-6	1653-1656	the	_	
+11-7	1657-1669	twenty-third	_	
+11-8	1670-1677	special	_	
+11-9	1678-1685	session	_	
+11-10	1686-1688	of	_	
+11-11	1689-1692	the	_	
+11-12	1693-1700	General	_	
+11-13	1702-1710	Assembly	_	
+11-14	1711-1713	in	_	
+11-15	1714-1718	June	_	
+11-16	1719-1723	2000	_	
+11-17	1723-1724	,	_	
+11-18	1725-1733	entitled	_	
+11-19	1734-1735	"	_	
+11-20	1735-1740	Women	_	
+11-21	1741-1745	2000	_	
+11-22	1745-1746	:	_	
+11-23	1748-1754	Gender	_	
+11-24	1754-1755	,	_	
+11-25	1756-1764	Equality	_	
+11-26	1764-1765	,	_	
+11-27	1766-1777	Development	_	
+11-28	1778-1781	and	_	
+11-29	1782-1787	Peace	_	
+11-30	1788-1791	for	_	
+11-31	1792-1795	the	_	
+11-32	1797-1809	Twenty-First	_	
+11-33	1810-1817	Century	_	
+11-34	1817-1818	"	_	
+11-35	1818-1819	.	_	
+
+#Text=The intent was to show the\r
+#Text=progress as well as the disparities between women and\r
+#Text=men worldwide in health, human rights, political\r
+#Text=decision-making, work, education and families.
+12-1	1820-1823	The	_	
+12-2	1824-1830	intent	_	
+12-3	1831-1834	was	_	
+12-4	1835-1837	to	_	
+12-5	1838-1842	show	_	
+12-6	1843-1846	the	_	
+12-7	1848-1856	progress	_	
+12-8	1857-1859	as	_	
+12-9	1860-1864	well	_	
+12-10	1865-1867	as	_	
+12-11	1868-1871	the	_	
+12-12	1872-1883	disparities	_	
+12-13	1884-1891	between	_	
+12-14	1892-1897	women	_	
+12-15	1898-1901	and	_	
+12-16	1903-1906	men	_	
+12-17	1907-1916	worldwide	_	
+12-18	1917-1919	in	_	
+12-19	1920-1926	health	_	
+12-20	1926-1927	,	_	
+12-21	1928-1933	human	_	
+12-22	1934-1940	rights	_	
+12-23	1940-1941	,	_	
+12-24	1942-1951	political	_	
+12-25	1953-1968	decision-making	_	
+12-26	1968-1969	,	_	
+12-27	1970-1974	work	_	
+12-28	1974-1975	,	_	
+12-29	1976-1985	education	_	
+12-30	1986-1989	and	_	
+12-31	1990-1998	families	_	
+12-32	1998-1999	.	_	
+
+#Text=Due to time constraints, my delegation will touch\r
+#Text=briefly on three subject areas, namely, human rights,\r
+#Text=political decision-making and work.
+13-1	2003-2006	Due	_	
+13-2	2007-2009	to	_	
+13-3	2010-2014	time	_	
+13-4	2015-2026	constraints	_	
+13-5	2026-2027	,	_	
+13-6	2028-2030	my	_	
+13-7	2031-2041	delegation	_	
+13-8	2042-2046	will	_	
+13-9	2047-2052	touch	_	
+13-10	2054-2061	briefly	_	
+13-11	2062-2064	on	_	
+13-12	2065-2070	three	_	
+13-13	2071-2078	subject	_	
+13-14	2079-2084	areas	_	
+13-15	2084-2085	,	_	
+13-16	2086-2092	namely	_	
+13-17	2092-2093	,	_	
+13-18	2094-2099	human	_	
+13-19	2100-2106	rights	_	
+13-20	2106-2107	,	_	
+13-21	2109-2118	political	_	
+13-22	2119-2134	decision-making	_	
+13-23	2135-2138	and	_	
+13-24	2139-2143	work	_	
+13-25	2143-2144	.	_	
+
+#Text=While progress\r
+#Text=has been made, we cannot fail to see that we are still a\r
+#Text=long way from attaining the proclaimed goal of\r
+#Text=women's rights as human rights, as was discussed in\r
+#Text=the Millennium Report, or of equal rights of men and\r
+#Text=women affirmed in the Charter, or of everyone, without\r
+#Text=discrimination, having the right to equal pay for equal\r
+#Text=work, as emphasized in article 23 of the Universal\r
+#Text=Declaration of Human Rights.
+14-1	2145-2150	While	_	
+14-2	2151-2159	progress	_	
+14-3	2161-2164	has	_	
+14-4	2165-2169	been	_	
+14-5	2170-2174	made	_	
+14-6	2174-2175	,	_	
+14-7	2176-2178	we	_	
+14-8	2179-2185	cannot	_	
+14-9	2186-2190	fail	_	
+14-10	2191-2193	to	_	
+14-11	2194-2197	see	_	
+14-12	2198-2202	that	_	
+14-13	2203-2205	we	VILLAIN	
+14-14	2206-2209	are	_	
+14-15	2210-2215	still	_	
+14-16	2216-2217	a	_	
+14-17	2219-2223	long	_	
+14-18	2224-2227	way	_	
+14-19	2228-2232	from	_	
+14-20	2233-2242	attaining	_	
+14-21	2243-2246	the	_	
+14-22	2247-2257	proclaimed	_	
+14-23	2258-2262	goal	_	
+14-24	2263-2265	of	_	
+14-25	2267-2274	women's	VICTIM	
+14-26	2275-2281	rights	_	
+14-27	2282-2284	as	_	
+14-28	2285-2290	human	_	
+14-29	2291-2297	rights	_	
+14-30	2297-2298	,	_	
+14-31	2299-2301	as	_	
+14-32	2302-2305	was	_	
+14-33	2306-2315	discussed	_	
+14-34	2316-2318	in	_	
+14-35	2320-2323	the	_	
+14-36	2324-2334	Millennium	_	
+14-37	2335-2341	Report	_	
+14-38	2341-2342	,	_	
+14-39	2343-2345	or	_	
+14-40	2346-2348	of	_	
+14-41	2349-2354	equal	_	
+14-42	2355-2361	rights	_	
+14-43	2362-2364	of	_	
+14-44	2365-2368	men	_	
+14-45	2369-2372	and	_	
+14-46	2374-2379	women	_	
+14-47	2380-2388	affirmed	_	
+14-48	2389-2391	in	_	
+14-49	2392-2395	the	_	
+14-50	2396-2403	Charter	_	
+14-51	2403-2404	,	_	
+14-52	2405-2407	or	_	
+14-53	2408-2410	of	_	
+14-54	2411-2419	everyone	_	
+14-55	2419-2420	,	_	
+14-56	2421-2428	without	_	
+14-57	2430-2444	discrimination	_	
+14-58	2444-2445	,	_	
+14-59	2446-2452	having	_	
+14-60	2453-2456	the	_	
+14-61	2457-2462	right	_	
+14-62	2463-2465	to	_	
+14-63	2466-2471	equal	_	
+14-64	2472-2475	pay	_	
+14-65	2476-2479	for	_	
+14-66	2480-2485	equal	_	
+14-67	2487-2491	work	_	
+14-68	2491-2492	,	_	
+14-69	2493-2495	as	_	
+14-70	2496-2506	emphasized	_	
+14-71	2507-2509	in	_	
+14-72	2510-2517	article	_	
+14-73	2518-2520	23	_	
+14-74	2521-2523	of	_	
+14-75	2524-2527	the	_	
+14-76	2528-2537	Universal	_	
+14-77	2539-2550	Declaration	_	
+14-78	2551-2553	of	_	
+14-79	2554-2559	Human	_	
+14-80	2560-2566	Rights	_	
+14-81	2566-2567	.	_	
+
+#Text=Yet, gender imbalance is nowhere more\r
+#Text=noticeable than in the workplace, where on average\r
+#Text=women earn at least 30 per cent less than men for equal\r
+#Text=work.
+15-1	2571-2574	Yet	_	
+15-2	2574-2575	,	_	
+15-3	2576-2582	gender	_	
+15-4	2583-2592	imbalance	_	
+15-5	2593-2595	is	_	
+15-6	2596-2603	nowhere	_	
+15-7	2604-2608	more	_	
+15-8	2610-2620	noticeable	_	
+15-9	2621-2625	than	_	
+15-10	2626-2628	in	_	
+15-11	2629-2632	the	_	
+15-12	2633-2642	workplace	_	
+15-13	2642-2643	,	_	
+15-14	2644-2649	where	_	
+15-15	2650-2652	on	_	
+15-16	2653-2660	average	_	
+15-17	2662-2667	women	VICTIM	
+15-18	2668-2672	earn	_	
+15-19	2673-2675	at	_	
+15-20	2676-2681	least	_	
+15-21	2682-2684	30	_	
+15-22	2685-2688	per	_	
+15-23	2689-2693	cent	_	
+15-24	2694-2698	less	_	
+15-25	2699-2703	than	_	
+15-26	2704-2707	men	_	
+15-27	2708-2711	for	_	
+15-28	2712-2717	equal	_	
+15-29	2719-2723	work	_	
+15-30	2723-2724	.	_	
+
+#Text=Moreover, in the home, where a woman's\r
+#Text=domestic role as spouse and mother is so vital to the\r
+#Text=well-being of society, her work is always undervalued\r
+#Text=and underpaid.
+16-1	2725-2733	Moreover	_	
+16-2	2733-2734	,	_	
+16-3	2735-2737	in	_	
+16-4	2738-2741	the	_	
+16-5	2742-2746	home	_	
+16-6	2746-2747	,	_	
+16-7	2748-2753	where	_	
+16-8	2754-2755	a	_	
+16-9	2756-2763	woman's	HERO[8]|VICTIM[9]	
+16-10	2765-2773	domestic	_	
+16-11	2774-2778	role	_	
+16-12	2779-2781	as	_	
+16-13	2782-2788	spouse	_	
+16-14	2789-2792	and	_	
+16-15	2793-2799	mother	_	
+16-16	2800-2802	is	_	
+16-17	2803-2805	so	_	
+16-18	2806-2811	vital	_	
+16-19	2812-2814	to	_	
+16-20	2815-2818	the	_	
+16-21	2820-2830	well-being	_	
+16-22	2831-2833	of	_	
+16-23	2834-2841	society	_	
+16-24	2841-2842	,	_	
+16-25	2843-2846	her	_	
+16-26	2847-2851	work	_	
+16-27	2852-2854	is	_	
+16-28	2855-2861	always	_	
+16-29	2862-2873	undervalued	_	
+16-30	2875-2878	and	_	
+16-31	2879-2888	underpaid	_	
+16-32	2888-2889	.	_	
+
+#Text=Unpaid domestic work everywhere is\r
+#Text=seen as a woman's responsibility.
+17-1	2890-2896	Unpaid	_	
+17-2	2897-2905	domestic	_	
+17-3	2906-2910	work	_	
+17-4	2911-2921	everywhere	_	
+17-5	2922-2924	is	_	
+17-6	2926-2930	seen	_	
+17-7	2931-2933	as	_	
+17-8	2934-2935	a	_	
+17-9	2936-2943	woman's	VICTIM	
+17-10	2944-2958	responsibility	_	
+17-11	2958-2959	.	_	
+
+#Text=Is it not incongruous that more than 50 years after\r
+#Text=the ratification of the Universal Declaration of Human\r
+#Text=Rights that the political landscape is still dominated by\r
+#Text=men?
+18-1	2963-2965	Is	_	
+18-2	2966-2968	it	_	
+18-3	2969-2972	not	_	
+18-4	2973-2984	incongruous	_	
+18-5	2985-2989	that	_	
+18-6	2990-2994	more	_	
+18-7	2995-2999	than	_	
+18-8	3000-3002	50	_	
+18-9	3003-3008	years	_	
+18-10	3009-3014	after	_	
+18-11	3016-3019	the	_	
+18-12	3020-3032	ratification	_	
+18-13	3033-3035	of	_	
+18-14	3036-3039	the	_	
+18-15	3040-3049	Universal	_	
+18-16	3050-3061	Declaration	_	
+18-17	3062-3064	of	_	
+18-18	3065-3070	Human	_	
+18-19	3072-3078	Rights	_	
+18-20	3079-3083	that	_	
+18-21	3084-3087	the	_	
+18-22	3088-3097	political	_	
+18-23	3098-3107	landscape	_	
+18-24	3108-3110	is	_	
+18-25	3111-3116	still	_	
+18-26	3117-3126	dominated	_	
+18-27	3127-3129	by	_	
+18-28	3131-3134	men	_	
+18-29	3134-3135	?	_	
+
+#Text=Yet all international instruments and all national\r
+#Text=legislatures enshrine the principle of equality between\r
+#Text=men and women.
+19-1	3136-3139	Yet	_	
+19-2	3140-3143	all	_	
+19-3	3144-3157	international	_	
+19-4	3158-3169	instruments	_	
+19-5	3170-3173	and	_	
+19-6	3174-3177	all	_	
+19-7	3178-3186	national	_	
+19-8	3188-3200	legislatures	_	
+19-9	3201-3209	enshrine	_	
+19-10	3210-3213	the	_	
+19-11	3214-3223	principle	_	
+19-12	3224-3226	of	_	
+19-13	3227-3235	equality	_	
+19-14	3236-3243	between	_	
+19-15	3245-3248	men	_	
+19-16	3249-3252	and	_	
+19-17	3253-3258	women	_	
+19-18	3258-3259	.	_	
+
+#Text=Men have a responsibility therefore\r
+#Text=to help remove the patriarchal dominance in society\r
+#Text=and to allow the private virtues of women to go public.
+20-1	3260-3263	Men	_	
+20-2	3264-3268	have	_	
+20-3	3269-3270	a	_	
+20-4	3271-3285	responsibility	_	
+20-5	3286-3295	therefore	_	
+20-6	3297-3299	to	_	
+20-7	3300-3304	help	_	
+20-8	3305-3311	remove	_	
+20-9	3312-3315	the	_	
+20-10	3316-3327	patriarchal	_	
+20-11	3328-3337	dominance	_	
+20-12	3338-3340	in	_	
+20-13	3341-3348	society	_	
+20-14	3350-3353	and	_	
+20-15	3354-3356	to	_	
+20-16	3357-3362	allow	_	
+20-17	3363-3366	the	_	
+20-18	3367-3374	private	_	
+20-19	3375-3382	virtues	_	
+20-20	3383-3385	of	_	
+20-21	3386-3391	women	VICTIM	
+20-22	3392-3394	to	_	
+20-23	3395-3397	go	_	
+20-24	3398-3404	public	_	
+20-25	3404-3405	.	_	
+
+#Text=Indeed, men of quality should never feel threatened by\r
+#Text=women for equality.
+21-1	3407-3413	Indeed	_	
+21-2	3413-3414	,	_	
+21-3	3415-3418	men	_	
+21-4	3419-3421	of	_	
+21-5	3422-3429	quality	_	
+21-6	3430-3436	should	_	
+21-7	3437-3442	never	_	
+21-8	3443-3447	feel	_	
+21-9	3448-3458	threatened	_	
+21-10	3459-3461	by	_	
+21-11	3463-3468	women	_	
+21-12	3469-3472	for	_	
+21-13	3473-3481	equality	_	
+21-14	3481-3482	.	_	
+
+#Text=Gender equality is predicated upon education of\r
+#Text=girls and boys so that they can be empowered\r
+#Text=throughout their life in today's globalizing world to\r
+#Text=enter the gender mainstream of equal opportunity.
+22-1	3486-3492	Gender	_	
+22-2	3493-3501	equality	_	
+22-3	3502-3504	is	_	
+22-4	3505-3515	predicated	_	
+22-5	3516-3520	upon	_	
+22-6	3521-3530	education	_	
+22-7	3531-3533	of	_	
+22-8	3535-3540	girls	_	
+22-9	3541-3544	and	_	
+22-10	3545-3549	boys	_	
+22-11	3550-3552	so	_	
+22-12	3553-3557	that	_	
+22-13	3558-3562	they	_	
+22-14	3563-3566	can	_	
+22-15	3567-3569	be	_	
+22-16	3570-3579	empowered	_	
+22-17	3581-3591	throughout	_	
+22-18	3592-3597	their	_	
+22-19	3598-3602	life	_	
+22-20	3603-3605	in	_	
+22-21	3606-3613	today's	_	
+22-22	3614-3625	globalizing	_	
+22-23	3626-3631	world	_	
+22-24	3632-3634	to	_	
+22-25	3636-3641	enter	_	
+22-26	3642-3645	the	_	
+22-27	3646-3652	gender	_	
+22-28	3653-3663	mainstream	_	
+22-29	3664-3666	of	_	
+22-30	3667-3672	equal	_	
+22-31	3673-3684	opportunity	_	
+22-32	3684-3685	.	_	
+
+#Text=The\r
+#Text=report of the sixth session of the Commission on the\r
+#Text=Status of Women, published on 25 March 2002, tells\r
+#Text=how far we are from attaining this goal.
+23-1	3686-3689	The	_	
+23-2	3691-3697	report	_	
+23-3	3698-3700	of	_	
+23-4	3701-3704	the	_	
+23-5	3705-3710	sixth	_	
+23-6	3711-3718	session	_	
+23-7	3719-3721	of	_	
+23-8	3722-3725	the	_	
+23-9	3726-3736	Commission	_	
+23-10	3737-3739	on	_	
+23-11	3740-3743	the	_	
+23-12	3745-3751	Status	_	
+23-13	3752-3754	of	_	
+23-14	3755-3760	Women	_	
+23-15	3760-3761	,	_	
+23-16	3762-3771	published	_	
+23-17	3772-3774	on	_	
+23-18	3775-3777	25	_	
+23-19	3778-3783	March	_	
+23-20	3784-3788	2002	_	
+23-21	3788-3789	,	_	
+23-22	3790-3795	tells	_	
+23-23	3797-3800	how	_	
+23-24	3801-3804	far	_	
+23-25	3805-3807	we	_	
+23-26	3808-3811	are	_	
+23-27	3812-3816	from	_	
+23-28	3817-3826	attaining	_	
+23-29	3827-3831	this	_	
+23-30	3832-3836	goal	_	
+23-31	3836-3837	.	_	
+
+#Text=Given the\r
+#Text=opportunity for education, women and girls do as well\r
+#Text=as men and boys.
+24-1	3838-3843	Given	_	
+24-2	3844-3847	the	_	
+24-3	3849-3860	opportunity	_	
+24-4	3861-3864	for	_	
+24-5	3865-3874	education	_	
+24-6	3874-3875	,	_	
+24-7	3876-3881	women	_	
+24-8	3882-3885	and	_	
+24-9	3886-3891	girls	_	
+24-10	3892-3894	do	_	
+24-11	3895-3897	as	_	
+24-12	3898-3902	well	_	
+24-13	3904-3906	as	_	
+24-14	3907-3910	men	_	
+24-15	3911-3914	and	_	
+24-16	3915-3919	boys	_	
+24-17	3919-3920	.	_	
+
+#Text=Some even think that women and\r
+#Text=girls do better.
+25-1	3921-3925	Some	_	
+25-2	3926-3930	even	_	
+25-3	3931-3936	think	_	
+25-4	3937-3941	that	_	
+25-5	3942-3947	women	_	
+25-6	3948-3951	and	_	
+25-7	3953-3958	girls	_	
+25-8	3959-3961	do	_	
+25-9	3962-3968	better	_	
+25-10	3968-3969	.	_	
+
+#Text=In 1916, psychologist George Stratton of the\r
+#Text=University of Southern California described what he\r
+#Text=considered - what he considered, remember, not what\r
+#Text=I consider - the inherent superiority of the female\r
+#Text=brain in seeing the whole picture.
+26-1	3973-3975	In	_	
+26-2	3976-3980	1916	_	
+26-3	3980-3981	,	_	
+26-4	3982-3994	psychologist	_	
+26-5	3995-4001	George	_	
+26-6	4002-4010	Stratton	_	
+26-7	4011-4013	of	_	
+26-8	4014-4017	the	_	
+26-9	4019-4029	University	_	
+26-10	4030-4032	of	_	
+26-11	4033-4041	Southern	_	
+26-12	4042-4052	California	_	
+26-13	4053-4062	described	_	
+26-14	4063-4067	what	_	
+26-15	4068-4070	he	_	
+26-16	4072-4082	considered	_	
+26-17	4083-4084	-	_	
+26-18	4085-4089	what	_	
+26-19	4090-4092	he	_	
+26-20	4093-4103	considered	_	
+26-21	4103-4104	,	_	
+26-22	4105-4113	remember	_	
+26-23	4113-4114	,	_	
+26-24	4115-4118	not	_	
+26-25	4119-4123	what	_	
+26-26	4125-4126	I	_	
+26-27	4127-4135	consider	_	
+26-28	4136-4137	-	_	
+26-29	4138-4141	the	_	
+26-30	4142-4150	inherent	_	
+26-31	4151-4162	superiority	_	
+26-32	4163-4165	of	_	
+26-33	4166-4169	the	_	
+26-34	4170-4176	female	_	
+26-35	4178-4183	brain	_	
+26-36	4184-4186	in	_	
+26-37	4187-4193	seeing	_	
+26-38	4194-4197	the	_	
+26-39	4198-4203	whole	_	
+26-40	4204-4211	picture	_	
+26-41	4211-4212	.	_	
+
+#Text=Writing on feminism\r
+#Text=and psychology in Century Magazine, he expressed the\r
+#Text=hope that women would dispel masculine illusions\r
+#Text=when they took their rightful place in society.
+27-1	4213-4220	Writing	_	
+27-2	4221-4223	on	_	
+27-3	4224-4232	feminism	_	
+27-4	4234-4237	and	_	
+27-5	4238-4248	psychology	_	
+27-6	4249-4251	in	_	
+27-7	4252-4259	Century	_	
+27-8	4260-4268	Magazine	_	
+27-9	4268-4269	,	_	
+27-10	4270-4272	he	_	
+27-11	4273-4282	expressed	_	
+27-12	4283-4286	the	_	
+27-13	4288-4292	hope	_	
+27-14	4293-4297	that	_	
+27-15	4298-4303	women	HERO	
+27-16	4304-4309	would	_	
+27-17	4310-4316	dispel	_	
+27-18	4317-4326	masculine	_	
+27-19	4327-4336	illusions	_	
+27-20	4338-4342	when	_	
+27-21	4343-4347	they	HERO[10]|VICTIM[11]	
+27-22	4348-4352	took	_	
+27-23	4353-4358	their	_	
+27-24	4359-4367	rightful	_	
+27-25	4368-4373	place	_	
+27-26	4374-4376	in	_	
+27-27	4377-4384	society	_	
+27-28	4384-4385	.	_	
+
+#Text=Men, he said, tend to fix on cogs instead of flesh\r
+#Text=and blood.
+28-1	4389-4392	Men	VILLAIN	
+28-2	4392-4393	,	_	
+28-3	4394-4396	he	_	
+28-4	4397-4401	said	_	
+28-5	4401-4402	,	_	
+28-6	4403-4407	tend	_	
+28-7	4408-4410	to	_	
+28-8	4411-4414	fix	_	
+28-9	4415-4417	on	_	
+28-10	4418-4422	cogs	_	
+28-11	4423-4430	instead	_	
+28-12	4431-4433	of	_	
+28-13	4434-4439	flesh	_	
+28-14	4441-4444	and	_	
+28-15	4445-4450	blood	_	
+28-16	4450-4451	.	_	
+
+#Text=Beginning with a generous wonder at\r
+#Text=nature, men end up with fascination for the tool, the\r
+#Text=scientific instrument.
+29-1	4452-4461	Beginning	_	
+29-2	4462-4466	with	_	
+29-3	4467-4468	a	_	
+29-4	4469-4477	generous	_	
+29-5	4478-4484	wonder	_	
+29-6	4485-4487	at	_	
+29-7	4489-4495	nature	_	
+29-8	4495-4496	,	_	
+29-9	4497-4500	men	HERO[12]|VILLAIN[13]	
+29-10	4501-4504	end	_	
+29-11	4505-4507	up	_	
+29-12	4508-4512	with	_	
+29-13	4513-4524	fascination	_	
+29-14	4525-4528	for	_	
+29-15	4529-4532	the	_	
+29-16	4533-4537	tool	_	
+29-17	4537-4538	,	_	
+29-18	4539-4542	the	_	
+29-19	4544-4554	scientific	_	
+29-20	4555-4565	instrument	_	
+29-21	4565-4566	.	_	
+
+#Text=They establish governments to\r
+#Text=give order to life and then end up coveting the\r
+#Text=functions of government more than life.
+30-1	4567-4571	They	HERO[14]|VILLAIN[15]	
+30-2	4572-4581	establish	_	
+30-3	4582-4593	governments	_	
+30-4	4594-4596	to	_	
+30-5	4598-4602	give	_	
+30-6	4603-4608	order	_	
+30-7	4609-4611	to	_	
+30-8	4612-4616	life	_	
+30-9	4617-4620	and	_	
+30-10	4621-4625	then	_	
+30-11	4626-4629	end	_	
+30-12	4630-4632	up	_	
+30-13	4633-4641	coveting	_	
+30-14	4642-4645	the	_	
+30-15	4647-4656	functions	_	
+30-16	4657-4659	of	_	
+30-17	4660-4670	government	_	
+30-18	4671-4675	more	_	
+30-19	4676-4680	than	_	
+30-20	4681-4685	life	_	
+30-21	4685-4686	.	_	
+
+#Text=The masculine\r
+#Text=genius for organization, Stratton said, needs women's\r
+#Text=sense of the heart of things, not the trappings.
+31-1	4687-4690	The	_	
+31-2	4691-4700	masculine	_	
+31-3	4702-4708	genius	_	
+31-4	4709-4712	for	_	
+31-5	4713-4725	organization	_	
+31-6	4725-4726	,	_	
+31-7	4727-4735	Stratton	_	
+31-8	4736-4740	said	_	
+31-9	4740-4741	,	_	
+31-10	4742-4747	needs	_	
+31-11	4748-4755	women's	HERO	
+31-12	4757-4762	sense	_	
+31-13	4763-4765	of	_	
+31-14	4766-4769	the	_	
+31-15	4770-4775	heart	_	
+31-16	4776-4778	of	_	
+31-17	4779-4785	things	_	
+31-18	4785-4786	,	_	
+31-19	4787-4790	not	_	
+31-20	4791-4794	the	_	
+31-21	4795-4804	trappings	_	
+31-22	4804-4805	.	_	
+
+#Text=I cannot end without recalling from Greek\r
+#Text=mythology the resourcefulness, the common sense and\r
+#Text=the power of women.
+32-1	4809-4810	I	_	
+32-2	4811-4817	cannot	_	
+32-3	4818-4821	end	_	
+32-4	4822-4829	without	_	
+32-5	4830-4839	recalling	_	
+32-6	4840-4844	from	_	
+32-7	4845-4850	Greek	_	
+32-8	4852-4861	mythology	_	
+32-9	4862-4865	the	_	
+32-10	4866-4881	resourcefulness	_	
+32-11	4881-4882	,	_	
+32-12	4883-4886	the	_	
+32-13	4887-4893	common	_	
+32-14	4894-4899	sense	_	
+32-15	4900-4903	and	_	
+32-16	4905-4908	the	_	
+32-17	4909-4914	power	_	
+32-18	4915-4917	of	_	
+32-19	4918-4923	women	HERO	
+32-20	4923-4924	.	_	
+
+#Text=In Lysistrata, a masterpiece of\r
+#Text=comedy written in 411 BC, Aristophanes tells of how,\r
+#Text=during the silly and unnecessary Peloponnesian war\r
+#Text=between the city-state of Athens and Sparta, the women\r
+#Text=ended the military madness and exposed the absurdity\r
+#Text=and futility of war by seizing, first, the Acropolis,\r
+#Text=which contained the Treasury, then refusing to have\r
+#Text=intimate relations with the returning men soldiers.
+33-1	4925-4927	In	_	
+33-2	4928-4938	Lysistrata	_	
+33-3	4938-4939	,	_	
+33-4	4940-4941	a	_	
+33-5	4942-4953	masterpiece	_	
+33-6	4954-4956	of	_	
+33-7	4958-4964	comedy	_	
+33-8	4965-4972	written	_	
+33-9	4973-4975	in	_	
+33-10	4976-4979	411	_	
+33-11	4980-4982	BC	_	
+33-12	4982-4983	,	_	
+33-13	4984-4996	Aristophanes	_	
+33-14	4997-5002	tells	_	
+33-15	5003-5005	of	_	
+33-16	5006-5009	how	_	
+33-17	5009-5010	,	_	
+33-18	5012-5018	during	_	
+33-19	5019-5022	the	_	
+33-20	5023-5028	silly	_	
+33-21	5029-5032	and	_	
+33-22	5033-5044	unnecessary	_	
+33-23	5045-5058	Peloponnesian	_	
+33-24	5059-5062	war	_	
+33-25	5064-5071	between	_	
+33-26	5072-5075	the	_	
+33-27	5076-5086	city-state	_	
+33-28	5087-5089	of	_	
+33-29	5090-5096	Athens	_	
+33-30	5097-5100	and	_	
+33-31	5101-5107	Sparta	_	
+33-32	5107-5108	,	_	
+33-33	5109-5112	the	HERO[16]	
+33-34	5113-5118	women	HERO[16]	
+33-35	5120-5125	ended	_	
+33-36	5126-5129	the	_	
+33-37	5130-5138	military	_	
+33-38	5139-5146	madness	_	
+33-39	5147-5150	and	_	
+33-40	5151-5158	exposed	_	
+33-41	5159-5162	the	_	
+33-42	5163-5172	absurdity	_	
+33-43	5174-5177	and	_	
+33-44	5178-5186	futility	_	
+33-45	5187-5189	of	_	
+33-46	5190-5193	war	_	
+33-47	5194-5196	by	_	
+33-48	5197-5204	seizing	_	
+33-49	5204-5205	,	_	
+33-50	5206-5211	first	_	
+33-51	5211-5212	,	_	
+33-52	5213-5216	the	_	
+33-53	5217-5226	Acropolis	_	
+33-54	5226-5227	,	_	
+33-55	5229-5234	which	_	
+33-56	5235-5244	contained	_	
+33-57	5245-5248	the	_	
+33-58	5249-5257	Treasury	_	
+33-59	5257-5258	,	_	
+33-60	5259-5263	then	_	
+33-61	5264-5272	refusing	_	
+33-62	5273-5275	to	_	
+33-63	5276-5280	have	_	
+33-64	5282-5290	intimate	_	
+33-65	5291-5300	relations	_	
+33-66	5301-5305	with	_	
+33-67	5306-5309	the	_	
+33-68	5310-5319	returning	_	
+33-69	5320-5323	men	_	
+33-70	5324-5332	soldiers	_	
+33-71	5332-5333	.	_	
+
+#Text=Taken together, their actions of seizure and sex strike\r
+#Text=brought peace and development in a century very far\r
+#Text=away and removed from the twenty-first century.
+34-1	5335-5340	Taken	_	
+34-2	5341-5349	together	_	
+34-3	5349-5350	,	_	
+34-4	5351-5356	their	_	
+34-5	5357-5364	actions	_	
+34-6	5365-5367	of	_	
+34-7	5368-5375	seizure	_	
+34-8	5376-5379	and	_	
+34-9	5380-5383	sex	_	
+34-10	5384-5390	strike	_	
+34-11	5392-5399	brought	_	
+34-12	5400-5405	peace	_	
+34-13	5406-5409	and	_	
+34-14	5410-5421	development	_	
+34-15	5422-5424	in	_	
+34-16	5425-5426	a	_	
+34-17	5427-5434	century	_	
+34-18	5435-5439	very	_	
+34-19	5440-5443	far	_	
+34-20	5445-5449	away	_	
+34-21	5450-5453	and	_	
+34-22	5454-5461	removed	_	
+34-23	5462-5466	from	_	
+34-24	5467-5470	the	_	
+34-25	5471-5483	twenty-first	_	
+34-26	5484-5491	century	_	
+34-27	5491-5492	.	_	
+
+#Text=Finally, we men serve as the link between home,\r
+#Text=where lessons are first taught and learned, and the\r
+#Text=wider world, where they are applied in pursuit of peace\r
+#Text=and security.
+35-1	5496-5503	Finally	_	
+35-2	5503-5504	,	_	
+35-3	5505-5507	we	_	
+35-4	5508-5511	men	HERO	
+35-5	5512-5517	serve	_	
+35-6	5518-5520	as	_	
+35-7	5521-5524	the	_	
+35-8	5525-5529	link	_	
+35-9	5530-5537	between	_	
+35-10	5538-5542	home	_	
+35-11	5542-5543	,	_	
+35-12	5545-5550	where	_	
+35-13	5551-5558	lessons	_	
+35-14	5559-5562	are	_	
+35-15	5563-5568	first	_	
+35-16	5569-5575	taught	_	
+35-17	5576-5579	and	_	
+35-18	5580-5587	learned	_	
+35-19	5587-5588	,	_	
+35-20	5589-5592	and	_	
+35-21	5593-5596	the	_	
+35-22	5598-5603	wider	_	
+35-23	5604-5609	world	_	
+35-24	5609-5610	,	_	
+35-25	5611-5616	where	_	
+35-26	5617-5621	they	_	
+35-27	5622-5625	are	_	
+35-28	5626-5633	applied	_	
+35-29	5634-5636	in	_	
+35-30	5637-5644	pursuit	_	
+35-31	5645-5647	of	_	
+35-32	5648-5653	peace	_	
+35-33	5655-5658	and	_	
+35-34	5659-5667	security	_	
+35-35	5667-5668	.	_	
+
+#Text=An ancient Chinese philosopher captured\r
+#Text=the contribution of women to peace and security best\r
+#Text=when he said:\r
+#Text=\r
+#Text="If there is light in the soul, there will be\r
+#Text=beauty in the person.
+36-1	5669-5671	An	HERO[17]	
+36-2	5672-5679	ancient	HERO[17]	
+36-3	5680-5687	Chinese	HERO[17]	
+36-4	5688-5699	philosopher	HERO[17]	
+36-5	5700-5708	captured	_	
+36-6	5710-5713	the	_	
+36-7	5714-5726	contribution	_	
+36-8	5727-5729	of	_	
+36-9	5730-5735	women	HERO	
+36-10	5736-5738	to	_	
+36-11	5739-5744	peace	_	
+36-12	5745-5748	and	_	
+36-13	5749-5757	security	_	
+36-14	5758-5762	best	_	
+36-15	5764-5768	when	_	
+36-16	5769-5771	he	_	
+36-17	5772-5776	said	_	
+36-18	5776-5777	:	_	
+36-19	5781-5782	"	_	
+36-20	5782-5784	If	_	
+36-21	5785-5790	there	_	
+36-22	5791-5793	is	_	
+36-23	5794-5799	light	_	
+36-24	5800-5802	in	_	
+36-25	5803-5806	the	_	
+36-26	5807-5811	soul	_	
+36-27	5811-5812	,	_	
+36-28	5813-5818	there	_	
+36-29	5819-5823	will	_	
+36-30	5824-5826	be	_	
+36-31	5828-5834	beauty	_	
+36-32	5835-5837	in	_	
+36-33	5838-5841	the	_	
+36-34	5842-5848	person	_	
+36-35	5848-5849	.	_	
+
+#Text=If there is beauty in the\r
+#Text=person, there will be harmony in the home.
+37-1	5850-5852	If	_	
+37-2	5853-5858	there	_	
+37-3	5859-5861	is	_	
+37-4	5862-5868	beauty	_	
+37-5	5869-5871	in	_	
+37-6	5872-5875	the	HERO[18]	
+37-7	5877-5883	person	HERO[18]	
+37-8	5883-5884	,	_	
+37-9	5885-5890	there	_	
+37-10	5891-5895	will	_	
+37-11	5896-5898	be	_	
+37-12	5899-5906	harmony	_	
+37-13	5907-5909	in	_	
+37-14	5910-5913	the	_	
+37-15	5914-5918	home	_	
+37-16	5918-5919	.	_	
+
+#Text=If\r
+#Text=there is harmony in the home, there will be order\r
+#Text=in the nation.
+38-1	5920-5922	If	_	
+38-2	5924-5929	there	_	
+38-3	5930-5932	is	_	
+38-4	5933-5940	harmony	_	
+38-5	5941-5943	in	_	
+38-6	5944-5947	the	_	
+38-7	5948-5952	home	_	
+38-8	5952-5953	,	_	
+38-9	5954-5959	there	_	
+38-10	5960-5964	will	_	
+38-11	5965-5967	be	_	
+38-12	5968-5973	order	_	
+38-13	5975-5977	in	_	
+38-14	5978-5981	the	_	
+38-15	5982-5988	nation	_	
+38-16	5988-5989	.	_	
+
+#Text=If there is order in the nation, there\r
+#Text=will be peace in the world."
+39-1	5990-5992	If	_	
+39-2	5993-5998	there	_	
+39-3	5999-6001	is	_	
+39-4	6002-6007	order	_	
+39-5	6008-6010	in	_	
+39-6	6011-6014	the	_	
+39-7	6015-6021	nation	_	
+39-8	6021-6022	,	_	
+39-9	6023-6028	there	_	
+39-10	6030-6034	will	_	
+39-11	6035-6037	be	_	
+39-12	6038-6043	peace	_	
+39-13	6044-6046	in	_	
+39-14	6047-6050	the	_	
+39-15	6051-6056	world	_	
+39-16	6056-6057	.	_	
+39-17	6057-6058	"	_	
+
+#Text=What a beautiful tribute to womanhood.
+40-1	6062-6066	What	_	
+40-2	6067-6068	a	_	
+40-3	6069-6078	beautiful	_	
+40-4	6079-6086	tribute	_	
+40-5	6087-6089	to	_	
+40-6	6090-6099	womanhood	_	
+40-7	6099-6100	.	_	
+
+#Text=And on\r
+#Text=this score, I want to greet, salute and thank Ms.
+41-1	6101-6104	And	_	
+41-2	6105-6107	on	_	
+41-3	6109-6113	this	_	
+41-4	6114-6119	score	_	
+41-5	6119-6120	,	_	
+41-6	6121-6122	I	_	
+41-7	6123-6127	want	_	
+41-8	6128-6130	to	_	
+41-9	6131-6136	greet	_	
+41-10	6136-6137	,	_	
+41-11	6138-6144	salute	_	
+41-12	6145-6148	and	_	
+41-13	6149-6154	thank	_	
+41-14	6155-6157	Ms	_	
+41-15	6157-6158	.	_	
+
+#Text=Angela\r
+#Text=King and Ms.
+42-1	6159-6165	Angela	_	
+42-2	6167-6171	King	_	
+42-3	6172-6175	and	_	
+42-4	6176-6178	Ms	_	
+42-5	6178-6179	.	_	
+
+#Text=Noeleen Heyzer and, of course, Mr.
+43-1	6180-6187	Noeleen	_	
+43-2	6188-6194	Heyzer	_	
+43-3	6195-6198	and	_	
+43-4	6198-6199	,	_	
+43-5	6200-6202	of	_	
+43-6	6203-6209	course	_	
+43-7	6209-6210	,	_	
+43-8	6211-6213	Mr	_	
+43-9	6213-6214	.	_	
+
+#Text=Guehenno, for their presentations today.
+44-1	6216-6224	Guehenno	_	
+44-2	6224-6225	,	_	
+44-3	6226-6229	for	_	
+44-4	6230-6235	their	_	
+44-5	6236-6249	presentations	_	
+44-6	6250-6255	today	_	
+44-7	6255-6256	.	_	

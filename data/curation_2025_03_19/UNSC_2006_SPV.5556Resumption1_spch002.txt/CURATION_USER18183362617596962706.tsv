@@ -1,0 +1,1482 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mrs.
+1-1	0-3	Mrs	_	
+1-2	3-4	.	_	
+
+#Text=Miturumbwe (spoke in French): I would\r
+#Text=like to say how pleased I am to be here today to tell the\r
+#Text=Security Council and the international community in\r
+#Text=general about the concerns and expectations of the\r
+#Text=women of Burundi in the context of the\r
+#Text=implementation of resolution 1325 (2000).
+2-1	5-15	Miturumbwe	_	
+2-2	16-17	(	_	
+2-3	17-22	spoke	_	
+2-4	23-25	in	_	
+2-5	26-32	French	_	
+2-6	32-33	)	_	
+2-7	33-34	:	_	
+2-8	35-36	I	_	
+2-9	37-42	would	_	
+2-10	44-48	like	_	
+2-11	49-51	to	_	
+2-12	52-55	say	_	
+2-13	56-59	how	_	
+2-14	60-67	pleased	_	
+2-15	68-69	I	_	
+2-16	70-72	am	_	
+2-17	73-75	to	_	
+2-18	76-78	be	_	
+2-19	79-83	here	_	
+2-20	84-89	today	_	
+2-21	90-92	to	_	
+2-22	93-97	tell	_	
+2-23	98-101	the	_	
+2-24	103-111	Security	_	
+2-25	112-119	Council	_	
+2-26	120-123	and	_	
+2-27	124-127	the	_	
+2-28	128-141	international	_	
+2-29	142-151	community	_	
+2-30	152-154	in	_	
+2-31	156-163	general	_	
+2-32	164-169	about	_	
+2-33	170-173	the	_	
+2-34	174-182	concerns	_	
+2-35	183-186	and	_	
+2-36	187-199	expectations	_	
+2-37	200-202	of	_	
+2-38	203-206	the	_	
+2-39	208-213	women	_	
+2-40	214-216	of	_	
+2-41	217-224	Burundi	_	
+2-42	225-227	in	_	
+2-43	228-231	the	_	
+2-44	232-239	context	_	
+2-45	240-242	of	_	
+2-46	243-246	the	_	
+2-47	248-262	implementation	_	
+2-48	263-265	of	_	
+2-49	266-276	resolution	_	
+2-50	277-281	1325	_	
+2-51	282-283	(	_	
+2-52	283-287	2000	_	
+2-53	287-288	)	_	
+2-54	288-289	.	_	
+
+#Text=I would also like to express my gratitude to the\r
+#Text=United Nations system as a whole for its efforts to help\r
+#Text=Burundian women throughout the reconciliation\r
+#Text=process.
+3-1	293-294	I	_	
+3-2	295-300	would	_	
+3-3	301-305	also	_	
+3-4	306-310	like	_	
+3-5	311-313	to	_	
+3-6	314-321	express	_	
+3-7	322-324	my	_	
+3-8	325-334	gratitude	_	
+3-9	335-337	to	_	
+3-10	338-341	the	HERO[1]	
+3-11	343-349	United	HERO[1]	
+3-12	350-357	Nations	HERO[1]	
+3-13	358-364	system	HERO[1]	
+3-14	365-367	as	_	
+3-15	368-369	a	_	
+3-16	370-375	whole	_	
+3-17	376-379	for	_	
+3-18	380-383	its	_	
+3-19	384-391	efforts	_	
+3-20	392-394	to	_	
+3-21	395-399	help	_	
+3-22	401-410	Burundian	VICTIM[2]	
+3-23	411-416	women	VICTIM[2]	
+3-24	417-427	throughout	_	
+3-25	428-431	the	_	
+3-26	432-446	reconciliation	_	
+3-27	448-455	process	_	
+3-28	455-456	.	_	
+
+#Text=Burundi has just emerged from a war that lasted\r
+#Text=more than 10 years and caused a great deal of harm in\r
+#Text=both human and material terms.
+4-1	460-467	Burundi	VICTIM	
+4-2	468-471	has	_	
+4-3	472-476	just	_	
+4-4	477-484	emerged	_	
+4-5	485-489	from	_	
+4-6	490-491	a	_	
+4-7	492-495	war	_	
+4-8	496-500	that	_	
+4-9	501-507	lasted	_	
+4-10	509-513	more	_	
+4-11	514-518	than	_	
+4-12	519-521	10	_	
+4-13	522-527	years	_	
+4-14	528-531	and	_	
+4-15	532-538	caused	_	
+4-16	539-540	a	_	
+4-17	541-546	great	_	
+4-18	547-551	deal	_	
+4-19	552-554	of	_	
+4-20	555-559	harm	_	
+4-21	560-562	in	_	
+4-22	564-568	both	_	
+4-23	569-574	human	_	
+4-24	575-578	and	_	
+4-25	579-587	material	_	
+4-26	588-593	terms	_	
+4-27	593-594	.	_	
+
+#Text=Very recently, in\r
+#Text=September, the Government and the Forces nationales\r
+#Text=de liberation-Parti pour la liberation du peuple hutu\r
+#Text=(FNL-PALIPEHUTU) signed a ceasefire agreement.
+5-1	595-599	Very	_	
+5-2	600-608	recently	_	
+5-3	608-609	,	_	
+5-4	610-612	in	_	
+5-5	614-623	September	_	
+5-6	623-624	,	_	
+5-7	625-628	the	_	
+5-8	629-639	Government	_	
+5-9	640-643	and	_	
+5-10	644-647	the	_	
+5-11	648-654	Forces	_	
+5-12	655-665	nationales	_	
+5-13	667-669	de	_	
+5-14	670-686	liberation-Parti	_	
+5-15	687-691	pour	_	
+5-16	692-694	la	_	
+5-17	695-705	liberation	_	
+5-18	706-708	du	_	
+5-19	709-715	peuple	_	
+5-20	716-720	hutu	_	
+5-21	722-723	(	_	
+5-22	723-737	FNL-PALIPEHUTU	_	
+5-23	737-738	)	_	
+5-24	739-745	signed	_	
+5-25	746-747	a	_	
+5-26	748-757	ceasefire	_	
+5-27	758-767	agreement	_	
+5-28	767-768	.	_	
+
+#Text=Burundian men and women have welcomed that step\r
+#Text=but remain convinced that sustained efforts must\r
+#Text=2\r
+#Text=continue with a view to overcoming the many\r
+#Text=challenges of the peacebuilding period.
+6-1	770-779	Burundian	_	
+6-2	780-783	men	_	
+6-3	784-787	and	_	
+6-4	788-793	women	_	
+6-5	794-798	have	_	
+6-6	799-807	welcomed	_	
+6-7	808-812	that	_	
+6-8	813-817	step	_	
+6-9	819-822	but	_	
+6-10	823-829	remain	_	
+6-11	830-839	convinced	_	
+6-12	840-844	that	_	
+6-13	845-854	sustained	_	
+6-14	855-862	efforts	_	
+6-15	863-867	must	_	
+6-16	869-870	2	_	
+6-17	872-880	continue	_	
+6-18	881-885	with	_	
+6-19	886-887	a	_	
+6-20	888-892	view	_	
+6-21	893-895	to	_	
+6-22	896-906	overcoming	_	
+6-23	907-910	the	_	
+6-24	911-915	many	_	
+6-25	917-927	challenges	_	
+6-26	928-930	of	_	
+6-27	931-934	the	_	
+6-28	935-948	peacebuilding	_	
+6-29	949-955	period	_	
+6-30	955-956	.	_	
+
+#Text=Burundian women, who have committed\r
+#Text=themselves to the quest for peace since independence\r
+#Text=in 1961, continue to work to mobilize and to heighten\r
+#Text=awareness of the need for better representation\r
+#Text=throughout the decision-making process so as to ensure\r
+#Text=that their rights are an integral part of negotiations.
+7-1	960-969	Burundian	HERO[3]	
+7-2	970-975	women	HERO[3]	
+7-3	975-976	,	_	
+7-4	977-980	who	_	
+7-5	981-985	have	_	
+7-6	986-995	committed	_	
+7-7	997-1007	themselves	_	
+7-8	1008-1010	to	_	
+7-9	1011-1014	the	_	
+7-10	1015-1020	quest	_	
+7-11	1021-1024	for	_	
+7-12	1025-1030	peace	_	
+7-13	1031-1036	since	_	
+7-14	1037-1049	independence	_	
+7-15	1051-1053	in	_	
+7-16	1054-1058	1961	_	
+7-17	1058-1059	,	_	
+7-18	1060-1068	continue	_	
+7-19	1069-1071	to	_	
+7-20	1072-1076	work	_	
+7-21	1077-1079	to	_	
+7-22	1080-1088	mobilize	_	
+7-23	1089-1092	and	_	
+7-24	1093-1095	to	_	
+7-25	1096-1104	heighten	_	
+7-26	1106-1115	awareness	_	
+7-27	1116-1118	of	_	
+7-28	1119-1122	the	_	
+7-29	1123-1127	need	_	
+7-30	1128-1131	for	_	
+7-31	1132-1138	better	_	
+7-32	1139-1153	representation	_	
+7-33	1155-1165	throughout	_	
+7-34	1166-1169	the	_	
+7-35	1170-1185	decision-making	_	
+7-36	1186-1193	process	_	
+7-37	1194-1196	so	_	
+7-38	1197-1199	as	_	
+7-39	1200-1202	to	_	
+7-40	1203-1209	ensure	_	
+7-41	1211-1215	that	_	
+7-42	1216-1221	their	_	
+7-43	1222-1228	rights	_	
+7-44	1229-1232	are	_	
+7-45	1233-1235	an	_	
+7-46	1236-1244	integral	_	
+7-47	1245-1249	part	_	
+7-48	1250-1252	of	_	
+7-49	1253-1265	negotiations	_	
+7-50	1265-1266	.	_	
+
+#Text=The\r
+#Text=right of succession, which would guarantee women the\r
+#Text=right to land and thus provide for their economic\r
+#Text=security, was among the important issues considered\r
+#Text=during the Arusha process.
+8-1	1267-1270	The	_	
+8-2	1272-1277	right	_	
+8-3	1278-1280	of	_	
+8-4	1281-1291	succession	_	
+8-5	1291-1292	,	_	
+8-6	1293-1298	which	_	
+8-7	1299-1304	would	_	
+8-8	1305-1314	guarantee	_	
+8-9	1315-1320	women	VICTIM	
+8-10	1321-1324	the	_	
+8-11	1326-1331	right	_	
+8-12	1332-1334	to	_	
+8-13	1335-1339	land	_	
+8-14	1340-1343	and	_	
+8-15	1344-1348	thus	_	
+8-16	1349-1356	provide	_	
+8-17	1357-1360	for	_	
+8-18	1361-1366	their	_	
+8-19	1367-1375	economic	_	
+8-20	1377-1385	security	_	
+8-21	1385-1386	,	_	
+8-22	1387-1390	was	_	
+8-23	1391-1396	among	_	
+8-24	1397-1400	the	_	
+8-25	1401-1410	important	_	
+8-26	1411-1417	issues	_	
+8-27	1418-1428	considered	_	
+8-28	1430-1436	during	_	
+8-29	1437-1440	the	_	
+8-30	1441-1447	Arusha	_	
+8-31	1448-1455	process	_	
+8-32	1455-1456	.	_	
+
+#Text=Despite progress at the\r
+#Text=national level, we have to admit that our Constitution\r
+#Text=and the Electoral Code say nothing about the proper\r
+#Text=level of representation at the grassroots level.
+9-1	1457-1464	Despite	_	
+9-2	1465-1473	progress	_	
+9-3	1474-1476	at	_	
+9-4	1477-1480	the	_	
+9-5	1482-1490	national	_	
+9-6	1491-1496	level	_	
+9-7	1496-1497	,	_	
+9-8	1498-1500	we	_	
+9-9	1501-1505	have	_	
+9-10	1506-1508	to	_	
+9-11	1509-1514	admit	_	
+9-12	1515-1519	that	_	
+9-13	1520-1523	our	_	
+9-14	1524-1536	Constitution	_	
+9-15	1538-1541	and	_	
+9-16	1542-1545	the	_	
+9-17	1546-1555	Electoral	_	
+9-18	1556-1560	Code	_	
+9-19	1561-1564	say	_	
+9-20	1565-1572	nothing	_	
+9-21	1573-1578	about	_	
+9-22	1579-1582	the	_	
+9-23	1583-1589	proper	_	
+9-24	1591-1596	level	_	
+9-25	1597-1599	of	_	
+9-26	1600-1614	representation	_	
+9-27	1615-1617	at	_	
+9-28	1618-1621	the	_	
+9-29	1622-1632	grassroots	_	
+9-30	1633-1638	level	_	
+9-31	1638-1639	.	_	
+
+#Text=In fact,\r
+#Text=the national gender policy lacks resources to\r
+#Text=implement the principles of equality at the national\r
+#Text=level.
+10-1	1640-1642	In	_	
+10-2	1643-1647	fact	_	
+10-3	1647-1648	,	_	
+10-4	1650-1653	the	_	
+10-5	1654-1662	national	_	
+10-6	1663-1669	gender	_	
+10-7	1670-1676	policy	_	
+10-8	1677-1682	lacks	_	
+10-9	1683-1692	resources	_	
+10-10	1693-1695	to	_	
+10-11	1697-1706	implement	_	
+10-12	1707-1710	the	_	
+10-13	1711-1721	principles	_	
+10-14	1722-1724	of	_	
+10-15	1725-1733	equality	_	
+10-16	1734-1736	at	_	
+10-17	1737-1740	the	_	
+10-18	1741-1749	national	_	
+10-19	1751-1756	level	_	
+10-20	1756-1757	.	_	
+
+#Text=Burundian women have been active since the\r
+#Text=peace talks, and the details of those activities can be\r
+#Text=found in the documents distributed to you.
+11-1	1758-1767	Burundian	HERO[4]	
+11-2	1768-1773	women	HERO[4]	
+11-3	1774-1778	have	_	
+11-4	1779-1783	been	_	
+11-5	1784-1790	active	_	
+11-6	1791-1796	since	_	
+11-7	1797-1800	the	_	
+11-8	1802-1807	peace	_	
+11-9	1808-1813	talks	_	
+11-10	1813-1814	,	_	
+11-11	1815-1818	and	_	
+11-12	1819-1822	the	_	
+11-13	1823-1830	details	_	
+11-14	1831-1833	of	_	
+11-15	1834-1839	those	_	
+11-16	1840-1850	activities	_	
+11-17	1851-1854	can	_	
+11-18	1855-1857	be	_	
+11-19	1859-1864	found	_	
+11-20	1865-1867	in	_	
+11-21	1868-1871	the	_	
+11-22	1872-1881	documents	_	
+11-23	1882-1893	distributed	_	
+11-24	1894-1896	to	_	
+11-25	1897-1900	you	_	
+11-26	1900-1901	.	_	
+
+#Text=There have\r
+#Text=been consultations among women at the national level\r
+#Text=in the context of implementing resolution 1325 (2000),\r
+#Text=and the recommendations of those consultations can be\r
+#Text=summed up as follows.
+12-1	1902-1907	There	_	
+12-2	1908-1912	have	_	
+12-3	1914-1918	been	_	
+12-4	1919-1932	consultations	_	
+12-5	1933-1938	among	_	
+12-6	1939-1944	women	HERO	
+12-7	1945-1947	at	_	
+12-8	1948-1951	the	_	
+12-9	1952-1960	national	_	
+12-10	1961-1966	level	_	
+12-11	1968-1970	in	_	
+12-12	1971-1974	the	_	
+12-13	1975-1982	context	_	
+12-14	1983-1985	of	_	
+12-15	1986-1998	implementing	_	
+12-16	1999-2009	resolution	_	
+12-17	2010-2014	1325	_	
+12-18	2015-2016	(	_	
+12-19	2016-2020	2000	_	
+12-20	2020-2021	)	_	
+12-21	2021-2022	,	_	
+12-22	2024-2027	and	_	
+12-23	2028-2031	the	_	
+12-24	2032-2047	recommendations	_	
+12-25	2048-2050	of	_	
+12-26	2051-2056	those	_	
+12-27	2057-2070	consultations	_	
+12-28	2071-2074	can	_	
+12-29	2075-2077	be	_	
+12-30	2079-2085	summed	_	
+12-31	2086-2088	up	_	
+12-32	2089-2091	as	_	
+12-33	2092-2099	follows	_	
+12-34	2099-2100	.	_	
+
+#Text=Concerning good governance and democracy, it is\r
+#Text=important to ensure constant dialogue between the\r
+#Text=Government, the political parties and the media.
+13-1	2104-2114	Concerning	_	
+13-2	2115-2119	good	_	
+13-3	2120-2130	governance	_	
+13-4	2131-2134	and	_	
+13-5	2135-2144	democracy	_	
+13-6	2144-2145	,	_	
+13-7	2146-2148	it	_	
+13-8	2149-2151	is	_	
+13-9	2153-2162	important	_	
+13-10	2163-2165	to	_	
+13-11	2166-2172	ensure	_	
+13-12	2173-2181	constant	_	
+13-13	2182-2190	dialogue	_	
+13-14	2191-2198	between	_	
+13-15	2199-2202	the	_	
+13-16	2204-2214	Government	_	
+13-17	2214-2215	,	_	
+13-18	2216-2219	the	_	
+13-19	2220-2229	political	_	
+13-20	2230-2237	parties	_	
+13-21	2238-2241	and	_	
+13-22	2242-2245	the	_	
+13-23	2246-2251	media	_	
+13-24	2251-2252	.	_	
+
+#Text=In this\r
+#Text=dialogue, general interest should take precedence over\r
+#Text=individual interest.
+14-1	2253-2255	In	_	
+14-2	2256-2260	this	_	
+14-3	2262-2270	dialogue	_	
+14-4	2270-2271	,	_	
+14-5	2272-2279	general	_	
+14-6	2280-2288	interest	_	
+14-7	2289-2295	should	_	
+14-8	2296-2300	take	_	
+14-9	2301-2311	precedence	_	
+14-10	2312-2316	over	_	
+14-11	2318-2328	individual	_	
+14-12	2329-2337	interest	_	
+14-13	2337-2338	.	_	
+
+#Text=For good, transparent and inclusive\r
+#Text=governance, it is important not only to ensure\r
+#Text=cooperation and dialogue at all levels, down to the\r
+#Text=local level, but also to include all social groups,\r
+#Text=especially women.
+15-1	2339-2342	For	_	
+15-2	2343-2347	good	_	
+15-3	2347-2348	,	_	
+15-4	2349-2360	transparent	_	
+15-5	2361-2364	and	_	
+15-6	2365-2374	inclusive	_	
+15-7	2376-2386	governance	_	
+15-8	2386-2387	,	_	
+15-9	2388-2390	it	_	
+15-10	2391-2393	is	_	
+15-11	2394-2403	important	_	
+15-12	2404-2407	not	_	
+15-13	2408-2412	only	_	
+15-14	2413-2415	to	_	
+15-15	2416-2422	ensure	_	
+15-16	2424-2435	cooperation	_	
+15-17	2436-2439	and	_	
+15-18	2440-2448	dialogue	_	
+15-19	2449-2451	at	_	
+15-20	2452-2455	all	_	
+15-21	2456-2462	levels	_	
+15-22	2462-2463	,	_	
+15-23	2464-2468	down	_	
+15-24	2469-2471	to	_	
+15-25	2472-2475	the	_	
+15-26	2477-2482	local	_	
+15-27	2483-2488	level	_	
+15-28	2488-2489	,	_	
+15-29	2490-2493	but	_	
+15-30	2494-2498	also	_	
+15-31	2499-2501	to	_	
+15-32	2502-2509	include	_	
+15-33	2510-2513	all	_	
+15-34	2514-2520	social	_	
+15-35	2521-2527	groups	_	
+15-36	2527-2528	,	_	
+15-37	2530-2540	especially	_	
+15-38	2541-2546	women	_	
+15-39	2546-2547	.	_	
+
+#Text=In this connection, it should be\r
+#Text=noted that the principle of a 30-per-cent quota is\r
+#Text=applied only for a limited portion of the population and\r
+#Text=is not reflected at the grassroots level.
+16-1	2548-2550	In	_	
+16-2	2551-2555	this	_	
+16-3	2556-2566	connection	_	
+16-4	2566-2567	,	_	
+16-5	2568-2570	it	_	
+16-6	2571-2577	should	_	
+16-7	2578-2580	be	_	
+16-8	2582-2587	noted	_	
+16-9	2588-2592	that	_	
+16-10	2593-2596	the	_	
+16-11	2597-2606	principle	_	
+16-12	2607-2609	of	_	
+16-13	2610-2611	a	_	
+16-14	2612-2614	30	_	
+16-15	2614-2615	-	_	
+16-16	2615-2623	per-cent	_	
+16-17	2624-2629	quota	_	
+16-18	2630-2632	is	_	
+16-19	2634-2641	applied	_	
+16-20	2642-2646	only	_	
+16-21	2647-2650	for	_	
+16-22	2651-2652	a	_	
+16-23	2653-2660	limited	_	
+16-24	2661-2668	portion	_	
+16-25	2669-2671	of	_	
+16-26	2672-2675	the	_	
+16-27	2676-2686	population	_	
+16-28	2687-2690	and	_	
+16-29	2692-2694	is	_	
+16-30	2695-2698	not	_	
+16-31	2699-2708	reflected	_	
+16-32	2709-2711	at	_	
+16-33	2712-2715	the	_	
+16-34	2716-2726	grassroots	_	
+16-35	2727-2732	level	_	
+16-36	2732-2733	.	_	
+
+#Text=Furthermore,\r
+#Text=this quota should be 50 per cent.
+17-1	2734-2745	Furthermore	_	
+17-2	2745-2746	,	_	
+17-3	2748-2752	this	_	
+17-4	2753-2758	quota	_	
+17-5	2759-2765	should	_	
+17-6	2766-2768	be	_	
+17-7	2769-2771	50	_	
+17-8	2772-2775	per	_	
+17-9	2776-2780	cent	_	
+17-10	2780-2781	.	_	
+
+#Text=We recommend that the international community\r
+#Text=continue to lend its support to Burundi, so that the\r
+#Text=capacity-building programme for good governance,\r
+#Text=which includes transparency, proper management of\r
+#Text=public affairs, democracy and respect for human rights,\r
+#Text=might remain a priority.
+18-1	2785-2787	We	_	
+18-2	2788-2797	recommend	_	
+18-3	2798-2802	that	_	
+18-4	2803-2806	the	_	
+18-5	2807-2820	international	_	
+18-6	2821-2830	community	_	
+18-7	2832-2840	continue	_	
+18-8	2841-2843	to	_	
+18-9	2844-2848	lend	_	
+18-10	2849-2852	its	_	
+18-11	2853-2860	support	_	
+18-12	2861-2863	to	_	
+18-13	2864-2871	Burundi	VICTIM	
+18-14	2871-2872	,	_	
+18-15	2873-2875	so	_	
+18-16	2876-2880	that	_	
+18-17	2881-2884	the	_	
+18-18	2886-2903	capacity-building	_	
+18-19	2904-2913	programme	_	
+18-20	2914-2917	for	_	
+18-21	2918-2922	good	_	
+18-22	2923-2933	governance	_	
+18-23	2933-2934	,	_	
+18-24	2936-2941	which	_	
+18-25	2942-2950	includes	_	
+18-26	2951-2963	transparency	_	
+18-27	2963-2964	,	_	
+18-28	2965-2971	proper	_	
+18-29	2972-2982	management	_	
+18-30	2983-2985	of	_	
+18-31	2987-2993	public	_	
+18-32	2994-3001	affairs	_	
+18-33	3001-3002	,	_	
+18-34	3003-3012	democracy	_	
+18-35	3013-3016	and	_	
+18-36	3017-3024	respect	_	
+18-37	3025-3028	for	_	
+18-38	3029-3034	human	_	
+18-39	3035-3041	rights	_	
+18-40	3041-3042	,	_	
+18-41	3044-3049	might	_	
+18-42	3050-3056	remain	_	
+18-43	3057-3058	a	_	
+18-44	3059-3067	priority	_	
+18-45	3067-3068	.	_	
+
+#Text=A joint committee made up of\r
+#Text=members of organizations from civil society and\r
+#Text=Government should be set up to ensure follow-up in\r
+#Text=the management of all national resources, including\r
+#Text=resources granted by international organizations.
+19-1	3069-3070	A	_	
+19-2	3071-3076	joint	_	
+19-3	3077-3086	committee	_	
+19-4	3087-3091	made	_	
+19-5	3092-3094	up	_	
+19-6	3095-3097	of	_	
+19-7	3099-3106	members	_	
+19-8	3107-3109	of	_	
+19-9	3110-3123	organizations	_	
+19-10	3124-3128	from	_	
+19-11	3129-3134	civil	_	
+19-12	3135-3142	society	_	
+19-13	3143-3146	and	_	
+19-14	3148-3158	Government	_	
+19-15	3159-3165	should	_	
+19-16	3166-3168	be	_	
+19-17	3169-3172	set	_	
+19-18	3173-3175	up	_	
+19-19	3176-3178	to	_	
+19-20	3179-3185	ensure	_	
+19-21	3186-3195	follow-up	_	
+19-22	3196-3198	in	_	
+19-23	3200-3203	the	_	
+19-24	3204-3214	management	_	
+19-25	3215-3217	of	_	
+19-26	3218-3221	all	_	
+19-27	3222-3230	national	_	
+19-28	3231-3240	resources	_	
+19-29	3240-3241	,	_	
+19-30	3242-3251	including	_	
+19-31	3253-3262	resources	_	
+19-32	3263-3270	granted	_	
+19-33	3271-3273	by	_	
+19-34	3274-3287	international	_	
+19-35	3288-3301	organizations	_	
+19-36	3301-3302	.	_	
+
+#Text=The\r
+#Text=current quota of 30 per cent should, in fact, be raised to\r
+#Text=50 per cent and be applied at the local level.
+20-1	3303-3306	The	_	
+20-2	3308-3315	current	_	
+20-3	3316-3321	quota	_	
+20-4	3322-3324	of	_	
+20-5	3325-3327	30	_	
+20-6	3328-3331	per	_	
+20-7	3332-3336	cent	_	
+20-8	3337-3343	should	_	
+20-9	3343-3344	,	_	
+20-10	3345-3347	in	_	
+20-11	3348-3352	fact	_	
+20-12	3352-3353	,	_	
+20-13	3354-3356	be	_	
+20-14	3357-3363	raised	_	
+20-15	3364-3366	to	_	
+20-16	3368-3370	50	_	
+20-17	3371-3374	per	_	
+20-18	3375-3379	cent	_	
+20-19	3380-3383	and	_	
+20-20	3384-3386	be	_	
+20-21	3387-3394	applied	_	
+20-22	3395-3397	at	_	
+20-23	3398-3401	the	_	
+20-24	3402-3407	local	_	
+20-25	3408-3413	level	_	
+20-26	3413-3414	.	_	
+
+#Text=Civil\r
+#Text=06-58804\r
+#Text=society should be considered an active partner in all\r
+#Text=programmes and processes.
+21-1	3415-3420	Civil	_	
+21-2	3422-3424	06	_	
+21-3	3424-3425	-	_	
+21-4	3425-3430	58804	_	
+21-5	3432-3439	society	_	
+21-6	3440-3446	should	_	
+21-7	3447-3449	be	_	
+21-8	3450-3460	considered	_	
+21-9	3461-3463	an	_	
+21-10	3464-3470	active	_	
+21-11	3471-3478	partner	_	
+21-12	3479-3481	in	_	
+21-13	3482-3485	all	_	
+21-14	3487-3497	programmes	_	
+21-15	3498-3501	and	_	
+21-16	3502-3511	processes	_	
+21-17	3511-3512	.	_	
+
+#Text=Concerning demobilization, disarmament,\r
+#Text=reintegration and reinsertion (DDRR), we should note\r
+#Text=that this process is slowly moving forward.
+22-1	3516-3526	Concerning	_	
+22-2	3527-3541	demobilization	_	
+22-3	3541-3542	,	_	
+22-4	3543-3554	disarmament	_	
+22-5	3554-3555	,	_	
+22-6	3557-3570	reintegration	_	
+22-7	3571-3574	and	_	
+22-8	3575-3586	reinsertion	_	
+22-9	3587-3588	(	_	
+22-10	3588-3592	DDRR	_	
+22-11	3592-3593	)	_	
+22-12	3593-3594	,	_	
+22-13	3595-3597	we	_	
+22-14	3598-3604	should	_	
+22-15	3605-3609	note	_	
+22-16	3611-3615	that	_	
+22-17	3616-3620	this	_	
+22-18	3621-3628	process	_	
+22-19	3629-3631	is	_	
+22-20	3632-3638	slowly	_	
+22-21	3639-3645	moving	_	
+22-22	3646-3653	forward	_	
+22-23	3653-3654	.	_	
+
+#Text=Among the\r
+#Text=important challenges facing Burundi, we should give\r
+#Text=special attention to the following: circulation of\r
+#Text=weapons among the population, which is a source of\r
+#Text=insecurity and constant tension, particularly for\r
+#Text=women; victims, namely, ex-combatants and persons\r
+#Text=who have been repatriated or displaced, primarily\r
+#Text=women, have not yet received restitution and resort to\r
+#Text=community conflict and violence; the recently\r
+#Text=established National Commission for Land and Other\r
+#Text=Property, which was welcomed by women.
+23-1	3655-3660	Among	_	
+23-2	3661-3664	the	_	
+23-3	3666-3675	important	_	
+23-4	3676-3686	challenges	_	
+23-5	3687-3693	facing	_	
+23-6	3694-3701	Burundi	VICTIM	
+23-7	3701-3702	,	_	
+23-8	3703-3705	we	_	
+23-9	3706-3712	should	_	
+23-10	3713-3717	give	_	
+23-11	3719-3726	special	_	
+23-12	3727-3736	attention	_	
+23-13	3737-3739	to	_	
+23-14	3740-3743	the	_	
+23-15	3744-3753	following	_	
+23-16	3753-3754	:	_	
+23-17	3755-3766	circulation	_	
+23-18	3767-3769	of	_	
+23-19	3771-3778	weapons	_	
+23-20	3779-3784	among	_	
+23-21	3785-3788	the	_	
+23-22	3789-3799	population	_	
+23-23	3799-3800	,	_	
+23-24	3801-3806	which	_	
+23-25	3807-3809	is	_	
+23-26	3810-3811	a	_	
+23-27	3812-3818	source	_	
+23-28	3819-3821	of	_	
+23-29	3823-3833	insecurity	_	
+23-30	3834-3837	and	_	
+23-31	3838-3846	constant	_	
+23-32	3847-3854	tension	_	
+23-33	3854-3855	,	_	
+23-34	3856-3868	particularly	_	
+23-35	3869-3872	for	_	
+23-36	3874-3879	women	VICTIM	
+23-37	3879-3880	;	_	
+23-38	3881-3888	victims	_	
+23-39	3888-3889	,	_	
+23-40	3890-3896	namely	_	
+23-41	3896-3897	,	_	
+23-42	3898-3911	ex-combatants	VICTIM[5]	
+23-43	3912-3915	and	VICTIM[5]	
+23-44	3916-3923	persons	VICTIM[5]	
+23-45	3925-3928	who	VICTIM[5]	
+23-46	3929-3933	have	VICTIM[5]	
+23-47	3934-3938	been	VICTIM[5]	
+23-48	3939-3950	repatriated	VICTIM[5]	
+23-49	3951-3953	or	VICTIM[5]	
+23-50	3954-3963	displaced	VICTIM[5]	
+23-51	3963-3964	,	VICTIM[5]	
+23-52	3965-3974	primarily	VICTIM[5]	
+23-53	3976-3981	women	VICTIM[5]	
+23-54	3981-3982	,	_	
+23-55	3983-3987	have	_	
+23-56	3988-3991	not	_	
+23-57	3992-3995	yet	_	
+23-58	3996-4004	received	_	
+23-59	4005-4016	restitution	_	
+23-60	4017-4020	and	_	
+23-61	4021-4027	resort	_	
+23-62	4028-4030	to	_	
+23-63	4032-4041	community	_	
+23-64	4042-4050	conflict	_	
+23-65	4051-4054	and	_	
+23-66	4055-4063	violence	_	
+23-67	4063-4064	;	_	
+23-68	4065-4068	the	_	
+23-69	4069-4077	recently	_	
+23-70	4079-4090	established	_	
+23-71	4091-4099	National	HERO[6]	
+23-72	4100-4110	Commission	HERO[6]	
+23-73	4111-4114	for	HERO[6]	
+23-74	4115-4119	Land	HERO[6]	
+23-75	4120-4123	and	HERO[6]	
+23-76	4124-4129	Other	HERO[6]	
+23-77	4131-4139	Property	HERO[6]	
+23-78	4139-4140	,	_	
+23-79	4141-4146	which	_	
+23-80	4147-4150	was	_	
+23-81	4151-4159	welcomed	_	
+23-82	4160-4162	by	_	
+23-83	4163-4168	women	_	
+23-84	4168-4169	.	_	
+
+#Text=Unfortunately, its functioning and the implementation\r
+#Text=of its recommendations require not only mobilization\r
+#Text=of substantial resources but also know-how and\r
+#Text=experience in that field.
+24-1	4171-4184	Unfortunately	_	
+24-2	4184-4185	,	_	
+24-3	4186-4189	its	_	
+24-4	4190-4201	functioning	_	
+24-5	4202-4205	and	_	
+24-6	4206-4209	the	_	
+24-7	4210-4224	implementation	_	
+24-8	4226-4228	of	_	
+24-9	4229-4232	its	_	
+24-10	4233-4248	recommendations	_	
+24-11	4249-4256	require	_	
+24-12	4257-4260	not	_	
+24-13	4261-4265	only	_	
+24-14	4266-4278	mobilization	_	
+24-15	4280-4282	of	_	
+24-16	4283-4294	substantial	_	
+24-17	4295-4304	resources	_	
+24-18	4305-4308	but	_	
+24-19	4309-4313	also	_	
+24-20	4314-4322	know-how	_	
+24-21	4323-4326	and	_	
+24-22	4328-4338	experience	_	
+24-23	4339-4341	in	_	
+24-24	4342-4346	that	_	
+24-25	4347-4352	field	_	
+24-26	4352-4353	.	_	
+
+#Text=We firmly hope that the new\r
+#Text=Peacebuilding Commission, established as part of\r
+#Text=United Nations reform, will make support for the\r
+#Text=National Commission Land and Other Property one of\r
+#Text=its priorities.
+25-1	4354-4356	We	_	
+25-2	4357-4363	firmly	_	
+25-3	4364-4368	hope	_	
+25-4	4369-4373	that	_	
+25-5	4374-4377	the	_	
+25-6	4378-4381	new	_	
+25-7	4383-4396	Peacebuilding	_	
+25-8	4397-4407	Commission	_	
+25-9	4407-4408	,	_	
+25-10	4409-4420	established	_	
+25-11	4421-4423	as	_	
+25-12	4424-4428	part	_	
+25-13	4429-4431	of	_	
+25-14	4433-4439	United	_	
+25-15	4440-4447	Nations	_	
+25-16	4448-4454	reform	_	
+25-17	4454-4455	,	_	
+25-18	4456-4460	will	_	
+25-19	4461-4465	make	_	
+25-20	4466-4473	support	_	
+25-21	4474-4477	for	_	
+25-22	4478-4481	the	_	
+25-23	4483-4491	National	_	
+25-24	4492-4502	Commission	_	
+25-25	4503-4507	Land	_	
+25-26	4508-4511	and	_	
+25-27	4512-4517	Other	_	
+25-28	4518-4526	Property	_	
+25-29	4527-4530	one	_	
+25-30	4531-4533	of	_	
+25-31	4535-4538	its	_	
+25-32	4539-4549	priorities	_	
+25-33	4549-4550	.	_	
+
+#Text=The lack of programmes to help so-called\r
+#Text=political prisoners who have been released adds to the\r
+#Text=problem of insecurity.
+26-1	4551-4554	The	_	
+26-2	4555-4559	lack	_	
+26-3	4560-4562	of	_	
+26-4	4563-4573	programmes	_	
+26-5	4574-4576	to	_	
+26-6	4577-4581	help	_	
+26-7	4582-4591	so-called	VICTIM[7]	
+26-8	4593-4602	political	VICTIM[7]	
+26-9	4603-4612	prisoners	VICTIM[7]	
+26-10	4613-4616	who	_	
+26-11	4617-4621	have	_	
+26-12	4622-4626	been	_	
+26-13	4627-4635	released	_	
+26-14	4636-4640	adds	_	
+26-15	4641-4643	to	_	
+26-16	4644-4647	the	_	
+26-17	4649-4656	problem	_	
+26-18	4657-4659	of	_	
+26-19	4660-4670	insecurity	_	
+26-20	4670-4671	.	_	
+
+#Text=Failure of the DDRR programme would\r
+#Text=compromise achievements we have made towards\r
+#Text=peace and democracy.
+27-1	4675-4682	Failure	_	
+27-2	4683-4685	of	_	
+27-3	4686-4689	the	_	
+27-4	4690-4694	DDRR	_	
+27-5	4695-4704	programme	_	
+27-6	4705-4710	would	_	
+27-7	4712-4722	compromise	_	
+27-8	4723-4735	achievements	_	
+27-9	4736-4738	we	_	
+27-10	4739-4743	have	_	
+27-11	4744-4748	made	_	
+27-12	4749-4756	towards	_	
+27-13	4758-4763	peace	_	
+27-14	4764-4767	and	_	
+27-15	4768-4777	democracy	_	
+27-16	4777-4778	.	_	
+
+#Text=We recommend that the\r
+#Text=international community continue to give its political,\r
+#Text=technical and financial support to the Government of\r
+#Text=Burundi, so that disarmament, reintegration and\r
+#Text=reinsertion might become a reality on the ground.
+28-1	4779-4781	We	_	
+28-2	4782-4791	recommend	_	
+28-3	4792-4796	that	_	
+28-4	4797-4800	the	HERO[8]	
+28-5	4802-4815	international	HERO[8]	
+28-6	4816-4825	community	HERO[8]	
+28-7	4826-4834	continue	_	
+28-8	4835-4837	to	_	
+28-9	4838-4842	give	_	
+28-10	4843-4846	its	_	
+28-11	4847-4856	political	_	
+28-12	4856-4857	,	_	
+28-13	4859-4868	technical	_	
+28-14	4869-4872	and	_	
+28-15	4873-4882	financial	_	
+28-16	4883-4890	support	_	
+28-17	4891-4893	to	_	
+28-18	4894-4897	the	VICTIM[9]	
+28-19	4898-4908	Government	VICTIM[9]	
+28-20	4909-4911	of	VICTIM[9]	
+28-21	4913-4920	Burundi	VICTIM[9]	
+28-22	4920-4921	,	_	
+28-23	4922-4924	so	_	
+28-24	4925-4929	that	_	
+28-25	4930-4941	disarmament	_	
+28-26	4941-4942	,	_	
+28-27	4943-4956	reintegration	_	
+28-28	4957-4960	and	_	
+28-29	4962-4973	reinsertion	_	
+28-30	4974-4979	might	_	
+28-31	4980-4986	become	_	
+28-32	4987-4988	a	_	
+28-33	4989-4996	reality	_	
+28-34	4997-4999	on	_	
+28-35	5000-5003	the	_	
+28-36	5004-5010	ground	_	
+28-37	5010-5011	.	_	
+
+#Text=The\r
+#Text=international community should support civil society in\r
+#Text=Burundi in its efforts to mobilize and promote\r
+#Text=awareness among the population about the dangers of\r
+#Text=possession and circulation of weapons in the\r
+#Text=community and to promote voluntary disarmament.
+29-1	5012-5015	The	_	
+29-2	5017-5030	international	_	
+29-3	5031-5040	community	_	
+29-4	5041-5047	should	_	
+29-5	5048-5055	support	_	
+29-6	5056-5061	civil	_	
+29-7	5062-5069	society	_	
+29-8	5070-5072	in	_	
+29-9	5074-5081	Burundi	_	
+29-10	5082-5084	in	_	
+29-11	5085-5088	its	_	
+29-12	5089-5096	efforts	_	
+29-13	5097-5099	to	_	
+29-14	5100-5108	mobilize	_	
+29-15	5109-5112	and	_	
+29-16	5113-5120	promote	_	
+29-17	5122-5131	awareness	_	
+29-18	5132-5137	among	_	
+29-19	5138-5141	the	_	
+29-20	5142-5152	population	_	
+29-21	5153-5158	about	_	
+29-22	5159-5162	the	_	
+29-23	5163-5170	dangers	_	
+29-24	5171-5173	of	_	
+29-25	5175-5185	possession	_	
+29-26	5186-5189	and	_	
+29-27	5190-5201	circulation	_	
+29-28	5202-5204	of	_	
+29-29	5205-5212	weapons	_	
+29-30	5213-5215	in	_	
+29-31	5216-5219	the	_	
+29-32	5221-5230	community	_	
+29-33	5231-5234	and	_	
+29-34	5235-5237	to	_	
+29-35	5238-5245	promote	_	
+29-36	5246-5255	voluntary	_	
+29-37	5256-5267	disarmament	_	
+29-38	5267-5268	.	_	
+
+#Text=A\r
+#Text=similar programme could be carried out at the\r
+#Text=subregional level.
+30-1	5269-5270	A	_	
+30-2	5272-5279	similar	_	
+30-3	5280-5289	programme	_	
+30-4	5290-5295	could	_	
+30-5	5296-5298	be	_	
+30-6	5299-5306	carried	_	
+30-7	5307-5310	out	_	
+30-8	5311-5313	at	_	
+30-9	5314-5317	the	_	
+30-10	5319-5330	subregional	_	
+30-11	5331-5336	level	_	
+30-12	5336-5337	.	_	
+
+#Text=Since the end of hostilities, poverty has continued\r
+#Text=to increase in Burundi and is affecting, above all,\r
+#Text=women, who cannot inherit land from their parents and\r
+#Text=cannot gain title to their husband's land and property.
+31-1	5341-5346	Since	_	
+31-2	5347-5350	the	_	
+31-3	5351-5354	end	_	
+31-4	5355-5357	of	_	
+31-5	5358-5369	hostilities	_	
+31-6	5369-5370	,	_	
+31-7	5371-5378	poverty	_	
+31-8	5379-5382	has	_	
+31-9	5383-5392	continued	_	
+31-10	5394-5396	to	_	
+31-11	5397-5405	increase	_	
+31-12	5406-5408	in	_	
+31-13	5409-5416	Burundi	_	
+31-14	5417-5420	and	_	
+31-15	5421-5423	is	_	
+31-16	5424-5433	affecting	_	
+31-17	5433-5434	,	_	
+31-18	5435-5440	above	_	
+31-19	5441-5444	all	_	
+31-20	5444-5445	,	_	
+31-21	5447-5452	women	VICTIM	
+31-22	5452-5453	,	_	
+31-23	5454-5457	who	_	
+31-24	5458-5464	cannot	_	
+31-25	5465-5472	inherit	_	
+31-26	5473-5477	land	_	
+31-27	5478-5482	from	_	
+31-28	5483-5488	their	_	
+31-29	5489-5496	parents	_	
+31-30	5497-5500	and	_	
+31-31	5502-5508	cannot	_	
+31-32	5509-5513	gain	_	
+31-33	5514-5519	title	_	
+31-34	5520-5522	to	_	
+31-35	5523-5528	their	_	
+31-36	5529-5538	husband's	_	
+31-37	5539-5543	land	_	
+31-38	5544-5547	and	_	
+31-39	5548-5556	property	_	
+31-40	5556-5557	.	_	
+
+#Text=In addition to dependence, corruption and fraud are\r
+#Text=exacerbating the status of women.
+32-1	5559-5561	In	_	
+32-2	5562-5570	addition	_	
+32-3	5571-5573	to	_	
+32-4	5574-5584	dependence	_	
+32-5	5584-5585	,	_	
+32-6	5586-5596	corruption	_	
+32-7	5597-5600	and	_	
+32-8	5601-5606	fraud	_	
+32-9	5607-5610	are	_	
+32-10	5612-5624	exacerbating	_	
+32-11	5625-5628	the	_	
+32-12	5629-5635	status	_	
+32-13	5636-5638	of	_	
+32-14	5639-5644	women	VICTIM	
+32-15	5644-5645	.	_	
+
+#Text=Women have always\r
+#Text=asked that this be given priority in negotiations.
+33-1	5646-5651	Women	_	
+33-2	5652-5656	have	_	
+33-3	5657-5663	always	_	
+33-4	5665-5670	asked	_	
+33-5	5671-5675	that	_	
+33-6	5676-5680	this	_	
+33-7	5681-5683	be	_	
+33-8	5684-5689	given	_	
+33-9	5690-5698	priority	_	
+33-10	5699-5701	in	_	
+33-11	5702-5714	negotiations	_	
+33-12	5714-5715	.	_	
+
+#Text=We recommend that the United Nations not hold\r
+#Text=women hostage to the political situation in Burundi and\r
+#Text=06-58804\r
+#Text=\r
+#Text=that women be enabled to have direct access to\r
+#Text=financing that allows them to undertake and\r
+#Text=consolidate the work that they have been doing at the\r
+#Text=grassroots level.
+34-1	5719-5721	We	_	
+34-2	5722-5731	recommend	_	
+34-3	5732-5736	that	_	
+34-4	5737-5740	the	_	
+34-5	5741-5747	United	_	
+34-6	5748-5755	Nations	_	
+34-7	5756-5759	not	_	
+34-8	5760-5764	hold	_	
+34-9	5766-5771	women	_	
+34-10	5772-5779	hostage	_	
+34-11	5780-5782	to	_	
+34-12	5783-5786	the	_	
+34-13	5787-5796	political	_	
+34-14	5797-5806	situation	_	
+34-15	5807-5809	in	_	
+34-16	5810-5817	Burundi	_	
+34-17	5818-5821	and	_	
+34-18	5823-5825	06	_	
+34-19	5825-5826	-	_	
+34-20	5826-5831	58804	_	
+34-21	5835-5839	that	_	
+34-22	5840-5845	women	VICTIM	
+34-23	5846-5848	be	_	
+34-24	5849-5856	enabled	_	
+34-25	5857-5859	to	_	
+34-26	5860-5864	have	_	
+34-27	5865-5871	direct	_	
+34-28	5872-5878	access	_	
+34-29	5879-5881	to	_	
+34-30	5883-5892	financing	_	
+34-31	5893-5897	that	_	
+34-32	5898-5904	allows	_	
+34-33	5905-5909	them	_	
+34-34	5910-5912	to	_	
+34-35	5913-5922	undertake	_	
+34-36	5923-5926	and	_	
+34-37	5928-5939	consolidate	_	
+34-38	5940-5943	the	_	
+34-39	5944-5948	work	_	
+34-40	5949-5953	that	_	
+34-41	5954-5958	they	HERO	
+34-42	5959-5963	have	_	
+34-43	5964-5968	been	_	
+34-44	5969-5974	doing	_	
+34-45	5975-5977	at	_	
+34-46	5978-5981	the	_	
+34-47	5983-5993	grassroots	_	
+34-48	5994-5999	level	_	
+34-49	5999-6000	.	_	
+
+#Text=Funds allocated by the Peacebuilding\r
+#Text=Commission should be used for that work.
+35-1	6001-6006	Funds	_	
+35-2	6007-6016	allocated	_	
+35-3	6017-6019	by	_	
+35-4	6020-6023	the	_	
+35-5	6024-6037	Peacebuilding	_	
+35-6	6039-6049	Commission	_	
+35-7	6050-6056	should	_	
+35-8	6057-6059	be	_	
+35-9	6060-6064	used	_	
+35-10	6065-6068	for	_	
+35-11	6069-6073	that	_	
+35-12	6074-6078	work	_	
+35-13	6078-6079	.	_	
+
+#Text=The\r
+#Text=Commission should ensure follow-up to the\r
+#Text=implementation of a corruption and fraud focal point\r
+#Text=that would ensure equitable distribution of public\r
+#Text=property.
+36-1	6080-6083	The	_	
+36-2	6085-6095	Commission	_	
+36-3	6096-6102	should	_	
+36-4	6103-6109	ensure	_	
+36-5	6110-6119	follow-up	_	
+36-6	6120-6122	to	_	
+36-7	6123-6126	the	_	
+36-8	6128-6142	implementation	_	
+36-9	6143-6145	of	_	
+36-10	6146-6147	a	_	
+36-11	6148-6158	corruption	_	
+36-12	6159-6162	and	_	
+36-13	6163-6168	fraud	_	
+36-14	6169-6174	focal	_	
+36-15	6175-6180	point	_	
+36-16	6182-6186	that	_	
+36-17	6187-6192	would	_	
+36-18	6193-6199	ensure	_	
+36-19	6200-6209	equitable	_	
+36-20	6210-6222	distribution	_	
+36-21	6223-6225	of	_	
+36-22	6226-6232	public	_	
+36-23	6234-6242	property	_	
+36-24	6242-6243	.	_	
+
+#Text=The focal point should also respect gender\r
+#Text=parity.
+37-1	6244-6247	The	_	
+37-2	6248-6253	focal	_	
+37-3	6254-6259	point	_	
+37-4	6260-6266	should	_	
+37-5	6267-6271	also	_	
+37-6	6272-6279	respect	_	
+37-7	6280-6286	gender	_	
+37-8	6288-6294	parity	_	
+37-9	6294-6295	.	_	
+
+#Text=As for human rights, it should be emphasized that\r
+#Text=these challenges refer to basic aspects of human rights,\r
+#Text=for which we would like to make several\r
+#Text=recommendations in order to promote respect for those\r
+#Text=rights.
+38-1	6299-6301	As	_	
+38-2	6302-6305	for	_	
+38-3	6306-6311	human	_	
+38-4	6312-6318	rights	_	
+38-5	6318-6319	,	_	
+38-6	6320-6322	it	_	
+38-7	6323-6329	should	_	
+38-8	6330-6332	be	_	
+38-9	6333-6343	emphasized	_	
+38-10	6344-6348	that	_	
+38-11	6350-6355	these	_	
+38-12	6356-6366	challenges	_	
+38-13	6367-6372	refer	_	
+38-14	6373-6375	to	_	
+38-15	6376-6381	basic	_	
+38-16	6382-6389	aspects	_	
+38-17	6390-6392	of	_	
+38-18	6393-6398	human	_	
+38-19	6399-6405	rights	_	
+38-20	6405-6406	,	_	
+38-21	6408-6411	for	_	
+38-22	6412-6417	which	_	
+38-23	6418-6420	we	HERO	
+38-24	6421-6426	would	_	
+38-25	6427-6431	like	_	
+38-26	6432-6434	to	_	
+38-27	6435-6439	make	_	
+38-28	6440-6447	several	_	
+38-29	6449-6464	recommendations	_	
+38-30	6465-6467	in	_	
+38-31	6468-6473	order	_	
+38-32	6474-6476	to	_	
+38-33	6477-6484	promote	_	
+38-34	6485-6492	respect	_	
+38-35	6493-6496	for	_	
+38-36	6497-6502	those	_	
+38-37	6504-6510	rights	_	
+38-38	6510-6511	.	_	
+
+#Text=Legislation for gender equality and equity\r
+#Text=should be adopted and applied.
+39-1	6512-6523	Legislation	_	
+39-2	6524-6527	for	_	
+39-3	6528-6534	gender	_	
+39-4	6535-6543	equality	_	
+39-5	6544-6547	and	_	
+39-6	6548-6554	equity	_	
+39-7	6556-6562	should	_	
+39-8	6563-6565	be	_	
+39-9	6566-6573	adopted	_	
+39-10	6574-6577	and	_	
+39-11	6578-6585	applied	_	
+39-12	6585-6586	.	_	
+
+#Text=There should be an\r
+#Text=independent national focal point for women's rights to\r
+#Text=ensure implementation of commitments made by the\r
+#Text=Government under national legislation and\r
+#Text=international treaties ratified by Burundi.
+40-1	6587-6592	There	_	
+40-2	6593-6599	should	_	
+40-3	6600-6602	be	_	
+40-4	6603-6605	an	_	
+40-5	6607-6618	independent	_	
+40-6	6619-6627	national	_	
+40-7	6628-6633	focal	_	
+40-8	6634-6639	point	_	
+40-9	6640-6643	for	_	
+40-10	6644-6651	women's	_	
+40-11	6652-6658	rights	_	
+40-12	6659-6661	to	_	
+40-13	6663-6669	ensure	_	
+40-14	6670-6684	implementation	_	
+40-15	6685-6687	of	_	
+40-16	6688-6699	commitments	_	
+40-17	6700-6704	made	_	
+40-18	6705-6707	by	_	
+40-19	6708-6711	the	_	
+40-20	6713-6723	Government	_	
+40-21	6724-6729	under	_	
+40-22	6730-6738	national	_	
+40-23	6739-6750	legislation	_	
+40-24	6751-6754	and	_	
+40-25	6756-6769	international	_	
+40-26	6770-6778	treaties	_	
+40-27	6779-6787	ratified	_	
+40-28	6788-6790	by	_	
+40-29	6791-6798	Burundi	_	
+40-30	6798-6799	.	_	
+
+#Text=There should\r
+#Text=be an end to impunity through the establishment of\r
+#Text=machinery for transitional justice to deal with rape and\r
+#Text=murder.
+41-1	6800-6805	There	_	
+41-2	6806-6812	should	_	
+41-3	6814-6816	be	_	
+41-4	6817-6819	an	_	
+41-5	6820-6823	end	_	
+41-6	6824-6826	to	_	
+41-7	6827-6835	impunity	_	
+41-8	6836-6843	through	_	
+41-9	6844-6847	the	_	
+41-10	6848-6861	establishment	_	
+41-11	6862-6864	of	_	
+41-12	6866-6875	machinery	_	
+41-13	6876-6879	for	_	
+41-14	6880-6892	transitional	_	
+41-15	6893-6900	justice	_	
+41-16	6901-6903	to	_	
+41-17	6904-6908	deal	_	
+41-18	6909-6913	with	_	
+41-19	6914-6918	rape	_	
+41-20	6919-6922	and	_	
+41-21	6924-6930	murder	_	
+41-22	6930-6931	.	_	
+
+#Text=That would require the reform and\r
+#Text=modernization of the police and legal services, which\r
+#Text=must be professional in spirit and directly accountable\r
+#Text=to the people.
+42-1	6932-6936	That	_	
+42-2	6937-6942	would	_	
+42-3	6943-6950	require	_	
+42-4	6951-6954	the	_	
+42-5	6955-6961	reform	_	
+42-6	6962-6965	and	_	
+42-7	6967-6980	modernization	_	
+42-8	6981-6983	of	_	
+42-9	6984-6987	the	_	
+42-10	6988-6994	police	_	
+42-11	6995-6998	and	_	
+42-12	6999-7004	legal	_	
+42-13	7005-7013	services	_	
+42-14	7013-7014	,	_	
+42-15	7015-7020	which	_	
+42-16	7022-7026	must	_	
+42-17	7027-7029	be	_	
+42-18	7030-7042	professional	_	
+42-19	7043-7045	in	_	
+42-20	7046-7052	spirit	_	
+42-21	7053-7056	and	_	
+42-22	7057-7065	directly	_	
+42-23	7066-7077	accountable	_	
+42-24	7079-7081	to	_	
+42-25	7082-7085	the	_	
+42-26	7086-7092	people	_	
+42-27	7092-7093	.	_	
+
+#Text=A trust fund should be established to\r
+#Text=which Member States would contribute for at least five\r
+#Text=years to enable women who are victims of sexual\r
+#Text=violence and other abuses to have recourse to justice.
+43-1	7094-7095	A	_	
+43-2	7096-7101	trust	_	
+43-3	7102-7106	fund	_	
+43-4	7107-7113	should	_	
+43-5	7114-7116	be	_	
+43-6	7117-7128	established	_	
+43-7	7129-7131	to	_	
+43-8	7133-7138	which	_	
+43-9	7139-7145	Member	_	
+43-10	7146-7152	States	_	
+43-11	7153-7158	would	_	
+43-12	7159-7169	contribute	_	
+43-13	7170-7173	for	_	
+43-14	7174-7176	at	_	
+43-15	7177-7182	least	_	
+43-16	7183-7187	five	_	
+43-17	7189-7194	years	_	
+43-18	7195-7197	to	_	
+43-19	7198-7204	enable	_	
+43-20	7205-7210	women	VICTIM[10]	
+43-21	7211-7214	who	VICTIM[10]	
+43-22	7215-7218	are	VICTIM[10]	
+43-23	7219-7226	victims	VICTIM[10]	
+43-24	7227-7229	of	VICTIM[10]	
+43-25	7230-7236	sexual	VICTIM[10]	
+43-26	7238-7246	violence	VICTIM[10]	
+43-27	7247-7250	and	VICTIM[10]	
+43-28	7251-7256	other	VICTIM[10]	
+43-29	7257-7263	abuses	VICTIM[10]	
+43-30	7264-7266	to	_	
+43-31	7267-7271	have	_	
+43-32	7272-7280	recourse	_	
+43-33	7281-7283	to	_	
+43-34	7284-7291	justice	_	
+43-35	7291-7292	.	_	
+
+#Text=There should be support for organizations helping\r
+#Text=women, in particular United Nations Development\r
+#Text=Fund for Women, with material, financial and human\r
+#Text=resources adequate to reach additional beneficiaries.
+44-1	7294-7299	There	_	
+44-2	7300-7306	should	_	
+44-3	7307-7309	be	_	
+44-4	7310-7317	support	_	
+44-5	7318-7321	for	_	
+44-6	7322-7335	organizations	HERO[11]	
+44-7	7336-7343	helping	HERO[11]	
+44-8	7345-7350	women	HERO[11]|VICTIM[12]	
+44-9	7350-7351	,	HERO[11]	
+44-10	7352-7354	in	HERO[11]	
+44-11	7355-7365	particular	HERO[11]	
+44-12	7366-7372	United	HERO[11]	
+44-13	7373-7380	Nations	HERO[11]	
+44-14	7381-7392	Development	HERO[11]	
+44-15	7394-7398	Fund	HERO[11]	
+44-16	7399-7402	for	HERO[11]	
+44-17	7403-7408	Women	HERO[11]	
+44-18	7408-7409	,	_	
+44-19	7410-7414	with	_	
+44-20	7415-7423	material	_	
+44-21	7423-7424	,	_	
+44-22	7425-7434	financial	_	
+44-23	7435-7438	and	_	
+44-24	7439-7444	human	_	
+44-25	7446-7455	resources	_	
+44-26	7456-7464	adequate	_	
+44-27	7465-7467	to	_	
+44-28	7468-7473	reach	_	
+44-29	7474-7484	additional	_	
+44-30	7485-7498	beneficiaries	_	
+44-31	7498-7499	.	_	

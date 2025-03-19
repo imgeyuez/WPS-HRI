@@ -1,0 +1,889 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Ms.
+1-1	0-2	Ms	_	
+1-2	2-3	.	_	
+
+#Text=Mayanja: It is a privilege to address the\r
+#Text=Council at this open debate and to introduce the report\r
+#Text=of the Secretary-General on women, peace and security\r
+#Text=(S/2006/770).
+2-1	4-11	Mayanja	_	
+2-2	11-12	:	_	
+2-3	13-15	It	_	
+2-4	16-18	is	_	
+2-5	19-20	a	_	
+2-6	21-30	privilege	_	
+2-7	31-33	to	_	
+2-8	34-41	address	_	
+2-9	42-45	the	_	
+2-10	47-54	Council	_	
+2-11	55-57	at	_	
+2-12	58-62	this	_	
+2-13	63-67	open	_	
+2-14	68-74	debate	_	
+2-15	75-78	and	_	
+2-16	79-81	to	_	
+2-17	82-91	introduce	_	
+2-18	92-95	the	_	
+2-19	96-102	report	_	
+2-20	104-106	of	_	
+2-21	107-110	the	_	
+2-22	111-128	Secretary-General	_	
+2-23	129-131	on	_	
+2-24	132-137	women	_	
+2-25	137-138	,	_	
+2-26	139-144	peace	_	
+2-27	145-148	and	_	
+2-28	149-157	security	_	
+2-29	159-160	(	_	
+2-30	160-161	S	_	
+2-31	161-162	/	_	
+2-32	162-166	2006	_	
+2-33	166-167	/	_	
+2-34	167-170	770	_	
+2-35	170-171	)	_	
+2-36	171-172	.	_	
+
+#Text=Let me begin by expressing gratitude to\r
+#Text=you, Mr.
+3-1	173-176	Let	_	
+3-2	177-179	me	_	
+3-3	180-185	begin	_	
+3-4	186-188	by	_	
+3-5	189-199	expressing	_	
+3-6	200-209	gratitude	_	
+3-7	210-212	to	_	
+3-8	214-217	you	HERO[1]	
+3-9	217-218	,	HERO[1]	
+3-10	219-221	Mr	HERO[1]	
+3-11	221-222	.	HERO[1]	
+
+#Text=President, for convening this crucially\r
+#Text=important meeting on the roles of women in the\r
+#Text=consolidation of peace.
+4-1	223-232	President	HERO[1]	
+4-2	232-233	,	_	
+4-3	234-237	for	_	
+4-4	238-247	convening	_	
+4-5	248-252	this	_	
+4-6	253-262	crucially	_	
+4-7	264-273	important	_	
+4-8	274-281	meeting	_	
+4-9	282-284	on	_	
+4-10	285-288	the	_	
+4-11	289-294	roles	_	
+4-12	295-297	of	_	
+4-13	298-303	women	_	
+4-14	304-306	in	_	
+4-15	307-310	the	_	
+4-16	312-325	consolidation	_	
+4-17	326-328	of	_	
+4-18	329-334	peace	_	
+4-19	334-335	.	_	
+
+#Text=I am also deeply heartened by\r
+#Text=the Council's continued commitment to the\r
+#Text=implementation of resolution 1325 (2000).
+5-1	336-337	I	_	
+5-2	338-340	am	_	
+5-3	341-345	also	_	
+5-4	346-352	deeply	_	
+5-5	353-362	heartened	_	
+5-6	363-365	by	_	
+5-7	367-370	the	HERO[2]	
+5-8	371-380	Council's	HERO[2]	
+5-9	381-390	continued	_	
+5-10	391-401	commitment	_	
+5-11	402-404	to	_	
+5-12	405-408	the	_	
+5-13	410-424	implementation	_	
+5-14	425-427	of	_	
+5-15	428-438	resolution	_	
+5-16	439-443	1325	_	
+5-17	444-445	(	_	
+5-18	445-449	2000	_	
+5-19	449-450	)	_	
+5-20	450-451	.	_	
+
+#Text=The Council has before it the report of the\r
+#Text=Secretary-General on women, peace and security,\r
+#Text=prepared in response to the request of the Council\r
+#Text=contained in its presidential statement\r
+#Text=S/PRST/2005/52.
+6-1	455-458	The	_	
+6-2	459-466	Council	_	
+6-3	467-470	has	_	
+6-4	471-477	before	_	
+6-5	478-480	it	_	
+6-6	481-484	the	_	
+6-7	485-491	report	_	
+6-8	492-494	of	_	
+6-9	495-498	the	HERO[3]	
+6-10	500-517	Secretary-General	HERO[3]	
+6-11	518-520	on	_	
+6-12	521-526	women	_	
+6-13	526-527	,	_	
+6-14	528-533	peace	_	
+6-15	534-537	and	_	
+6-16	538-546	security	_	
+6-17	546-547	,	_	
+6-18	549-557	prepared	_	
+6-19	558-560	in	_	
+6-20	561-569	response	_	
+6-21	570-572	to	_	
+6-22	573-576	the	_	
+6-23	577-584	request	_	
+6-24	585-587	of	_	
+6-25	588-591	the	_	
+6-26	592-599	Council	_	
+6-27	601-610	contained	_	
+6-28	611-613	in	_	
+6-29	614-617	its	_	
+6-30	618-630	presidential	_	
+6-31	631-640	statement	_	
+6-32	642-643	S	_	
+6-33	643-644	/	_	
+6-34	644-648	PRST	_	
+6-35	648-649	/	_	
+6-36	649-653	2005	_	
+6-37	653-654	/	_	
+6-38	654-656	52	_	
+6-39	656-657	.	_	
+
+#Text=The report contains a comprehensive\r
+#Text=and candid assessment of the first eight months of\r
+#Text=carrying out the System-wide Action Plan for the\r
+#Text=implementation of resolution 1325 (2000), in support\r
+#Text=of activities and commitments by Governments and\r
+#Text=civil society.
+7-1	658-661	The	_	
+7-2	662-668	report	_	
+7-3	669-677	contains	_	
+7-4	678-679	a	_	
+7-5	680-693	comprehensive	_	
+7-6	695-698	and	_	
+7-7	699-705	candid	_	
+7-8	706-716	assessment	_	
+7-9	717-719	of	_	
+7-10	720-723	the	_	
+7-11	724-729	first	_	
+7-12	730-735	eight	_	
+7-13	736-742	months	_	
+7-14	743-745	of	_	
+7-15	747-755	carrying	_	
+7-16	756-759	out	_	
+7-17	760-763	the	_	
+7-18	764-775	System-wide	_	
+7-19	776-782	Action	_	
+7-20	783-787	Plan	_	
+7-21	788-791	for	_	
+7-22	792-795	the	_	
+7-23	797-811	implementation	_	
+7-24	812-814	of	_	
+7-25	815-825	resolution	_	
+7-26	826-830	1325	_	
+7-27	831-832	(	_	
+7-28	832-836	2000	_	
+7-29	836-837	)	_	
+7-30	837-838	,	_	
+7-31	839-841	in	_	
+7-32	842-849	support	_	
+7-33	851-853	of	_	
+7-34	854-864	activities	_	
+7-35	865-868	and	_	
+7-36	869-880	commitments	_	
+7-37	881-883	by	_	
+7-38	884-895	Governments	HERO[4]	
+7-39	896-899	and	HERO[4]	
+7-40	901-906	civil	HERO[4]	
+7-41	907-914	society	HERO[4]	
+7-42	914-915	.	_	
+
+#Text=The assessment identifies progress and\r
+#Text=challenges in the implementation of the Plan and offers\r
+#Text=measures to redress the shortcomings.
+8-1	916-919	The	_	
+8-2	920-930	assessment	_	
+8-3	931-941	identifies	_	
+8-4	942-950	progress	_	
+8-5	951-954	and	_	
+8-6	956-966	challenges	_	
+8-7	967-969	in	_	
+8-8	970-973	the	_	
+8-9	974-988	implementation	_	
+8-10	989-991	of	_	
+8-11	992-995	the	_	
+8-12	996-1000	Plan	_	
+8-13	1001-1004	and	_	
+8-14	1005-1011	offers	_	
+8-15	1013-1021	measures	_	
+8-16	1022-1024	to	_	
+8-17	1025-1032	redress	_	
+8-18	1033-1036	the	_	
+8-19	1037-1049	shortcomings	_	
+8-20	1049-1050	.	_	
+
+#Text=The Plan has\r
+#Text=proved to be a useful tool for strengthened inter-agency\r
+#Text=coordination.
+9-1	1051-1054	The	_	
+9-2	1055-1059	Plan	_	
+9-3	1060-1063	has	_	
+9-4	1065-1071	proved	_	
+9-5	1072-1074	to	_	
+9-6	1075-1077	be	_	
+9-7	1078-1079	a	_	
+9-8	1080-1086	useful	_	
+9-9	1087-1091	tool	_	
+9-10	1092-1095	for	_	
+9-11	1096-1108	strengthened	_	
+9-12	1109-1121	inter-agency	_	
+9-13	1123-1135	coordination	_	
+9-14	1135-1136	.	_	
+
+#Text=The consolidation of peace is an opportunity to\r
+#Text=redress grievances and problems that led to conflict in\r
+#Text=the first place.
+10-1	1140-1143	The	_	
+10-2	1144-1157	consolidation	_	
+10-3	1158-1160	of	_	
+10-4	1161-1166	peace	_	
+10-5	1167-1169	is	_	
+10-6	1170-1172	an	_	
+10-7	1173-1184	opportunity	_	
+10-8	1185-1187	to	_	
+10-9	1189-1196	redress	_	
+10-10	1197-1207	grievances	_	
+10-11	1208-1211	and	_	
+10-12	1212-1220	problems	_	
+10-13	1221-1225	that	_	
+10-14	1226-1229	led	_	
+10-15	1230-1232	to	_	
+10-16	1233-1241	conflict	_	
+10-17	1242-1244	in	_	
+10-18	1246-1249	the	_	
+10-19	1250-1255	first	_	
+10-20	1256-1261	place	_	
+10-21	1261-1262	.	_	
+
+#Text=It holds the promise of establishing\r
+#Text=equality in a democratic environment and reforming\r
+#Text=institutions in ways that enable women to take full\r
+#Text=advantage of opportunities presented through the\r
+#Text=restoration of peace.
+11-1	1263-1265	It	_	
+11-2	1266-1271	holds	_	
+11-3	1272-1275	the	_	
+11-4	1276-1283	promise	_	
+11-5	1284-1286	of	_	
+11-6	1287-1299	establishing	_	
+11-7	1301-1309	equality	_	
+11-8	1310-1312	in	_	
+11-9	1313-1314	a	_	
+11-10	1315-1325	democratic	_	
+11-11	1326-1337	environment	_	
+11-12	1338-1341	and	_	
+11-13	1342-1351	reforming	_	
+11-14	1353-1365	institutions	_	
+11-15	1366-1368	in	_	
+11-16	1369-1373	ways	_	
+11-17	1374-1378	that	_	
+11-18	1379-1385	enable	_	
+11-19	1386-1391	women	VICTIM	
+11-20	1392-1394	to	_	
+11-21	1395-1399	take	_	
+11-22	1400-1404	full	_	
+11-23	1406-1415	advantage	_	
+11-24	1416-1418	of	_	
+11-25	1419-1432	opportunities	_	
+11-26	1433-1442	presented	_	
+11-27	1443-1450	through	_	
+11-28	1451-1454	the	_	
+11-29	1456-1467	restoration	_	
+11-30	1468-1470	of	_	
+11-31	1471-1476	peace	_	
+11-32	1476-1477	.	_	
+
+#Text=Yet, the past year has\r
+#Text=demonstrated that our collective efforts to ensure equal\r
+#Text=participation by women in the consolidation of peace\r
+#Text=have thus far generally fallen short of what is required.
+12-1	1478-1481	Yet	_	
+12-2	1481-1482	,	_	
+12-3	1483-1486	the	_	
+12-4	1487-1491	past	_	
+12-5	1492-1496	year	_	
+12-6	1497-1500	has	_	
+12-7	1502-1514	demonstrated	_	
+12-8	1515-1519	that	_	
+12-9	1520-1523	our	_	
+12-10	1524-1534	collective	_	
+12-11	1535-1542	efforts	_	
+12-12	1543-1545	to	_	
+12-13	1546-1552	ensure	_	
+12-14	1553-1558	equal	_	
+12-15	1560-1573	participation	_	
+12-16	1574-1576	by	_	
+12-17	1577-1582	women	VICTIM	
+12-18	1583-1585	in	_	
+12-19	1586-1589	the	_	
+12-20	1590-1603	consolidation	_	
+12-21	1604-1606	of	_	
+12-22	1607-1612	peace	_	
+12-23	1614-1618	have	_	
+12-24	1619-1623	thus	_	
+12-25	1624-1627	far	_	
+12-26	1628-1637	generally	_	
+12-27	1638-1644	fallen	_	
+12-28	1645-1650	short	_	
+12-29	1651-1653	of	_	
+12-30	1654-1658	what	_	
+12-31	1659-1661	is	_	
+12-32	1662-1670	required	_	
+12-33	1670-1671	.	_	
+
+#Text=From the Democratic Republic of the Congo to the\r
+#Text=Sudan, and from Somalia to Timor Leste, women\r
+#Text=continue to be exposed to violence or to be targeted by\r
+#Text=parties to a conflict, as well as to be marginalized in\r
+#Text=formal processes, in particular as regards issues of war\r
+#Text=and peace.
+13-1	1673-1677	From	_	
+13-2	1678-1681	the	_	
+13-3	1682-1692	Democratic	_	
+13-4	1693-1701	Republic	_	
+13-5	1702-1704	of	_	
+13-6	1705-1708	the	_	
+13-7	1709-1714	Congo	_	
+13-8	1715-1717	to	_	
+13-9	1718-1721	the	_	
+13-10	1723-1728	Sudan	_	
+13-11	1728-1729	,	_	
+13-12	1730-1733	and	_	
+13-13	1734-1738	from	_	
+13-14	1739-1746	Somalia	_	
+13-15	1747-1749	to	_	
+13-16	1750-1755	Timor	_	
+13-17	1756-1761	Leste	_	
+13-18	1761-1762	,	_	
+13-19	1763-1768	women	VICTIM	
+13-20	1770-1778	continue	_	
+13-21	1779-1781	to	_	
+13-22	1782-1784	be	_	
+13-23	1785-1792	exposed	_	
+13-24	1793-1795	to	_	
+13-25	1796-1804	violence	_	
+13-26	1805-1807	or	_	
+13-27	1808-1810	to	_	
+13-28	1811-1813	be	_	
+13-29	1814-1822	targeted	_	
+13-30	1823-1825	by	_	
+13-31	1827-1834	parties	VILLAIN[5]	
+13-32	1835-1837	to	VILLAIN[5]	
+13-33	1838-1839	a	VILLAIN[5]	
+13-34	1840-1848	conflict	VILLAIN[5]	
+13-35	1848-1849	,	_	
+13-36	1850-1852	as	_	
+13-37	1853-1857	well	_	
+13-38	1858-1860	as	_	
+13-39	1861-1863	to	_	
+13-40	1864-1866	be	_	
+13-41	1867-1879	marginalized	_	
+13-42	1880-1882	in	_	
+13-43	1884-1890	formal	_	
+13-44	1891-1900	processes	_	
+13-45	1900-1901	,	_	
+13-46	1902-1904	in	_	
+13-47	1905-1915	particular	_	
+13-48	1916-1918	as	_	
+13-49	1919-1926	regards	_	
+13-50	1927-1933	issues	_	
+13-51	1934-1936	of	_	
+13-52	1937-1940	war	_	
+13-53	1942-1945	and	_	
+13-54	1946-1951	peace	_	
+13-55	1951-1952	.	_	
+
+#Text=It is axiomatic that States, in particular those\r
+#Text=emerging from conflict situations, and their\r
+#Text=Governments have a vested interest in maintaining\r
+#Text=peace and security, and hence in bringing about the\r
+#Text=06-58727\r
+#Text=\r
+#Text=political reorganization of society and establishing\r
+#Text=credible institutions that can result in human security\r
+#Text=for all, in particular for women and girls.
+14-1	1956-1958	It	_	
+14-2	1959-1961	is	_	
+14-3	1962-1971	axiomatic	_	
+14-4	1972-1976	that	_	
+14-5	1977-1983	States	_	
+14-6	1983-1984	,	_	
+14-7	1985-1987	in	_	
+14-8	1988-1998	particular	_	
+14-9	1999-2004	those	VICTIM[6]	
+14-10	2006-2014	emerging	VICTIM[6]	
+14-11	2015-2019	from	VICTIM[6]	
+14-12	2020-2028	conflict	VICTIM[6]	
+14-13	2029-2039	situations	VICTIM[6]	
+14-14	2039-2040	,	_	
+14-15	2041-2044	and	_	
+14-16	2045-2050	their	_	
+14-17	2052-2063	Governments	_	
+14-18	2064-2068	have	_	
+14-19	2069-2070	a	_	
+14-20	2071-2077	vested	_	
+14-21	2078-2086	interest	_	
+14-22	2087-2089	in	_	
+14-23	2090-2101	maintaining	_	
+14-24	2103-2108	peace	_	
+14-25	2109-2112	and	_	
+14-26	2113-2121	security	_	
+14-27	2121-2122	,	_	
+14-28	2123-2126	and	_	
+14-29	2127-2132	hence	_	
+14-30	2133-2135	in	_	
+14-31	2136-2144	bringing	_	
+14-32	2145-2150	about	_	
+14-33	2151-2154	the	_	
+14-34	2156-2158	06	_	
+14-35	2158-2159	-	_	
+14-36	2159-2164	58727	_	
+14-37	2168-2177	political	_	
+14-38	2178-2192	reorganization	_	
+14-39	2193-2195	of	_	
+14-40	2196-2203	society	_	
+14-41	2204-2207	and	_	
+14-42	2208-2220	establishing	_	
+14-43	2222-2230	credible	_	
+14-44	2231-2243	institutions	_	
+14-45	2244-2248	that	_	
+14-46	2249-2252	can	_	
+14-47	2253-2259	result	_	
+14-48	2260-2262	in	_	
+14-49	2263-2268	human	_	
+14-50	2269-2277	security	_	
+14-51	2279-2282	for	_	
+14-52	2283-2286	all	_	
+14-53	2286-2287	,	_	
+14-54	2288-2290	in	_	
+14-55	2291-2301	particular	_	
+14-56	2302-2305	for	_	
+14-57	2306-2311	women	_	
+14-58	2312-2315	and	_	
+14-59	2316-2321	girls	_	
+14-60	2321-2322	.	_	
+
+#Text=However, it is\r
+#Text=no secret that, even with political will at the top and\r
+#Text=pressure from women's groups below, many\r
+#Text=Governments are generally hesitant to challenge pre-\r
+#Text=conflict societal values and norms that are often deeply\r
+#Text=patriarchal and wedded to customary practices.
+15-1	2323-2330	However	_	
+15-2	2330-2331	,	_	
+15-3	2332-2334	it	_	
+15-4	2335-2337	is	_	
+15-5	2339-2341	no	_	
+15-6	2342-2348	secret	_	
+15-7	2349-2353	that	_	
+15-8	2353-2354	,	_	
+15-9	2355-2359	even	_	
+15-10	2360-2364	with	_	
+15-11	2365-2374	political	_	
+15-12	2375-2379	will	_	
+15-13	2380-2382	at	_	
+15-14	2383-2386	the	_	
+15-15	2387-2390	top	_	
+15-16	2391-2394	and	_	
+15-17	2396-2404	pressure	_	
+15-18	2405-2409	from	_	
+15-19	2410-2417	women's	HERO[7]	
+15-20	2418-2424	groups	HERO[7]	
+15-21	2425-2430	below	_	
+15-22	2430-2431	,	_	
+15-23	2432-2436	many	VILLAIN[8]	
+15-24	2438-2449	Governments	VILLAIN[8]	
+15-25	2450-2453	are	_	
+15-26	2454-2463	generally	_	
+15-27	2464-2472	hesitant	_	
+15-28	2473-2475	to	_	
+15-29	2476-2485	challenge	_	
+15-30	2486-2489	pre	_	
+15-31	2489-2490	-	_	
+15-32	2492-2500	conflict	_	
+15-33	2501-2509	societal	_	
+15-34	2510-2516	values	_	
+15-35	2517-2520	and	_	
+15-36	2521-2526	norms	_	
+15-37	2527-2531	that	_	
+15-38	2532-2535	are	_	
+15-39	2536-2541	often	_	
+15-40	2542-2548	deeply	_	
+15-41	2550-2561	patriarchal	_	
+15-42	2562-2565	and	_	
+15-43	2566-2572	wedded	_	
+15-44	2573-2575	to	_	
+15-45	2576-2585	customary	_	
+15-46	2586-2595	practices	_	
+15-47	2595-2596	.	_	
+
+#Text=To\r
+#Text=overcome that challenge, the following four conditions\r
+#Text=should be met.
+16-1	2597-2599	To	_	
+16-2	2601-2609	overcome	_	
+16-3	2610-2614	that	_	
+16-4	2615-2624	challenge	_	
+16-5	2624-2625	,	_	
+16-6	2626-2629	the	_	
+16-7	2630-2639	following	_	
+16-8	2640-2644	four	_	
+16-9	2645-2655	conditions	_	
+16-10	2657-2663	should	_	
+16-11	2664-2666	be	_	
+16-12	2667-2670	met	_	
+16-13	2670-2671	.	_	
+
+#Text=First, the international community should\r
+#Text=summon all possible political will in order to meet its\r
+#Text=commitments to women in the realm of peace and\r
+#Text=security.
+17-1	2675-2680	First	_	
+17-2	2680-2681	,	_	
+17-3	2682-2685	the	_	
+17-4	2686-2699	international	_	
+17-5	2700-2709	community	_	
+17-6	2710-2716	should	_	
+17-7	2718-2724	summon	_	
+17-8	2725-2728	all	_	
+17-9	2729-2737	possible	_	
+17-10	2738-2747	political	_	
+17-11	2748-2752	will	_	
+17-12	2753-2755	in	_	
+17-13	2756-2761	order	_	
+17-14	2762-2764	to	_	
+17-15	2765-2769	meet	_	
+17-16	2770-2773	its	_	
+17-17	2775-2786	commitments	_	
+17-18	2787-2789	to	_	
+17-19	2790-2795	women	_	
+17-20	2796-2798	in	_	
+17-21	2799-2802	the	_	
+17-22	2803-2808	realm	_	
+17-23	2809-2811	of	_	
+17-24	2812-2817	peace	_	
+17-25	2818-2821	and	_	
+17-26	2823-2831	security	_	
+17-27	2831-2832	.	_	
+
+#Text=Secondly, at the national level, Governments\r
+#Text=should establish clear accountability systems for the\r
+#Text=implementation of resolution 1325 (2000).
+18-1	2833-2841	Secondly	_	
+18-2	2841-2842	,	_	
+18-3	2843-2845	at	_	
+18-4	2846-2849	the	_	
+18-5	2850-2858	national	_	
+18-6	2859-2864	level	_	
+18-7	2864-2865	,	_	
+18-8	2866-2877	Governments	_	
+18-9	2879-2885	should	_	
+18-10	2886-2895	establish	_	
+18-11	2896-2901	clear	_	
+18-12	2902-2916	accountability	_	
+18-13	2917-2924	systems	_	
+18-14	2925-2928	for	_	
+18-15	2929-2932	the	_	
+18-16	2934-2948	implementation	_	
+18-17	2949-2951	of	_	
+18-18	2952-2962	resolution	_	
+18-19	2963-2967	1325	_	
+18-20	2968-2969	(	_	
+18-21	2969-2973	2000	_	
+18-22	2973-2974	)	_	
+18-23	2974-2975	.	_	
+
+#Text=Thirdly, the\r
+#Text=Security Council should provide more effective\r
+#Text=leadership to monitor progress in the implementation in\r
+#Text=the field and should encourage States to do more.
+19-1	2976-2983	Thirdly	_	
+19-2	2983-2984	,	_	
+19-3	2985-2988	the	_	
+19-4	2990-2998	Security	_	
+19-5	2999-3006	Council	_	
+19-6	3007-3013	should	_	
+19-7	3014-3021	provide	_	
+19-8	3022-3026	more	_	
+19-9	3027-3036	effective	_	
+19-10	3038-3048	leadership	_	
+19-11	3049-3051	to	_	
+19-12	3052-3059	monitor	_	
+19-13	3060-3068	progress	_	
+19-14	3069-3071	in	_	
+19-15	3072-3075	the	_	
+19-16	3076-3090	implementation	_	
+19-17	3091-3093	in	_	
+19-18	3095-3098	the	_	
+19-19	3099-3104	field	_	
+19-20	3105-3108	and	_	
+19-21	3109-3115	should	_	
+19-22	3116-3125	encourage	_	
+19-23	3126-3132	States	_	
+19-24	3133-3135	to	_	
+19-25	3136-3138	do	_	
+19-26	3139-3143	more	_	
+19-27	3143-3144	.	_	
+
+#Text=And\r
+#Text=finally, States and United Nations entities should\r
+#Text=allocate sufficient resources and capacities for the\r
+#Text=national implementation of the resolution.
+20-1	3145-3148	And	_	
+20-2	3150-3157	finally	_	
+20-3	3157-3158	,	_	
+20-4	3159-3165	States	_	
+20-5	3166-3169	and	_	
+20-6	3170-3176	United	_	
+20-7	3177-3184	Nations	_	
+20-8	3185-3193	entities	_	
+20-9	3194-3200	should	_	
+20-10	3202-3210	allocate	_	
+20-11	3211-3221	sufficient	_	
+20-12	3222-3231	resources	_	
+20-13	3232-3235	and	_	
+20-14	3236-3246	capacities	_	
+20-15	3247-3250	for	_	
+20-16	3251-3254	the	_	
+20-17	3256-3264	national	_	
+20-18	3265-3279	implementation	_	
+20-19	3280-3282	of	_	
+20-20	3283-3286	the	_	
+20-21	3287-3297	resolution	_	
+20-22	3297-3298	.	_	
+
+#Text=A frank and constructive discussion on how to\r
+#Text=meet those and other challenges related to national\r
+#Text=implementation of resolution 1325 (2000) was held on\r
+#Text=23 October.
+21-1	3302-3303	A	_	
+21-2	3304-3309	frank	_	
+21-3	3310-3313	and	_	
+21-4	3314-3326	constructive	_	
+21-5	3327-3337	discussion	_	
+21-6	3338-3340	on	_	
+21-7	3341-3344	how	_	
+21-8	3345-3347	to	_	
+21-9	3349-3353	meet	_	
+21-10	3354-3359	those	_	
+21-11	3360-3363	and	_	
+21-12	3364-3369	other	_	
+21-13	3370-3380	challenges	_	
+21-14	3381-3388	related	_	
+21-15	3389-3391	to	_	
+21-16	3392-3400	national	_	
+21-17	3402-3416	implementation	_	
+21-18	3417-3419	of	_	
+21-19	3420-3430	resolution	_	
+21-20	3431-3435	1325	_	
+21-21	3436-3437	(	_	
+21-22	3437-3441	2000	_	
+21-23	3441-3442	)	_	
+21-24	3443-3446	was	_	
+21-25	3447-3451	held	_	
+21-26	3452-3454	on	_	
+21-27	3456-3458	23	_	
+21-28	3459-3466	October	_	
+21-29	3466-3467	.	_	
+
+#Text=It underlined the critical importance of\r
+#Text=national implementation as the key to achieving\r
+#Text=sustainable peace and the equal participation of women\r
+#Text=in peace processes.
+22-1	3468-3470	It	_	
+22-2	3471-3481	underlined	_	
+22-3	3482-3485	the	_	
+22-4	3486-3494	critical	_	
+22-5	3495-3505	importance	_	
+22-6	3506-3508	of	_	
+22-7	3510-3518	national	_	
+22-8	3519-3533	implementation	_	
+22-9	3534-3536	as	_	
+22-10	3537-3540	the	_	
+22-11	3541-3544	key	_	
+22-12	3545-3547	to	_	
+22-13	3548-3557	achieving	_	
+22-14	3559-3570	sustainable	_	
+22-15	3571-3576	peace	_	
+22-16	3577-3580	and	_	
+22-17	3581-3584	the	_	
+22-18	3585-3590	equal	_	
+22-19	3591-3604	participation	_	
+22-20	3605-3607	of	_	
+22-21	3608-3613	women	VICTIM[9]|HERO[10]	
+22-22	3615-3617	in	_	
+22-23	3618-3623	peace	_	
+22-24	3624-3633	processes	_	
+22-25	3633-3634	.	_	
+
+#Text=Within that framework, the\r
+#Text=International Research and Training Institute for the\r
+#Text=Advancement of Women last month released "Securing\r
+#Text=equality, engendering peace: a guide to policy and\r
+#Text=planning on women, peace and security".
+23-1	3635-3641	Within	_	
+23-2	3642-3646	that	_	
+23-3	3647-3656	framework	_	
+23-4	3656-3657	,	_	
+23-5	3658-3661	the	_	
+23-6	3663-3676	International	_	
+23-7	3677-3685	Research	_	
+23-8	3686-3689	and	_	
+23-9	3690-3698	Training	_	
+23-10	3699-3708	Institute	_	
+23-11	3709-3712	for	_	
+23-12	3713-3716	the	_	
+23-13	3718-3729	Advancement	_	
+23-14	3730-3732	of	_	
+23-15	3733-3738	Women	_	
+23-16	3739-3743	last	_	
+23-17	3744-3749	month	_	
+23-18	3750-3758	released	_	
+23-19	3759-3760	"	_	
+23-20	3760-3768	Securing	_	
+23-21	3770-3778	equality	_	
+23-22	3778-3779	,	_	
+23-23	3780-3791	engendering	_	
+23-24	3792-3797	peace	_	
+23-25	3797-3798	:	_	
+23-26	3799-3800	a	_	
+23-27	3801-3806	guide	_	
+23-28	3807-3809	to	_	
+23-29	3810-3816	policy	_	
+23-30	3817-3820	and	_	
+23-31	3822-3830	planning	_	
+23-32	3831-3833	on	_	
+23-33	3834-3839	women	_	
+23-34	3839-3840	,	_	
+23-35	3841-3846	peace	_	
+23-36	3847-3850	and	_	
+23-37	3851-3859	security	_	
+23-38	3859-3860	"	_	
+23-39	3860-3861	.	_	
+
+#Text=The full and effective implementation of\r
+#Text=resolution 1325 (2000) will require all the will and\r
+#Text=creativity the international community can muster.
+24-1	3865-3868	The	_	
+24-2	3869-3873	full	_	
+24-3	3874-3877	and	_	
+24-4	3878-3887	effective	_	
+24-5	3888-3902	implementation	_	
+24-6	3903-3905	of	_	
+24-7	3907-3917	resolution	_	
+24-8	3918-3922	1325	_	
+24-9	3923-3924	(	_	
+24-10	3924-3928	2000	_	
+24-11	3928-3929	)	_	
+24-12	3930-3934	will	_	
+24-13	3935-3942	require	_	
+24-14	3943-3946	all	_	
+24-15	3947-3950	the	_	
+24-16	3951-3955	will	_	
+24-17	3956-3959	and	_	
+24-18	3961-3971	creativity	_	
+24-19	3972-3975	the	_	
+24-20	3976-3989	international	_	
+24-21	3990-3999	community	_	
+24-22	4000-4003	can	_	
+24-23	4004-4010	muster	_	
+24-24	4010-4011	.	_	
+
+#Text=We\r
+#Text=can succeed in achieving sustainable peace if we -\r
+#Text=Member States, United Nations entities and civil\r
+#Text=society - put our minds to it and use the tools,\r
+#Text=resources and knowledge at our disposal to fully\r
+#Text=empower women.
+25-1	4012-4014	We	_	
+25-2	4016-4019	can	_	
+25-3	4020-4027	succeed	_	
+25-4	4028-4030	in	_	
+25-5	4031-4040	achieving	_	
+25-6	4041-4052	sustainable	_	
+25-7	4053-4058	peace	_	
+25-8	4059-4061	if	_	
+25-9	4062-4064	we	_	
+25-10	4065-4066	-	_	
+25-11	4068-4074	Member	_	
+25-12	4075-4081	States	_	
+25-13	4081-4082	,	_	
+25-14	4083-4089	United	_	
+25-15	4090-4097	Nations	_	
+25-16	4098-4106	entities	_	
+25-17	4107-4110	and	_	
+25-18	4111-4116	civil	_	
+25-19	4118-4125	society	_	
+25-20	4126-4127	-	_	
+25-21	4128-4131	put	_	
+25-22	4132-4135	our	_	
+25-23	4136-4141	minds	_	
+25-24	4142-4144	to	_	
+25-25	4145-4147	it	_	
+25-26	4148-4151	and	_	
+25-27	4152-4155	use	_	
+25-28	4156-4159	the	_	
+25-29	4160-4165	tools	_	
+25-30	4165-4166	,	_	
+25-31	4168-4177	resources	_	
+25-32	4178-4181	and	_	
+25-33	4182-4191	knowledge	_	
+25-34	4192-4194	at	_	
+25-35	4195-4198	our	_	
+25-36	4199-4207	disposal	_	
+25-37	4208-4210	to	_	
+25-38	4211-4216	fully	_	
+25-39	4218-4225	empower	_	
+25-40	4226-4231	women	VICTIM	
+25-41	4231-4232	.	_	
+
+#Text=For its part, the United Nations will\r
+#Text=remain a strong partner for Member States and civil\r
+#Text=society.
+26-1	4233-4236	For	_	
+26-2	4237-4240	its	_	
+26-3	4241-4245	part	_	
+26-4	4245-4246	,	_	
+26-5	4247-4250	the	HERO[11]	
+26-6	4251-4257	United	HERO[11]	
+26-7	4258-4265	Nations	HERO[11]	
+26-8	4266-4270	will	_	
+26-9	4272-4278	remain	_	
+26-10	4279-4280	a	_	
+26-11	4281-4287	strong	_	
+26-12	4288-4295	partner	_	
+26-13	4296-4299	for	_	
+26-14	4300-4306	Member	_	
+26-15	4307-4313	States	_	
+26-16	4314-4317	and	_	
+26-17	4318-4323	civil	_	
+26-18	4325-4332	society	_	
+26-19	4332-4333	.	_	
+
+#Text=I look forward to working with everyone in\r
+#Text=that quest.
+27-1	4334-4335	I	HERO	
+27-2	4336-4340	look	_	
+27-3	4341-4348	forward	_	
+27-4	4349-4351	to	_	
+27-5	4352-4359	working	_	
+27-6	4360-4364	with	_	
+27-7	4365-4373	everyone	_	
+27-8	4374-4376	in	_	
+27-9	4378-4382	that	_	
+27-10	4383-4388	quest	_	
+27-11	4388-4389	.	_	

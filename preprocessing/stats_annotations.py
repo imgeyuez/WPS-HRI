@@ -1,11 +1,17 @@
 import json
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
-# File paths
-train_path = r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\train_dev_test_data\train.json"
-dev_path = r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\train_dev_test_data\dev.json"
-test_path = r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\train_dev_test_data\test.json"
+# DIRECTORY
+current_dir = os.path.dirname(os.path.abspath(__file__))
+repo_root = os.path.dirname(current_dir)
+
+data_path = os.path.join(repo_root, "data", "train_dev_test_data")
+
+train_path = os.path.join(data_path, "train.json")
+dev_path = os.path.join(data_path, "dev.json")
+test_path = os.path.join(data_path, "test.json")
 
 # Load JSON data
 def load_json(path):
@@ -26,6 +32,45 @@ def count_freqs(json_input):
                     l = label[2:]
                     freq_dict[l] = freq_dict.get(l, 0) + 1
     return freq_dict
+
+
+# function to extract actual entities
+def extract_entity_counts(json_input):
+    '''Extract a dictionary of entity counts from a json file'''
+    entity_counts = {}
+
+    for speech in json_input:
+        for sentence in speech["sentences"]:
+            words = sentence["tokens"]
+            labels = sentence["goldlabels"]
+
+            entity = []
+            entity_label = None
+
+            for i, label in enumerate(labels):
+                if label.startswith("B-"):
+                    if entity and entity_label:
+                        entity_text = " ".join(entity).lower()
+                        entity_counts.setdefault(entity_label, {}).setdefault(entity_text, 0)
+                        entity_counts[entity_label][entity_text] += 1
+
+                    entity = [words[i].lower()]
+                    entity_label = label[2:]
+
+                elif label.startswith("I-") and entity:
+                    entity.append(words[i].lower())
+
+                else:
+                    if entity and entity_label:
+                        entity_text = " ".join(entity)
+                        entity_counts.setdefault(entity_label, {}).setdefault(entity_text, 0)
+                        entity_counts[entity_label][entity_text] += 1
+
+                    entity = []
+                    entity_label = None
+
+    return entity_counts
+
 
 # Count frequencies in each dataset
 train_freq = count_freqs(train_data)
@@ -72,3 +117,105 @@ for i, total in enumerate(total_counts):
     ax.text(total + 5, y_pos[i], str(total), va='center', fontsize=10)
 
 plt.show()
+
+train_entities = extract_entity_counts(train_data)
+
+for label, entities in train_entities.items():
+    print(f"{label}:")
+    for entity, count in sorted(entities.items(), key=lambda x: x[1], reverse=True)[:10]:  # Show top 10
+        print(f"  {entity}: {count}")
+
+
+fig, axs = plt.subplots(2, 3, figsize=(18,12))  # 2 rows, 3 columns
+axs = axs.flatten()
+
+# Set a maximum of top 10 entities per label
+top_n = 10
+
+for i, (label, entities) in enumerate(train_entities.items()):
+    if i >= len(axs):
+        break
+
+    sorted_entities = sorted(entities.items(), key=lambda x: x[1], reverse=True)[:top_n]
+
+    entities_sorted = [entity for entity, _ in sorted_entities]
+    counts_sorted = [count for _, count in sorted_entities]
+
+    axs[i].barh(entities_sorted, counts_sorted, color='lightblue')
+    axs[i].set_title(f'Top Entities for {label}')
+    axs[i].set_xlabel('Frequency')
+    axs[i].set_ylabel('Entities')
+
+plt.tight_layout()
+plt.show()
+
+
+### DO SAME FOR SUBSTRINGS (?)
+'''
+def extract_token_counts(json_input):
+    # List of words to skip (common words like articles, conjunctions, punctuation)
+    skip_words = {"the", "a", "and", "of", ",", ".", "(", ")", "to", "in", "on", "for"}
+
+    token_counts = {}
+
+    for speech in json_input:
+        for sentence in speech["sentences"]:
+            words = sentence["tokens"]
+            labels = sentence["goldlabels"]
+
+            for i, label in enumerate(labels):
+                token = words[i].lower()  # Get the token and lowercase it
+
+                # Skip unwanted tokens
+                if token in skip_words:
+                    continue
+
+                if label.startswith("B-"):  # Start of a new entity
+                    entity_label = label[2:]  # Extract the entity label (e.g., 'hero', 'victim')
+
+                    # Count the token under the correct entity label
+                    token_counts.setdefault(entity_label, {}).setdefault(token, 0)
+                    token_counts[entity_label][token] += 1
+
+                elif label.startswith("I-"):  # Continuation of an entity
+                    # Count the token under the correct entity label
+                    token_counts.setdefault(entity_label, {}).setdefault(token, 0)
+                    token_counts[entity_label][token] += 1
+
+                else:  # If it's not part of an entity
+                    entity_label = None  # Reset the entity label when no entity is found
+
+    return token_counts
+
+
+train_tokens  = extract_token_counts(train_data)
+
+for label, entities in train_tokens.items():
+    print(f"{label}:")
+    for entity, count in sorted(entities.items(), key=lambda x: x[1], reverse=True)[:10]:  # Show top 10
+        print(f"  {entity}: {count}")
+
+
+fig, axs = plt.subplots(2, 3, figsize=(18,12))  # 2 rows, 3 columns
+axs = axs.flatten()
+
+# Set a maximum of top 10 entities per label
+top_n = 10
+
+for i, (label, entities) in enumerate(train_tokens.items()):
+    if i >= len(axs):
+        break
+
+    sorted_entities = sorted(entities.items(), key=lambda x: x[1], reverse=True)[:top_n]
+
+    entities_sorted = [entity for entity, _ in sorted_entities]
+    counts_sorted = [count for _, count in sorted_entities]
+
+    axs[i].barh(entities_sorted, counts_sorted, color='lightblue')
+    axs[i].set_title(f'Top Entities for {label}')
+    axs[i].set_xlabel('Frequency')
+    axs[i].set_ylabel('Entities')
+
+plt.tight_layout()
+plt.show()
+'''

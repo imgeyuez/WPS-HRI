@@ -13,9 +13,7 @@ def train_dev_test_split():
     train, dev and test data.
     """
 
-    filenames = """UNSC_2000_SPV.4208Resumption1_spch030.txt
-        UNSC_2000_SPV.4208Resumption2_spch004.txt
-        UNSC_2000_SPV.4208_spch004.txt
+    filenames = """UNSC_2000_SPV.4208_spch004.txt
         UNSC_2000_SPV.4208_spch010.txt
         UNSC_2002_SPV.4589Resumption1_spch011.txt
         UNSC_2002_SPV.4589Resumption1_spch015.txt
@@ -29,9 +27,7 @@ def train_dev_test_split():
         UNSC_2005_SPV.5294_spch027.txt
         UNSC_2006_SPV.5556Resumption1_spch002.txt
         UNSC_2006_SPV.5556_spch002.txt
-        UNSC_2007_SPV.5766Resumption1_spch020.txt
         UNSC_2007_SPV.5766Resumption1_spch034.txt
-        UNSC_2008_SPV.6005Resumption1_spch020.txt
         UNSC_2008_SPV.6005Resumption1_spch058.txt
         UNSC_2008_SPV.6005_spch029.txt
         UNSC_2009_SPV.6195_spch008.txt

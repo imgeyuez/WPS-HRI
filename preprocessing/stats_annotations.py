@@ -311,7 +311,7 @@ pivot_df.plot(kind="bar", stacked=True, figsize=(12, 6), colormap="viridis", edg
 plt.xlabel("country/organization")
 plt.ylabel("Entity Mentions per 10 Tokens")
 plt.title("Normalized Entity Mentions per Country (Stacked by Label)")
-plt.xticks(rotation=45)
+plt.xticks(rotation=90)
 plt.legend(title="Entity Label", bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.grid(axis="y", linestyle="--", alpha=0.7)
 plt.tight_layout()

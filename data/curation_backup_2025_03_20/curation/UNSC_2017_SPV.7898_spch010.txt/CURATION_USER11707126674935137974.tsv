@@ -1,0 +1,844 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Ms.
+1-1	0-2	Ms	_	
+1-2	2-3	.	_	
+
+#Text=Rossignol (France) (spoke in French): Allow\r
+#Text=me to begin by thanking the Secretary-General,\r
+#Text=Mr.
+2-1	4-13	Rossignol	_	
+2-2	14-15	(	_	
+2-3	15-21	France	_	
+2-4	21-22	)	_	
+2-5	23-24	(	_	
+2-6	24-29	spoke	_	
+2-7	30-32	in	_	
+2-8	33-39	French	_	
+2-9	39-40	)	_	
+2-10	40-41	:	_	
+2-11	42-47	Allow	_	
+2-12	49-51	me	_	
+2-13	52-54	to	_	
+2-14	55-60	begin	_	
+2-15	61-63	by	_	
+2-16	64-72	thanking	_	
+2-17	73-76	the	HERO[1]	
+2-18	77-94	Secretary-General	HERO[1]	
+2-19	94-95	,	HERO[1]	
+2-20	97-99	Mr	HERO[1]	
+2-21	99-100	.	HERO[1]	
+
+#Text=Kevin Hyland, Mr.
+3-1	101-106	Kevin	HERO[1]	
+3-2	107-113	Hyland	HERO[1]	
+3-3	113-114	,	HERO[1]	
+3-4	115-117	Mr	HERO[1]	
+3-5	117-118	.	HERO[1]	
+
+#Text=Yury Fedotov and Ms.
+4-1	119-123	Yury	HERO[1]	
+4-2	124-131	Fedotov	HERO[1]	
+4-3	132-135	and	HERO[1]	
+4-4	136-138	Ms	HERO[1]	
+4-5	138-139	.	HERO[1]	
+
+#Text=Ilwad\r
+#Text=Elman for their briefings.
+5-1	140-145	Ilwad	HERO[1]	
+5-2	147-152	Elman	HERO[1]	
+5-3	153-156	for	_	
+5-4	157-162	their	_	
+5-5	163-172	briefings	_	
+5-6	172-173	.	_	
+
+#Text=France associates itself with the statement to be\r
+#Text=delivered by the observer of the European Union.
+6-1	177-183	France	_	
+6-2	184-194	associates	_	
+6-3	195-201	itself	_	
+6-4	202-206	with	_	
+6-5	207-210	the	_	
+6-6	211-220	statement	_	
+6-7	221-223	to	_	
+6-8	224-226	be	_	
+6-9	228-237	delivered	_	
+6-10	238-240	by	_	
+6-11	241-244	the	_	
+6-12	245-253	observer	_	
+6-13	254-256	of	_	
+6-14	257-260	the	_	
+6-15	261-269	European	_	
+6-16	270-275	Union	_	
+6-17	275-276	.	_	
+
+#Text=The actions committed by Da'esh in the Middle\r
+#Text=East and by Boko Haram in Africa are a dramatic\r
+#Text=illustration of the links that exist today between\r
+#Text=threats to international peace and security and human\r
+#Text=trafficking.
+7-1	280-283	The	_	
+7-2	284-291	actions	_	
+7-3	292-301	committed	_	
+7-4	302-304	by	_	
+7-5	305-311	Da'esh	VILLAIN	
+7-6	312-314	in	_	
+7-7	315-318	the	_	
+7-8	319-325	Middle	_	
+7-9	327-331	East	_	
+7-10	332-335	and	_	
+7-11	336-338	by	_	
+7-12	339-343	Boko	VILLAIN[2]	
+7-13	344-349	Haram	VILLAIN[2]	
+7-14	350-352	in	_	
+7-15	353-359	Africa	_	
+7-16	360-363	are	_	
+7-17	364-365	a	_	
+7-18	366-374	dramatic	_	
+7-19	376-388	illustration	_	
+7-20	389-391	of	_	
+7-21	392-395	the	_	
+7-22	396-401	links	_	
+7-23	402-406	that	_	
+7-24	407-412	exist	_	
+7-25	413-418	today	_	
+7-26	419-426	between	_	
+7-27	428-435	threats	_	
+7-28	436-438	to	_	
+7-29	439-452	international	_	
+7-30	453-458	peace	_	
+7-31	459-462	and	_	
+7-32	463-471	security	_	
+7-33	472-475	and	_	
+7-34	476-481	human	_	
+7-35	483-494	trafficking	_	
+7-36	494-495	.	_	
+
+#Text=At the global level, trafficking in persons\r
+#Text=and trafficking in drugs and counterfeit currency are\r
+#Text=among the most profitable.
+8-1	496-498	At	_	
+8-2	499-502	the	_	
+8-3	503-509	global	_	
+8-4	510-515	level	_	
+8-5	515-516	,	_	
+8-6	517-528	trafficking	_	
+8-7	529-531	in	_	
+8-8	532-539	persons	VICTIM	
+8-9	541-544	and	_	
+8-10	545-556	trafficking	_	
+8-11	557-559	in	_	
+8-12	560-565	drugs	_	
+8-13	566-569	and	_	
+8-14	570-581	counterfeit	_	
+8-15	582-590	currency	_	
+8-16	591-594	are	_	
+8-17	596-601	among	_	
+8-18	602-605	the	_	
+8-19	606-610	most	_	
+8-20	611-621	profitable	_	
+8-21	621-622	.	_	
+
+#Text=Their annual profits are\r
+#Text=estimated at $32 billion.
+9-1	623-628	Their	_	
+9-2	629-635	annual	_	
+9-3	636-643	profits	_	
+9-4	644-647	are	_	
+9-5	649-658	estimated	_	
+9-6	659-661	at	_	
+9-7	662-665	$32	_	
+9-8	666-673	billion	_	
+9-9	673-674	.	_	
+
+#Text=It is one of the most extensive\r
+#Text=forms of trafficking.
+10-1	675-677	It	_	
+10-2	678-680	is	_	
+10-3	681-684	one	_	
+10-4	685-687	of	_	
+10-5	688-691	the	_	
+10-6	692-696	most	_	
+10-7	697-706	extensive	_	
+10-8	708-713	forms	_	
+10-9	714-716	of	_	
+10-10	717-728	trafficking	_	
+10-11	728-729	.	_	
+
+#Text=Sexual exploitation, forced\r
+#Text=labour, servitude, kidnapping for forced prostitution,\r
+#Text=rape - the list of atrocities committed in armed\r
+#Text=conflict is, unfortunately, long.
+11-1	730-736	Sexual	_	
+11-2	737-749	exploitation	_	
+11-3	749-750	,	_	
+11-4	751-757	forced	_	
+11-5	759-765	labour	_	
+11-6	765-766	,	_	
+11-7	767-776	servitude	_	
+11-8	776-777	,	_	
+11-9	778-788	kidnapping	_	
+11-10	789-792	for	_	
+11-11	793-799	forced	_	
+11-12	800-812	prostitution	_	
+11-13	812-813	,	_	
+11-14	815-819	rape	_	
+11-15	820-821	-	_	
+11-16	822-825	the	_	
+11-17	826-830	list	_	
+11-18	831-833	of	_	
+11-19	834-844	atrocities	_	
+11-20	845-854	committed	_	
+11-21	855-857	in	_	
+11-22	858-863	armed	_	
+11-23	865-873	conflict	_	
+11-24	874-876	is	_	
+11-25	876-877	,	_	
+11-26	878-891	unfortunately	_	
+11-27	891-892	,	_	
+11-28	893-897	long	_	
+11-29	897-898	.	_	
+
+#Text=Deriving profits from\r
+#Text=human beings and considering them as merchandise,\r
+#Text=the traffickers, as well as consumers and users and\r
+#Text=the clients of sexual exploitation, clearly and brutally\r
+#Text=violate their victims' human rights and further stoke\r
+#Text=the causes of conflict.
+12-1	899-907	Deriving	_	
+12-2	908-915	profits	_	
+12-3	916-920	from	_	
+12-4	922-927	human	VICTIM[3]	
+12-5	928-934	beings	VICTIM[3]	
+12-6	935-938	and	_	
+12-7	939-950	considering	_	
+12-8	951-955	them	VICTIM	
+12-9	956-958	as	_	
+12-10	959-970	merchandise	_	
+12-11	970-971	,	_	
+12-12	973-976	the	VILLAIN[4]	
+12-13	977-988	traffickers	VILLAIN[4]	
+12-14	988-989	,	VILLAIN[4]	
+12-15	990-992	as	VILLAIN[4]	
+12-16	993-997	well	VILLAIN[4]	
+12-17	998-1000	as	VILLAIN[4]	
+12-18	1001-1010	consumers	VILLAIN[4]	
+12-19	1011-1014	and	VILLAIN[4]	
+12-20	1015-1020	users	VILLAIN[4]	
+12-21	1021-1024	and	VILLAIN[4]	
+12-22	1026-1029	the	VILLAIN[4]	
+12-23	1030-1037	clients	VILLAIN[4]	
+12-24	1038-1040	of	VILLAIN[4]	
+12-25	1041-1047	sexual	VILLAIN[4]	
+12-26	1048-1060	exploitation	VILLAIN[4]	
+12-27	1060-1061	,	_	
+12-28	1062-1069	clearly	_	
+12-29	1070-1073	and	_	
+12-30	1074-1082	brutally	_	
+12-31	1084-1091	violate	_	
+12-32	1092-1097	their	_	
+12-33	1098-1105	victims	VICTIM	
+12-34	1105-1106	'	_	
+12-35	1107-1112	human	_	
+12-36	1113-1119	rights	_	
+12-37	1120-1123	and	_	
+12-38	1124-1131	further	_	
+12-39	1132-1137	stoke	_	
+12-40	1139-1142	the	_	
+12-41	1143-1149	causes	_	
+12-42	1150-1152	of	_	
+12-43	1153-1161	conflict	_	
+12-44	1161-1162	.	_	
+
+#Text=The international community has invested heavily\r
+#Text=in this problem since the beginning of this century,\r
+#Text=but further efforts are needed in order to address the\r
+#Text=scourge of human trafficking.
+13-1	1166-1169	The	HERO[5]	
+13-2	1170-1183	international	HERO[5]	
+13-3	1184-1193	community	HERO[5]	
+13-4	1194-1197	has	_	
+13-5	1198-1206	invested	_	
+13-6	1207-1214	heavily	_	
+13-7	1216-1218	in	_	
+13-8	1219-1223	this	_	
+13-9	1224-1231	problem	_	
+13-10	1232-1237	since	_	
+13-11	1238-1241	the	_	
+13-12	1242-1251	beginning	_	
+13-13	1252-1254	of	_	
+13-14	1255-1259	this	_	
+13-15	1260-1267	century	_	
+13-16	1267-1268	,	_	
+13-17	1270-1273	but	_	
+13-18	1274-1281	further	_	
+13-19	1282-1289	efforts	_	
+13-20	1290-1293	are	_	
+13-21	1294-1300	needed	_	
+13-22	1301-1303	in	_	
+13-23	1304-1309	order	_	
+13-24	1310-1312	to	_	
+13-25	1313-1320	address	_	
+13-26	1321-1324	the	_	
+13-27	1326-1333	scourge	_	
+13-28	1334-1336	of	_	
+13-29	1337-1342	human	_	
+13-30	1343-1354	trafficking	_	
+13-31	1354-1355	.	_	
+
+#Text=I therefore welcome the\r
+#Text=initiative of the United Kingdom during its presidency\r
+#Text=of the Security Council and thank that country for\r
+#Text=giving us this opportunity to have an exchange on this\r
+#Text=very important subject.
+14-1	1356-1357	I	_	
+14-2	1358-1367	therefore	_	
+14-3	1368-1375	welcome	_	
+14-4	1376-1379	the	_	
+14-5	1381-1391	initiative	_	
+14-6	1392-1394	of	_	
+14-7	1395-1398	the	HERO[6]	
+14-8	1399-1405	United	HERO[6]	
+14-9	1406-1413	Kingdom	HERO[6]	
+14-10	1414-1420	during	_	
+14-11	1421-1424	its	_	
+14-12	1425-1435	presidency	_	
+14-13	1437-1439	of	_	
+14-14	1440-1443	the	_	
+14-15	1444-1452	Security	_	
+14-16	1453-1460	Council	_	
+14-17	1461-1464	and	_	
+14-18	1465-1470	thank	_	
+14-19	1471-1475	that	HERO[7]	
+14-20	1476-1483	country	HERO[7]	
+14-21	1484-1487	for	_	
+14-22	1489-1495	giving	_	
+14-23	1496-1498	us	_	
+14-24	1499-1503	this	_	
+14-25	1504-1515	opportunity	_	
+14-26	1516-1518	to	_	
+14-27	1519-1523	have	_	
+14-28	1524-1526	an	_	
+14-29	1527-1535	exchange	_	
+14-30	1536-1538	on	_	
+14-31	1539-1543	this	_	
+14-32	1545-1549	very	_	
+14-33	1550-1559	important	_	
+14-34	1560-1567	subject	_	
+14-35	1567-1568	.	_	
+
+#Text=For France, the issue oftrafficking in human beings\r
+#Text=and slavery, especially that of women and children, is\r
+#Text=of major importance.
+15-1	1572-1575	For	_	
+15-2	1576-1582	France	HERO	
+15-3	1582-1583	,	_	
+15-4	1584-1587	the	_	
+15-5	1588-1593	issue	_	
+15-6	1594-1607	oftrafficking	_	
+15-7	1608-1610	in	_	
+15-8	1611-1616	human	VICTIM[8]	
+15-9	1617-1623	beings	VICTIM[8]	
+15-10	1625-1628	and	_	
+15-11	1629-1636	slavery	_	
+15-12	1636-1637	,	_	
+15-13	1638-1648	especially	_	
+15-14	1649-1653	that	_	
+15-15	1654-1656	of	_	
+15-16	1657-1662	women	VICTIM[9]	
+15-17	1663-1666	and	VICTIM[9]	
+15-18	1667-1675	children	VICTIM[9]	
+15-19	1675-1676	,	_	
+15-20	1677-1679	is	_	
+15-21	1681-1683	of	_	
+15-22	1684-1689	major	_	
+15-23	1690-1700	importance	_	
+15-24	1700-1701	.	_	
+
+#Text=The statistics are, unfortunately,\r
+#Text=well known, but we must constantly point them out:\r
+#Text=80 per cent of the victims of trafficking are women\r
+#Text=and children.
+16-1	1702-1705	The	_	
+16-2	1706-1716	statistics	_	
+16-3	1717-1720	are	_	
+16-4	1720-1721	,	_	
+16-5	1722-1735	unfortunately	_	
+16-6	1735-1736	,	_	
+16-7	1738-1742	well	_	
+16-8	1743-1748	known	_	
+16-9	1748-1749	,	_	
+16-10	1750-1753	but	_	
+16-11	1754-1756	we	_	
+16-12	1757-1761	must	_	
+16-13	1762-1772	constantly	_	
+16-14	1773-1778	point	_	
+16-15	1779-1783	them	_	
+16-16	1784-1787	out	_	
+16-17	1787-1788	:	_	
+16-18	1790-1792	80	_	
+16-19	1793-1796	per	_	
+16-20	1797-1801	cent	_	
+16-21	1802-1804	of	_	
+16-22	1805-1808	the	_	
+16-23	1809-1816	victims	_	
+16-24	1817-1819	of	_	
+16-25	1820-1831	trafficking	_	
+16-26	1832-1835	are	_	
+16-27	1836-1841	women	VICTIM[10]	
+16-28	1843-1846	and	VICTIM[10]	
+16-29	1847-1855	children	VICTIM[10]	
+16-30	1855-1856	.	_	
+
+#Text=The challenges are also well known:\r
+#Text=the identification of victims is still in its infancy, and\r
+#Text=organized mechanisms for fighting this scourge vary\r
+#Text=greatly between countries.
+17-1	1857-1860	The	_	
+17-2	1861-1871	challenges	_	
+17-3	1872-1875	are	_	
+17-4	1876-1880	also	_	
+17-5	1881-1885	well	_	
+17-6	1886-1891	known	_	
+17-7	1891-1892	:	_	
+17-8	1894-1897	the	_	
+17-9	1898-1912	identification	_	
+17-10	1913-1915	of	_	
+17-11	1916-1923	victims	VICTIM	
+17-12	1924-1926	is	_	
+17-13	1927-1932	still	_	
+17-14	1933-1935	in	_	
+17-15	1936-1939	its	_	
+17-16	1940-1947	infancy	_	
+17-17	1947-1948	,	_	
+17-18	1949-1952	and	_	
+17-19	1954-1963	organized	_	
+17-20	1964-1974	mechanisms	_	
+17-21	1975-1978	for	_	
+17-22	1979-1987	fighting	_	
+17-23	1988-1992	this	_	
+17-24	1993-2000	scourge	_	
+17-25	2001-2005	vary	_	
+17-26	2007-2014	greatly	_	
+17-27	2015-2022	between	_	
+17-28	2023-2032	countries	_	
+17-29	2032-2033	.	_	
+
+#Text=Despite progress since the\r
+#Text=entry into force of the Palermo Protocol to Prevent,\r
+#Text=Suppress and Punish Trafficking in Persons, Especially\r
+#Text=Women and Children, still too few prosecutions have\r
+#Text=been initiated in cases involving the crime of human\r
+#Text=trafficking.
+18-1	2034-2041	Despite	_	
+18-2	2042-2050	progress	_	
+18-3	2051-2056	since	_	
+18-4	2057-2060	the	_	
+18-5	2062-2067	entry	_	
+18-6	2068-2072	into	_	
+18-7	2073-2078	force	_	
+18-8	2079-2081	of	_	
+18-9	2082-2085	the	_	
+18-10	2086-2093	Palermo	_	
+18-11	2094-2102	Protocol	_	
+18-12	2103-2105	to	_	
+18-13	2106-2113	Prevent	_	
+18-14	2113-2114	,	_	
+18-15	2116-2124	Suppress	_	
+18-16	2125-2128	and	_	
+18-17	2129-2135	Punish	_	
+18-18	2136-2147	Trafficking	_	
+18-19	2148-2150	in	_	
+18-20	2151-2158	Persons	_	
+18-21	2158-2159	,	_	
+18-22	2160-2170	Especially	_	
+18-23	2172-2177	Women	_	
+18-24	2178-2181	and	_	
+18-25	2182-2190	Children	_	
+18-26	2190-2191	,	_	
+18-27	2192-2197	still	_	
+18-28	2198-2201	too	_	
+18-29	2202-2205	few	_	
+18-30	2206-2218	prosecutions	_	
+18-31	2219-2223	have	_	
+18-32	2225-2229	been	_	
+18-33	2230-2239	initiated	_	
+18-34	2240-2242	in	_	
+18-35	2243-2248	cases	_	
+18-36	2249-2258	involving	_	
+18-37	2259-2262	the	_	
+18-38	2263-2268	crime	_	
+18-39	2269-2271	of	_	
+18-40	2272-2277	human	_	
+18-41	2279-2290	trafficking	_	
+18-42	2290-2291	.	_	
+
+#Text=The victims themselves do not always assert\r
+#Text=their rights and very often are insufficiently protected.
+19-1	2292-2295	The	VICTIM[11]	
+19-2	2296-2303	victims	VICTIM[11]	
+19-3	2304-2314	themselves	_	
+19-4	2315-2317	do	_	
+19-5	2318-2321	not	_	
+19-6	2322-2328	always	_	
+19-7	2329-2335	assert	_	
+19-8	2337-2342	their	_	
+19-9	2343-2349	rights	_	
+19-10	2350-2353	and	_	
+19-11	2354-2358	very	_	
+19-12	2359-2364	often	_	
+19-13	2365-2368	are	_	
+19-14	2369-2383	insufficiently	_	
+19-15	2384-2393	protected	_	
+19-16	2393-2394	.	_	
+
+#Text=In that context, international cooperation must be\r
+#Text=stepped up so as to increase the geographic coverage\r
+#Text=of the legislation providing effective protection against\r
+#Text=networks and to improve international cooperation\r
+#Text=aimed at dismantling those networks.
+20-1	2396-2398	In	_	
+20-2	2399-2403	that	_	
+20-3	2404-2411	context	_	
+20-4	2411-2412	,	_	
+20-5	2413-2426	international	_	
+20-6	2427-2438	cooperation	_	
+20-7	2439-2443	must	_	
+20-8	2444-2446	be	_	
+20-9	2448-2455	stepped	_	
+20-10	2456-2458	up	_	
+20-11	2459-2461	so	_	
+20-12	2462-2464	as	_	
+20-13	2465-2467	to	_	
+20-14	2468-2476	increase	_	
+20-15	2477-2480	the	_	
+20-16	2481-2491	geographic	_	
+20-17	2492-2500	coverage	_	
+20-18	2502-2504	of	_	
+20-19	2505-2508	the	_	
+20-20	2509-2520	legislation	_	
+20-21	2521-2530	providing	_	
+20-22	2531-2540	effective	_	
+20-23	2541-2551	protection	_	
+20-24	2552-2559	against	_	
+20-25	2561-2569	networks	VILLAIN	
+20-26	2570-2573	and	_	
+20-27	2574-2576	to	_	
+20-28	2577-2584	improve	_	
+20-29	2585-2598	international	_	
+20-30	2599-2610	cooperation	_	
+20-31	2612-2617	aimed	_	
+20-32	2618-2620	at	_	
+20-33	2621-2632	dismantling	_	
+20-34	2633-2638	those	VILLAIN[12]	
+20-35	2639-2647	networks	VILLAIN[12]	
+20-36	2647-2648	.	_	
+
+#Text=Prevention,\r
+#Text=protection and the fight against impunity are the three\r
+#Text=priorities of French diplomacy in the fight against\r
+#Text=trafficking in human beings.
+21-1	2649-2659	Prevention	_	
+21-2	2659-2660	,	_	
+21-3	2662-2672	protection	_	
+21-4	2673-2676	and	_	
+21-5	2677-2680	the	_	
+21-6	2681-2686	fight	_	
+21-7	2687-2694	against	_	
+21-8	2695-2703	impunity	_	
+21-9	2704-2707	are	_	
+21-10	2708-2711	the	_	
+21-11	2712-2717	three	_	
+21-12	2719-2729	priorities	_	
+21-13	2730-2732	of	_	
+21-14	2733-2739	French	_	
+21-15	2740-2749	diplomacy	_	
+21-16	2750-2752	in	_	
+21-17	2753-2756	the	_	
+21-18	2757-2762	fight	_	
+21-19	2763-2770	against	_	
+21-20	2772-2783	trafficking	_	
+21-21	2784-2786	in	_	
+21-22	2787-2792	human	VICTIM[13]	
+21-23	2793-2799	beings	VICTIM[13]	
+21-24	2799-2800	.	_	
+
+#Text=Since human trafficking is now an integral part\r
+#Text=of the strategy of certain terrorist groups and it fuels\r
+#Text=transnational organized crime, the Security Council\r
+#Text=has a special responsibility in combating this scourge.
+22-1	2804-2809	Since	_	
+22-2	2810-2815	human	_	
+22-3	2816-2827	trafficking	_	
+22-4	2828-2830	is	_	
+22-5	2831-2834	now	_	
+22-6	2835-2837	an	_	
+22-7	2838-2846	integral	_	
+22-8	2847-2851	part	_	
+22-9	2853-2855	of	_	
+22-10	2856-2859	the	_	
+22-11	2860-2868	strategy	_	
+22-12	2869-2871	of	_	
+22-13	2872-2879	certain	VILLAIN[14]	
+22-14	2880-2889	terrorist	VILLAIN[14]	
+22-15	2890-2896	groups	VILLAIN[14]	
+22-16	2897-2900	and	_	
+22-17	2901-2903	it	_	
+22-18	2904-2909	fuels	_	
+22-19	2911-2924	transnational	_	
+22-20	2925-2934	organized	_	
+22-21	2935-2940	crime	_	
+22-22	2940-2941	,	_	
+22-23	2942-2945	the	_	
+22-24	2946-2954	Security	_	
+22-25	2955-2962	Council	_	
+22-26	2964-2967	has	_	
+22-27	2968-2969	a	_	
+22-28	2970-2977	special	_	
+22-29	2978-2992	responsibility	_	
+22-30	2993-2995	in	_	
+22-31	2996-3005	combating	_	
+22-32	3006-3010	this	_	
+22-33	3011-3018	scourge	_	
+22-34	3018-3019	.	_	
+
+#Text=The adoption of resolution 2331 (2016), last December,\r
+#Text=at the initiative of Spain, was a major step forward\r
+#Text=towards better addressing the link between trafficking\r
+#Text=in human beings, sexual violence and terrorism.
+23-1	3021-3024	The	_	
+23-2	3025-3033	adoption	_	
+23-3	3034-3036	of	_	
+23-4	3037-3047	resolution	_	
+23-5	3048-3052	2331	_	
+23-6	3053-3054	(	_	
+23-7	3054-3058	2016	_	
+23-8	3058-3059	)	_	
+23-9	3059-3060	,	_	
+23-10	3061-3065	last	_	
+23-11	3066-3074	December	_	
+23-12	3074-3075	,	_	
+23-13	3077-3079	at	_	
+23-14	3080-3083	the	_	
+23-15	3084-3094	initiative	_	
+23-16	3095-3097	of	_	
+23-17	3098-3103	Spain	HERO	
+23-18	3103-3104	,	_	
+23-19	3105-3108	was	_	
+23-20	3109-3110	a	_	
+23-21	3111-3116	major	_	
+23-22	3117-3121	step	_	
+23-23	3122-3129	forward	_	
+23-24	3131-3138	towards	_	
+23-25	3139-3145	better	_	
+23-26	3146-3156	addressing	_	
+23-27	3157-3160	the	_	
+23-28	3161-3165	link	_	
+23-29	3166-3173	between	_	
+23-30	3174-3185	trafficking	_	
+23-31	3187-3189	in	_	
+23-32	3190-3195	human	VICTIM[15]	
+23-33	3196-3202	beings	VICTIM[15]	
+23-34	3202-3203	,	_	
+23-35	3204-3210	sexual	_	
+23-36	3211-3219	violence	_	
+23-37	3220-3223	and	_	
+23-38	3224-3233	terrorism	_	
+23-39	3233-3234	.	_	
+
+#Text=France\r
+#Text=very much looks forward to the report to be prepared by\r
+#Text=the Secretary-General by the end of the year.
+24-1	3235-3241	France	_	
+24-2	3243-3247	very	_	
+24-3	3248-3252	much	_	
+24-4	3253-3258	looks	_	
+24-5	3259-3266	forward	_	
+24-6	3267-3269	to	_	
+24-7	3270-3273	the	_	
+24-8	3274-3280	report	_	
+24-9	3281-3283	to	_	
+24-10	3284-3286	be	_	
+24-11	3287-3295	prepared	_	
+24-12	3296-3298	by	_	
+24-13	3300-3303	the	_	
+24-14	3304-3321	Secretary-General	_	
+24-15	3322-3324	by	_	
+24-16	3325-3328	the	_	
+24-17	3329-3332	end	_	
+24-18	3333-3335	of	_	
+24-19	3336-3339	the	_	
+24-20	3340-3344	year	_	
+24-21	3344-3345	.	_	
+
+#Text=We have in place a robust international legal\r
+#Text=framework and appropriate tools, in particular the\r
+#Text=United Nations Convention against Transnational\r
+#Text=Organized Crime and its Protocols and the United\r
+#Text=Nations Office on Drugs and Crime, which is doing\r
+#Text=sterling work in this field.
+25-1	3349-3351	We	HERO	
+25-2	3352-3356	have	_	
+25-3	3357-3359	in	_	
+25-4	3360-3365	place	_	
+25-5	3366-3367	a	_	
+25-6	3368-3374	robust	_	
+25-7	3375-3388	international	_	
+25-8	3389-3394	legal	_	
+25-9	3396-3405	framework	_	
+25-10	3406-3409	and	_	
+25-11	3410-3421	appropriate	_	
+25-12	3422-3427	tools	_	
+25-13	3427-3428	,	_	
+25-14	3429-3431	in	_	
+25-15	3432-3442	particular	_	
+25-16	3443-3446	the	_	
+25-17	3448-3454	United	_	
+25-18	3455-3462	Nations	_	
+25-19	3463-3473	Convention	_	
+25-20	3474-3481	against	_	
+25-21	3482-3495	Transnational	_	
+25-22	3497-3506	Organized	_	
+25-23	3507-3512	Crime	_	
+25-24	3513-3516	and	_	
+25-25	3517-3520	its	_	
+25-26	3521-3530	Protocols	_	
+25-27	3531-3534	and	_	
+25-28	3535-3538	the	HERO[16]	
+25-29	3539-3545	United	HERO[16]	
+25-30	3547-3554	Nations	HERO[16]	
+25-31	3555-3561	Office	HERO[16]	
+25-32	3562-3564	on	HERO[16]	
+25-33	3565-3570	Drugs	HERO[16]	
+25-34	3571-3574	and	HERO[16]	
+25-35	3575-3580	Crime	HERO[16]	
+25-36	3580-3581	,	_	
+25-37	3582-3587	which	_	
+25-38	3588-3590	is	_	
+25-39	3591-3596	doing	_	
+25-40	3598-3606	sterling	_	
+25-41	3607-3611	work	_	
+25-42	3612-3614	in	_	
+25-43	3615-3619	this	_	
+25-44	3620-3625	field	_	
+25-45	3625-3626	.	_	
+
+#Text=On International Women's Rights Day, the President\r
+#Text=of the French Republic also announced that France\r
+#Text=would propose an additional protocol to the Convention\r
+#Text=for the Elimination of All Forms of Discrimination\r
+#Text=against Women.
+26-1	3630-3632	On	_	
+26-2	3633-3646	International	_	
+26-3	3647-3654	Women's	_	
+26-4	3655-3661	Rights	_	
+26-5	3662-3665	Day	_	
+26-6	3665-3666	,	_	
+26-7	3667-3670	the	HERO[17]	
+26-8	3671-3680	President	HERO[17]	
+26-9	3682-3684	of	HERO[17]	
+26-10	3685-3688	the	HERO[17]	
+26-11	3689-3695	French	HERO[17]	
+26-12	3696-3704	Republic	HERO[17]	
+26-13	3705-3709	also	_	
+26-14	3710-3719	announced	_	
+26-15	3720-3724	that	_	
+26-16	3725-3731	France	HERO	
+26-17	3733-3738	would	_	
+26-18	3739-3746	propose	_	
+26-19	3747-3749	an	_	
+26-20	3750-3760	additional	_	
+26-21	3761-3769	protocol	_	
+26-22	3770-3772	to	_	
+26-23	3773-3776	the	_	
+26-24	3777-3787	Convention	_	
+26-25	3789-3792	for	_	
+26-26	3793-3796	the	_	
+26-27	3797-3808	Elimination	_	
+26-28	3809-3811	of	_	
+26-29	3812-3815	All	_	
+26-30	3816-3821	Forms	_	
+26-31	3822-3824	of	_	
+26-32	3825-3839	Discrimination	_	
+26-33	3841-3848	against	_	
+26-34	3849-3854	Women	_	
+26-35	3854-3855	.	_	
+
+#Text=That protocol would address violence\r
+#Text=against women in order to complement the existing\r
+#Text=international framework.
+27-1	3856-3860	That	_	
+27-2	3861-3869	protocol	_	
+27-3	3870-3875	would	_	
+27-4	3876-3883	address	_	
+27-5	3884-3892	violence	_	
+27-6	3894-3901	against	_	
+27-7	3902-3907	women	VICTIM	
+27-8	3908-3910	in	_	
+27-9	3911-3916	order	_	
+27-10	3917-3919	to	_	
+27-11	3920-3930	complement	_	
+27-12	3931-3934	the	_	
+27-13	3935-3943	existing	_	
+27-14	3945-3958	international	_	
+27-15	3959-3968	framework	_	
+27-16	3968-3969	.	_	
+
+#Text=But we must ensure that\r
+#Text=the obligations arising from that legal framework are\r
+#Text=effectively implemented.
+28-1	3970-3973	But	_	
+28-2	3974-3976	we	_	
+28-3	3977-3981	must	_	
+28-4	3982-3988	ensure	_	
+28-5	3989-3993	that	_	
+28-6	3995-3998	the	_	
+28-7	3999-4010	obligations	_	
+28-8	4011-4018	arising	_	
+28-9	4019-4023	from	_	
+28-10	4024-4028	that	_	
+28-11	4029-4034	legal	_	
+28-12	4035-4044	framework	_	
+28-13	4045-4048	are	_	
+28-14	4050-4061	effectively	_	
+28-15	4062-4073	implemented	_	
+28-16	4073-4074	.	_	
+
+#Text=Our words must now be\r
+#Text=translated into action.
+29-1	4075-4078	Our	_	
+29-2	4079-4084	words	_	
+29-3	4085-4089	must	_	
+29-4	4090-4093	now	_	
+29-5	4094-4096	be	_	
+29-6	4098-4108	translated	_	
+29-7	4109-4113	into	_	
+29-8	4114-4120	action	_	
+29-9	4120-4121	.	_	
+
+#Text=Rest assured, Mr.
+30-1	4125-4129	Rest	_	
+30-2	4130-4137	assured	_	
+30-3	4137-4138	,	_	
+30-4	4139-4141	Mr	_	
+30-5	4141-4142	.	_	
+
+#Text=President, that France will\r
+#Text=continue to play its full part in those efforts.
+31-1	4143-4152	President	_	
+31-2	4152-4153	,	_	
+31-3	4154-4158	that	_	
+31-4	4159-4165	France	HERO	
+31-5	4166-4170	will	_	
+31-6	4172-4180	continue	_	
+31-7	4181-4183	to	_	
+31-8	4184-4188	play	_	
+31-9	4189-4192	its	_	
+31-10	4193-4197	full	_	
+31-11	4198-4202	part	_	
+31-12	4203-4205	in	_	
+31-13	4206-4211	those	_	
+31-14	4212-4219	efforts	_	
+31-15	4219-4220	.	_	

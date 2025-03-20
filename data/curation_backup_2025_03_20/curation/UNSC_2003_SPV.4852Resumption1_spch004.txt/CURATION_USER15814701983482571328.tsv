@@ -1,0 +1,892 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mr.
+1-1	0-2	Mr	_	
+1-2	2-3	.	_	
+
+#Text=Dauth (Australia): Thank you, Mr.
+2-1	4-9	Dauth	_	
+2-2	10-11	(	_	
+2-3	11-20	Australia	_	
+2-4	20-21	)	_	
+2-5	21-22	:	_	
+2-6	23-28	Thank	_	
+2-7	29-32	you	HERO[1]	
+2-8	32-33	,	HERO[1]	
+2-9	34-36	Mr	HERO[1]	
+2-10	36-37	.	HERO[1]	
+
+#Text=President,\r
+#Text=for the opportunity to speak today.
+3-1	38-47	President	HERO[1]	
+3-2	47-48	,	_	
+3-3	50-53	for	_	
+3-4	54-57	the	_	
+3-5	58-69	opportunity	_	
+3-6	70-72	to	_	
+3-7	73-78	speak	_	
+3-8	79-84	today	_	
+3-9	84-85	.	_	
+
+#Text=It would be remiss\r
+#Text=of me not to begin, Sir, without acknowledging your\r
+#Text=personal commitment and energy in carrying this\r
+#Text=debate forward.
+4-1	86-88	It	_	
+4-2	89-94	would	_	
+4-3	95-97	be	_	
+4-4	98-104	remiss	_	
+4-5	106-108	of	_	
+4-6	109-111	me	_	
+4-7	112-115	not	_	
+4-8	116-118	to	_	
+4-9	119-124	begin	_	
+4-10	124-125	,	_	
+4-11	126-129	Sir	HERO	
+4-12	129-130	,	_	
+4-13	131-138	without	_	
+4-14	139-152	acknowledging	_	
+4-15	153-157	your	_	
+4-16	159-167	personal	_	
+4-17	168-178	commitment	_	
+4-18	179-182	and	_	
+4-19	183-189	energy	_	
+4-20	190-192	in	_	
+4-21	193-201	carrying	_	
+4-22	202-206	this	_	
+4-23	208-214	debate	_	
+4-24	215-222	forward	_	
+4-25	222-223	.	_	
+
+#Text=We also thank Under-Secretary-\r
+#Text=General Guehenno and Amy Smythe for their very\r
+#Text=helpful presentations this morning.
+5-1	224-226	We	_	
+5-2	227-231	also	_	
+5-3	232-237	thank	_	
+5-4	238-253	Under-Secretary	HERO[2]	
+5-5	253-254	-	HERO[2]	
+5-6	256-263	General	HERO[2]	
+5-7	264-272	Guehenno	HERO[2]	
+5-8	273-276	and	HERO[2]	
+5-9	277-280	Amy	HERO[2]	
+5-10	281-287	Smythe	HERO[2]	
+5-11	288-291	for	_	
+5-12	292-297	their	_	
+5-13	298-302	very	_	
+5-14	304-311	helpful	_	
+5-15	312-325	presentations	_	
+5-16	326-330	this	_	
+5-17	331-338	morning	_	
+5-18	338-339	.	_	
+
+#Text=At the risk of\r
+#Text=annoying the interpreters, I shall summarize my\r
+#Text=prepared remarks to make them even briefer than they\r
+#Text=were, in the interest of moving things along this\r
+#Text=afternoon.
+6-1	340-342	At	_	
+6-2	343-346	the	_	
+6-3	347-351	risk	_	
+6-4	352-354	of	_	
+6-5	356-364	annoying	_	
+6-6	365-368	the	_	
+6-7	369-381	interpreters	_	
+6-8	381-382	,	_	
+6-9	383-384	I	_	
+6-10	385-390	shall	_	
+6-11	391-400	summarize	_	
+6-12	401-403	my	_	
+6-13	405-413	prepared	_	
+6-14	414-421	remarks	_	
+6-15	422-424	to	_	
+6-16	425-429	make	_	
+6-17	430-434	them	_	
+6-18	435-439	even	_	
+6-19	440-447	briefer	_	
+6-20	448-452	than	_	
+6-21	453-457	they	_	
+6-22	459-463	were	_	
+6-23	463-464	,	_	
+6-24	465-467	in	_	
+6-25	468-471	the	_	
+6-26	472-480	interest	_	
+6-27	481-483	of	_	
+6-28	484-490	moving	_	
+6-29	491-497	things	_	
+6-30	498-503	along	_	
+6-31	504-508	this	_	
+6-32	510-519	afternoon	_	
+6-33	519-520	.	_	
+
+#Text=But I cannot leave out the first paragraph,\r
+#Text=which notes that this is the third anniversary of the\r
+#Text=adoption of resolution 1325 (2000) and that we,\r
+#Text=Australia, are proud to reaffirm our commitment to that\r
+#Text=resolution.
+7-1	521-524	But	_	
+7-2	525-526	I	_	
+7-3	527-533	cannot	_	
+7-4	534-539	leave	_	
+7-5	540-543	out	_	
+7-6	544-547	the	_	
+7-7	548-553	first	_	
+7-8	554-563	paragraph	_	
+7-9	563-564	,	_	
+7-10	566-571	which	_	
+7-11	572-577	notes	_	
+7-12	578-582	that	_	
+7-13	583-587	this	_	
+7-14	588-590	is	_	
+7-15	591-594	the	_	
+7-16	595-600	third	_	
+7-17	601-612	anniversary	_	
+7-18	613-615	of	_	
+7-19	616-619	the	_	
+7-20	621-629	adoption	_	
+7-21	630-632	of	_	
+7-22	633-643	resolution	_	
+7-23	644-648	1325	_	
+7-24	649-650	(	_	
+7-25	650-654	2000	_	
+7-26	654-655	)	_	
+7-27	656-659	and	_	
+7-28	660-664	that	_	
+7-29	665-667	we	HERO[3]	
+7-30	667-668	,	HERO[3]	
+7-31	670-679	Australia	HERO[3]	
+7-32	679-680	,	_	
+7-33	681-684	are	_	
+7-34	685-690	proud	_	
+7-35	691-693	to	_	
+7-36	694-702	reaffirm	_	
+7-37	703-706	our	_	
+7-38	707-717	commitment	_	
+7-39	718-720	to	_	
+7-40	721-725	that	_	
+7-41	727-737	resolution	_	
+7-42	737-738	.	_	
+
+#Text=Resolution 1325 (2000) was the first resolution\r
+#Text=addressing gender issues to be passed by the Security\r
+#Text=Council.
+8-1	742-752	Resolution	HERO[4]	
+8-2	753-757	1325	HERO[4]	
+8-3	758-759	(	HERO[4]	
+8-4	759-763	2000	HERO[4]	
+8-5	763-764	)	HERO[4]	
+8-6	765-768	was	_	
+8-7	769-772	the	_	
+8-8	773-778	first	_	
+8-9	779-789	resolution	_	
+8-10	791-801	addressing	_	
+8-11	802-808	gender	_	
+8-12	809-815	issues	_	
+8-13	816-818	to	_	
+8-14	819-821	be	_	
+8-15	822-828	passed	_	
+8-16	829-831	by	_	
+8-17	832-835	the	_	
+8-18	836-844	Security	_	
+8-19	846-853	Council	_	
+8-20	853-854	.	_	
+
+#Text=A great deal has been accomplished since\r
+#Text=then, but a great deal more needs to be done.
+9-1	855-856	A	_	
+9-2	857-862	great	_	
+9-3	863-867	deal	_	
+9-4	868-871	has	_	
+9-5	872-876	been	_	
+9-6	877-889	accomplished	_	
+9-7	890-895	since	_	
+9-8	897-901	then	_	
+9-9	901-902	,	_	
+9-10	903-906	but	_	
+9-11	907-908	a	_	
+9-12	909-914	great	_	
+9-13	915-919	deal	_	
+9-14	920-924	more	_	
+9-15	925-930	needs	_	
+9-16	931-933	to	_	
+9-17	934-936	be	_	
+9-18	937-941	done	_	
+9-19	941-942	.	_	
+
+#Text=Not least,\r
+#Text=of course, because women and girls remain\r
+#Text=overwhelmingly the main victims of armed conflict,\r
+#Text=often victims in the most horrific of ways.
+10-1	943-946	Not	_	
+10-2	947-952	least	_	
+10-3	952-953	,	_	
+10-4	955-957	of	_	
+10-5	958-964	course	_	
+10-6	964-965	,	_	
+10-7	966-973	because	_	
+10-8	974-979	women	VICTIM[5]	
+10-9	980-983	and	VICTIM[5]	
+10-10	984-989	girls	VICTIM[5]	
+10-11	990-996	remain	_	
+10-12	998-1012	overwhelmingly	_	
+10-13	1013-1016	the	_	
+10-14	1017-1021	main	_	
+10-15	1022-1029	victims	_	
+10-16	1030-1032	of	_	
+10-17	1033-1038	armed	_	
+10-18	1039-1047	conflict	_	
+10-19	1047-1048	,	_	
+10-20	1050-1055	often	_	
+10-21	1056-1063	victims	_	
+10-22	1064-1066	in	_	
+10-23	1067-1070	the	_	
+10-24	1071-1075	most	_	
+10-25	1076-1084	horrific	_	
+10-26	1085-1087	of	_	
+10-27	1088-1092	ways	_	
+10-28	1092-1093	.	_	
+
+#Text=Women continue to be significantly under-\r
+#Text=represented in peace-building, peacekeeping and post-\r
+#Text=conflict reconciliation and reconstruction, despite the\r
+#Text=acknowledgement by resolution 1325 (2000) of their\r
+#Text=importance in those areas.
+11-1	1097-1102	Women	VICTIM[6]|HERO[7]	
+11-2	1103-1111	continue	_	
+11-3	1112-1114	to	_	
+11-4	1115-1117	be	_	
+11-5	1118-1131	significantly	_	
+11-6	1132-1137	under	_	
+11-7	1137-1138	-	_	
+11-8	1140-1151	represented	_	
+11-9	1152-1154	in	_	
+11-10	1155-1169	peace-building	_	
+11-11	1169-1170	,	_	
+11-12	1171-1183	peacekeeping	_	
+11-13	1184-1187	and	_	
+11-14	1188-1192	post	_	
+11-15	1192-1193	-	_	
+11-16	1195-1203	conflict	_	
+11-17	1204-1218	reconciliation	_	
+11-18	1219-1222	and	_	
+11-19	1223-1237	reconstruction	_	
+11-20	1237-1238	,	_	
+11-21	1239-1246	despite	_	
+11-22	1247-1250	the	_	
+11-23	1252-1267	acknowledgement	_	
+11-24	1268-1270	by	_	
+11-25	1271-1281	resolution	HERO[8]	
+11-26	1282-1286	1325	HERO[8]	
+11-27	1287-1288	(	HERO[8]	
+11-28	1288-1292	2000	HERO[8]	
+11-29	1292-1293	)	HERO[8]	
+11-30	1294-1296	of	_	
+11-31	1297-1302	their	_	
+11-32	1304-1314	importance	_	
+11-33	1315-1317	in	_	
+11-34	1318-1323	those	_	
+11-35	1324-1329	areas	_	
+11-36	1329-1330	.	_	
+
+#Text=So much still needs to be\r
+#Text=done.
+12-1	1331-1333	So	_	
+12-2	1334-1338	much	_	
+12-3	1339-1344	still	_	
+12-4	1345-1350	needs	_	
+12-5	1351-1353	to	_	
+12-6	1354-1356	be	_	
+12-7	1358-1362	done	_	
+12-8	1362-1363	.	_	
+
+#Text=We have some very relevant experience in the\r
+#Text=Pacific region which bears attention at the United\r
+#Text=Nations and by Member States more generally.
+13-1	1367-1369	We	HERO	
+13-2	1370-1374	have	_	
+13-3	1375-1379	some	_	
+13-4	1380-1384	very	_	
+13-5	1385-1393	relevant	_	
+13-6	1394-1404	experience	_	
+13-7	1405-1407	in	_	
+13-8	1408-1411	the	_	
+13-9	1413-1420	Pacific	_	
+13-10	1421-1427	region	_	
+13-11	1428-1433	which	_	
+13-12	1434-1439	bears	_	
+13-13	1440-1449	attention	_	
+13-14	1450-1452	at	_	
+13-15	1453-1456	the	_	
+13-16	1457-1463	United	_	
+13-17	1465-1472	Nations	_	
+13-18	1473-1476	and	_	
+13-19	1477-1479	by	_	
+13-20	1480-1486	Member	_	
+13-21	1487-1493	States	_	
+13-22	1494-1498	more	_	
+13-23	1499-1508	generally	_	
+13-24	1508-1509	.	_	
+
+#Text=In\r
+#Text=particular, we have built issues of the impact of conflict\r
+#Text=on women and children into our peace, conflict and\r
+#Text=development policy, which is now an integral part of\r
+#Text=our aid policy.
+14-1	1510-1512	In	_	
+14-2	1514-1524	particular	_	
+14-3	1524-1525	,	_	
+14-4	1526-1528	we	HERO	
+14-5	1529-1533	have	_	
+14-6	1534-1539	built	_	
+14-7	1540-1546	issues	_	
+14-8	1547-1549	of	_	
+14-9	1550-1553	the	_	
+14-10	1554-1560	impact	_	
+14-11	1561-1563	of	_	
+14-12	1564-1572	conflict	_	
+14-13	1574-1576	on	_	
+14-14	1577-1582	women	VICTIM[9]	
+14-15	1583-1586	and	VICTIM[9]	
+14-16	1587-1595	children	VICTIM[9]	
+14-17	1596-1600	into	_	
+14-18	1601-1604	our	_	
+14-19	1605-1610	peace	_	
+14-20	1610-1611	,	_	
+14-21	1612-1620	conflict	_	
+14-22	1621-1624	and	_	
+14-23	1626-1637	development	_	
+14-24	1638-1644	policy	_	
+14-25	1644-1645	,	_	
+14-26	1646-1651	which	_	
+14-27	1652-1654	is	_	
+14-28	1655-1658	now	_	
+14-29	1659-1661	an	_	
+14-30	1662-1670	integral	_	
+14-31	1671-1675	part	_	
+14-32	1676-1678	of	_	
+14-33	1680-1683	our	_	
+14-34	1684-1687	aid	_	
+14-35	1688-1694	policy	_	
+14-36	1694-1695	.	_	
+
+#Text=We have had experience, in both the Solomon\r
+#Text=Islands and Bougainville, of drawing particularly on\r
+#Text=the contribution which women in both of those conflict\r
+#Text=areas have been able to make.
+15-1	1699-1701	We	HERO	
+15-2	1702-1706	have	_	
+15-3	1707-1710	had	_	
+15-4	1711-1721	experience	_	
+15-5	1721-1722	,	_	
+15-6	1723-1725	in	_	
+15-7	1726-1730	both	_	
+15-8	1731-1734	the	_	
+15-9	1735-1742	Solomon	_	
+15-10	1744-1751	Islands	_	
+15-11	1752-1755	and	_	
+15-12	1756-1768	Bougainville	_	
+15-13	1768-1769	,	_	
+15-14	1770-1772	of	_	
+15-15	1773-1780	drawing	_	
+15-16	1781-1793	particularly	_	
+15-17	1794-1796	on	_	
+15-18	1798-1801	the	_	
+15-19	1802-1814	contribution	_	
+15-20	1815-1820	which	_	
+15-21	1821-1826	women	HERO	
+15-22	1827-1829	in	_	
+15-23	1830-1834	both	_	
+15-24	1835-1837	of	_	
+15-25	1838-1843	those	_	
+15-26	1844-1852	conflict	_	
+15-27	1854-1859	areas	_	
+15-28	1860-1864	have	_	
+15-29	1865-1869	been	_	
+15-30	1870-1874	able	_	
+15-31	1875-1877	to	_	
+15-32	1878-1882	make	_	
+15-33	1882-1883	.	_	
+
+#Text=In particular it is the\r
+#Text=case in the Solomon Islands and Bougainville that\r
+#Text=women have made a more than equal contribution\r
+#Text=toward the achievement of peace.
+16-1	1884-1886	In	_	
+16-2	1887-1897	particular	_	
+16-3	1898-1900	it	_	
+16-4	1901-1903	is	_	
+16-5	1904-1907	the	_	
+16-6	1909-1913	case	_	
+16-7	1914-1916	in	_	
+16-8	1917-1920	the	_	
+16-9	1921-1928	Solomon	_	
+16-10	1929-1936	Islands	_	
+16-11	1937-1940	and	_	
+16-12	1941-1953	Bougainville	_	
+16-13	1954-1958	that	_	
+16-14	1960-1965	women	HERO	
+16-15	1966-1970	have	_	
+16-16	1971-1975	made	_	
+16-17	1976-1977	a	_	
+16-18	1978-1982	more	_	
+16-19	1983-1987	than	_	
+16-20	1988-1993	equal	_	
+16-21	1994-2006	contribution	_	
+16-22	2008-2014	toward	_	
+16-23	2015-2018	the	_	
+16-24	2019-2030	achievement	_	
+16-25	2031-2033	of	_	
+16-26	2034-2039	peace	_	
+16-27	2039-2040	.	_	
+
+#Text=I am pleased to note that we have a senior\r
+#Text=Australian policewoman as the current United Nations\r
+#Text=Police Commissioner in East Timor.
+17-1	2044-2045	I	_	
+17-2	2046-2048	am	_	
+17-3	2049-2056	pleased	_	
+17-4	2057-2059	to	_	
+17-5	2060-2064	note	_	
+17-6	2065-2069	that	_	
+17-7	2070-2072	we	HERO	
+17-8	2073-2077	have	_	
+17-9	2078-2079	a	HERO[10]	
+17-10	2080-2086	senior	HERO[10]	
+17-11	2088-2098	Australian	HERO[10]	
+17-12	2099-2110	policewoman	HERO[10]	
+17-13	2111-2113	as	_	
+17-14	2114-2117	the	_	
+17-15	2118-2125	current	_	
+17-16	2126-2132	United	_	
+17-17	2133-2140	Nations	_	
+17-18	2142-2148	Police	_	
+17-19	2149-2161	Commissioner	_	
+17-20	2162-2164	in	_	
+17-21	2165-2169	East	_	
+17-22	2170-2175	Timor	_	
+17-23	2175-2176	.	_	
+
+#Text=Police\r
+#Text=Commissioner Sandra Peisly is the only woman\r
+#Text=holding such a position in an operation of the\r
+#Text=Department of Peacekeeping Operations (DPKO).
+18-1	2177-2183	Police	HERO[11]	
+18-2	2185-2197	Commissioner	HERO[11]	
+18-3	2198-2204	Sandra	HERO[11]	
+18-4	2205-2211	Peisly	HERO[11]	
+18-5	2212-2214	is	_	
+18-6	2215-2218	the	_	
+18-7	2219-2223	only	_	
+18-8	2224-2229	woman	_	
+18-9	2231-2238	holding	_	
+18-10	2239-2243	such	_	
+18-11	2244-2245	a	_	
+18-12	2246-2254	position	_	
+18-13	2255-2257	in	_	
+18-14	2258-2260	an	_	
+18-15	2261-2270	operation	_	
+18-16	2271-2273	of	_	
+18-17	2274-2277	the	_	
+18-18	2279-2289	Department	_	
+18-19	2290-2292	of	_	
+18-20	2293-2305	Peacekeeping	_	
+18-21	2306-2316	Operations	_	
+18-22	2317-2318	(	_	
+18-23	2318-2322	DPKO	_	
+18-24	2322-2323	)	_	
+18-25	2323-2324	.	_	
+
+#Text=We\r
+#Text=make a concerted effort to include women\r
+#Text=peacekeepers in our peacekeeping contributions around\r
+#Text=the world.
+19-1	2325-2327	We	HERO	
+19-2	2329-2333	make	_	
+19-3	2334-2335	a	_	
+19-4	2336-2345	concerted	_	
+19-5	2346-2352	effort	_	
+19-6	2353-2355	to	_	
+19-7	2356-2363	include	_	
+19-8	2364-2369	women	HERO[12]	
+19-9	2371-2383	peacekeepers	HERO[12]	
+19-10	2384-2386	in	_	
+19-11	2387-2390	our	_	
+19-12	2391-2403	peacekeeping	_	
+19-13	2404-2417	contributions	_	
+19-14	2418-2424	around	_	
+19-15	2426-2429	the	_	
+19-16	2430-2435	world	_	
+19-17	2435-2436	.	_	
+
+#Text=We remain committed to the sustainable\r
+#Text=implementation of resolution 1325 (2000).
+20-1	2440-2442	We	HERO	
+20-2	2443-2449	remain	_	
+20-3	2450-2459	committed	_	
+20-4	2460-2462	to	_	
+20-5	2463-2466	the	_	
+20-6	2467-2478	sustainable	_	
+20-7	2480-2494	implementation	_	
+20-8	2495-2497	of	_	
+20-9	2498-2508	resolution	_	
+20-10	2509-2513	1325	_	
+20-11	2514-2515	(	_	
+20-12	2515-2519	2000	_	
+20-13	2519-2520	)	_	
+20-14	2520-2521	.	_	
+
+#Text=We\r
+#Text=commend the first steps that have been taken towards\r
+#Text=that objective, including through the appointment of a\r
+#Text=Gender Adviser in the Department of Peacekeeping\r
+#Text=Operations, as others have noted, and the development\r
+#Text=of gender action plans in the Department for\r
+#Text=Disarmament Affairs and the Office for the\r
+#Text=Coordination of Humanitarian Affairs.
+21-1	2522-2524	We	_	
+21-2	2526-2533	commend	_	
+21-3	2534-2537	the	_	
+21-4	2538-2543	first	_	
+21-5	2544-2549	steps	_	
+21-6	2550-2554	that	_	
+21-7	2555-2559	have	_	
+21-8	2560-2564	been	_	
+21-9	2565-2570	taken	_	
+21-10	2571-2578	towards	_	
+21-11	2580-2584	that	_	
+21-12	2585-2594	objective	_	
+21-13	2594-2595	,	_	
+21-14	2596-2605	including	_	
+21-15	2606-2613	through	_	
+21-16	2614-2617	the	_	
+21-17	2618-2629	appointment	_	
+21-18	2630-2632	of	_	
+21-19	2633-2634	a	HERO[13]	
+21-20	2636-2642	Gender	HERO[13]	
+21-21	2643-2650	Adviser	HERO[13]	
+21-22	2651-2653	in	HERO[13]	
+21-23	2654-2657	the	HERO[13]	
+21-24	2658-2668	Department	HERO[13]	
+21-25	2669-2671	of	HERO[13]	
+21-26	2672-2684	Peacekeeping	HERO[13]	
+21-27	2686-2696	Operations	HERO[13]	
+21-28	2696-2697	,	_	
+21-29	2698-2700	as	_	
+21-30	2701-2707	others	_	
+21-31	2708-2712	have	_	
+21-32	2713-2718	noted	_	
+21-33	2718-2719	,	_	
+21-34	2720-2723	and	_	
+21-35	2724-2727	the	_	
+21-36	2728-2739	development	_	
+21-37	2741-2743	of	_	
+21-38	2744-2750	gender	_	
+21-39	2751-2757	action	_	
+21-40	2758-2763	plans	_	
+21-41	2764-2766	in	_	
+21-42	2767-2770	the	HERO[14]	
+21-43	2771-2781	Department	HERO[14]	
+21-44	2782-2785	for	HERO[14]	
+21-45	2787-2798	Disarmament	HERO[14]	
+21-46	2799-2806	Affairs	HERO[14]	
+21-47	2807-2810	and	HERO[14]	
+21-48	2811-2814	the	HERO[14]	
+21-49	2815-2821	Office	HERO[14]	
+21-50	2822-2825	for	HERO[14]	
+21-51	2826-2829	the	HERO[14]	
+21-52	2831-2843	Coordination	HERO[14]	
+21-53	2844-2846	of	HERO[14]	
+21-54	2847-2859	Humanitarian	HERO[14]	
+21-55	2860-2867	Affairs	HERO[14]	
+21-56	2867-2868	.	_	
+
+#Text=We note also\r
+#Text=that DPKO is developing a field guide to gender\r
+#Text=mainstreaming and has issued a gender and\r
+#Text=peacekeeping training manual.
+22-1	2869-2871	We	_	
+22-2	2872-2876	note	_	
+22-3	2877-2881	also	_	
+22-4	2883-2887	that	_	
+22-5	2888-2892	DPKO	HERO	
+22-6	2893-2895	is	_	
+22-7	2896-2906	developing	_	
+22-8	2907-2908	a	_	
+22-9	2909-2914	field	_	
+22-10	2915-2920	guide	_	
+22-11	2921-2923	to	_	
+22-12	2924-2930	gender	_	
+22-13	2932-2945	mainstreaming	_	
+22-14	2946-2949	and	_	
+22-15	2950-2953	has	_	
+22-16	2954-2960	issued	_	
+22-17	2961-2962	a	_	
+22-18	2963-2969	gender	_	
+22-19	2970-2973	and	_	
+22-20	2975-2987	peacekeeping	_	
+22-21	2988-2996	training	_	
+22-22	2997-3003	manual	_	
+22-23	3003-3004	.	_	
+
+#Text=In all of this,\r
+#Text=Jean-Marie Guehenno deserves commendation for his\r
+#Text=leadership.
+23-1	3005-3007	In	_	
+23-2	3008-3011	all	_	
+23-3	3012-3014	of	_	
+23-4	3015-3019	this	_	
+23-5	3019-3020	,	_	
+23-6	3022-3032	Jean-Marie	HERO[15]	
+23-7	3033-3041	Guehenno	HERO[15]	
+23-8	3042-3050	deserves	_	
+23-9	3051-3063	commendation	_	
+23-10	3064-3067	for	_	
+23-11	3068-3071	his	_	
+23-12	3073-3083	leadership	_	
+23-13	3083-3084	.	_	
+
+#Text=But, as I have already said, much more needs to\r
+#Text=be done.
+24-1	3088-3091	But	_	
+24-2	3091-3092	,	_	
+24-3	3093-3095	as	_	
+24-4	3096-3097	I	_	
+24-5	3098-3102	have	_	
+24-6	3103-3110	already	_	
+24-7	3111-3115	said	_	
+24-8	3115-3116	,	_	
+24-9	3117-3121	much	_	
+24-10	3122-3126	more	_	
+24-11	3127-3132	needs	_	
+24-12	3133-3135	to	_	
+24-13	3137-3139	be	_	
+24-14	3140-3144	done	_	
+24-15	3144-3145	.	_	
+
+#Text=Without further concrete action, resolution\r
+#Text=1325 (2000) will only remain a set of aspirational\r
+#Text=standards.
+25-1	3146-3153	Without	_	
+25-2	3154-3161	further	_	
+25-3	3162-3170	concrete	_	
+25-4	3171-3177	action	_	
+25-5	3177-3178	,	_	
+25-6	3179-3189	resolution	_	
+25-7	3191-3195	1325	_	
+25-8	3196-3197	(	_	
+25-9	3197-3201	2000	_	
+25-10	3201-3202	)	_	
+25-11	3203-3207	will	_	
+25-12	3208-3212	only	_	
+25-13	3213-3219	remain	_	
+25-14	3220-3221	a	_	
+25-15	3222-3225	set	_	
+25-16	3226-3228	of	_	
+25-17	3229-3241	aspirational	_	
+25-18	3243-3252	standards	_	
+25-19	3252-3253	.	_	
+
+#Text=In that context there are some questions\r
+#Text=which many others have asked but which, I think,\r
+#Text=DPKO and the Secretariat more generally need\r
+#Text=constantly to address.
+26-1	3254-3256	In	_	
+26-2	3257-3261	that	_	
+26-3	3262-3269	context	_	
+26-4	3270-3275	there	_	
+26-5	3276-3279	are	_	
+26-6	3280-3284	some	_	
+26-7	3285-3294	questions	_	
+26-8	3296-3301	which	_	
+26-9	3302-3306	many	_	
+26-10	3307-3313	others	_	
+26-11	3314-3318	have	_	
+26-12	3319-3324	asked	_	
+26-13	3325-3328	but	_	
+26-14	3329-3334	which	_	
+26-15	3334-3335	,	_	
+26-16	3336-3337	I	_	
+26-17	3338-3343	think	_	
+26-18	3343-3344	,	_	
+26-19	3346-3350	DPKO	VILLAIN[16]	
+26-20	3351-3354	and	VILLAIN[16]	
+26-21	3355-3358	the	VILLAIN[16]	
+26-22	3359-3370	Secretariat	VILLAIN[16]	
+26-23	3371-3375	more	_	
+26-24	3376-3385	generally	_	
+26-25	3386-3390	need	_	
+26-26	3392-3402	constantly	_	
+26-27	3403-3405	to	_	
+26-28	3406-3413	address	_	
+26-29	3413-3414	.	_	
+
+#Text=What are the hurdles in\r
+#Text=achieving the implementation of resolution 1325\r
+#Text=(2000) in current peacekeeping operations?
+27-1	3415-3419	What	_	
+27-2	3420-3423	are	_	
+27-3	3424-3427	the	_	
+27-4	3428-3435	hurdles	_	
+27-5	3436-3438	in	_	
+27-6	3440-3449	achieving	_	
+27-7	3450-3453	the	_	
+27-8	3454-3468	implementation	_	
+27-9	3469-3471	of	_	
+27-10	3472-3482	resolution	_	
+27-11	3483-3487	1325	_	
+27-12	3489-3490	(	_	
+27-13	3490-3494	2000	_	
+27-14	3494-3495	)	_	
+27-15	3496-3498	in	_	
+27-16	3499-3506	current	_	
+27-17	3507-3519	peacekeeping	_	
+27-18	3520-3530	operations	_	
+27-19	3530-3531	?	_	
+
+#Text=Has the\r
+#Text=Secretariat put into place any institutional mechanisms\r
+#Text=to monitor progress made in the implementation of\r
+#Text=resolution 1325 (2000)?
+28-1	3532-3535	Has	_	
+28-2	3536-3539	the	VILLAIN[17]	
+28-3	3541-3552	Secretariat	VILLAIN[17]	
+28-4	3553-3556	put	_	
+28-5	3557-3561	into	_	
+28-6	3562-3567	place	_	
+28-7	3568-3571	any	_	
+28-8	3572-3585	institutional	_	
+28-9	3586-3596	mechanisms	_	
+28-10	3598-3600	to	_	
+28-11	3601-3608	monitor	_	
+28-12	3609-3617	progress	_	
+28-13	3618-3622	made	_	
+28-14	3623-3625	in	_	
+28-15	3626-3629	the	_	
+28-16	3630-3644	implementation	_	
+28-17	3645-3647	of	_	
+28-18	3649-3659	resolution	_	
+28-19	3660-3664	1325	_	
+28-20	3665-3666	(	_	
+28-21	3666-3670	2000	_	
+28-22	3670-3671	)	_	
+28-23	3671-3672	?	_	
+
+#Text=What efforts are being made to\r
+#Text=ensure that the recommendations in resolution 1325\r
+#Text=(2000) are mainstreamed into the work programmes of\r
+#Text=all United Nations agencies?
+29-1	3673-3677	What	_	
+29-2	3678-3685	efforts	_	
+29-3	3686-3689	are	_	
+29-4	3690-3695	being	_	
+29-5	3696-3700	made	_	
+29-6	3701-3703	to	_	
+29-7	3705-3711	ensure	_	
+29-8	3712-3716	that	_	
+29-9	3717-3720	the	_	
+29-10	3721-3736	recommendations	_	
+29-11	3737-3739	in	_	
+29-12	3740-3750	resolution	_	
+29-13	3751-3755	1325	_	
+29-14	3757-3758	(	_	
+29-15	3758-3762	2000	_	
+29-16	3762-3763	)	_	
+29-17	3764-3767	are	_	
+29-18	3768-3780	mainstreamed	_	
+29-19	3781-3785	into	_	
+29-20	3786-3789	the	_	
+29-21	3790-3794	work	_	
+29-22	3795-3805	programmes	_	
+29-23	3806-3808	of	_	
+29-24	3810-3813	all	_	
+29-25	3814-3820	United	_	
+29-26	3821-3828	Nations	_	
+29-27	3829-3837	agencies	_	
+29-28	3837-3838	?	_	
+
+#Text=The responsibility for implementing resolution\r
+#Text=1325 (2000) rests not only with the Secretariat.
+30-1	3842-3845	The	_	
+30-2	3846-3860	responsibility	_	
+30-3	3861-3864	for	_	
+30-4	3865-3877	implementing	_	
+30-5	3878-3888	resolution	_	
+30-6	3890-3894	1325	_	
+30-7	3895-3896	(	_	
+30-8	3896-3900	2000	_	
+30-9	3900-3901	)	_	
+30-10	3902-3907	rests	_	
+30-11	3908-3911	not	_	
+30-12	3912-3916	only	_	
+30-13	3917-3921	with	_	
+30-14	3922-3925	the	_	
+30-15	3926-3937	Secretariat	_	
+30-16	3937-3938	.	_	
+
+#Text=Member States - and, in particular, Council\r
+#Text=members - also have important responsibilities, not\r
+#Text=least in ensuring that mandates take full account of\r
+#Text=gender perspectives.
+31-1	3940-3946	Member	_	
+31-2	3947-3953	States	_	
+31-3	3954-3955	-	_	
+31-4	3956-3959	and	_	
+31-5	3959-3960	,	_	
+31-6	3961-3963	in	_	
+31-7	3964-3974	particular	_	
+31-8	3974-3975	,	_	
+31-9	3976-3983	Council	_	
+31-10	3985-3992	members	_	
+31-11	3993-3994	-	_	
+31-12	3995-3999	also	_	
+31-13	4000-4004	have	_	
+31-14	4005-4014	important	_	
+31-15	4015-4031	responsibilities	_	
+31-16	4031-4032	,	_	
+31-17	4033-4036	not	_	
+31-18	4038-4043	least	_	
+31-19	4044-4046	in	_	
+31-20	4047-4055	ensuring	_	
+31-21	4056-4060	that	_	
+31-22	4061-4069	mandates	_	
+31-23	4070-4074	take	_	
+31-24	4075-4079	full	_	
+31-25	4080-4087	account	_	
+31-26	4088-4090	of	_	
+31-27	4092-4098	gender	_	
+31-28	4099-4111	perspectives	_	
+31-29	4111-4112	.	_	
+
+#Text=We all now need to focus on\r
+#Text=practical steps to give effect to resolution 1325 (2000).
+32-1	4113-4115	We	HERO	
+32-2	4116-4119	all	_	
+32-3	4120-4123	now	_	
+32-4	4124-4128	need	_	
+32-5	4129-4131	to	_	
+32-6	4132-4137	focus	_	
+32-7	4138-4140	on	_	
+32-8	4142-4151	practical	_	
+32-9	4152-4157	steps	_	
+32-10	4158-4160	to	_	
+32-11	4161-4165	give	_	
+32-12	4166-4172	effect	_	
+32-13	4173-4175	to	_	
+32-14	4176-4186	resolution	_	
+32-15	4187-4191	1325	_	
+32-16	4192-4193	(	_	
+32-17	4193-4197	2000	_	
+32-18	4197-4198	)	_	
+32-19	4198-4199	.	_	
+
+#Text=Australia stands ready to do its part.
+33-1	4201-4210	Australia	HERO	
+33-2	4211-4217	stands	_	
+33-3	4218-4223	ready	_	
+33-4	4224-4226	to	_	
+33-5	4227-4229	do	_	
+33-6	4230-4233	its	_	
+33-7	4234-4238	part	_	
+33-8	4238-4239	.	_	

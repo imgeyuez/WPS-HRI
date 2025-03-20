@@ -1,0 +1,952 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mr.
+1-1	0-2	Mr	_	
+1-2	2-3	.	_	
+
+#Text=Kolga (Estonia): At the outset, allow me to\r
+#Text=join others in expressing gratitude to the Secretary-\r
+#Text=General, the Executive Director of UN Women,\r
+#Text=the High Commissioner for Human Rights and the\r
+#Text=representative of the Non-governmental Organization\r
+#Text=Working Group on Women, Peace and Security for\r
+#Text=their statements.
+2-1	4-9	Kolga	_	
+2-2	10-11	(	_	
+2-3	11-18	Estonia	_	
+2-4	18-19	)	_	
+2-5	19-20	:	_	
+2-6	21-23	At	_	
+2-7	24-27	the	_	
+2-8	28-34	outset	_	
+2-9	34-35	,	_	
+2-10	36-41	allow	_	
+2-11	42-44	me	_	
+2-12	45-47	to	_	
+2-13	49-53	join	_	
+2-14	54-60	others	_	
+2-15	61-63	in	_	
+2-16	64-74	expressing	_	
+2-17	75-84	gratitude	_	
+2-18	85-87	to	_	
+2-19	88-91	the	HERO[1]	
+2-20	92-101	Secretary	HERO[1]	
+2-21	101-102	-	HERO[1]	
+2-22	104-111	General	HERO[1]	
+2-23	111-112	,	HERO[1]	
+2-24	113-116	the	HERO[1]	
+2-25	117-126	Executive	HERO[1]	
+2-26	127-135	Director	HERO[1]	
+2-27	136-138	of	HERO[1]	
+2-28	139-141	UN	HERO[1]	
+2-29	142-147	Women	HERO[1]	
+2-30	147-148	,	HERO[1]	
+2-31	150-153	the	HERO[1]	
+2-32	154-158	High	HERO[1]	
+2-33	159-171	Commissioner	HERO[1]	
+2-34	172-175	for	HERO[1]	
+2-35	176-181	Human	HERO[1]	
+2-36	182-188	Rights	HERO[1]	
+2-37	189-192	and	HERO[1]	
+2-38	193-196	the	HERO[1]	
+2-39	198-212	representative	HERO[1]	
+2-40	213-215	of	HERO[1]	
+2-41	216-219	the	HERO[1]	
+2-42	220-236	Non-governmental	HERO[1]	
+2-43	237-249	Organization	HERO[1]	
+2-44	251-258	Working	HERO[1]	
+2-45	259-264	Group	HERO[1]	
+2-46	265-267	on	HERO[1]	
+2-47	268-273	Women	HERO[1]	
+2-48	273-274	,	HERO[1]	
+2-49	275-280	Peace	HERO[1]	
+2-50	281-284	and	HERO[1]	
+2-51	285-293	Security	HERO[1]	
+2-52	294-297	for	_	
+2-53	299-304	their	_	
+2-54	305-315	statements	_	
+2-55	315-316	.	_	
+
+#Text=I would also like to thank the Council\r
+#Text=presidency for taking up the topic and organizing the\r
+#Text=open debate today.
+3-1	317-318	I	_	
+3-2	319-324	would	_	
+3-3	325-329	also	_	
+3-4	330-334	like	_	
+3-5	335-337	to	_	
+3-6	338-343	thank	_	
+3-7	344-347	the	HERO[2]	
+3-8	348-355	Council	HERO[2]	
+3-9	357-367	presidency	HERO[2]	
+3-10	368-371	for	_	
+3-11	372-378	taking	_	
+3-12	379-381	up	_	
+3-13	382-385	the	_	
+3-14	386-391	topic	_	
+3-15	392-395	and	_	
+3-16	396-406	organizing	_	
+3-17	407-410	the	_	
+3-18	412-416	open	_	
+3-19	417-423	debate	_	
+3-20	424-429	today	_	
+3-21	429-430	.	_	
+
+#Text=Estonia aligns itself with the statement of the\r
+#Text=European Union delivered earlier.
+4-1	434-441	Estonia	_	
+4-2	442-448	aligns	_	
+4-3	449-455	itself	_	
+4-4	456-460	with	_	
+4-5	461-464	the	_	
+4-6	465-474	statement	_	
+4-7	475-477	of	_	
+4-8	478-481	the	_	
+4-9	483-491	European	_	
+4-10	492-497	Union	_	
+4-11	498-507	delivered	_	
+4-12	508-515	earlier	_	
+4-13	515-516	.	_	
+
+#Text=In addition, I would\r
+#Text=like to make the following remarks.
+5-1	517-519	In	_	
+5-2	520-528	addition	_	
+5-3	528-529	,	_	
+5-4	530-531	I	_	
+5-5	532-537	would	_	
+5-6	539-543	like	_	
+5-7	544-546	to	_	
+5-8	547-551	make	_	
+5-9	552-555	the	_	
+5-10	556-565	following	_	
+5-11	566-573	remarks	_	
+5-12	573-574	.	_	
+
+#Text=Estonia is dedicated to protecting and promoting\r
+#Text=human rights and fundamental freedoms, both\r
+#Text=nationally and internationally.
+6-1	578-585	Estonia	HERO	
+6-2	586-588	is	_	
+6-3	589-598	dedicated	_	
+6-4	599-601	to	_	
+6-5	602-612	protecting	_	
+6-6	613-616	and	_	
+6-7	617-626	promoting	_	
+6-8	628-633	human	_	
+6-9	634-640	rights	_	
+6-10	641-644	and	_	
+6-11	645-656	fundamental	_	
+6-12	657-665	freedoms	_	
+6-13	665-666	,	_	
+6-14	667-671	both	_	
+6-15	673-683	nationally	_	
+6-16	684-687	and	_	
+6-17	688-703	internationally	_	
+6-18	703-704	.	_	
+
+#Text=As a member of the\r
+#Text=Human Rights Council, our particular focus is on the\r
+#Text=rights of women and children, gender perspective in\r
+#Text=conflict settlements and the fight against impunity.
+7-1	705-707	As	_	
+7-2	708-709	a	_	
+7-3	710-716	member	_	
+7-4	717-719	of	_	
+7-5	720-723	the	HERO[3]	
+7-6	725-730	Human	HERO[3]	
+7-7	731-737	Rights	HERO[3]	
+7-8	738-745	Council	HERO[3]	
+7-9	745-746	,	_	
+7-10	747-750	our	_	
+7-11	751-761	particular	_	
+7-12	762-767	focus	_	
+7-13	768-770	is	_	
+7-14	771-773	on	_	
+7-15	774-777	the	_	
+7-16	779-785	rights	_	
+7-17	786-788	of	_	
+7-18	789-794	women	VICTIM[4]	
+7-19	795-798	and	VICTIM[4]	
+7-20	799-807	children	VICTIM[4]	
+7-21	807-808	,	_	
+7-22	809-815	gender	_	
+7-23	816-827	perspective	_	
+7-24	828-830	in	_	
+7-25	832-840	conflict	_	
+7-26	841-852	settlements	_	
+7-27	853-856	and	_	
+7-28	857-860	the	_	
+7-29	861-866	fight	_	
+7-30	867-874	against	_	
+7-31	875-883	impunity	_	
+7-32	883-884	.	_	
+
+#Text=Estonia firmly believes that the rule of law in conflict\r
+#Text=and post-conflict situations must promote justice and\r
+#Text=accountability in ways that further the rights of women,\r
+#Text=including through legal and institutional reforms that\r
+#Text=are gender sensitive.
+8-1	886-893	Estonia	HERO	
+8-2	894-900	firmly	_	
+8-3	901-909	believes	_	
+8-4	910-914	that	_	
+8-5	915-918	the	_	
+8-6	919-923	rule	_	
+8-7	924-926	of	_	
+8-8	927-930	law	_	
+8-9	931-933	in	_	
+8-10	934-942	conflict	_	
+8-11	944-947	and	_	
+8-12	948-961	post-conflict	_	
+8-13	962-972	situations	_	
+8-14	973-977	must	_	
+8-15	978-985	promote	_	
+8-16	986-993	justice	_	
+8-17	994-997	and	_	
+8-18	999-1013	accountability	_	
+8-19	1014-1016	in	_	
+8-20	1017-1021	ways	_	
+8-21	1022-1026	that	_	
+8-22	1027-1034	further	_	
+8-23	1035-1038	the	_	
+8-24	1039-1045	rights	_	
+8-25	1046-1048	of	_	
+8-26	1049-1054	women	VICTIM	
+8-27	1054-1055	,	_	
+8-28	1057-1066	including	_	
+8-29	1067-1074	through	_	
+8-30	1075-1080	legal	_	
+8-31	1081-1084	and	_	
+8-32	1085-1098	institutional	_	
+8-33	1099-1106	reforms	_	
+8-34	1107-1111	that	_	
+8-35	1113-1116	are	_	
+8-36	1117-1123	gender	_	
+8-37	1124-1133	sensitive	_	
+8-38	1133-1134	.	_	
+
+#Text=The equal right to decision-making\r
+#Text=and participation, along with women's empowerment,\r
+#Text=is crucial to ensure a functioning society and peace and\r
+#Text=justice in the aftermath of conflicts.
+9-1	1135-1138	The	_	
+9-2	1139-1144	equal	_	
+9-3	1145-1150	right	_	
+9-4	1151-1153	to	_	
+9-5	1154-1169	decision-making	_	
+9-6	1171-1174	and	_	
+9-7	1175-1188	participation	_	
+9-8	1188-1189	,	_	
+9-9	1190-1195	along	_	
+9-10	1196-1200	with	_	
+9-11	1201-1208	women's	VICTIM[5]|HERO[6]	
+9-12	1209-1220	empowerment	_	
+9-13	1220-1221	,	_	
+9-14	1223-1225	is	_	
+9-15	1226-1233	crucial	_	
+9-16	1234-1236	to	_	
+9-17	1237-1243	ensure	_	
+9-18	1244-1245	a	_	
+9-19	1246-1257	functioning	_	
+9-20	1258-1265	society	_	
+9-21	1266-1269	and	_	
+9-22	1270-1275	peace	_	
+9-23	1276-1279	and	_	
+9-24	1281-1288	justice	_	
+9-25	1289-1291	in	_	
+9-26	1292-1295	the	_	
+9-27	1296-1305	aftermath	_	
+9-28	1306-1308	of	_	
+9-29	1309-1318	conflicts	_	
+9-30	1318-1319	.	_	
+
+#Text=Additionally, as stated in the Secretary-General's\r
+#Text=report (S/2013/525), women's representation in the\r
+#Text=justice sector plays a significant role in increasing the\r
+#Text=reporting of crimes and enhancing public trust in the\r
+#Text=rule of law institutions.
+10-1	1323-1335	Additionally	_	
+10-2	1335-1336	,	_	
+10-3	1337-1339	as	_	
+10-4	1340-1346	stated	_	
+10-5	1347-1349	in	_	
+10-6	1350-1353	the	HERO[7]	
+10-7	1354-1373	Secretary-General's	HERO[7]	
+10-8	1375-1381	report	_	
+10-9	1382-1383	(	_	
+10-10	1383-1384	S	_	
+10-11	1384-1385	/	_	
+10-12	1385-1389	2013	_	
+10-13	1389-1390	/	_	
+10-14	1390-1393	525	_	
+10-15	1393-1394	)	_	
+10-16	1394-1395	,	_	
+10-17	1396-1403	women's	HERO	
+10-18	1404-1418	representation	_	
+10-19	1419-1421	in	_	
+10-20	1422-1425	the	_	
+10-21	1427-1434	justice	_	
+10-22	1435-1441	sector	_	
+10-23	1442-1447	plays	_	
+10-24	1448-1449	a	_	
+10-25	1450-1461	significant	_	
+10-26	1462-1466	role	_	
+10-27	1467-1469	in	_	
+10-28	1470-1480	increasing	_	
+10-29	1481-1484	the	_	
+10-30	1486-1495	reporting	_	
+10-31	1496-1498	of	_	
+10-32	1499-1505	crimes	_	
+10-33	1506-1509	and	_	
+10-34	1510-1519	enhancing	_	
+10-35	1520-1526	public	_	
+10-36	1527-1532	trust	_	
+10-37	1533-1535	in	_	
+10-38	1536-1539	the	_	
+10-39	1541-1545	rule	_	
+10-40	1546-1548	of	_	
+10-41	1549-1552	law	_	
+10-42	1553-1565	institutions	_	
+10-43	1565-1566	.	_	
+
+#Text=The importance of prevention\r
+#Text=must likewise be stressed.
+11-1	1567-1570	The	_	
+11-2	1571-1581	importance	_	
+11-3	1582-1584	of	_	
+11-4	1585-1595	prevention	_	
+11-5	1597-1601	must	_	
+11-6	1602-1610	likewise	_	
+11-7	1611-1613	be	_	
+11-8	1614-1622	stressed	_	
+11-9	1622-1623	.	_	
+
+#Text=By enabling women to fully\r
+#Text=participate in judicial systems, we can better tackle the\r
+#Text=root causes of impunity for Violence against women.
+12-1	1624-1626	By	_	
+12-2	1627-1635	enabling	_	
+12-3	1636-1641	women	VICTIM[8]|HERO[9]	
+12-4	1642-1644	to	_	
+12-5	1645-1650	fully	_	
+12-6	1652-1663	participate	_	
+12-7	1664-1666	in	_	
+12-8	1667-1675	judicial	_	
+12-9	1676-1683	systems	_	
+12-10	1683-1684	,	_	
+12-11	1685-1687	we	_	
+12-12	1688-1691	can	_	
+12-13	1692-1698	better	_	
+12-14	1699-1705	tackle	_	
+12-15	1706-1709	the	_	
+12-16	1711-1715	root	_	
+12-17	1716-1722	causes	_	
+12-18	1723-1725	of	_	
+12-19	1726-1734	impunity	_	
+12-20	1735-1738	for	_	
+12-21	1739-1747	Violence	_	
+12-22	1748-1755	against	_	
+12-23	1756-1761	women	VICTIM	
+12-24	1761-1762	.	_	
+
+#Text=Estonia welcomes the call by the Security Council\r
+#Text=in today's resolution to Member States to comply\r
+#Text=with their relevant obligations to end impunity and\r
+#Text=to thoroughly investigate and prosecute persons\r
+#Text=responsible for atrocity crimes.
+13-1	1766-1773	Estonia	_	
+13-2	1774-1782	welcomes	_	
+13-3	1783-1786	the	_	
+13-4	1787-1791	call	_	
+13-5	1792-1794	by	_	
+13-6	1795-1798	the	HERO[10]	
+13-7	1799-1807	Security	HERO[10]	
+13-8	1808-1815	Council	HERO[10]	
+13-9	1817-1819	in	_	
+13-10	1820-1827	today's	_	
+13-11	1828-1838	resolution	_	
+13-12	1839-1841	to	_	
+13-13	1842-1848	Member	_	
+13-14	1849-1855	States	_	
+13-15	1856-1858	to	_	
+13-16	1859-1865	comply	_	
+13-17	1867-1871	with	_	
+13-18	1872-1877	their	_	
+13-19	1878-1886	relevant	_	
+13-20	1887-1898	obligations	_	
+13-21	1899-1901	to	_	
+13-22	1902-1905	end	_	
+13-23	1906-1914	impunity	_	
+13-24	1915-1918	and	_	
+13-25	1920-1922	to	_	
+13-26	1923-1933	thoroughly	_	
+13-27	1934-1945	investigate	_	
+13-28	1946-1949	and	_	
+13-29	1950-1959	prosecute	_	
+13-30	1960-1967	persons	VILLAIN[11]	
+13-31	1969-1980	responsible	VILLAIN[11]	
+13-32	1981-1984	for	VILLAIN[11]	
+13-33	1985-1993	atrocity	VILLAIN[11]	
+13-34	1994-2000	crimes	VILLAIN[11]	
+13-35	2000-2001	.	_	
+
+#Text=Estonia further agrees\r
+#Text=with the Council that the fight against impunity for the\r
+#Text=most serious crimes of international concern against\r
+#Text=women and girls has been strengthened through the\r
+#Text=work of the International Criminal Court (ICC),\r
+#Text=the ad hoc and mixed tribunals, and the specialized\r
+#Text=chambers in national tribunals.
+14-1	2002-2009	Estonia	HERO	
+14-2	2010-2017	further	_	
+14-3	2018-2024	agrees	_	
+14-4	2026-2030	with	_	
+14-5	2031-2034	the	HERO[12]	
+14-6	2035-2042	Council	HERO[12]	
+14-7	2043-2047	that	_	
+14-8	2048-2051	the	_	
+14-9	2052-2057	fight	_	
+14-10	2058-2065	against	_	
+14-11	2066-2074	impunity	_	
+14-12	2075-2078	for	_	
+14-13	2079-2082	the	_	
+14-14	2084-2088	most	_	
+14-15	2089-2096	serious	_	
+14-16	2097-2103	crimes	_	
+14-17	2104-2106	of	_	
+14-18	2107-2120	international	_	
+14-19	2121-2128	concern	_	
+14-20	2129-2136	against	_	
+14-21	2138-2143	women	VICTIM[13]	
+14-22	2144-2147	and	VICTIM[13]	
+14-23	2148-2153	girls	VICTIM[13]	
+14-24	2154-2157	has	_	
+14-25	2158-2162	been	_	
+14-26	2163-2175	strengthened	_	
+14-27	2176-2183	through	_	
+14-28	2184-2187	the	_	
+14-29	2189-2193	work	_	
+14-30	2194-2196	of	_	
+14-31	2197-2200	the	HERO[14]	
+14-32	2201-2214	International	HERO[14]	
+14-33	2215-2223	Criminal	HERO[14]	
+14-34	2224-2229	Court	HERO[14]	
+14-35	2230-2231	(	HERO[14]	
+14-36	2231-2234	ICC	HERO[14]	
+14-37	2234-2235	)	HERO[14]	
+14-38	2235-2236	,	HERO[14]	
+14-39	2238-2241	the	HERO[14]	
+14-40	2242-2244	ad	HERO[14]	
+14-41	2245-2248	hoc	HERO[14]	
+14-42	2249-2252	and	HERO[14]	
+14-43	2253-2258	mixed	HERO[14]	
+14-44	2259-2268	tribunals	HERO[14]	
+14-45	2268-2269	,	HERO[14]	
+14-46	2270-2273	and	HERO[14]	
+14-47	2274-2277	the	HERO[14]	
+14-48	2278-2289	specialized	HERO[14]	
+14-49	2291-2299	chambers	HERO[14]	
+14-50	2300-2302	in	HERO[14]	
+14-51	2303-2311	national	HERO[14]	
+14-52	2312-2321	tribunals	HERO[14]	
+14-53	2321-2322	.	_	
+
+#Text=ICC prosecutions\r
+#Text=will not, however, be sufficient to ensure complete\r
+#Text=accountability.
+15-1	2323-2326	ICC	_	
+15-2	2327-2339	prosecutions	_	
+15-3	2341-2345	will	_	
+15-4	2346-2349	not	_	
+15-5	2349-2350	,	_	
+15-6	2351-2358	however	_	
+15-7	2358-2359	,	_	
+15-8	2360-2362	be	_	
+15-9	2363-2373	sufficient	_	
+15-10	2374-2376	to	_	
+15-11	2377-2383	ensure	_	
+15-12	2384-2392	complete	_	
+15-13	2394-2408	accountability	_	
+15-14	2408-2409	.	_	
+
+#Text=Therefore, it is essential that the gender\r
+#Text=provisions of the Rome Statute are translated into\r
+#Text=national prosecutions.
+16-1	2410-2419	Therefore	_	
+16-2	2419-2420	,	_	
+16-3	2421-2423	it	_	
+16-4	2424-2426	is	_	
+16-5	2427-2436	essential	_	
+16-6	2437-2441	that	_	
+16-7	2442-2445	the	_	
+16-8	2446-2452	gender	_	
+16-9	2454-2464	provisions	_	
+16-10	2465-2467	of	_	
+16-11	2468-2471	the	_	
+16-12	2472-2476	Rome	_	
+16-13	2477-2484	Statute	_	
+16-14	2485-2488	are	_	
+16-15	2489-2499	translated	_	
+16-16	2500-2504	into	_	
+16-17	2506-2514	national	_	
+16-18	2515-2527	prosecutions	_	
+16-19	2527-2528	.	_	
+
+#Text=Justice for victims of atrocity crimes, however,\r
+#Text=entails more thanjust punishing perpetrators.
+17-1	2532-2539	Justice	_	
+17-2	2540-2543	for	_	
+17-3	2544-2551	victims	VICTIM[15]	
+17-4	2552-2554	of	VICTIM[15]	
+17-5	2555-2563	atrocity	VICTIM[15]	
+17-6	2564-2570	crimes	VICTIM[15]	
+17-7	2570-2571	,	_	
+17-8	2572-2579	however	_	
+17-9	2579-2580	,	_	
+17-10	2582-2589	entails	_	
+17-11	2590-2594	more	_	
+17-12	2595-2603	thanjust	_	
+17-13	2604-2613	punishing	_	
+17-14	2614-2626	perpetrators	VILLAIN	
+17-15	2626-2627	.	_	
+
+#Text=The Rome\r
+#Text=Statute further empowers victims by its broad victim-\r
+#Text=participation scheme and underlines its commitment to\r
+#Text=victims by its reparations provisions.
+18-1	2628-2631	The	_	
+18-2	2632-2636	Rome	_	
+18-3	2638-2645	Statute	_	
+18-4	2646-2653	further	_	
+18-5	2654-2662	empowers	_	
+18-6	2663-2670	victims	VICTIM	
+18-7	2671-2673	by	_	
+18-8	2674-2677	its	_	
+18-9	2678-2683	broad	_	
+18-10	2684-2690	victim	_	
+18-11	2690-2691	-	_	
+18-12	2693-2706	participation	_	
+18-13	2707-2713	scheme	_	
+18-14	2714-2717	and	_	
+18-15	2718-2728	underlines	_	
+18-16	2729-2732	its	_	
+18-17	2733-2743	commitment	_	
+18-18	2744-2746	to	_	
+18-19	2748-2755	victims	VICTIM	
+18-20	2756-2758	by	_	
+18-21	2759-2762	its	_	
+18-22	2763-2774	reparations	_	
+18-23	2775-2785	provisions	_	
+18-24	2785-2786	.	_	
+
+#Text=Likewise, the ICC\r
+#Text=Trust Fund for Victims has been doing important work\r
+#Text=to alleviate the suffering of Victims in the countries\r
+#Text=where the Court is conducting investigations.
+19-1	2787-2795	Likewise	_	
+19-2	2795-2796	,	_	
+19-3	2797-2800	the	HERO[16]	
+19-4	2801-2804	ICC	HERO[16]	
+19-5	2806-2811	Trust	HERO[16]	
+19-6	2812-2816	Fund	HERO[16]	
+19-7	2817-2820	for	HERO[16]	
+19-8	2821-2828	Victims	HERO[16]	
+19-9	2829-2832	has	_	
+19-10	2833-2837	been	_	
+19-11	2838-2843	doing	_	
+19-12	2844-2853	important	_	
+19-13	2854-2858	work	_	
+19-14	2860-2862	to	_	
+19-15	2863-2872	alleviate	_	
+19-16	2873-2876	the	_	
+19-17	2877-2886	suffering	_	
+19-18	2887-2889	of	_	
+19-19	2890-2897	Victims	VICTIM[17]	
+19-20	2898-2900	in	VICTIM[17]	
+19-21	2901-2904	the	VICTIM[17]	
+19-22	2905-2914	countries	VICTIM[17]	
+19-23	2916-2921	where	VICTIM[17]	
+19-24	2922-2925	the	VICTIM[17]|HERO[18]	
+19-25	2926-2931	Court	VICTIM[17]|HERO[18]	
+19-26	2932-2934	is	VICTIM[17]	
+19-27	2935-2945	conducting	VICTIM[17]	
+19-28	2946-2960	investigations	VICTIM[17]	
+19-29	2960-2961	.	_	
+
+#Text=Estonia was honoured to join the Declaration\r
+#Text=of Commitment to End Sexual Violence in Conflict\r
+#Text=during the General Assembly's opening week.
+20-1	2965-2972	Estonia	HERO	
+20-2	2973-2976	was	_	
+20-3	2977-2985	honoured	_	
+20-4	2986-2988	to	_	
+20-5	2989-2993	join	_	
+20-6	2994-2997	the	_	
+20-7	2998-3009	Declaration	_	
+20-8	3011-3013	of	_	
+20-9	3014-3024	Commitment	_	
+20-10	3025-3027	to	_	
+20-11	3028-3031	End	_	
+20-12	3032-3038	Sexual	_	
+20-13	3039-3047	Violence	_	
+20-14	3048-3050	in	_	
+20-15	3051-3059	Conflict	_	
+20-16	3061-3067	during	_	
+20-17	3068-3071	the	_	
+20-18	3072-3079	General	_	
+20-19	3080-3090	Assembly's	_	
+20-20	3091-3098	opening	_	
+20-21	3099-3103	week	_	
+20-22	3103-3104	.	_	
+
+#Text=We were\r
+#Text=also glad to see how much interest there was in the\r
+#Text=topic of enhancing accountability for sexual violence\r
+#Text=in conflict, discussed at a side event during that week\r
+#Text=that focused on the role of the ICC and that was hosted\r
+#Text=by the Estonian Mission to the United Nations.
+21-1	3105-3107	We	_	
+21-2	3108-3112	were	_	
+21-3	3114-3118	also	_	
+21-4	3119-3123	glad	_	
+21-5	3124-3126	to	_	
+21-6	3127-3130	see	_	
+21-7	3131-3134	how	_	
+21-8	3135-3139	much	_	
+21-9	3140-3148	interest	_	
+21-10	3149-3154	there	_	
+21-11	3155-3158	was	_	
+21-12	3159-3161	in	_	
+21-13	3162-3165	the	_	
+21-14	3167-3172	topic	_	
+21-15	3173-3175	of	_	
+21-16	3176-3185	enhancing	_	
+21-17	3186-3200	accountability	_	
+21-18	3201-3204	for	_	
+21-19	3205-3211	sexual	_	
+21-20	3212-3220	violence	_	
+21-21	3222-3224	in	_	
+21-22	3225-3233	conflict	_	
+21-23	3233-3234	,	_	
+21-24	3235-3244	discussed	_	
+21-25	3245-3247	at	_	
+21-26	3248-3249	a	_	
+21-27	3250-3254	side	_	
+21-28	3255-3260	event	_	
+21-29	3261-3267	during	_	
+21-30	3268-3272	that	_	
+21-31	3273-3277	week	_	
+21-32	3279-3283	that	_	
+21-33	3284-3291	focused	_	
+21-34	3292-3294	on	_	
+21-35	3295-3298	the	_	
+21-36	3299-3303	role	_	
+21-37	3304-3306	of	_	
+21-38	3307-3310	the	_	
+21-39	3311-3314	ICC	_	
+21-40	3315-3318	and	_	
+21-41	3319-3323	that	_	
+21-42	3324-3327	was	_	
+21-43	3328-3334	hosted	_	
+21-44	3336-3338	by	_	
+21-45	3339-3342	the	HERO[19]	
+21-46	3343-3351	Estonian	HERO[19]	
+21-47	3352-3359	Mission	HERO[19]	
+21-48	3360-3362	to	HERO[19]	
+21-49	3363-3366	the	HERO[19]	
+21-50	3367-3373	United	HERO[19]	
+21-51	3374-3381	Nations	HERO[19]	
+21-52	3381-3382	.	_	
+
+#Text=We\r
+#Text=would like to commend the important work of the Team\r
+#Text=of Experts on Rule of Law and Sexual Violence in\r
+#Text=Conflict, and I am glad to note that Estonia has made\r
+#Text=financial contributions to the activities of the Team.
+22-1	3383-3385	We	_	
+22-2	3387-3392	would	_	
+22-3	3393-3397	like	_	
+22-4	3398-3400	to	_	
+22-5	3401-3408	commend	_	
+22-6	3409-3412	the	_	
+22-7	3413-3422	important	_	
+22-8	3423-3427	work	_	
+22-9	3428-3430	of	_	
+22-10	3431-3434	the	HERO[20]	
+22-11	3435-3439	Team	HERO[20]	
+22-12	3441-3443	of	HERO[20]	
+22-13	3444-3451	Experts	HERO[20]	
+22-14	3452-3454	on	HERO[20]	
+22-15	3455-3459	Rule	HERO[20]	
+22-16	3460-3462	of	HERO[20]	
+22-17	3463-3466	Law	HERO[20]	
+22-18	3467-3470	and	HERO[20]	
+22-19	3471-3477	Sexual	HERO[20]	
+22-20	3478-3486	Violence	HERO[20]	
+22-21	3487-3489	in	HERO[20]	
+22-22	3491-3499	Conflict	HERO[20]	
+22-23	3499-3500	,	_	
+22-24	3501-3504	and	_	
+22-25	3505-3506	I	_	
+22-26	3507-3509	am	_	
+22-27	3510-3514	glad	_	
+22-28	3515-3517	to	_	
+22-29	3518-3522	note	_	
+22-30	3523-3527	that	_	
+22-31	3528-3535	Estonia	HERO	
+22-32	3536-3539	has	_	
+22-33	3540-3544	made	_	
+22-34	3546-3555	financial	_	
+22-35	3556-3569	contributions	_	
+22-36	3570-3572	to	_	
+22-37	3573-3576	the	_	
+22-38	3577-3587	activities	_	
+22-39	3588-3590	of	_	
+22-40	3591-3594	the	HERO[21]	
+22-41	3595-3599	Team	HERO[21]	
+22-42	3599-3600	.	_	
+
+#Text=Estonia would also like to take the opportunity\r
+#Text=to emphasize that in addition to conflict-related\r
+#Text=sexual violence, increased attention should be paid\r
+#Text=to the full range of violations and serious crimes\r
+#Text=experienced by women, including gendered impacts\r
+#Text=of enforced disappearances, foreign occupation, mass\r
+#Text=forced displacement, restrictions on humanitarian\r
+#Text=aid, conflict-related trafficking and the destruction of\r
+#Text=civilian infrastructure.
+23-1	3604-3611	Estonia	HERO	
+23-2	3612-3617	would	_	
+23-3	3618-3622	also	_	
+23-4	3623-3627	like	_	
+23-5	3628-3630	to	_	
+23-6	3631-3635	take	_	
+23-7	3636-3639	the	_	
+23-8	3640-3651	opportunity	_	
+23-9	3653-3655	to	_	
+23-10	3656-3665	emphasize	_	
+23-11	3666-3670	that	_	
+23-12	3671-3673	in	_	
+23-13	3674-3682	addition	_	
+23-14	3683-3685	to	_	
+23-15	3686-3702	conflict-related	_	
+23-16	3704-3710	sexual	_	
+23-17	3711-3719	violence	_	
+23-18	3719-3720	,	_	
+23-19	3721-3730	increased	_	
+23-20	3731-3740	attention	_	
+23-21	3741-3747	should	_	
+23-22	3748-3750	be	_	
+23-23	3751-3755	paid	_	
+23-24	3757-3759	to	_	
+23-25	3760-3763	the	_	
+23-26	3764-3768	full	_	
+23-27	3769-3774	range	_	
+23-28	3775-3777	of	_	
+23-29	3778-3788	violations	_	
+23-30	3789-3792	and	_	
+23-31	3793-3800	serious	_	
+23-32	3801-3807	crimes	_	
+23-33	3809-3820	experienced	_	
+23-34	3821-3823	by	_	
+23-35	3824-3829	women	VICTIM	
+23-36	3829-3830	,	_	
+23-37	3831-3840	including	_	
+23-38	3841-3849	gendered	_	
+23-39	3850-3857	impacts	_	
+23-40	3859-3861	of	_	
+23-41	3862-3870	enforced	_	
+23-42	3871-3885	disappearances	_	
+23-43	3885-3886	,	_	
+23-44	3887-3894	foreign	_	
+23-45	3895-3905	occupation	_	
+23-46	3905-3906	,	_	
+23-47	3907-3911	mass	_	
+23-48	3913-3919	forced	_	
+23-49	3920-3932	displacement	_	
+23-50	3932-3933	,	_	
+23-51	3934-3946	restrictions	_	
+23-52	3947-3949	on	_	
+23-53	3950-3962	humanitarian	_	
+23-54	3964-3967	aid	_	
+23-55	3967-3968	,	_	
+23-56	3969-3985	conflict-related	_	
+23-57	3986-3997	trafficking	_	
+23-58	3998-4001	and	_	
+23-59	4002-4005	the	_	
+23-60	4006-4017	destruction	_	
+23-61	4018-4020	of	_	
+23-62	4022-4030	civilian	_	
+23-63	4031-4045	infrastructure	_	
+23-64	4045-4046	.	_	
+
+#Text=Let me also commend UN Women for their work\r
+#Text=targeted at raising the number of national action plans\r
+#Text=related to resolution 1325 (2000) or other relevant\r
+#Text=planning instruments, as outlined in the recently\r
+#Text=adopted UN Women Strategic Plan.
+24-1	4050-4053	Let	_	
+24-2	4054-4056	me	_	
+24-3	4057-4061	also	_	
+24-4	4062-4069	commend	_	
+24-5	4070-4072	UN	HERO[22]	
+24-6	4073-4078	Women	HERO[22]	
+24-7	4079-4082	for	_	
+24-8	4083-4088	their	_	
+24-9	4089-4093	work	_	
+24-10	4095-4103	targeted	_	
+24-11	4104-4106	at	_	
+24-12	4107-4114	raising	_	
+24-13	4115-4118	the	_	
+24-14	4119-4125	number	_	
+24-15	4126-4128	of	_	
+24-16	4129-4137	national	_	
+24-17	4138-4144	action	_	
+24-18	4145-4150	plans	_	
+24-19	4152-4159	related	_	
+24-20	4160-4162	to	_	
+24-21	4163-4173	resolution	_	
+24-22	4174-4178	1325	_	
+24-23	4179-4180	(	_	
+24-24	4180-4184	2000	_	
+24-25	4184-4185	)	_	
+24-26	4186-4188	or	_	
+24-27	4189-4194	other	_	
+24-28	4195-4203	relevant	_	
+24-29	4205-4213	planning	_	
+24-30	4214-4225	instruments	_	
+24-31	4225-4226	,	_	
+24-32	4227-4229	as	_	
+24-33	4230-4238	outlined	_	
+24-34	4239-4241	in	_	
+24-35	4242-4245	the	_	
+24-36	4246-4254	recently	_	
+24-37	4256-4263	adopted	_	
+24-38	4264-4266	UN	_	
+24-39	4267-4272	Women	_	
+24-40	4273-4282	Strategic	_	
+24-41	4283-4287	Plan	_	
+24-42	4287-4288	.	_	
+
+#Text=Estonia developed\r
+#Text=its national action plan in 2010 and has advised a number\r
+#Text=of States on developing theirs.
+25-1	4289-4296	Estonia	HERO	
+25-2	4297-4306	developed	_	
+25-3	4308-4311	its	_	
+25-4	4312-4320	national	_	
+25-5	4321-4327	action	_	
+25-6	4328-4332	plan	_	
+25-7	4333-4335	in	_	
+25-8	4336-4340	2010	_	
+25-9	4341-4344	and	_	
+25-10	4345-4348	has	_	
+25-11	4349-4356	advised	_	
+25-12	4357-4358	a	_	
+25-13	4359-4365	number	_	
+25-14	4367-4369	of	_	
+25-15	4370-4376	States	_	
+25-16	4377-4379	on	_	
+25-17	4380-4390	developing	_	
+25-18	4391-4397	theirs	_	
+25-19	4397-4398	.	_	
+
+#Text=We would be ready to\r
+#Text=cooperate in that regard with other States in the future.
+26-1	4399-4401	We	HERO	
+26-2	4402-4407	would	_	
+26-3	4408-4410	be	_	
+26-4	4411-4416	ready	_	
+26-5	4417-4419	to	_	
+26-6	4421-4430	cooperate	_	
+26-7	4431-4433	in	_	
+26-8	4434-4438	that	_	
+26-9	4439-4445	regard	_	
+26-10	4446-4450	with	_	
+26-11	4451-4456	other	_	
+26-12	4457-4463	States	_	
+26-13	4464-4466	in	_	
+26-14	4467-4470	the	_	
+26-15	4471-4477	future	_	
+26-16	4477-4478	.	_	
+
+#Text=We are looking forward to hearing the results of the\r
+#Text=global study, and to the high-level review in 2015.
+27-1	4480-4482	We	_	
+27-2	4483-4486	are	_	
+27-3	4487-4494	looking	_	
+27-4	4495-4502	forward	_	
+27-5	4503-4505	to	_	
+27-6	4506-4513	hearing	_	
+27-7	4514-4517	the	_	
+27-8	4518-4525	results	_	
+27-9	4526-4528	of	_	
+27-10	4529-4532	the	_	
+27-11	4534-4540	global	_	
+27-12	4541-4546	study	_	
+27-13	4546-4547	,	_	
+27-14	4548-4551	and	_	
+27-15	4552-4554	to	_	
+27-16	4555-4558	the	_	
+27-17	4559-4569	high-level	_	
+27-18	4570-4576	review	_	
+27-19	4577-4579	in	_	
+27-20	4580-4584	2015	_	
+27-21	4584-4585	.	_	
+
+#Text=In conclusion, we are glad to note that Estonia was\r
+#Text=among the sponsors of resolution 2106 (2013), which\r
+#Text=strengthens the monitoring and prevention of sexual\r
+#Text=violence in conflict, and we were happy to co-sponsor\r
+#Text=resolution 2122 (2013), adopted today.
+28-1	4589-4591	In	_	
+28-2	4592-4602	conclusion	_	
+28-3	4602-4603	,	_	
+28-4	4604-4606	we	_	
+28-5	4607-4610	are	_	
+28-6	4611-4615	glad	_	
+28-7	4616-4618	to	_	
+28-8	4619-4623	note	_	
+28-9	4624-4628	that	_	
+28-10	4629-4636	Estonia	HERO	
+28-11	4637-4640	was	_	
+28-12	4642-4647	among	_	
+28-13	4648-4651	the	HERO[23]	
+28-14	4652-4660	sponsors	HERO[23]	
+28-15	4661-4663	of	HERO[23]	
+28-16	4664-4674	resolution	HERO[23]	
+28-17	4675-4679	2106	HERO[23]	
+28-18	4680-4681	(	HERO[23]	
+28-19	4681-4685	2013	HERO[23]	
+28-20	4685-4686	)	HERO[23]	
+28-21	4686-4687	,	_	
+28-22	4688-4693	which	_	
+28-23	4695-4706	strengthens	_	
+28-24	4707-4710	the	_	
+28-25	4711-4721	monitoring	_	
+28-26	4722-4725	and	_	
+28-27	4726-4736	prevention	_	
+28-28	4737-4739	of	_	
+28-29	4740-4746	sexual	_	
+28-30	4748-4756	violence	_	
+28-31	4757-4759	in	_	
+28-32	4760-4768	conflict	_	
+28-33	4768-4769	,	_	
+28-34	4770-4773	and	_	
+28-35	4774-4776	we	HERO	
+28-36	4777-4781	were	_	
+28-37	4782-4787	happy	_	
+28-38	4788-4790	to	_	
+28-39	4791-4801	co-sponsor	_	
+28-40	4803-4813	resolution	_	
+28-41	4814-4818	2122	_	
+28-42	4819-4820	(	_	
+28-43	4820-4824	2013	_	
+28-44	4824-4825	)	_	
+28-45	4825-4826	,	_	
+28-46	4827-4834	adopted	_	
+28-47	4835-4840	today	_	
+28-48	4840-4841	.	_	

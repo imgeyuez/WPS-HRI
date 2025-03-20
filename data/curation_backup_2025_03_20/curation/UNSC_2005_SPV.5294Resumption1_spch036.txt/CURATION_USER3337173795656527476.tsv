@@ -1,0 +1,900 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mrs.
+1-1	0-3	Mrs	_	
+1-2	3-4	.	_	
+
+#Text=Mladineo (Croatia): Croatia has aligned\r
+#Text=itself with the statement made by the representative of\r
+#Text=the United Kingdom on behalf of the European Union,\r
+#Text=but I would like to add a few points based on Croatia's\r
+#Text=specific experience and achievements on the matter.
+2-1	5-13	Mladineo	_	
+2-2	14-15	(	_	
+2-3	15-22	Croatia	_	
+2-4	22-23	)	_	
+2-5	23-24	:	_	
+2-6	25-32	Croatia	_	
+2-7	33-36	has	_	
+2-8	37-44	aligned	_	
+2-9	46-52	itself	_	
+2-10	53-57	with	_	
+2-11	58-61	the	_	
+2-12	62-71	statement	_	
+2-13	72-76	made	_	
+2-14	77-79	by	_	
+2-15	80-83	the	_	
+2-16	84-98	representative	_	
+2-17	99-101	of	_	
+2-18	103-106	the	_	
+2-19	107-113	United	_	
+2-20	114-121	Kingdom	_	
+2-21	122-124	on	_	
+2-22	125-131	behalf	_	
+2-23	132-134	of	_	
+2-24	135-138	the	_	
+2-25	139-147	European	_	
+2-26	148-153	Union	_	
+2-27	153-154	,	_	
+2-28	156-159	but	_	
+2-29	160-161	I	_	
+2-30	162-167	would	_	
+2-31	168-172	like	_	
+2-32	173-175	to	_	
+2-33	176-179	add	_	
+2-34	180-181	a	_	
+2-35	182-185	few	_	
+2-36	186-192	points	_	
+2-37	193-198	based	_	
+2-38	199-201	on	_	
+2-39	202-211	Croatia's	_	
+2-40	213-221	specific	_	
+2-41	222-232	experience	_	
+2-42	233-236	and	_	
+2-43	237-249	achievements	_	
+2-44	250-252	on	_	
+2-45	253-256	the	_	
+2-46	257-263	matter	_	
+2-47	263-264	.	_	
+
+#Text=At the outset, allow me, on behalf of my\r
+#Text=delegation, to commend the Romanian presidency for\r
+#Text=organizing this open debate to mark the fifth\r
+#Text=anniversary of the adoption of Security Council\r
+#Text=resolution 1325 (2000), on women and peace and\r
+#Text=security.
+3-1	268-270	At	_	
+3-2	271-274	the	_	
+3-3	275-281	outset	_	
+3-4	281-282	,	_	
+3-5	283-288	allow	_	
+3-6	289-291	me	_	
+3-7	291-292	,	_	
+3-8	293-295	on	_	
+3-9	296-302	behalf	_	
+3-10	303-305	of	_	
+3-11	306-308	my	_	
+3-12	310-320	delegation	_	
+3-13	320-321	,	_	
+3-14	322-324	to	_	
+3-15	325-332	commend	_	
+3-16	333-336	the	HERO[1]	
+3-17	337-345	Romanian	HERO[1]	
+3-18	346-356	presidency	HERO[1]	
+3-19	357-360	for	_	
+3-20	362-372	organizing	_	
+3-21	373-377	this	_	
+3-22	378-382	open	_	
+3-23	383-389	debate	_	
+3-24	390-392	to	_	
+3-25	393-397	mark	_	
+3-26	398-401	the	_	
+3-27	402-407	fifth	_	
+3-28	409-420	anniversary	_	
+3-29	421-423	of	_	
+3-30	424-427	the	_	
+3-31	428-436	adoption	_	
+3-32	437-439	of	_	
+3-33	440-448	Security	_	
+3-34	449-456	Council	_	
+3-35	458-468	resolution	_	
+3-36	469-473	1325	_	
+3-37	474-475	(	_	
+3-38	475-479	2000	_	
+3-39	479-480	)	_	
+3-40	480-481	,	_	
+3-41	482-484	on	_	
+3-42	485-490	women	_	
+3-43	491-494	and	_	
+3-44	495-500	peace	_	
+3-45	501-504	and	_	
+3-46	506-514	security	_	
+3-47	514-515	.	_	
+
+#Text=Since 2000, the international community has\r
+#Text=increasingly come to recognize not only how much\r
+#Text=conflict particularly affects women and girls, but also\r
+#Text=how often women hold the key to its peaceful\r
+#Text=resolution.
+4-1	519-524	Since	_	
+4-2	525-529	2000	_	
+4-3	529-530	,	_	
+4-4	531-534	the	HERO[2]	
+4-5	535-548	international	HERO[2]	
+4-6	549-558	community	HERO[2]	
+4-7	559-562	has	_	
+4-8	564-576	increasingly	_	
+4-9	577-581	come	_	
+4-10	582-584	to	_	
+4-11	585-594	recognize	_	
+4-12	595-598	not	_	
+4-13	599-603	only	_	
+4-14	604-607	how	_	
+4-15	608-612	much	_	
+4-16	614-622	conflict	_	
+4-17	623-635	particularly	_	
+4-18	636-643	affects	_	
+4-19	644-649	women	VICTIM[3]	
+4-20	650-653	and	VICTIM[3]	
+4-21	654-659	girls	VICTIM[3]	
+4-22	659-660	,	_	
+4-23	661-664	but	_	
+4-24	665-669	also	_	
+4-25	671-674	how	_	
+4-26	675-680	often	_	
+4-27	681-686	women	HERO	
+4-28	687-691	hold	_	
+4-29	692-695	the	_	
+4-30	696-699	key	_	
+4-31	700-702	to	_	
+4-32	703-706	its	_	
+4-33	707-715	peaceful	_	
+4-34	717-727	resolution	_	
+4-35	727-728	.	_	
+
+#Text=It will be important to examine ways in\r
+#Text=which the provisions of this important cross-cutting\r
+#Text=resolution can be better implemented at the regional\r
+#Text=and national levels.
+5-1	729-731	It	_	
+5-2	732-736	will	_	
+5-3	737-739	be	_	
+5-4	740-749	important	_	
+5-5	750-752	to	_	
+5-6	753-760	examine	_	
+5-7	761-765	ways	_	
+5-8	766-768	in	_	
+5-9	770-775	which	_	
+5-10	776-779	the	_	
+5-11	780-790	provisions	_	
+5-12	791-793	of	_	
+5-13	794-798	this	_	
+5-14	799-808	important	_	
+5-15	809-822	cross-cutting	_	
+5-16	824-834	resolution	_	
+5-17	835-838	can	_	
+5-18	839-841	be	_	
+5-19	842-848	better	_	
+5-20	849-860	implemented	_	
+5-21	861-863	at	_	
+5-22	864-867	the	_	
+5-23	868-876	regional	_	
+5-24	878-881	and	_	
+5-25	882-890	national	_	
+5-26	891-897	levels	_	
+5-27	897-898	.	_	
+
+#Text=Croatia welcomes the United Nations system-\r
+#Text=wide action plan produced by the Secretary-General\r
+#Text=(see S/2005/636), which aims at highlighting the\r
+#Text=importance of gender perspectives in conflict\r
+#Text=prevention and peacekeeping activities.
+6-1	902-909	Croatia	_	
+6-2	910-918	welcomes	_	
+6-3	919-922	the	_	
+6-4	923-929	United	_	
+6-5	930-937	Nations	_	
+6-6	938-944	system	_	
+6-7	944-945	-	_	
+6-8	947-951	wide	_	
+6-9	952-958	action	_	
+6-10	959-963	plan	_	
+6-11	964-972	produced	_	
+6-12	973-975	by	_	
+6-13	976-979	the	HERO[4]	
+6-14	980-997	Secretary-General	HERO[4]	
+6-15	999-1000	(	_	
+6-16	1000-1003	see	_	
+6-17	1004-1005	S	_	
+6-18	1005-1006	/	_	
+6-19	1006-1010	2005	_	
+6-20	1010-1011	/	_	
+6-21	1011-1014	636	_	
+6-22	1014-1015	)	_	
+6-23	1015-1016	,	_	
+6-24	1017-1022	which	_	
+6-25	1023-1027	aims	_	
+6-26	1028-1030	at	_	
+6-27	1031-1043	highlighting	_	
+6-28	1044-1047	the	_	
+6-29	1049-1059	importance	_	
+6-30	1060-1062	of	_	
+6-31	1063-1069	gender	_	
+6-32	1070-1082	perspectives	_	
+6-33	1083-1085	in	_	
+6-34	1086-1094	conflict	_	
+6-35	1096-1106	prevention	_	
+6-36	1107-1110	and	_	
+6-37	1111-1123	peacekeeping	_	
+6-38	1124-1134	activities	_	
+6-39	1134-1135	.	_	
+
+#Text=In order to\r
+#Text=achieve success in the post-war confidence-building\r
+#Text=process it is essential to include women as active\r
+#Text=participants in post-conflict reintegration and\r
+#Text=reconstruction.
+7-1	1136-1138	In	_	
+7-2	1139-1144	order	_	
+7-3	1145-1147	to	_	
+7-4	1149-1156	achieve	_	
+7-5	1157-1164	success	_	
+7-6	1165-1167	in	_	
+7-7	1168-1171	the	_	
+7-8	1172-1180	post-war	_	
+7-9	1181-1200	confidence-building	_	
+7-10	1202-1209	process	_	
+7-11	1210-1212	it	_	
+7-12	1213-1215	is	_	
+7-13	1216-1225	essential	_	
+7-14	1226-1228	to	_	
+7-15	1229-1236	include	_	
+7-16	1237-1242	women	HERO[5]|VICTIM[6]	
+7-17	1243-1245	as	_	
+7-18	1246-1252	active	_	
+7-19	1254-1266	participants	_	
+7-20	1267-1269	in	_	
+7-21	1270-1283	post-conflict	_	
+7-22	1284-1297	reintegration	_	
+7-23	1298-1301	and	_	
+7-24	1303-1317	reconstruction	_	
+7-25	1317-1318	.	_	
+
+#Text=That has also been borne out by\r
+#Text=Croatia's experience.
+8-1	1319-1323	That	_	
+8-2	1324-1327	has	_	
+8-3	1328-1332	also	_	
+8-4	1333-1337	been	_	
+8-5	1338-1343	borne	_	
+8-6	1344-1347	out	_	
+8-7	1348-1350	by	_	
+8-8	1352-1361	Croatia's	_	
+8-9	1362-1372	experience	_	
+8-10	1372-1373	.	_	
+
+#Text=The protection of women in armed conflict and\r
+#Text=women's fundamental role in conflict prevention and\r
+#Text=peacebuilding cannot be evaluated without taking into\r
+#Text=account that women are among those most affected by\r
+#Text=violence and the economic instability resulting from\r
+#Text=armed conflict.
+9-1	1377-1380	The	_	
+9-2	1381-1391	protection	_	
+9-3	1392-1394	of	_	
+9-4	1395-1400	women	VICTIM[7]	
+9-5	1401-1403	in	VICTIM[7]	
+9-6	1404-1409	armed	VICTIM[7]	
+9-7	1410-1418	conflict	VICTIM[7]	
+9-8	1419-1422	and	_	
+9-9	1424-1431	women's	HERO	
+9-10	1432-1443	fundamental	_	
+9-11	1444-1448	role	_	
+9-12	1449-1451	in	_	
+9-13	1452-1460	conflict	_	
+9-14	1461-1471	prevention	_	
+9-15	1472-1475	and	_	
+9-16	1477-1490	peacebuilding	_	
+9-17	1491-1497	cannot	_	
+9-18	1498-1500	be	_	
+9-19	1501-1510	evaluated	_	
+9-20	1511-1518	without	_	
+9-21	1519-1525	taking	_	
+9-22	1526-1530	into	_	
+9-23	1532-1539	account	_	
+9-24	1540-1544	that	_	
+9-25	1545-1550	women	VICTIM	
+9-26	1551-1554	are	_	
+9-27	1555-1560	among	_	
+9-28	1561-1566	those	_	
+9-29	1567-1571	most	_	
+9-30	1572-1580	affected	_	
+9-31	1581-1583	by	_	
+9-32	1585-1593	violence	_	
+9-33	1594-1597	and	_	
+9-34	1598-1601	the	_	
+9-35	1602-1610	economic	_	
+9-36	1611-1622	instability	_	
+9-37	1623-1632	resulting	_	
+9-38	1633-1637	from	_	
+9-39	1639-1644	armed	_	
+9-40	1645-1653	conflict	_	
+9-41	1653-1654	.	_	
+
+#Text=Yet, when it comes to negotiating\r
+#Text=peace, post-war reconstruction and reconciliation,\r
+#Text=women are grossly underrepresented.
+10-1	1655-1658	Yet	_	
+10-2	1658-1659	,	_	
+10-3	1660-1664	when	_	
+10-4	1665-1667	it	_	
+10-5	1668-1673	comes	_	
+10-6	1674-1676	to	_	
+10-7	1677-1688	negotiating	_	
+10-8	1690-1695	peace	_	
+10-9	1695-1696	,	_	
+10-10	1697-1705	post-war	_	
+10-11	1706-1720	reconstruction	_	
+10-12	1721-1724	and	_	
+10-13	1725-1739	reconciliation	_	
+10-14	1739-1740	,	_	
+10-15	1742-1747	women	VICTIM	
+10-16	1748-1751	are	_	
+10-17	1752-1759	grossly	_	
+10-18	1760-1776	underrepresented	_	
+10-19	1776-1777	.	_	
+
+#Text=We should\r
+#Text=continue to press the main bodies of the United\r
+#Text=Nations, particularly its funds and programmes, to\r
+#Text=strengthen the participation of women in their work\r
+#Text=and to streamline gender issues.
+11-1	1778-1780	We	_	
+11-2	1781-1787	should	_	
+11-3	1789-1797	continue	_	
+11-4	1798-1800	to	_	
+11-5	1801-1806	press	_	
+11-6	1807-1810	the	_	
+11-7	1811-1815	main	_	
+11-8	1816-1822	bodies	_	
+11-9	1823-1825	of	_	
+11-10	1826-1829	the	_	
+11-11	1830-1836	United	_	
+11-12	1838-1845	Nations	_	
+11-13	1845-1846	,	_	
+11-14	1847-1859	particularly	_	
+11-15	1860-1863	its	_	
+11-16	1864-1869	funds	_	
+11-17	1870-1873	and	_	
+11-18	1874-1884	programmes	_	
+11-19	1884-1885	,	_	
+11-20	1886-1888	to	_	
+11-21	1890-1900	strengthen	_	
+11-22	1901-1904	the	_	
+11-23	1905-1918	participation	_	
+11-24	1919-1921	of	_	
+11-25	1922-1927	women	HERO[8]|VICTIM[9]	
+11-26	1928-1930	in	_	
+11-27	1931-1936	their	_	
+11-28	1937-1941	work	_	
+11-29	1943-1946	and	_	
+11-30	1947-1949	to	_	
+11-31	1950-1960	streamline	_	
+11-32	1961-1967	gender	_	
+11-33	1968-1974	issues	_	
+11-34	1974-1975	.	_	
+
+#Text=Post-conflict\r
+#Text=transition, recovery and reconstruction cannot be\r
+#Text=achieved if gender equality and the promotion of\r
+#Text=women's rights are absent.
+12-1	1976-1989	Post-conflict	_	
+12-2	1991-2001	transition	_	
+12-3	2001-2002	,	_	
+12-4	2003-2011	recovery	_	
+12-5	2012-2015	and	_	
+12-6	2016-2030	reconstruction	_	
+12-7	2031-2037	cannot	_	
+12-8	2038-2040	be	_	
+12-9	2042-2050	achieved	_	
+12-10	2051-2053	if	_	
+12-11	2054-2060	gender	_	
+12-12	2061-2069	equality	_	
+12-13	2070-2073	and	_	
+12-14	2074-2077	the	_	
+12-15	2078-2087	promotion	_	
+12-16	2088-2090	of	_	
+12-17	2092-2099	women's	VICTIM	
+12-18	2100-2106	rights	_	
+12-19	2107-2110	are	_	
+12-20	2111-2117	absent	_	
+12-21	2117-2118	.	_	
+
+#Text=Croatia welcomes the increased involvement of\r
+#Text=women in peacekeeping operations, especially among\r
+#Text=human rights and humanitarian personnel, military\r
+#Text=observers and civilian police.
+13-1	2122-2129	Croatia	_	
+13-2	2130-2138	welcomes	_	
+13-3	2139-2142	the	_	
+13-4	2143-2152	increased	_	
+13-5	2153-2164	involvement	_	
+13-6	2165-2167	of	_	
+13-7	2169-2174	women	HERO	
+13-8	2175-2177	in	_	
+13-9	2178-2190	peacekeeping	_	
+13-10	2191-2201	operations	_	
+13-11	2201-2202	,	_	
+13-12	2203-2213	especially	_	
+13-13	2214-2219	among	_	
+13-14	2221-2226	human	_	
+13-15	2227-2233	rights	_	
+13-16	2234-2237	and	_	
+13-17	2238-2250	humanitarian	_	
+13-18	2251-2260	personnel	_	
+13-19	2260-2261	,	_	
+13-20	2262-2270	military	_	
+13-21	2272-2281	observers	_	
+13-22	2282-2285	and	_	
+13-23	2286-2294	civilian	_	
+13-24	2295-2301	police	_	
+13-25	2301-2302	.	_	
+
+#Text=In that connection, we\r
+#Text=strongly encourage the practice of mainstreaming the\r
+#Text=gender perspective into peacekeeping operations.
+14-1	2303-2305	In	_	
+14-2	2306-2310	that	_	
+14-3	2311-2321	connection	_	
+14-4	2321-2322	,	_	
+14-5	2323-2325	we	_	
+14-6	2327-2335	strongly	_	
+14-7	2336-2345	encourage	_	
+14-8	2346-2349	the	_	
+14-9	2350-2358	practice	_	
+14-10	2359-2361	of	_	
+14-11	2362-2375	mainstreaming	_	
+14-12	2376-2379	the	_	
+14-13	2381-2387	gender	_	
+14-14	2388-2399	perspective	_	
+14-15	2400-2404	into	_	
+14-16	2405-2417	peacekeeping	_	
+14-17	2418-2428	operations	_	
+14-18	2428-2429	.	_	
+
+#Text=At\r
+#Text=the same time, we must increase our efforts to improve\r
+#Text=the protection of women in armed conflict, parallel to\r
+#Text=acknowledging and enhancing their contribution to\r
+#Text=peace processes and to rebuilding their communities.
+15-1	2430-2432	At	_	
+15-2	2434-2437	the	_	
+15-3	2438-2442	same	_	
+15-4	2443-2447	time	_	
+15-5	2447-2448	,	_	
+15-6	2449-2451	we	HERO	
+15-7	2452-2456	must	_	
+15-8	2457-2465	increase	_	
+15-9	2466-2469	our	_	
+15-10	2470-2477	efforts	_	
+15-11	2478-2480	to	_	
+15-12	2481-2488	improve	_	
+15-13	2490-2493	the	_	
+15-14	2494-2504	protection	_	
+15-15	2505-2507	of	_	
+15-16	2508-2513	women	VICTIM[10]|HERO[11]	
+15-17	2514-2516	in	VICTIM[10]|HERO[11]	
+15-18	2517-2522	armed	VICTIM[10]|HERO[11]	
+15-19	2523-2531	conflict	VICTIM[10]|HERO[11]	
+15-20	2531-2532	,	_	
+15-21	2533-2541	parallel	_	
+15-22	2542-2544	to	_	
+15-23	2546-2559	acknowledging	_	
+15-24	2560-2563	and	_	
+15-25	2564-2573	enhancing	_	
+15-26	2574-2579	their	_	
+15-27	2580-2592	contribution	_	
+15-28	2593-2595	to	_	
+15-29	2597-2602	peace	_	
+15-30	2603-2612	processes	_	
+15-31	2613-2616	and	_	
+15-32	2617-2619	to	_	
+15-33	2620-2630	rebuilding	_	
+15-34	2631-2636	their	_	
+15-35	2637-2648	communities	_	
+15-36	2648-2649	.	_	
+
+#Text=The Commission for Gender Equality of the\r
+#Text=Republic of Croatia - an intergovernmental\r
+#Text=commission entrusted with creating policies and\r
+#Text=coordinating all activities for the promotion of gender\r
+#Text=equality - incorporated a chapter on women and\r
+#Text=armed conflict in the national policy for the promotion\r
+#Text=of gender equality for the period 2001-2005 and in its\r
+#Text=implementation programme.
+16-1	2653-2656	The	HERO[12]	
+16-2	2657-2667	Commission	HERO[12]	
+16-3	2668-2671	for	HERO[12]	
+16-4	2672-2678	Gender	HERO[12]	
+16-5	2679-2687	Equality	HERO[12]	
+16-6	2688-2690	of	HERO[12]	
+16-7	2691-2694	the	HERO[12]	
+16-8	2696-2704	Republic	HERO[12]	
+16-9	2705-2707	of	HERO[12]	
+16-10	2708-2715	Croatia	HERO[12]	
+16-11	2716-2717	-	HERO[12]	
+16-12	2718-2720	an	HERO[12]	
+16-13	2721-2738	intergovernmental	HERO[12]	
+16-14	2740-2750	commission	HERO[12]	
+16-15	2751-2760	entrusted	HERO[12]	
+16-16	2761-2765	with	HERO[12]	
+16-17	2766-2774	creating	HERO[12]	
+16-18	2775-2783	policies	HERO[12]	
+16-19	2784-2787	and	HERO[12]	
+16-20	2789-2801	coordinating	HERO[12]	
+16-21	2802-2805	all	HERO[12]	
+16-22	2806-2816	activities	HERO[12]	
+16-23	2817-2820	for	HERO[12]	
+16-24	2821-2824	the	HERO[12]	
+16-25	2825-2834	promotion	HERO[12]	
+16-26	2835-2837	of	HERO[12]	
+16-27	2838-2844	gender	HERO[12]	
+16-28	2846-2854	equality	HERO[12]	
+16-29	2855-2856	-	_	
+16-30	2857-2869	incorporated	_	
+16-31	2870-2871	a	_	
+16-32	2872-2879	chapter	_	
+16-33	2880-2882	on	_	
+16-34	2883-2888	women	_	
+16-35	2889-2892	and	_	
+16-36	2894-2899	armed	_	
+16-37	2900-2908	conflict	_	
+16-38	2909-2911	in	_	
+16-39	2912-2915	the	_	
+16-40	2916-2924	national	_	
+16-41	2925-2931	policy	_	
+16-42	2932-2935	for	_	
+16-43	2936-2939	the	_	
+16-44	2940-2949	promotion	_	
+16-45	2951-2953	of	_	
+16-46	2954-2960	gender	_	
+16-47	2961-2969	equality	_	
+16-48	2970-2973	for	_	
+16-49	2974-2977	the	_	
+16-50	2978-2984	period	_	
+16-51	2985-2989	2001	_	
+16-52	2989-2990	-	_	
+16-53	2990-2994	2005	_	
+16-54	2995-2998	and	_	
+16-55	2999-3001	in	_	
+16-56	3002-3005	its	_	
+16-57	3007-3021	implementation	_	
+16-58	3022-3031	programme	_	
+16-59	3031-3032	.	_	
+
+#Text=Both documents were\r
+#Text=adopted by the Croatian parliament in December 2001.
+17-1	3033-3037	Both	_	
+17-2	3038-3047	documents	_	
+17-3	3048-3052	were	_	
+17-4	3054-3061	adopted	_	
+17-5	3062-3064	by	_	
+17-6	3065-3068	the	HERO[13]	
+17-7	3069-3077	Croatian	HERO[13]	
+17-8	3078-3088	parliament	HERO[13]	
+17-9	3089-3091	in	_	
+17-10	3092-3100	December	_	
+17-11	3101-3105	2001	_	
+17-12	3105-3106	.	_	
+
+#Text=Some tangible results have already been achieved\r
+#Text=in pursuing the goals set out in the national policy.
+18-1	3110-3114	Some	_	
+18-2	3115-3123	tangible	_	
+18-3	3124-3131	results	_	
+18-4	3132-3136	have	_	
+18-5	3137-3144	already	_	
+18-6	3145-3149	been	_	
+18-7	3150-3158	achieved	_	
+18-8	3160-3162	in	_	
+18-9	3163-3171	pursuing	_	
+18-10	3172-3175	the	_	
+18-11	3176-3181	goals	_	
+18-12	3182-3185	set	_	
+18-13	3186-3189	out	_	
+18-14	3190-3192	in	_	
+18-15	3193-3196	the	_	
+18-16	3197-3205	national	_	
+18-17	3206-3212	policy	_	
+18-18	3212-3213	.	_	
+
+#Text=One\r
+#Text=such result was the inclusion of the study of\r
+#Text=international humanitarian law and human rights in the\r
+#Text=\r
+#Text=curriculum of the Croatian military academy as an\r
+#Text=integral part of the military education of the armed\r
+#Text=forces.
+19-1	3214-3217	One	_	
+19-2	3219-3223	such	_	
+19-3	3224-3230	result	_	
+19-4	3231-3234	was	_	
+19-5	3235-3238	the	_	
+19-6	3239-3248	inclusion	_	
+19-7	3249-3251	of	_	
+19-8	3252-3255	the	_	
+19-9	3256-3261	study	_	
+19-10	3262-3264	of	_	
+19-11	3266-3279	international	_	
+19-12	3280-3292	humanitarian	_	
+19-13	3293-3296	law	_	
+19-14	3297-3300	and	_	
+19-15	3301-3306	human	_	
+19-16	3307-3313	rights	_	
+19-17	3314-3316	in	_	
+19-18	3317-3320	the	_	
+19-19	3324-3334	curriculum	_	
+19-20	3335-3337	of	_	
+19-21	3338-3341	the	_	
+19-22	3342-3350	Croatian	_	
+19-23	3351-3359	military	_	
+19-24	3360-3367	academy	_	
+19-25	3368-3370	as	_	
+19-26	3371-3373	an	_	
+19-27	3375-3383	integral	_	
+19-28	3384-3388	part	_	
+19-29	3389-3391	of	_	
+19-30	3392-3395	the	_	
+19-31	3396-3404	military	_	
+19-32	3405-3414	education	_	
+19-33	3415-3417	of	_	
+19-34	3418-3421	the	_	
+19-35	3422-3427	armed	_	
+19-36	3429-3435	forces	_	
+19-37	3435-3436	.	_	
+
+#Text=Special emphasis is placed on the promotion\r
+#Text=and protection of women's human rights and the\r
+#Text=introduction of measures aimed at combating violence\r
+#Text=against women in war, in armed conflict and during\r
+#Text=post-conflict transition.
+20-1	3437-3444	Special	_	
+20-2	3445-3453	emphasis	_	
+20-3	3454-3456	is	_	
+20-4	3457-3463	placed	_	
+20-5	3464-3466	on	_	
+20-6	3467-3470	the	_	
+20-7	3471-3480	promotion	_	
+20-8	3482-3485	and	_	
+20-9	3486-3496	protection	_	
+20-10	3497-3499	of	_	
+20-11	3500-3507	women's	VICTIM	
+20-12	3508-3513	human	_	
+20-13	3514-3520	rights	_	
+20-14	3521-3524	and	_	
+20-15	3525-3528	the	_	
+20-16	3530-3542	introduction	_	
+20-17	3543-3545	of	_	
+20-18	3546-3554	measures	_	
+20-19	3555-3560	aimed	_	
+20-20	3561-3563	at	_	
+20-21	3564-3573	combating	_	
+20-22	3574-3582	violence	_	
+20-23	3584-3591	against	_	
+20-24	3592-3597	women	VICTIM[14]	
+20-25	3598-3600	in	VICTIM[14]	
+20-26	3601-3604	war	VICTIM[14]	
+20-27	3604-3605	,	VICTIM[14]	
+20-28	3606-3608	in	VICTIM[14]	
+20-29	3609-3614	armed	VICTIM[14]	
+20-30	3615-3623	conflict	VICTIM[14]	
+20-31	3624-3627	and	VICTIM[14]	
+20-32	3628-3634	during	VICTIM[14]	
+20-33	3636-3649	post-conflict	VICTIM[14]	
+20-34	3650-3660	transition	VICTIM[14]	
+20-35	3660-3661	.	_	
+
+#Text=We seek to apply a gender perspective in\r
+#Text=Croatia's participation in United Nations peacekeeping\r
+#Text=operations.
+21-1	3665-3667	We	_	
+21-2	3668-3672	seek	_	
+21-3	3673-3675	to	_	
+21-4	3676-3681	apply	_	
+21-5	3682-3683	a	_	
+21-6	3684-3690	gender	_	
+21-7	3691-3702	perspective	_	
+21-8	3703-3705	in	_	
+21-9	3707-3716	Croatia's	_	
+21-10	3717-3730	participation	_	
+21-11	3731-3733	in	_	
+21-12	3734-3740	United	_	
+21-13	3741-3748	Nations	_	
+21-14	3749-3761	peacekeeping	_	
+21-15	3763-3773	operations	_	
+21-16	3773-3774	.	_	
+
+#Text=During 2005, two Croatian women officers\r
+#Text=have been serving in the peacekeeping missions in\r
+#Text=India and Pakistan and in Cyprus.
+22-1	3775-3781	During	_	
+22-2	3782-3786	2005	_	
+22-3	3786-3787	,	_	
+22-4	3788-3791	two	HERO[15]	
+22-5	3792-3800	Croatian	HERO[15]	
+22-6	3801-3806	women	HERO[15]	
+22-7	3807-3815	officers	HERO[15]	
+22-8	3817-3821	have	_	
+22-9	3822-3826	been	_	
+22-10	3827-3834	serving	_	
+22-11	3835-3837	in	_	
+22-12	3838-3841	the	_	
+22-13	3842-3854	peacekeeping	_	
+22-14	3855-3863	missions	_	
+22-15	3864-3866	in	_	
+22-16	3868-3873	India	_	
+22-17	3874-3877	and	_	
+22-18	3878-3886	Pakistan	_	
+22-19	3887-3890	and	_	
+22-20	3891-3893	in	_	
+22-21	3894-3900	Cyprus	_	
+22-22	3900-3901	.	_	
+
+#Text=Currently, five\r
+#Text=women officers from the Croatian armed forces are\r
+#Text=serving within the German contingent of the\r
+#Text=International Security Assistance Force in Afghanistan.
+23-1	3902-3911	Currently	_	
+23-2	3911-3912	,	_	
+23-3	3913-3917	five	HERO[16]	
+23-4	3919-3924	women	HERO[16]	
+23-5	3925-3933	officers	HERO[16]	
+23-6	3934-3938	from	HERO[16]	
+23-7	3939-3942	the	HERO[16]	
+23-8	3943-3951	Croatian	HERO[16]	
+23-9	3952-3957	armed	HERO[16]	
+23-10	3958-3964	forces	HERO[16]	
+23-11	3965-3968	are	_	
+23-12	3970-3977	serving	_	
+23-13	3978-3984	within	_	
+23-14	3985-3988	the	_	
+23-15	3989-3995	German	_	
+23-16	3996-4006	contingent	_	
+23-17	4007-4009	of	_	
+23-18	4010-4013	the	_	
+23-19	4015-4028	International	_	
+23-20	4029-4037	Security	_	
+23-21	4038-4048	Assistance	_	
+23-22	4049-4054	Force	_	
+23-23	4055-4057	in	_	
+23-24	4058-4069	Afghanistan	_	
+23-25	4069-4070	.	_	
+
+#Text=Preparations are taking place for a female officer to\r
+#Text=serve as a military psychologist in the peacekeeping\r
+#Text=mission in Haiti.
+24-1	4072-4084	Preparations	_	
+24-2	4085-4088	are	_	
+24-3	4089-4095	taking	_	
+24-4	4096-4101	place	_	
+24-5	4102-4105	for	_	
+24-6	4106-4107	a	HERO[17]	
+24-7	4108-4114	female	HERO[17]	
+24-8	4115-4122	officer	HERO[17]	
+24-9	4123-4125	to	_	
+24-10	4127-4132	serve	_	
+24-11	4133-4135	as	_	
+24-12	4136-4137	a	_	
+24-13	4138-4146	military	_	
+24-14	4147-4159	psychologist	_	
+24-15	4160-4162	in	_	
+24-16	4163-4166	the	_	
+24-17	4167-4179	peacekeeping	_	
+24-18	4181-4188	mission	_	
+24-19	4189-4191	in	_	
+24-20	4192-4197	Haiti	_	
+24-21	4197-4198	.	_	
+
+#Text=In addition, a captain of the Croatian\r
+#Text=armed forces was the first female officer to take part in\r
+#Text=the Military Observer Group in India and Pakistan.
+25-1	4199-4201	In	_	
+25-2	4202-4210	addition	_	
+25-3	4210-4211	,	_	
+25-4	4212-4213	a	HERO[18]	
+25-5	4214-4221	captain	HERO[18]	
+25-6	4222-4224	of	HERO[18]	
+25-7	4225-4228	the	HERO[18]	
+25-8	4229-4237	Croatian	HERO[18]	
+25-9	4239-4244	armed	HERO[18]	
+25-10	4245-4251	forces	HERO[18]	
+25-11	4252-4255	was	_	
+25-12	4256-4259	the	_	
+25-13	4260-4265	first	_	
+25-14	4266-4272	female	_	
+25-15	4273-4280	officer	_	
+25-16	4281-4283	to	_	
+25-17	4284-4288	take	_	
+25-18	4289-4293	part	_	
+25-19	4294-4296	in	_	
+25-20	4298-4301	the	_	
+25-21	4302-4310	Military	_	
+25-22	4311-4319	Observer	_	
+25-23	4320-4325	Group	_	
+25-24	4326-4328	in	_	
+25-25	4329-4334	India	_	
+25-26	4335-4338	and	_	
+25-27	4339-4347	Pakistan	_	
+25-28	4347-4348	.	_	
+
+#Text=Of course, the success of the application of the\r
+#Text=principles and underlying themes of resolution 1325\r
+#Text=(2000) rests with Member States.
+26-1	4352-4354	Of	_	
+26-2	4355-4361	course	_	
+26-3	4361-4362	,	_	
+26-4	4363-4366	the	_	
+26-5	4367-4374	success	_	
+26-6	4375-4377	of	_	
+26-7	4378-4381	the	_	
+26-8	4382-4393	application	_	
+26-9	4394-4396	of	_	
+26-10	4397-4400	the	_	
+26-11	4402-4412	principles	_	
+26-12	4413-4416	and	_	
+26-13	4417-4427	underlying	_	
+26-14	4428-4434	themes	_	
+26-15	4435-4437	of	_	
+26-16	4438-4448	resolution	_	
+26-17	4449-4453	1325	_	
+26-18	4455-4456	(	_	
+26-19	4456-4460	2000	_	
+26-20	4460-4461	)	_	
+26-21	4462-4467	rests	_	
+26-22	4468-4472	with	_	
+26-23	4473-4479	Member	_	
+26-24	4480-4486	States	_	
+26-25	4486-4487	.	_	
+
+#Text=In that regard, there\r
+#Text=is more that we all can do to ensure that women can\r
+#Text=fully and equally participate at all levels of decision-\r
+#Text=making with regard to conflict-prevention and\r
+#Text=peacebuilding.
+27-1	4488-4490	In	_	
+27-2	4491-4495	that	_	
+27-3	4496-4502	regard	_	
+27-4	4502-4503	,	_	
+27-5	4504-4509	there	_	
+27-6	4511-4513	is	_	
+27-7	4514-4518	more	_	
+27-8	4519-4523	that	_	
+27-9	4524-4526	we	_	
+27-10	4527-4530	all	_	
+27-11	4531-4534	can	_	
+27-12	4535-4537	do	_	
+27-13	4538-4540	to	_	
+27-14	4541-4547	ensure	_	
+27-15	4548-4552	that	_	
+27-16	4553-4558	women	VICTIM[19]|HERO[20]	
+27-17	4559-4562	can	_	
+27-18	4564-4569	fully	_	
+27-19	4570-4573	and	_	
+27-20	4574-4581	equally	_	
+27-21	4582-4593	participate	_	
+27-22	4594-4596	at	_	
+27-23	4597-4600	all	_	
+27-24	4601-4607	levels	_	
+27-25	4608-4610	of	_	
+27-26	4611-4619	decision	_	
+27-27	4619-4620	-	_	
+27-28	4622-4628	making	_	
+27-29	4629-4633	with	_	
+27-30	4634-4640	regard	_	
+27-31	4641-4643	to	_	
+27-32	4644-4663	conflict-prevention	_	
+27-33	4664-4667	and	_	
+27-34	4669-4682	peacebuilding	_	
+27-35	4682-4683	.	_	

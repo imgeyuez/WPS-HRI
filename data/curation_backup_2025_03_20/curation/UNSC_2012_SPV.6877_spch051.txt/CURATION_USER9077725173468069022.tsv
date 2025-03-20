@@ -1,0 +1,891 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Ms.
+1-1	0-2	Ms	_	
+1-2	2-3	.	_	
+
+#Text=Skare: Thank you, Mr.
+2-1	4-9	Skare	_	
+2-2	9-10	:	_	
+2-3	11-16	Thank	_	
+2-4	17-20	you	HERO[1]	
+2-5	20-21	,	HERO[1]	
+2-6	22-24	Mr	HERO[1]	
+2-7	24-25	.	HERO[1]	
+
+#Text=President, for letting\r
+#Text=NATO participate in this important debate.
+3-1	26-35	President	HERO[1]	
+3-2	35-36	,	_	
+3-3	37-40	for	_	
+3-4	41-48	letting	_	
+3-5	50-54	NATO	_	
+3-6	55-66	participate	_	
+3-7	67-69	in	_	
+3-8	70-74	this	_	
+3-9	75-84	important	_	
+3-10	85-91	debate	_	
+3-11	91-92	.	_	
+
+#Text=I would\r
+#Text=also like to thank the briefers for their excellent\r
+#Text=presentations.
+4-1	93-94	I	_	
+4-2	95-100	would	_	
+4-3	102-106	also	_	
+4-4	107-111	like	_	
+4-5	112-114	to	_	
+4-6	115-120	thank	_	
+4-7	121-124	the	HERO[2]	
+4-8	125-133	briefers	HERO[2]	
+4-9	134-137	for	_	
+4-10	138-143	their	_	
+4-11	144-153	excellent	_	
+4-12	155-168	presentations	_	
+4-13	168-169	.	_	
+
+#Text=Civil society organizations have been instrumental\r
+#Text=in promoting women's rights and gender equality.
+5-1	173-178	Civil	HERO[3]	
+5-2	179-186	society	HERO[3]	
+5-3	187-200	organizations	HERO[3]	
+5-4	201-205	have	_	
+5-5	206-210	been	_	
+5-6	211-223	instrumental	_	
+5-7	225-227	in	_	
+5-8	228-237	promoting	_	
+5-9	238-245	women's	VICTIM	
+5-10	246-252	rights	_	
+5-11	253-256	and	_	
+5-12	257-263	gender	_	
+5-13	264-272	equality	_	
+5-14	272-273	.	_	
+
+#Text=To a large degree, it was thanks to civil society that\r
+#Text=resolution 1325 (2000) on women and peace and security\r
+#Text=saw the light of day 12 years ago.
+6-1	275-277	To	_	
+6-2	278-279	a	_	
+6-3	280-285	large	_	
+6-4	286-292	degree	_	
+6-5	292-293	,	_	
+6-6	294-296	it	_	
+6-7	297-300	was	_	
+6-8	301-307	thanks	_	
+6-9	308-310	to	_	
+6-10	311-316	civil	HERO[4]	
+6-11	317-324	society	HERO[4]	
+6-12	325-329	that	_	
+6-13	331-341	resolution	_	
+6-14	342-346	1325	_	
+6-15	347-348	(	_	
+6-16	348-352	2000	_	
+6-17	352-353	)	_	
+6-18	354-356	on	_	
+6-19	357-362	women	_	
+6-20	363-366	and	_	
+6-21	367-372	peace	_	
+6-22	373-376	and	_	
+6-23	377-385	security	_	
+6-24	387-390	saw	_	
+6-25	391-394	the	_	
+6-26	395-400	light	_	
+6-27	401-403	of	_	
+6-28	404-407	day	_	
+6-29	408-410	12	_	
+6-30	411-416	years	_	
+6-31	417-420	ago	_	
+6-32	420-421	.	_	
+
+#Text=As much as States\r
+#Text=and intergovernmental organizations show leadership\r
+#Text=in advancing that agenda, we have to recognize the\r
+#Text=important role that members of civil society play as\r
+#Text=opinion leaders and sources of information, as well as\r
+#Text=in keeping us accountable.
+7-1	422-424	As	_	
+7-2	425-429	much	_	
+7-3	430-432	as	_	
+7-4	433-439	States	HERO[5]	
+7-5	441-444	and	HERO[5]	
+7-6	445-462	intergovernmental	HERO[5]	
+7-7	463-476	organizations	HERO[5]	
+7-8	477-481	show	_	
+7-9	482-492	leadership	_	
+7-10	494-496	in	_	
+7-11	497-506	advancing	_	
+7-12	507-511	that	_	
+7-13	512-518	agenda	_	
+7-14	518-519	,	_	
+7-15	520-522	we	_	
+7-16	523-527	have	_	
+7-17	528-530	to	_	
+7-18	531-540	recognize	_	
+7-19	541-544	the	_	
+7-20	546-555	important	_	
+7-21	556-560	role	_	
+7-22	561-565	that	_	
+7-23	566-573	members	HERO[6]	
+7-24	574-576	of	HERO[6]	
+7-25	577-582	civil	HERO[6]	
+7-26	583-590	society	HERO[6]	
+7-27	591-595	play	_	
+7-28	596-598	as	_	
+7-29	600-607	opinion	_	
+7-30	608-615	leaders	_	
+7-31	616-619	and	_	
+7-32	620-627	sources	_	
+7-33	628-630	of	_	
+7-34	631-642	information	_	
+7-35	642-643	,	_	
+7-36	644-646	as	_	
+7-37	647-651	well	_	
+7-38	652-654	as	_	
+7-39	656-658	in	_	
+7-40	659-666	keeping	_	
+7-41	667-669	us	_	
+7-42	670-681	accountable	_	
+7-43	681-682	.	_	
+
+#Text=While States have the primary responsibility\r
+#Text=for ensuring the implementation of the resolutions\r
+#Text=on women and peace and security, NATO, as a\r
+#Text=political-military organization, is playing its part within\r
+#Text=NATO-led operations and within our partnerships.
+8-1	686-691	While	_	
+8-2	692-698	States	_	
+8-3	699-703	have	_	
+8-4	704-707	the	_	
+8-5	708-715	primary	_	
+8-6	716-730	responsibility	_	
+8-7	732-735	for	_	
+8-8	736-744	ensuring	_	
+8-9	745-748	the	_	
+8-10	749-763	implementation	_	
+8-11	764-766	of	_	
+8-12	767-770	the	_	
+8-13	771-782	resolutions	_	
+8-14	784-786	on	_	
+8-15	787-792	women	_	
+8-16	793-796	and	_	
+8-17	797-802	peace	_	
+8-18	803-806	and	_	
+8-19	807-815	security	_	
+8-20	815-816	,	_	
+8-21	817-821	NATO	HERO	
+8-22	821-822	,	_	
+8-23	823-825	as	_	
+8-24	826-827	a	_	
+8-25	829-847	political-military	_	
+8-26	848-860	organization	_	
+8-27	860-861	,	_	
+8-28	862-864	is	_	
+8-29	865-872	playing	_	
+8-30	873-876	its	_	
+8-31	877-881	part	_	
+8-32	882-888	within	_	
+8-33	890-898	NATO-led	_	
+8-34	899-909	operations	_	
+8-35	910-913	and	_	
+8-36	914-920	within	_	
+8-37	921-924	our	_	
+8-38	925-937	partnerships	_	
+8-39	937-938	.	_	
+
+#Text=We\r
+#Text=have a policy, we have an action plan and, together with\r
+#Text=partners, we are turning words into deeds.
+9-1	939-941	We	HERO	
+9-2	943-947	have	_	
+9-3	948-949	a	_	
+9-4	950-956	policy	_	
+9-5	956-957	,	_	
+9-6	958-960	we	HERO	
+9-7	961-965	have	_	
+9-8	966-968	an	_	
+9-9	969-975	action	_	
+9-10	976-980	plan	_	
+9-11	981-984	and	_	
+9-12	984-985	,	_	
+9-13	986-994	together	_	
+9-14	995-999	with	_	
+9-15	1001-1009	partners	HERO	
+9-16	1009-1010	,	_	
+9-17	1011-1013	we	HERO	
+9-18	1014-1017	are	_	
+9-19	1018-1025	turning	_	
+9-20	1026-1031	words	_	
+9-21	1032-1036	into	_	
+9-22	1037-1042	deeds	_	
+9-23	1042-1043	.	_	
+
+#Text=On the political level, NATO is actively encouraging\r
+#Text=all its partners to adopt specific goals related to the\r
+#Text=promotion of women, peace and security issues in the\r
+#Text=various partnership programmes they develop with\r
+#Text=our organization.
+10-1	1047-1049	On	_	
+10-2	1050-1053	the	_	
+10-3	1054-1063	political	_	
+10-4	1064-1069	level	_	
+10-5	1069-1070	,	_	
+10-6	1071-1075	NATO	HERO	
+10-7	1076-1078	is	_	
+10-8	1079-1087	actively	_	
+10-9	1088-1099	encouraging	_	
+10-10	1101-1104	all	_	
+10-11	1105-1108	its	_	
+10-12	1109-1117	partners	_	
+10-13	1118-1120	to	_	
+10-14	1121-1126	adopt	_	
+10-15	1127-1135	specific	_	
+10-16	1136-1141	goals	_	
+10-17	1142-1149	related	_	
+10-18	1150-1152	to	_	
+10-19	1153-1156	the	_	
+10-20	1158-1167	promotion	_	
+10-21	1168-1170	of	_	
+10-22	1171-1176	women	_	
+10-23	1176-1177	,	_	
+10-24	1178-1183	peace	_	
+10-25	1184-1187	and	_	
+10-26	1188-1196	security	_	
+10-27	1197-1203	issues	_	
+10-28	1204-1206	in	_	
+10-29	1207-1210	the	_	
+10-30	1212-1219	various	_	
+10-31	1220-1231	partnership	_	
+10-32	1232-1242	programmes	_	
+10-33	1243-1247	they	_	
+10-34	1248-1255	develop	_	
+10-35	1256-1260	with	_	
+10-36	1262-1265	our	_	
+10-37	1266-1278	organization	_	
+10-38	1278-1279	.	_	
+
+#Text=The overall aim is to raise awareness\r
+#Text=and to work towards greater female participation in\r
+#Text=the areas of defence and security.
+11-1	1280-1283	The	_	
+11-2	1284-1291	overall	_	
+11-3	1292-1295	aim	_	
+11-4	1296-1298	is	_	
+11-5	1299-1301	to	_	
+11-6	1302-1307	raise	_	
+11-7	1308-1317	awareness	_	
+11-8	1319-1322	and	_	
+11-9	1323-1325	to	_	
+11-10	1326-1330	work	_	
+11-11	1331-1338	towards	_	
+11-12	1339-1346	greater	_	
+11-13	1347-1353	female	_	
+11-14	1354-1367	participation	_	
+11-15	1368-1370	in	_	
+11-16	1372-1375	the	_	
+11-17	1376-1381	areas	_	
+11-18	1382-1384	of	_	
+11-19	1385-1392	defence	_	
+11-20	1393-1396	and	_	
+11-21	1397-1405	security	_	
+11-22	1405-1406	.	_	
+
+#Text=Women are still\r
+#Text=underrepresented in peace and reconciliation processes,\r
+#Text=and we encourage States and our partners to ensure\r
+#Text=women's participation in the prevention, management\r
+#Text=and resolution of conflicts.
+12-1	1407-1412	Women	VICTIM	
+12-2	1413-1416	are	_	
+12-3	1417-1422	still	_	
+12-4	1424-1440	underrepresented	_	
+12-5	1441-1443	in	_	
+12-6	1444-1449	peace	_	
+12-7	1450-1453	and	_	
+12-8	1454-1468	reconciliation	_	
+12-9	1469-1478	processes	_	
+12-10	1478-1479	,	_	
+12-11	1481-1484	and	_	
+12-12	1485-1487	we	HERO	
+12-13	1488-1497	encourage	_	
+12-14	1498-1504	States	_	
+12-15	1505-1508	and	_	
+12-16	1509-1512	our	_	
+12-17	1513-1521	partners	_	
+12-18	1522-1524	to	_	
+12-19	1525-1531	ensure	_	
+12-20	1533-1540	women's	VICTIM[7]|HERO[8]	
+12-21	1541-1554	participation	_	
+12-22	1555-1557	in	_	
+12-23	1558-1561	the	_	
+12-24	1562-1572	prevention	_	
+12-25	1572-1573	,	_	
+12-26	1574-1584	management	_	
+12-27	1586-1589	and	_	
+12-28	1590-1600	resolution	_	
+12-29	1601-1603	of	_	
+12-30	1604-1613	conflicts	_	
+12-31	1613-1614	.	_	
+
+#Text=At the operational level, NATO and its operational\r
+#Text=partners in the International Security Assistance\r
+#Text=Force (ISAF) and Kosovo Force have demonstrated a\r
+#Text=strong commitment to promoting the important role\r
+#Text=that women can play, and have engaged with women\r
+#Text=leaders and activists to understand their views and\r
+#Text=perspectives.
+13-1	1618-1620	At	_	
+13-2	1621-1624	the	_	
+13-3	1625-1636	operational	_	
+13-4	1637-1642	level	_	
+13-5	1642-1643	,	_	
+13-6	1644-1648	NATO	HERO[9]	
+13-7	1649-1652	and	HERO[9]	
+13-8	1653-1656	its	HERO[9]	
+13-9	1657-1668	operational	HERO[9]	
+13-10	1670-1678	partners	HERO[9]	
+13-11	1679-1681	in	HERO[9]	
+13-12	1682-1685	the	HERO[9]	
+13-13	1686-1699	International	HERO[9]	
+13-14	1700-1708	Security	HERO[9]	
+13-15	1709-1719	Assistance	HERO[9]	
+13-16	1721-1726	Force	HERO[9]	
+13-17	1727-1728	(	HERO[9]	
+13-18	1728-1732	ISAF	HERO[9]	
+13-19	1732-1733	)	HERO[9]	
+13-20	1734-1737	and	HERO[9]	
+13-21	1738-1744	Kosovo	HERO[9]	
+13-22	1745-1750	Force	HERO[9]	
+13-23	1751-1755	have	_	
+13-24	1756-1768	demonstrated	_	
+13-25	1769-1770	a	_	
+13-26	1772-1778	strong	_	
+13-27	1779-1789	commitment	_	
+13-28	1790-1792	to	_	
+13-29	1793-1802	promoting	_	
+13-30	1803-1806	the	_	
+13-31	1807-1816	important	_	
+13-32	1817-1821	role	_	
+13-33	1823-1827	that	_	
+13-34	1828-1833	women	HERO	
+13-35	1834-1837	can	_	
+13-36	1838-1842	play	_	
+13-37	1842-1843	,	_	
+13-38	1844-1847	and	_	
+13-39	1848-1852	have	_	
+13-40	1853-1860	engaged	_	
+13-41	1861-1865	with	_	
+13-42	1866-1871	women	HERO[10]	
+13-43	1873-1880	leaders	HERO[10]	
+13-44	1881-1884	and	HERO[10]	
+13-45	1885-1894	activists	HERO[10]	
+13-46	1895-1897	to	_	
+13-47	1898-1908	understand	_	
+13-48	1909-1914	their	_	
+13-49	1915-1920	views	_	
+13-50	1921-1924	and	_	
+13-51	1926-1938	perspectives	_	
+13-52	1938-1939	.	_	
+
+#Text=The Alliance has gender advisers and\r
+#Text=focal points at its various headquarters, as well as in\r
+#Text=operational theatres in Afghanistan and Kosovo.
+14-1	1940-1943	The	HERO[11]	
+14-2	1944-1952	Alliance	HERO[11]	
+14-3	1953-1956	has	_	
+14-4	1957-1963	gender	HERO[12]	
+14-5	1964-1972	advisers	HERO[12]	
+14-6	1973-1976	and	_	
+14-7	1978-1983	focal	_	
+14-8	1984-1990	points	_	
+14-9	1991-1993	at	_	
+14-10	1994-1997	its	_	
+14-11	1998-2005	various	_	
+14-12	2006-2018	headquarters	_	
+14-13	2018-2019	,	_	
+14-14	2020-2022	as	_	
+14-15	2023-2027	well	_	
+14-16	2028-2030	as	_	
+14-17	2031-2033	in	_	
+14-18	2035-2046	operational	_	
+14-19	2047-2055	theatres	_	
+14-20	2056-2058	in	_	
+14-21	2059-2070	Afghanistan	_	
+14-22	2071-2074	and	_	
+14-23	2075-2081	Kosovo	_	
+14-24	2081-2082	.	_	
+
+#Text=I work\r
+#Text=with these dedicated people and see the significant\r
+#Text=efforts they are making to mainstream resolution 1325\r
+#Text=(2000) and related resolutions and to integrate the\r
+#Text=gender perspective into operations.
+15-1	2083-2084	I	HERO	
+15-2	2085-2089	work	_	
+15-3	2091-2095	with	_	
+15-4	2096-2101	these	HERO[13]	
+15-5	2102-2111	dedicated	HERO[13]	
+15-6	2112-2118	people	HERO[13]	
+15-7	2119-2122	and	_	
+15-8	2123-2126	see	_	
+15-9	2127-2130	the	_	
+15-10	2131-2142	significant	_	
+15-11	2144-2151	efforts	_	
+15-12	2152-2156	they	HERO	
+15-13	2157-2160	are	_	
+15-14	2161-2167	making	_	
+15-15	2168-2170	to	_	
+15-16	2171-2181	mainstream	_	
+15-17	2182-2192	resolution	_	
+15-18	2193-2197	1325	_	
+15-19	2199-2200	(	_	
+15-20	2200-2204	2000	_	
+15-21	2204-2205	)	_	
+15-22	2206-2209	and	_	
+15-23	2210-2217	related	_	
+15-24	2218-2229	resolutions	_	
+15-25	2230-2233	and	_	
+15-26	2234-2236	to	_	
+15-27	2237-2246	integrate	_	
+15-28	2247-2250	the	_	
+15-29	2252-2258	gender	_	
+15-30	2259-2270	perspective	_	
+15-31	2271-2275	into	_	
+15-32	2276-2286	operations	_	
+15-33	2286-2287	.	_	
+
+#Text=Experience to date has shown that having gender\r
+#Text=expertise, as well as having more female soldiers in\r
+#Text=theatre, improves our ability to conduct operations\r
+#Text=more effectively.
+16-1	2291-2301	Experience	_	
+16-2	2302-2304	to	_	
+16-3	2305-2309	date	_	
+16-4	2310-2313	has	_	
+16-5	2314-2319	shown	_	
+16-6	2320-2324	that	_	
+16-7	2325-2331	having	_	
+16-8	2332-2338	gender	_	
+16-9	2340-2349	expertise	_	
+16-10	2349-2350	,	_	
+16-11	2351-2353	as	_	
+16-12	2354-2358	well	_	
+16-13	2359-2361	as	_	
+16-14	2362-2368	having	_	
+16-15	2369-2373	more	_	
+16-16	2374-2380	female	HERO[14]	
+16-17	2381-2389	soldiers	HERO[14]	
+16-18	2390-2392	in	_	
+16-19	2394-2401	theatre	_	
+16-20	2401-2402	,	_	
+16-21	2403-2411	improves	_	
+16-22	2412-2415	our	_	
+16-23	2416-2423	ability	_	
+16-24	2424-2426	to	_	
+16-25	2427-2434	conduct	_	
+16-26	2435-2445	operations	_	
+16-27	2447-2451	more	_	
+16-28	2452-2463	effectively	_	
+16-29	2463-2464	.	_	
+
+#Text=For example, we have learned that\r
+#Text=female soldiers in Afghanistan are at times able to better\r
+#Text=connect with members of the population otherwise\r
+#Text=closed off from their male colleagues.
+17-1	2465-2468	For	_	
+17-2	2469-2476	example	_	
+17-3	2476-2477	,	_	
+17-4	2478-2480	we	_	
+17-5	2481-2485	have	_	
+17-6	2486-2493	learned	_	
+17-7	2494-2498	that	_	
+17-8	2500-2506	female	HERO[15]	
+17-9	2507-2515	soldiers	HERO[15]	
+17-10	2516-2518	in	HERO[15]	
+17-11	2519-2530	Afghanistan	HERO[15]	
+17-12	2531-2534	are	_	
+17-13	2535-2537	at	_	
+17-14	2538-2543	times	_	
+17-15	2544-2548	able	_	
+17-16	2549-2551	to	_	
+17-17	2552-2558	better	_	
+17-18	2560-2567	connect	_	
+17-19	2568-2572	with	_	
+17-20	2573-2580	members	_	
+17-21	2581-2583	of	_	
+17-22	2584-2587	the	_	
+17-23	2588-2598	population	_	
+17-24	2599-2608	otherwise	_	
+17-25	2610-2616	closed	_	
+17-26	2617-2620	off	_	
+17-27	2621-2625	from	_	
+17-28	2626-2631	their	_	
+17-29	2632-2636	male	_	
+17-30	2637-2647	colleagues	_	
+17-31	2647-2648	.	_	
+
+#Text=This has led to\r
+#Text=greater awareness of the specific situation and area,\r
+#Text=and led to better dialogue and understanding between\r
+#Text=NATO forces and the local community.
+18-1	2649-2653	This	_	
+18-2	2654-2657	has	_	
+18-3	2658-2661	led	_	
+18-4	2662-2664	to	_	
+18-5	2666-2673	greater	_	
+18-6	2674-2683	awareness	_	
+18-7	2684-2686	of	_	
+18-8	2687-2690	the	_	
+18-9	2691-2699	specific	_	
+18-10	2700-2709	situation	_	
+18-11	2710-2713	and	_	
+18-12	2714-2718	area	_	
+18-13	2718-2719	,	_	
+18-14	2721-2724	and	_	
+18-15	2725-2728	led	_	
+18-16	2729-2731	to	_	
+18-17	2732-2738	better	_	
+18-18	2739-2747	dialogue	_	
+18-19	2748-2751	and	_	
+18-20	2752-2765	understanding	_	
+18-21	2766-2773	between	_	
+18-22	2775-2779	NATO	_	
+18-23	2780-2786	forces	_	
+18-24	2787-2790	and	_	
+18-25	2791-2794	the	_	
+18-26	2795-2800	local	_	
+18-27	2801-2810	community	_	
+18-28	2810-2811	.	_	
+
+#Text=Our experience\r
+#Text=has also shown that training and education are strategic\r
+#Text=tools for security forces and for defence and security\r
+#Text=sector reform.
+19-1	2812-2815	Our	_	
+19-2	2816-2826	experience	_	
+19-3	2828-2831	has	_	
+19-4	2832-2836	also	_	
+19-5	2837-2842	shown	_	
+19-6	2843-2847	that	_	
+19-7	2848-2856	training	_	
+19-8	2857-2860	and	_	
+19-9	2861-2870	education	_	
+19-10	2871-2874	are	_	
+19-11	2875-2884	strategic	_	
+19-12	2886-2891	tools	_	
+19-13	2892-2895	for	_	
+19-14	2896-2904	security	_	
+19-15	2905-2911	forces	_	
+19-16	2912-2915	and	_	
+19-17	2916-2919	for	_	
+19-18	2920-2927	defence	_	
+19-19	2928-2931	and	_	
+19-20	2932-2940	security	_	
+19-21	2942-2948	sector	_	
+19-22	2949-2955	reform	_	
+19-23	2955-2956	.	_	
+
+#Text=Ifused correctly, they can be major force\r
+#Text=multipliers, as the attitudes of those trained can spread\r
+#Text=to walks of life beyond the security sphere.
+20-1	2957-2963	Ifused	_	
+20-2	2964-2973	correctly	_	
+20-3	2973-2974	,	_	
+20-4	2975-2979	they	_	
+20-5	2980-2983	can	_	
+20-6	2984-2986	be	_	
+20-7	2987-2992	major	_	
+20-8	2993-2998	force	_	
+20-9	3000-3011	multipliers	_	
+20-10	3011-3012	,	_	
+20-11	3013-3015	as	_	
+20-12	3016-3019	the	_	
+20-13	3020-3029	attitudes	_	
+20-14	3030-3032	of	_	
+20-15	3033-3038	those	_	
+20-16	3039-3046	trained	_	
+20-17	3047-3050	can	_	
+20-18	3051-3057	spread	_	
+20-19	3059-3061	to	_	
+20-20	3062-3067	walks	_	
+20-21	3068-3070	of	_	
+20-22	3071-3075	life	_	
+20-23	3076-3082	beyond	_	
+20-24	3083-3086	the	_	
+20-25	3087-3095	security	_	
+20-26	3096-3102	sphere	_	
+20-27	3102-3103	.	_	
+
+#Text=As Council members are aware, the mandate of\r
+#Text=the ISAF mission was recently renewed, and the plans\r
+#Text=to hand over full security responsibility from ISAF\r
+#Text=forces to their Afghan counterparts are on course, as\r
+#Text=reaffirmed at the Chicago Summit.
+21-1	3107-3109	As	_	
+21-2	3110-3117	Council	_	
+21-3	3118-3125	members	_	
+21-4	3126-3129	are	_	
+21-5	3130-3135	aware	_	
+21-6	3135-3136	,	_	
+21-7	3137-3140	the	_	
+21-8	3141-3148	mandate	_	
+21-9	3149-3151	of	_	
+21-10	3153-3156	the	_	
+21-11	3157-3161	ISAF	_	
+21-12	3162-3169	mission	_	
+21-13	3170-3173	was	_	
+21-14	3174-3182	recently	_	
+21-15	3183-3190	renewed	_	
+21-16	3190-3191	,	_	
+21-17	3192-3195	and	_	
+21-18	3196-3199	the	_	
+21-19	3200-3205	plans	_	
+21-20	3207-3209	to	_	
+21-21	3210-3214	hand	_	
+21-22	3215-3219	over	_	
+21-23	3220-3224	full	_	
+21-24	3225-3233	security	_	
+21-25	3234-3248	responsibility	_	
+21-26	3249-3253	from	_	
+21-27	3254-3258	ISAF	_	
+21-28	3260-3266	forces	_	
+21-29	3267-3269	to	_	
+21-30	3270-3275	their	_	
+21-31	3276-3282	Afghan	_	
+21-32	3283-3295	counterparts	_	
+21-33	3296-3299	are	_	
+21-34	3300-3302	on	_	
+21-35	3303-3309	course	_	
+21-36	3309-3310	,	_	
+21-37	3311-3313	as	_	
+21-38	3315-3325	reaffirmed	_	
+21-39	3326-3328	at	_	
+21-40	3329-3332	the	_	
+21-41	3333-3340	Chicago	_	
+21-42	3341-3347	Summit	_	
+21-43	3347-3348	.	_	
+
+#Text=Throughout the\r
+#Text=transition process and beyond, we will continue to\r
+#Text=focus on gender-related training and to support the\r
+#Text=recruitment and retention of women in the security\r
+#Text=forces.
+22-1	3349-3359	Throughout	_	
+22-2	3360-3363	the	_	
+22-3	3365-3375	transition	_	
+22-4	3376-3383	process	_	
+22-5	3384-3387	and	_	
+22-6	3388-3394	beyond	_	
+22-7	3394-3395	,	_	
+22-8	3396-3398	we	HERO	
+22-9	3399-3403	will	_	
+22-10	3404-3412	continue	_	
+22-11	3413-3415	to	_	
+22-12	3417-3422	focus	_	
+22-13	3423-3425	on	_	
+22-14	3426-3440	gender-related	_	
+22-15	3441-3449	training	_	
+22-16	3450-3453	and	_	
+22-17	3454-3456	to	_	
+22-18	3457-3464	support	_	
+22-19	3465-3468	the	_	
+22-20	3470-3481	recruitment	_	
+22-21	3482-3485	and	_	
+22-22	3486-3495	retention	_	
+22-23	3496-3498	of	_	
+22-24	3499-3504	women	HERO	
+22-25	3505-3507	in	_	
+22-26	3508-3511	the	_	
+22-27	3512-3520	security	_	
+22-28	3522-3528	forces	_	
+22-29	3528-3529	.	_	
+
+#Text=NATO works shoulder to shoulder with other\r
+#Text=international organizations maintaining international\r
+#Text=peace and security, and we seek to strengthen further\r
+#Text=our cooperation with the United Nations and others to\r
+#Text=make sure we learn from each other's experiences and\r
+#Text=pave the way for greater efficiency and more results.
+23-1	3533-3537	NATO	HERO	
+23-2	3538-3543	works	_	
+23-3	3544-3552	shoulder	_	
+23-4	3553-3555	to	_	
+23-5	3556-3564	shoulder	_	
+23-6	3565-3569	with	_	
+23-7	3570-3575	other	HERO[16]	
+23-8	3577-3590	international	HERO[16]	
+23-9	3591-3604	organizations	HERO[16]	
+23-10	3605-3616	maintaining	HERO[16]	
+23-11	3617-3630	international	HERO[16]	
+23-12	3632-3637	peace	HERO[16]	
+23-13	3638-3641	and	HERO[16]	
+23-14	3642-3650	security	HERO[16]	
+23-15	3650-3651	,	_	
+23-16	3652-3655	and	_	
+23-17	3656-3658	we	HERO	
+23-18	3659-3663	seek	_	
+23-19	3664-3666	to	_	
+23-20	3667-3677	strengthen	_	
+23-21	3678-3685	further	_	
+23-22	3687-3690	our	_	
+23-23	3691-3702	cooperation	_	
+23-24	3703-3707	with	_	
+23-25	3708-3711	the	HERO[17]	
+23-26	3712-3718	United	HERO[17]	
+23-27	3719-3726	Nations	HERO[17]	
+23-28	3727-3730	and	HERO[17]	
+23-29	3731-3737	others	HERO[17]	
+23-30	3738-3740	to	_	
+23-31	3742-3746	make	_	
+23-32	3747-3751	sure	_	
+23-33	3752-3754	we	_	
+23-34	3755-3760	learn	_	
+23-35	3761-3765	from	_	
+23-36	3766-3770	each	_	
+23-37	3771-3778	other's	_	
+23-38	3779-3790	experiences	_	
+23-39	3791-3794	and	_	
+23-40	3796-3800	pave	_	
+23-41	3801-3804	the	_	
+23-42	3805-3808	way	_	
+23-43	3809-3812	for	_	
+23-44	3813-3820	greater	_	
+23-45	3821-3831	efficiency	_	
+23-46	3832-3835	and	_	
+23-47	3836-3840	more	_	
+23-48	3841-3848	results	_	
+23-49	3848-3849	.	_	
+
+#Text=Since my appointment as the NATO Secretary\r
+#Text=General's Special Representative for Women,\r
+#Text=Peace and Security, I have had the great pleasure of\r
+#Text=engaging in dialogue with women's associations in\r
+#Text=the security sector, womens' rights activists, female\r
+#Text=parliamentarians and other representatives of civil\r
+#Text=society.
+24-1	3853-3858	Since	_	
+24-2	3859-3861	my	_	
+24-3	3862-3873	appointment	_	
+24-4	3874-3876	as	_	
+24-5	3877-3880	the	_	
+24-6	3881-3885	NATO	_	
+24-7	3886-3895	Secretary	_	
+24-8	3897-3906	General's	_	
+24-9	3907-3914	Special	_	
+24-10	3915-3929	Representative	_	
+24-11	3930-3933	for	_	
+24-12	3934-3939	Women	_	
+24-13	3939-3940	,	_	
+24-14	3942-3947	Peace	_	
+24-15	3948-3951	and	_	
+24-16	3952-3960	Security	_	
+24-17	3960-3961	,	_	
+24-18	3962-3963	I	_	
+24-19	3964-3968	have	_	
+24-20	3969-3972	had	_	
+24-21	3973-3976	the	_	
+24-22	3977-3982	great	_	
+24-23	3983-3991	pleasure	_	
+24-24	3992-3994	of	_	
+24-25	3996-4004	engaging	_	
+24-26	4005-4007	in	_	
+24-27	4008-4016	dialogue	_	
+24-28	4017-4021	with	_	
+24-29	4022-4029	women's	HERO[18]	
+24-30	4030-4042	associations	HERO[18]	
+24-31	4043-4045	in	HERO[18]	
+24-32	4047-4050	the	HERO[18]	
+24-33	4051-4059	security	HERO[18]	
+24-34	4060-4066	sector	HERO[18]	
+24-35	4066-4067	,	HERO[18]	
+24-36	4068-4074	womens	HERO[18]	
+24-37	4074-4075	'	HERO[18]	
+24-38	4076-4082	rights	HERO[18]	
+24-39	4083-4092	activists	HERO[18]	
+24-40	4092-4093	,	HERO[18]	
+24-41	4094-4100	female	HERO[18]	
+24-42	4102-4118	parliamentarians	HERO[18]	
+24-43	4119-4122	and	HERO[18]	
+24-44	4123-4128	other	HERO[18]	
+24-45	4129-4144	representatives	HERO[18]	
+24-46	4145-4147	of	HERO[18]	
+24-47	4148-4153	civil	HERO[18]	
+24-48	4155-4162	society	HERO[18]	
+24-49	4162-4163	.	_	
+
+#Text=I intend to deepen this dialogue.
+25-1	4164-4165	I	HERO	
+25-2	4166-4172	intend	_	
+25-3	4173-4175	to	_	
+25-4	4176-4182	deepen	_	
+25-5	4183-4187	this	_	
+25-6	4188-4196	dialogue	_	
+25-7	4196-4197	.	_	
+
+#Text=NATO and its member States remain committed\r
+#Text=to upholding human rights and the rule of law.
+26-1	4201-4205	NATO	HERO[19]	
+26-2	4206-4209	and	HERO[19]	
+26-3	4210-4213	its	HERO[19]	
+26-4	4214-4220	member	HERO[19]	
+26-5	4221-4227	States	HERO[19]	
+26-6	4228-4234	remain	_	
+26-7	4235-4244	committed	_	
+26-8	4246-4248	to	_	
+26-9	4249-4258	upholding	_	
+26-10	4259-4264	human	_	
+26-11	4265-4271	rights	_	
+26-12	4272-4275	and	_	
+26-13	4276-4279	the	_	
+26-14	4280-4284	rule	_	
+26-15	4285-4287	of	_	
+26-16	4288-4291	law	_	
+26-17	4291-4292	.	_	
+
+#Text=As\r
+#Text=we face up to the security challenges of the twenty-\r
+#Text=first century, we will continue to work with partners\r
+#Text=and other members of the international community to\r
+#Text=achieve better security and the greater empowerment\r
+#Text=of women.
+27-1	4293-4295	As	_	
+27-2	4297-4299	we	HERO	
+27-3	4300-4304	face	_	
+27-4	4305-4307	up	_	
+27-5	4308-4310	to	_	
+27-6	4311-4314	the	_	
+27-7	4315-4323	security	_	
+27-8	4324-4334	challenges	_	
+27-9	4335-4337	of	_	
+27-10	4338-4341	the	_	
+27-11	4342-4348	twenty	_	
+27-12	4348-4349	-	_	
+27-13	4351-4356	first	_	
+27-14	4357-4364	century	_	
+27-15	4364-4365	,	_	
+27-16	4366-4368	we	HERO	
+27-17	4369-4373	will	_	
+27-18	4374-4382	continue	_	
+27-19	4383-4385	to	_	
+27-20	4386-4390	work	_	
+27-21	4391-4395	with	_	
+27-22	4396-4404	partners	HERO[20]	
+27-23	4406-4409	and	HERO[20]	
+27-24	4410-4415	other	HERO[20]	
+27-25	4416-4423	members	HERO[20]	
+27-26	4424-4426	of	HERO[20]	
+27-27	4427-4430	the	HERO[20]	
+27-28	4431-4444	international	HERO[20]	
+27-29	4445-4454	community	HERO[20]	
+27-30	4455-4457	to	_	
+27-31	4459-4466	achieve	_	
+27-32	4467-4473	better	_	
+27-33	4474-4482	security	_	
+27-34	4483-4486	and	_	
+27-35	4487-4490	the	_	
+27-36	4491-4498	greater	_	
+27-37	4499-4510	empowerment	_	
+27-38	4512-4514	of	_	
+27-39	4515-4520	women	VICTIM[21]|HERO[22]	
+27-40	4520-4521	.	_	

@@ -1,0 +1,790 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.RoleAnnotation|roles
+
+
+#Text=Mr.
+1-1	0-2	Mr	_	
+1-2	2-3	.	_	
+
+#Text=Gata Mavita wa Lufuta (Democratic Republic of the Congo) (spoke in French): First of all, I\r
+#Text=would like to thank France for organizing this debate.
+2-1	4-8	Gata	_	
+2-2	9-15	Mavita	_	
+2-3	16-18	wa	_	
+2-4	19-25	Lufuta	_	
+2-5	26-27	(	_	
+2-6	27-37	Democratic	_	
+2-7	38-46	Republic	_	
+2-8	47-49	of	_	
+2-9	50-53	the	_	
+2-10	54-59	Congo	_	
+2-11	59-60	)	_	
+2-12	61-62	(	_	
+2-13	62-67	spoke	_	
+2-14	68-70	in	_	
+2-15	71-77	French	_	
+2-16	77-78	)	_	
+2-17	78-79	:	_	
+2-18	80-85	First	_	
+2-19	86-88	of	_	
+2-20	89-92	all	_	
+2-21	92-93	,	_	
+2-22	94-95	I	_	
+2-23	97-102	would	_	
+2-24	103-107	like	_	
+2-25	108-110	to	_	
+2-26	111-116	thank	_	
+2-27	117-123	France	HERO	
+2-28	124-127	for	_	
+2-29	128-138	organizing	_	
+2-30	139-143	this	_	
+2-31	144-150	debate	_	
+2-32	150-151	.	_	
+
+#Text=I also commend Secretary-General Ban Ki-moon\r
+#Text=and his Special Representative Zainab Bangura, as\r
+#Text=well as all those who spoke before me, for their very\r
+#Text=useful presentations.
+3-1	153-154	I	_	
+3-2	155-159	also	_	
+3-3	160-167	commend	_	
+3-4	168-185	Secretary-General	HERO[1]	
+3-5	186-189	Ban	HERO[1]	
+3-6	190-197	Ki-moon	HERO[1]	
+3-7	199-202	and	HERO[1]	
+3-8	203-206	his	HERO[1]	
+3-9	207-214	Special	HERO[1]	
+3-10	215-229	Representative	HERO[1]	
+3-11	230-236	Zainab	HERO[1]	
+3-12	237-244	Bangura	HERO[1]	
+3-13	244-245	,	_	
+3-14	246-248	as	_	
+3-15	250-254	well	_	
+3-16	255-257	as	_	
+3-17	258-261	all	HERO[2]	
+3-18	262-267	those	HERO[2]	
+3-19	268-271	who	HERO[2]	
+3-20	272-277	spoke	HERO[2]	
+3-21	278-284	before	HERO[2]	
+3-22	285-287	me	HERO[2]	
+3-23	287-288	,	_	
+3-24	289-292	for	_	
+3-25	293-298	their	_	
+3-26	299-303	very	_	
+3-27	305-311	useful	_	
+3-28	312-325	presentations	_	
+3-29	325-326	.	_	
+
+#Text=Sexual violence in conflict situations is a scourge\r
+#Text=from which my country, the Democratic Republic of\r
+#Text=the Congo, has long suffered.
+4-1	330-336	Sexual	_	
+4-2	337-345	violence	_	
+4-3	346-348	in	_	
+4-4	349-357	conflict	_	
+4-5	358-368	situations	_	
+4-6	369-371	is	_	
+4-7	372-373	a	_	
+4-8	374-381	scourge	_	
+4-9	383-387	from	_	
+4-10	388-393	which	_	
+4-11	394-396	my	VICTIM[3]	
+4-12	397-404	country	VICTIM[3]	
+4-13	404-405	,	VICTIM[3]	
+4-14	406-409	the	VICTIM[3]	
+4-15	410-420	Democratic	VICTIM[3]	
+4-16	421-429	Republic	VICTIM[3]	
+4-17	430-432	of	VICTIM[3]	
+4-18	434-437	the	VICTIM[3]	
+4-19	438-443	Congo	VICTIM[3]	
+4-20	443-444	,	_	
+4-21	445-448	has	_	
+4-22	449-453	long	_	
+4-23	454-462	suffered	_	
+4-24	462-463	.	_	
+
+#Text=For more than a decade,\r
+#Text=my country has experienced especially bloody armed\r
+#Text=conflicts in the eastern part of its territory.
+5-1	464-467	For	_	
+5-2	468-472	more	_	
+5-3	473-477	than	_	
+5-4	478-479	a	_	
+5-5	480-486	decade	_	
+5-6	486-487	,	_	
+5-7	489-491	my	VICTIM[4]	
+5-8	492-499	country	VICTIM[4]	
+5-9	500-503	has	_	
+5-10	504-515	experienced	_	
+5-11	516-526	especially	_	
+5-12	527-533	bloody	_	
+5-13	534-539	armed	_	
+5-14	541-550	conflicts	_	
+5-15	551-553	in	_	
+5-16	554-557	the	_	
+5-17	558-565	eastern	_	
+5-18	566-570	part	_	
+5-19	571-573	of	_	
+5-20	574-577	its	_	
+5-21	578-587	territory	_	
+5-22	587-588	.	_	
+
+#Text=Those\r
+#Text=conflicts, which have caused many human casualties,\r
+#Text=are at the source ofthe practice ofusing rape as a weapon\r
+#Text=of war.
+6-1	589-594	Those	_	
+6-2	596-605	conflicts	_	
+6-3	605-606	,	_	
+6-4	607-612	which	_	
+6-5	613-617	have	_	
+6-6	618-624	caused	_	
+6-7	625-629	many	_	
+6-8	630-635	human	_	
+6-9	636-646	casualties	_	
+6-10	646-647	,	_	
+6-11	649-652	are	_	
+6-12	653-655	at	_	
+6-13	656-659	the	_	
+6-14	660-666	source	_	
+6-15	667-672	ofthe	_	
+6-16	673-681	practice	_	
+6-17	682-689	ofusing	_	
+6-18	690-694	rape	_	
+6-19	695-697	as	_	
+6-20	698-699	a	_	
+6-21	700-706	weapon	_	
+6-22	708-710	of	_	
+6-23	711-714	war	_	
+6-24	714-715	.	_	
+
+#Text=The lives of thousands of girls, women, boys\r
+#Text=and men have thus been disrupted.
+7-1	716-719	The	_	
+7-2	720-725	lives	_	
+7-3	726-728	of	_	
+7-4	729-738	thousands	VICTIM[5]	
+7-5	739-741	of	VICTIM[5]	
+7-6	742-747	girls	VICTIM[5]	
+7-7	747-748	,	VICTIM[5]	
+7-8	749-754	women	VICTIM[5]	
+7-9	754-755	,	VICTIM[5]	
+7-10	756-760	boys	VICTIM[5]	
+7-11	762-765	and	VICTIM[5]	
+7-12	766-769	men	VICTIM[5]	
+7-13	770-774	have	_	
+7-14	775-779	thus	_	
+7-15	780-784	been	_	
+7-16	785-794	disrupted	_	
+7-17	794-795	.	_	
+
+#Text=The consequences\r
+#Text=of the situation psychologically, economically and in\r
+#Text=medical terms are enormous.
+8-1	796-799	The	_	
+8-2	800-812	consequences	_	
+8-3	814-816	of	_	
+8-4	817-820	the	_	
+8-5	821-830	situation	_	
+8-6	831-846	psychologically	_	
+8-7	846-847	,	_	
+8-8	848-860	economically	_	
+8-9	861-864	and	_	
+8-10	865-867	in	_	
+8-11	869-876	medical	_	
+8-12	877-882	terms	_	
+8-13	883-886	are	_	
+8-14	887-895	enormous	_	
+8-15	895-896	.	_	
+
+#Text=This debate affords us an opportunity to once again\r
+#Text=touch on the efforts of my country's Government to\r
+#Text=combat this situation.
+9-1	900-904	This	_	
+9-2	905-911	debate	_	
+9-3	912-919	affords	_	
+9-4	920-922	us	_	
+9-5	923-925	an	_	
+9-6	926-937	opportunity	_	
+9-7	938-940	to	_	
+9-8	941-945	once	_	
+9-9	946-951	again	_	
+9-10	953-958	touch	_	
+9-11	959-961	on	_	
+9-12	962-965	the	_	
+9-13	966-973	efforts	_	
+9-14	974-976	of	_	
+9-15	977-979	my	HERO[6]	
+9-16	980-989	country's	HERO[6]	
+9-17	990-1000	Government	HERO[6]	
+9-18	1001-1003	to	_	
+9-19	1005-1011	combat	_	
+9-20	1012-1016	this	_	
+9-21	1017-1026	situation	_	
+9-22	1026-1027	.	_	
+
+#Text=The restoration of peace in the\r
+#Text=part of the country formerly occupied by rebel armed\r
+#Text=groups has brought major change.
+10-1	1028-1031	The	_	
+10-2	1032-1043	restoration	_	
+10-3	1044-1046	of	_	
+10-4	1047-1052	peace	_	
+10-5	1053-1055	in	_	
+10-6	1056-1059	the	_	
+10-7	1061-1065	part	_	
+10-8	1066-1068	of	_	
+10-9	1069-1072	the	_	
+10-10	1073-1080	country	_	
+10-11	1081-1089	formerly	_	
+10-12	1090-1098	occupied	_	
+10-13	1099-1101	by	_	
+10-14	1102-1107	rebel	VILLAIN[7]	
+10-15	1108-1113	armed	VILLAIN[7]	
+10-16	1115-1121	groups	VILLAIN[7]	
+10-17	1122-1125	has	_	
+10-18	1126-1133	brought	_	
+10-19	1134-1139	major	_	
+10-20	1140-1146	change	_	
+10-21	1146-1147	.	_	
+
+#Text=Enormous progress\r
+#Text=has been made both in the fight against sexual violence\r
+#Text=and at the level of responding to the needs of victims.
+11-1	1148-1156	Enormous	_	
+11-2	1157-1165	progress	_	
+11-3	1167-1170	has	_	
+11-4	1171-1175	been	_	
+11-5	1176-1180	made	_	
+11-6	1181-1185	both	_	
+11-7	1186-1188	in	_	
+11-8	1189-1192	the	_	
+11-9	1193-1198	fight	_	
+11-10	1199-1206	against	_	
+11-11	1207-1213	sexual	_	
+11-12	1214-1222	violence	_	
+11-13	1224-1227	and	_	
+11-14	1228-1230	at	_	
+11-15	1231-1234	the	_	
+11-16	1235-1240	level	_	
+11-17	1241-1243	of	_	
+11-18	1244-1254	responding	_	
+11-19	1255-1257	to	_	
+11-20	1258-1261	the	_	
+11-21	1262-1267	needs	_	
+11-22	1268-1270	of	_	
+11-23	1271-1278	victims	VICTIM	
+11-24	1278-1279	.	_	
+
+#Text=In referring to my country, the report (S/2016/36l) of\r
+#Text=the Secretary-General attests to that in mentioning\r
+#Text=the appreciable 80 per cent decline in the number of\r
+#Text=cases of sexual violence in conflict areas.
+12-1	1281-1283	In	_	
+12-2	1284-1293	referring	_	
+12-3	1294-1296	to	_	
+12-4	1297-1299	my	HERO[8]	
+12-5	1300-1307	country	HERO[8]	
+12-6	1307-1308	,	_	
+12-7	1309-1312	the	_	
+12-8	1313-1319	report	_	
+12-9	1320-1321	(	_	
+12-10	1321-1322	S	_	
+12-11	1322-1323	/	_	
+12-12	1323-1327	2016	_	
+12-13	1327-1328	/	_	
+12-14	1328-1331	36l	_	
+12-15	1331-1332	)	_	
+12-16	1333-1335	of	_	
+12-17	1337-1340	the	_	
+12-18	1341-1358	Secretary-General	_	
+12-19	1359-1366	attests	_	
+12-20	1367-1369	to	_	
+12-21	1370-1374	that	_	
+12-22	1375-1377	in	_	
+12-23	1378-1388	mentioning	_	
+12-24	1390-1393	the	_	
+12-25	1394-1405	appreciable	_	
+12-26	1406-1408	80	_	
+12-27	1409-1412	per	_	
+12-28	1413-1417	cent	_	
+12-29	1418-1425	decline	_	
+12-30	1426-1428	in	_	
+12-31	1429-1432	the	_	
+12-32	1433-1439	number	_	
+12-33	1440-1442	of	_	
+12-34	1444-1449	cases	_	
+12-35	1450-1452	of	_	
+12-36	1453-1459	sexual	_	
+12-37	1460-1468	violence	_	
+12-38	1469-1471	in	_	
+12-39	1472-1480	conflict	_	
+12-40	1481-1486	areas	_	
+12-41	1486-1487	.	_	
+
+#Text=Among other\r
+#Text=things, my Government attributes those results to the\r
+#Text=following elements: the appointment of a personal\r
+#Text=representative of the President of the Republic in charge\r
+#Text=of the fight against sexual violence and the recruitment\r
+#Text=of children; the adoption of a plan of action to combat\r
+#Text=sexual violence among the armed forces and the\r
+#Text=signing ofajoint communique on the issue between the\r
+#Text=Government and the United Nations; the adoption of a\r
+#Text=zero-tolerance policy; and the signing by the Minister\r
+#Text=of National Defence of a decree on the responsibility\r
+#Text=of the unit commanders of the Forces armees de la\r
+#Text=Republique democratique du Congo for combating\r
+#Text=sexual violence.
+13-1	1488-1493	Among	_	
+13-2	1494-1499	other	_	
+13-3	1501-1507	things	_	
+13-4	1507-1508	,	_	
+13-5	1509-1511	my	_	
+13-6	1512-1522	Government	_	
+13-7	1523-1533	attributes	_	
+13-8	1534-1539	those	_	
+13-9	1540-1547	results	_	
+13-10	1548-1550	to	_	
+13-11	1551-1554	the	_	
+13-12	1556-1565	following	_	
+13-13	1566-1574	elements	_	
+13-14	1574-1575	:	_	
+13-15	1576-1579	the	_	
+13-16	1580-1591	appointment	_	
+13-17	1592-1594	of	_	
+13-18	1595-1596	a	_	
+13-19	1597-1605	personal	_	
+13-20	1607-1621	representative	_	
+13-21	1622-1624	of	_	
+13-22	1625-1628	the	_	
+13-23	1629-1638	President	_	
+13-24	1639-1641	of	_	
+13-25	1642-1645	the	_	
+13-26	1646-1654	Republic	_	
+13-27	1655-1657	in	_	
+13-28	1658-1664	charge	_	
+13-29	1666-1668	of	_	
+13-30	1669-1672	the	_	
+13-31	1673-1678	fight	_	
+13-32	1679-1686	against	_	
+13-33	1687-1693	sexual	_	
+13-34	1694-1702	violence	_	
+13-35	1703-1706	and	_	
+13-36	1707-1710	the	_	
+13-37	1711-1722	recruitment	_	
+13-38	1724-1726	of	_	
+13-39	1727-1735	children	VICTIM	
+13-40	1735-1736	;	_	
+13-41	1737-1740	the	_	
+13-42	1741-1749	adoption	_	
+13-43	1750-1752	of	_	
+13-44	1753-1754	a	_	
+13-45	1755-1759	plan	_	
+13-46	1760-1762	of	_	
+13-47	1763-1769	action	_	
+13-48	1770-1772	to	_	
+13-49	1773-1779	combat	_	
+13-50	1781-1787	sexual	_	
+13-51	1788-1796	violence	_	
+13-52	1797-1802	among	_	
+13-53	1803-1806	the	VILLAIN[9]	
+13-54	1807-1812	armed	VILLAIN[9]	
+13-55	1813-1819	forces	VILLAIN[9]	
+13-56	1820-1823	and	_	
+13-57	1824-1827	the	_	
+13-58	1829-1836	signing	_	
+13-59	1837-1845	ofajoint	_	
+13-60	1846-1856	communique	_	
+13-61	1857-1859	on	_	
+13-62	1860-1863	the	_	
+13-63	1864-1869	issue	_	
+13-64	1870-1877	between	_	
+13-65	1878-1881	the	HERO[10]	
+13-66	1883-1893	Government	HERO[10]	
+13-67	1894-1897	and	HERO[10]	
+13-68	1898-1901	the	HERO[10]	
+13-69	1902-1908	United	HERO[10]	
+13-70	1909-1916	Nations	HERO[10]	
+13-71	1916-1917	;	_	
+13-72	1918-1921	the	_	
+13-73	1922-1930	adoption	_	
+13-74	1931-1933	of	_	
+13-75	1934-1935	a	_	
+13-76	1937-1951	zero-tolerance	_	
+13-77	1952-1958	policy	_	
+13-78	1958-1959	;	_	
+13-79	1960-1963	and	_	
+13-80	1964-1967	the	_	
+13-81	1968-1975	signing	_	
+13-82	1976-1978	by	_	
+13-83	1979-1982	the	HERO[11]	
+13-84	1983-1991	Minister	HERO[11]	
+13-85	1993-1995	of	HERO[11]	
+13-86	1996-2004	National	HERO[11]	
+13-87	2005-2012	Defence	HERO[11]	
+13-88	2013-2015	of	_	
+13-89	2016-2017	a	_	
+13-90	2018-2024	decree	_	
+13-91	2025-2027	on	_	
+13-92	2028-2031	the	_	
+13-93	2032-2046	responsibility	_	
+13-94	2048-2050	of	_	
+13-95	2051-2054	the	_	
+13-96	2055-2059	unit	_	
+13-97	2060-2070	commanders	_	
+13-98	2071-2073	of	_	
+13-99	2074-2077	the	_	
+13-100	2078-2084	Forces	_	
+13-101	2085-2091	armees	_	
+13-102	2092-2094	de	_	
+13-103	2095-2097	la	_	
+13-104	2099-2109	Republique	_	
+13-105	2110-2122	democratique	_	
+13-106	2123-2125	du	_	
+13-107	2126-2131	Congo	_	
+13-108	2132-2135	for	_	
+13-109	2136-2145	combating	_	
+13-110	2147-2153	sexual	_	
+13-111	2154-2162	violence	_	
+13-112	2162-2163	.	_	
+
+#Text=All of those steps reflect the will of the Government\r
+#Text=to end this scourge and honour its international\r
+#Text=commitments.
+14-1	2167-2170	All	_	
+14-2	2171-2173	of	_	
+14-3	2174-2179	those	_	
+14-4	2180-2185	steps	_	
+14-5	2186-2193	reflect	_	
+14-6	2194-2197	the	_	
+14-7	2198-2202	will	_	
+14-8	2203-2205	of	_	
+14-9	2206-2209	the	HERO[12]	
+14-10	2210-2220	Government	HERO[12]	
+14-11	2222-2224	to	_	
+14-12	2225-2228	end	_	
+14-13	2229-2233	this	_	
+14-14	2234-2241	scourge	_	
+14-15	2242-2245	and	_	
+14-16	2246-2252	honour	_	
+14-17	2253-2256	its	_	
+14-18	2257-2270	international	_	
+14-19	2272-2283	commitments	_	
+14-20	2283-2284	.	_	
+
+#Text=Against that backdrop, the Government\r
+#Text=is committed to addressing the various problems,\r
+#Text=including deliveringjustice in the fight against impunity.
+15-1	2285-2292	Against	_	
+15-2	2293-2297	that	_	
+15-3	2298-2306	backdrop	_	
+15-4	2306-2307	,	_	
+15-5	2308-2311	the	HERO[13]	
+15-6	2312-2322	Government	HERO[13]	
+15-7	2324-2326	is	_	
+15-8	2327-2336	committed	_	
+15-9	2337-2339	to	_	
+15-10	2340-2350	addressing	_	
+15-11	2351-2354	the	_	
+15-12	2355-2362	various	_	
+15-13	2363-2371	problems	_	
+15-14	2371-2372	,	_	
+15-15	2374-2383	including	_	
+15-16	2384-2401	deliveringjustice	_	
+15-17	2402-2404	in	_	
+15-18	2405-2408	the	_	
+15-19	2409-2414	fight	_	
+15-20	2415-2422	against	_	
+15-21	2423-2431	impunity	_	
+15-22	2431-2432	.	_	
+
+#Text=In that connection, 111 cases were decided in 2015 by\r
+#Text=the military justice system, without regard for the rank\r
+#Text=ofthe accused.
+16-1	2434-2436	In	_	
+16-2	2437-2441	that	_	
+16-3	2442-2452	connection	_	
+16-4	2452-2453	,	_	
+16-5	2454-2457	111	_	
+16-6	2458-2463	cases	_	
+16-7	2464-2468	were	_	
+16-8	2469-2476	decided	_	
+16-9	2477-2479	in	_	
+16-10	2480-2484	2015	_	
+16-11	2485-2487	by	_	
+16-12	2489-2492	the	HERO[14]	
+16-13	2493-2501	military	HERO[14]	
+16-14	2502-2509	justice	HERO[14]	
+16-15	2510-2516	system	HERO[14]	
+16-16	2516-2517	,	_	
+16-17	2518-2525	without	_	
+16-18	2526-2532	regard	_	
+16-19	2533-2536	for	_	
+16-20	2537-2540	the	_	
+16-21	2541-2545	rank	_	
+16-22	2547-2552	ofthe	VILLAIN[15]	
+16-23	2553-2560	accused	VILLAIN[15]	
+16-24	2560-2561	.	_	
+
+#Text=We have also established a compensation\r
+#Text=fund, while two Senate committees, on sexual violence\r
+#Text=and on political, administrative and judicial issues, are\r
+#Text=\r
+#Text=working on a bill proposed by the office of the personal\r
+#Text=representative of the Head of State.
+17-1	2562-2564	We	HERO	
+17-2	2565-2569	have	_	
+17-3	2570-2574	also	_	
+17-4	2575-2586	established	_	
+17-5	2587-2588	a	_	
+17-6	2589-2601	compensation	_	
+17-7	2603-2607	fund	_	
+17-8	2607-2608	,	_	
+17-9	2609-2614	while	_	
+17-10	2615-2618	two	HERO[16]	
+17-11	2619-2625	Senate	HERO[16]	
+17-12	2626-2636	committees	HERO[16]	
+17-13	2636-2637	,	_	
+17-14	2638-2640	on	_	
+17-15	2641-2647	sexual	_	
+17-16	2648-2656	violence	_	
+17-17	2658-2661	and	_	
+17-18	2662-2664	on	_	
+17-19	2665-2674	political	_	
+17-20	2674-2675	,	_	
+17-21	2676-2690	administrative	_	
+17-22	2691-2694	and	_	
+17-23	2695-2703	judicial	_	
+17-24	2704-2710	issues	_	
+17-25	2710-2711	,	_	
+17-26	2712-2715	are	_	
+17-27	2719-2726	working	_	
+17-28	2727-2729	on	_	
+17-29	2730-2731	a	_	
+17-30	2732-2736	bill	_	
+17-31	2737-2745	proposed	_	
+17-32	2746-2748	by	_	
+17-33	2749-2752	the	HERO[17]	
+17-34	2753-2759	office	HERO[17]	
+17-35	2760-2762	of	HERO[17]	
+17-36	2763-2766	the	HERO[17]	
+17-37	2767-2775	personal	HERO[17]	
+17-38	2777-2791	representative	HERO[17]	
+17-39	2792-2794	of	HERO[17]	
+17-40	2795-2798	the	HERO[17]	
+17-41	2799-2803	Head	HERO[17]	
+17-42	2804-2806	of	HERO[17]	
+17-43	2807-2812	State	HERO[17]	
+17-44	2812-2813	.	_	
+
+#Text=On preventing\r
+#Text=sexual violence, a regional campaign called "Breaking\r
+#Text=the Silence" will be launched by September.
+18-1	2814-2816	On	_	
+18-2	2817-2827	preventing	_	
+18-3	2829-2835	sexual	_	
+18-4	2836-2844	violence	_	
+18-5	2844-2845	,	_	
+18-6	2846-2847	a	_	
+18-7	2848-2856	regional	_	
+18-8	2857-2865	campaign	_	
+18-9	2866-2872	called	_	
+18-10	2873-2874	"	_	
+18-11	2874-2882	Breaking	_	
+18-12	2884-2887	the	_	
+18-13	2888-2895	Silence	_	
+18-14	2895-2896	"	_	
+18-15	2897-2901	will	_	
+18-16	2902-2904	be	_	
+18-17	2905-2913	launched	_	
+18-18	2914-2916	by	_	
+18-19	2917-2926	September	_	
+18-20	2926-2927	.	_	
+
+#Text=On\r
+#Text=socioeconomic reintegration, with the collaboration of\r
+#Text=our national institute for professional training, training\r
+#Text=was organized at Kibumba last September in various\r
+#Text=economic sectors for survivors and demobilized\r
+#Text=fighters.
+19-1	2928-2930	On	_	
+19-2	2932-2945	socioeconomic	_	
+19-3	2946-2959	reintegration	_	
+19-4	2959-2960	,	_	
+19-5	2961-2965	with	_	
+19-6	2966-2969	the	_	
+19-7	2970-2983	collaboration	_	
+19-8	2984-2986	of	_	
+19-9	2988-2991	our	HERO[18]	
+19-10	2992-3000	national	HERO[18]	
+19-11	3001-3010	institute	HERO[18]	
+19-12	3011-3014	for	HERO[18]	
+19-13	3015-3027	professional	HERO[18]	
+19-14	3028-3036	training	HERO[18]	
+19-15	3036-3037	,	_	
+19-16	3038-3046	training	_	
+19-17	3048-3051	was	_	
+19-18	3052-3061	organized	_	
+19-19	3062-3064	at	_	
+19-20	3065-3072	Kibumba	_	
+19-21	3073-3077	last	_	
+19-22	3078-3087	September	_	
+19-23	3088-3090	in	_	
+19-24	3091-3098	various	_	
+19-25	3100-3108	economic	_	
+19-26	3109-3116	sectors	_	
+19-27	3117-3120	for	_	
+19-28	3121-3130	survivors	VICTIM[19]	
+19-29	3131-3134	and	VICTIM[19]	
+19-30	3135-3146	demobilized	VICTIM[19]	
+19-31	3148-3156	fighters	VICTIM[19]	
+19-32	3156-3157	.	_	
+
+#Text=That type of training will continue this year\r
+#Text=in Rutshuru in North Kivu and in Bunia and Aru in\r
+#Text=Ituri and will train 2,000 people.
+20-1	3158-3162	That	_	
+20-2	3163-3167	type	_	
+20-3	3168-3170	of	_	
+20-4	3171-3179	training	_	
+20-5	3180-3184	will	_	
+20-6	3185-3193	continue	_	
+20-7	3194-3198	this	_	
+20-8	3199-3203	year	_	
+20-9	3205-3207	in	_	
+20-10	3208-3216	Rutshuru	_	
+20-11	3217-3219	in	_	
+20-12	3220-3225	North	_	
+20-13	3226-3230	Kivu	_	
+20-14	3231-3234	and	_	
+20-15	3235-3237	in	_	
+20-16	3238-3243	Bunia	_	
+20-17	3244-3247	and	_	
+20-18	3248-3251	Aru	_	
+20-19	3252-3254	in	_	
+20-20	3256-3261	Ituri	_	
+20-21	3262-3265	and	_	
+20-22	3266-3270	will	_	
+20-23	3271-3276	train	_	
+20-24	3277-3282	2,000	_	
+20-25	3283-3289	people	_	
+20-26	3289-3290	.	_	
+
+#Text=A $35,000 credit fund\r
+#Text=was set up to meet the financial needs of some women\r
+#Text=in Bunia.
+21-1	3291-3292	A	_	
+21-2	3293-3300	$35,000	_	
+21-3	3301-3307	credit	_	
+21-4	3308-3312	fund	_	
+21-5	3314-3317	was	_	
+21-6	3318-3321	set	_	
+21-7	3322-3324	up	_	
+21-8	3325-3327	to	_	
+21-9	3328-3332	meet	_	
+21-10	3333-3336	the	_	
+21-11	3337-3346	financial	_	
+21-12	3347-3352	needs	_	
+21-13	3353-3355	of	_	
+21-14	3356-3360	some	VICTIM[20]	
+21-15	3361-3366	women	VICTIM[20]	
+21-16	3368-3370	in	VICTIM[20]	
+21-17	3371-3376	Bunia	VICTIM[20]	
+21-18	3376-3377	.	_	
+
+#Text=That progress has been made possible thanks\r
+#Text=to the Government's own resources, with the technical\r
+#Text=support of the international community, including\r
+#Text=assistance from Japan via Ms.
+22-1	3378-3382	That	_	
+22-2	3383-3391	progress	_	
+22-3	3392-3395	has	_	
+22-4	3396-3400	been	_	
+22-5	3401-3405	made	_	
+22-6	3406-3414	possible	_	
+22-7	3415-3421	thanks	_	
+22-8	3423-3425	to	_	
+22-9	3426-3429	the	HERO[21]	
+22-10	3430-3442	Government's	HERO[21]	
+22-11	3443-3446	own	_	
+22-12	3447-3456	resources	_	
+22-13	3456-3457	,	_	
+22-14	3458-3462	with	_	
+22-15	3463-3466	the	_	
+22-16	3467-3476	technical	_	
+22-17	3478-3485	support	_	
+22-18	3486-3488	of	_	
+22-19	3489-3492	the	HERO[22]	
+22-20	3493-3506	international	HERO[22]	
+22-21	3507-3516	community	HERO[22]	
+22-22	3516-3517	,	_	
+22-23	3518-3527	including	_	
+22-24	3529-3539	assistance	_	
+22-25	3540-3544	from	_	
+22-26	3545-3550	Japan	HERO[23]	
+22-27	3551-3554	via	HERO[23]	
+22-28	3555-3557	Ms	HERO[23]	
+22-29	3557-3558	.	HERO[23]	
+
+#Text=Bangura's office,\r
+#Text=and the United Nations Population Fund and various\r
+#Text=other partners.
+23-1	3559-3568	Bangura's	HERO[23]	
+23-2	3569-3575	office	HERO[23]	
+23-3	3575-3576	,	HERO[23]	
+23-4	3578-3581	and	HERO[23]	
+23-5	3582-3585	the	HERO[23]	
+23-6	3586-3592	United	HERO[23]	
+23-7	3593-3600	Nations	HERO[23]	
+23-8	3601-3611	Population	HERO[23]	
+23-9	3612-3616	Fund	HERO[23]	
+23-10	3617-3620	and	HERO[23]	
+23-11	3621-3628	various	HERO[23]	
+23-12	3630-3635	other	HERO[23]	
+23-13	3636-3644	partners	HERO[23]	
+23-14	3644-3645	.	_	
+
+#Text=In conclusion, my country is determined to continue\r
+#Text=its efforts to completely eradicate sexual violence.
+24-1	3649-3651	In	_	
+24-2	3652-3662	conclusion	_	
+24-3	3662-3663	,	_	
+24-4	3664-3666	my	HERO[24]	
+24-5	3667-3674	country	HERO[24]	
+24-6	3675-3677	is	_	
+24-7	3678-3688	determined	_	
+24-8	3689-3691	to	_	
+24-9	3692-3700	continue	_	
+24-10	3702-3705	its	_	
+24-11	3706-3713	efforts	_	
+24-12	3714-3716	to	_	
+24-13	3717-3727	completely	_	
+24-14	3728-3737	eradicate	_	
+24-15	3738-3744	sexual	_	
+24-16	3745-3753	violence	_	
+24-17	3753-3754	.	_	
+
+#Text=We\r
+#Text=highly value the support provided to us in that regard\r
+#Text=by the United Nations and the international community.
+25-1	3755-3757	We	_	
+25-2	3759-3765	highly	_	
+25-3	3766-3771	value	_	
+25-4	3772-3775	the	_	
+25-5	3776-3783	support	_	
+25-6	3784-3792	provided	_	
+25-7	3793-3795	to	_	
+25-8	3796-3798	us	_	
+25-9	3799-3801	in	_	
+25-10	3802-3806	that	_	
+25-11	3807-3813	regard	_	
+25-12	3815-3817	by	_	
+25-13	3818-3821	the	HERO[25]	
+25-14	3822-3828	United	HERO[25]	
+25-15	3829-3836	Nations	HERO[25]	
+25-16	3837-3840	and	HERO[25]	
+25-17	3841-3844	the	HERO[25]	
+25-18	3845-3858	international	HERO[25]	
+25-19	3859-3868	community	HERO[25]	
+25-20	3868-3869	.	_	

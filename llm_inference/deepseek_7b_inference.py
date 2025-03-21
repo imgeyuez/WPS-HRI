@@ -45,7 +45,7 @@ c. Expressions of thanking/commending something are to be treated similar to the
 5. Example:
 “We commend the work that has been done by the United Nations Children's Fund in reintegration projects that has led to the release of girls from the armed forces in various countries.” 
 
-Only generate an output in the format as shown in the Example. 
+Mark the span you want to annotate and label it.
 
 Annotate the following speech:
 "{speech}"

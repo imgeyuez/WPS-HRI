@@ -111,5 +111,5 @@ with open(r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\W
 # run the script 
 run_inference(api_key, 
               model="deepseek/deepseek-chat:free",
-              dataset_path=r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\WPS-HRI\data\train_dev_test_split\train.json")
+              dataset_path="./data/train_dev_test_split/test.json")
 

@@ -44,7 +44,10 @@ def run_inference(api_key:str, model:str, dataset_path:str):
     speeches = load_data(dataset_path)  
 
     # iterate over speeches
-    for speech in speeches:
+    for index, speech in enumerate(speeches):
+        if index == 2:
+            break
+
         # save filename as key in the dictionary 
         filename = speech["filename"]
 
@@ -111,5 +114,5 @@ with open(r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\W
 # run the script 
 run_inference(api_key, 
               model="deepseek/deepseek-chat:free",
-              dataset_path="./data/train_dev_test_split/test.json")
+              dataset_path="./WPS-HRI/data/train_dev_test_split/dev.json")
 

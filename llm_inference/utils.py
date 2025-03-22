@@ -11,8 +11,10 @@ def predictions_json(model, predictions:dict):
     of a model and stores them within a .json-file.
     """
 
+    if "deepseek" in model:
+        model_name = "deepseek"
     # define outputfile path
-    output_filename = f"C:/Users/imgey/Desktop/MASTER_POTSDAM/WiSe2425/PM1_argument_mining/WPS-HRI/predictions/{model}_predictions.json"
+    output_filename = f"./WPS-HRI/predictions/{model_name}_predictions.json"
 
     with open(output_filename, "w") as f:    
         json.dump(predictions, f, indent=4)

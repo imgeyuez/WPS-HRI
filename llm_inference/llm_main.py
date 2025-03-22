@@ -1,5 +1,5 @@
 import json
-from llm_call import llm_inference
+from llm_call import llm_inference, llama_inference
 from utils import predictions_json
 
 def load_data(path):
@@ -45,60 +45,114 @@ def run_inference(api_key:str, model:str, dataset_path:str):
 
     # iterate over speeches
     for index, speech in enumerate(speeches):
-        if index == 2:
-            break
 
         # save filename as key in the dictionary 
         filename = speech["filename"]
 
         # prompt to give the LLM
         prompt= f"""
-It is going to be your task to identify the roles of Victim, Hero and Villain in a given speech. 
+Task overview
+You are given a speech from the United Nations Security Council. Your task is to identify and label characters within the speech. Label each identified character as either Hero, Villain, or Victim. These labels can also be combined to mark that an identified character is portrayed as fulfilling several roles, for example, as Hero and Victim. Some character spans may contain other character spans, for example, when a victim entity is mentioned within a villain entity.
 
-Begin of Annotation Guidelines:
+For the annotations, follow these annotation guidelines: 
+
+Annotation guidelines
+
 1. Character Level Rules:
-a. annotation has to consist of the whole NP in order to include as much information as possible when identifying characters and their roles; some examples include numbers. Example: “60 million Africans,” “60 percent”
-b. Descriptive clauses: “parties that perpetuate acts of violence against women and children”
-c. Self-oriented possessive modifiers: “my delegation”
+a. Include entire noun phrases (NP): This includes any numerical or descriptive modifiers.
+Example: “<HER>60 million Africans</HER> ”
+b. Annotate restrictive relative clauses fully.
+Example: “<HER>parties that perpetuate acts of violence against women and children</HER> ”
+c. Include possessive modifiers within the NP:
+Example: “<HER>my delegation</HER> ”
+d. When multiple characters are listed together as part of the same NP and share a common role or action, tag the entire sequence as one entity. Do not split or annotate each item separately.
+Example: “Allow me to begin by thanking <HER>the Secretary-General, Mr. Kevin Hyland, Mr. Yury Fedotov and Ms. Ilwad Elman</HER> for their briefings.“
+
 
 2. Role-Definitions:
-a. Hero: Heroes are people who, by helping victims (and defeating the villains), can become heroes. They are defined as people who increase agreement within groups and boost commitment to a cause. They tend to be well-intentioned people, who recognize injustice, try to resolve and fight it, as well as protect others. However, this does not mean that heroes are completely independent. Jaspers et al. (2018) state that even a hero might be in need of help from an even more experienced hero. Furthermore, they are often put in the context of success. 
-Task specific additions:
-Someone who has the potential to save others, given their abilities, knowledge, positionality/perspective, but who is not able to do so because of structural discrimination
-Someone who makes a call to action
-Someone who is recognising the unjust treatment and violation of victims or is calling it out.
+a. Hero: An entity is labeled as a Hero if it:
+helps victims and/or defeats villains
+increases agreement within groups or commitment to a cause
+recognizes injustice and actively fights to resolve it
+has the potential to save others, given their abilities, knowledge, positionality/perspective, but who is not able to do so because of structural discrimination
+makes a call to action
+calls out or recognizes unjust treatment/violations 
 
+b. Victim: An entity is labeled as a Victim if it:
+is weak, good, or innocent and in need of protection
+suffers from injustice (e.g., sexual violence, displacement, physical harm)
+is excluded from decision-making or denied recognition/power
+does not have the same rights as others
 
-b. Victim: Victims tend to be portrayed as weak, good, innocent people who are in need of protection. Due to these characteristics, they often motivate and encourage action towards a specific cause and can help make aware of injustices which are worth combatting. Jaspers et al. (2018) state that victim’s sufferings are often elaborated in detail to arouse more moral emotions and indignation. “Popular” victims, as they get the most sympathetic reactions in the modern world due to their cultural innocence, are children. 
-Task-specific additions:
-Someone who is excluded from decision-making processes/someone who is not given the recognition/power that they deserve
-Someone who suffers acts of sexual violence/physical harm/displacement, etc. 
-Someone who is not given the same equal rights as other parties
-
-c. Villain: Villains are people whose moral reputation turns or has turned negative. They are considered to be people who spread anxiety and fear, cause people to lose their daily routines, and make them sacrifice their lives, for example, within wars. Perpetrators often share the same characteristics as heroes, such as being strong, brave, and intelligent. However, their description tends to be more like that of beast-like predators: powerful, threatening, and delinquent.
-Task specific additions: 
-Someone who is responsible for causing anxieties, damage, and crimes. 
-Someone who is the cause of people losing their daily routines. 
-Someone who stands in the way of equal rights and justice for victims
+c. Villain: An entity is labeled as a Villain if it:
+causes anxiety and fear
+causes people to lose their daily routines
+causes harm or disrupts peace
+acts in a way that prevents equal rights and justice for victims
+has a negative moral reputation
 
 3. Entities to tag:
-a. People b. Organisations  c. Countries d. Groups  f. No laws etc. except for mentioned UNSC Resolutions
+You should only tag: 
+People 
+Organisations  
+Countries
+Groups  
 
-4. What not to annotate:
-a. Entities who are hoping for something good to happen. We identify hope as a passive action, showing too little initiative to actually change anything in order to be considered as a hero. 
-b. Entities welcoming something
-c. Expressions of thanking/commending something are to be treated similar to the ones of hoping.
+4. Entities NOT to tag:
+Abstract concepts: Do not tag abstract ideas or symbolic references as characters.
+Example: “International cooperation”, “French diplomacy”
+Entities hoping/welcoming/thanking/commending for something good to happen. These are passive actions.
+Laws or treaties: Only annotate United Nations Security Council Resolutions if they are explicitly personified.
+Example: In “Resolution 1325 calls for action,” the resolution should be tagged as a hero. In “working towards the implementation of resolution 1325,” the resolution should not be marked.
 
-5. Example:
-“We commend the work that has been done by the United Nations Children's Fund in reintegration projects that has led to the release of girls from the armed forces in various countries.” 
+5. Annotation of character role names: 
+Only annotate generic role terms (like “victim”) when no other specification is included.
+Example: In “Victims of these atrocious crimes have been waiting for justice”, tag “victims of these atrocious crimes” as Victim.
+However, if specific entities are mentioned, like in  “Victims of these atrocious crimes, namely women, have been waiting for justice” only annotate “women” as Victim.
 
-Mark the span you want to annotate and label it.
+Output Format 
+Rewrite the entire speech with in-line tags marking the identified characters. Use these tags:
+Hero: <HER>text</HER>
+Villain: <VIL>text</VIL>
+Victim: <VIC>text</VIC>
 
-Annotate the following speech:
-"{speech}"
+Combined roles: 
+Hero and Villain: <HER_VIL>text</HER_VIL>
+Hero and Victim:  <HER_VIC>text</HER_VIC>
+Victim and Villain: <VIC_VIL>text</VIC_VIL>
+Hero and Villain and Victim: <HER_VIL_VIC>text</HER_VIL_VIC>
+
+Overlapping annotations should nest tags.
+
+For example: 
+“Those who commit crimes against women, including the peacekeeping personnel, should be brought to book.”
+In this case, “women” is a victim within the broader entity “those who commit crimes against women, including the peacekeeping personnel”, which would be entirely annotated as villain. 
+
+The output text should be: 
+“<VIL>Those who commit crimes against <VIC>women</VIC>, including the peacekeeping personnel</VIL>, should be brought to book.”
+
+In certain cases, characters may be portrayed with multiple roles simultaneously. When this happens, annotate the entity with the combined role. 
+
+For example:
+If the input text is: 
+“Moreover, in the home, where a woman’s domestic role as spouse and mother is so vital to the well-being of society, her work is always undervalued and underpaid.”
+
+The output text should be: 
+“Moreover, in the home, where a <HER_VIC>woman’s</HER_VIC> domestic role as spouse and mother is so vital to the well-being of society, her work is always undervalued and underpaid.”
+
+Explanation: In this case, “woman” is portrayed both as a hero (for her vital role in society) and as a victim (because her work is undervalued). When an entity fits into multiple roles based on the context, use the combined tags.
+
+
+INSTRUCTION: Rewrite the entire speech with the in-line tags included as specified. Do not provide any additional explanation or formatting. Only include the annotated text—nothing else. The output should strictly be the speech with the appropriate tags for the identified characters.
+
+Here is the speech to annotate: 
+“{speech}”
 """
         # call the inference to the model and save its response
-        response = llm_inference(api_key, model, prompt)
+        if model == "meta-llama/Llama-3.3-70B-Instruct-Turbo":
+            response = llama_inference(model, prompt)
+        else:
+            response = llm_inference(api_key, model, prompt)
 
         # add response (predictions) as value to the respective
         # key 
@@ -111,8 +165,14 @@ Annotate the following speech:
 with open(r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\WPS\openrouter_api.txt", "r") as f:
     api_key = f.read()
 
+# models that are listed within OpenRouter but do not work
+# "meta-llama/llama-3.3-70b-instruct:free"  -> https://github.com/continuedev/continue/issues/3378
+models = ["meta-llama/Llama-3.3-70B-Instruct-Turbo", "deepseek/deepseek-r1-zero:free"]
+
 # run the script 
-run_inference(api_key, 
-              model="deepseek/deepseek-chat:free",
-              dataset_path="./WPS-HRI/data/train_dev_test_split/dev.json")
+for model in models:
+    run_inference(api_key, 
+                model,
+                "./WPS-HRI/data/train_dev_test_split/dev.json")
+    print(f"----- Finished with model {model} -----")
 

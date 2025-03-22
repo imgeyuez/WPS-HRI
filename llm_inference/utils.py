@@ -13,6 +13,8 @@ def predictions_json(model, predictions:dict):
 
     if "deepseek" in model:
         model_name = "deepseek"
+    elif "llama" in model:
+        model_name = "llama"
     # define outputfile path
     output_filename = f"./WPS-HRI/predictions/{model_name}_predictions.json"
 

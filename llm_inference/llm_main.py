@@ -1,11 +1,55 @@
-# pip install ollama
+import json
+from llm_call import llm_inference
+from utils import predictions_json
 
-import ollama 
+def load_data(path):
+    """
+    Function to load the dataset which contains the 
+    speeches that are supposed to be annotated.
 
+    Input:
+    1. path (str):      os path of the dataset-file.
 
-speech = "Women who were raped by armed forces fight for their rights. And I am here so support them!"
+    Output:
+    1. speeches (dict): Dictionary which contains all speeches. Each dictionary 
+                        entry represents a speech with the following structure:
+                        "filename": str,
+                        "sentences": [{tokens: list, goldlabels: list, offset: list}, ...]
+    """
+    with open(path, "r") as f:
+        speeches = json.load(f)
 
-prompt= f"""
+    return speeches
+
+def run_inference(api_key:str, model:str, dataset_path:str):
+    """
+    Main-Function to run the LLM interface (with deepseek over openrouter).
+    Loads the data and iterates over all speeches afterwards to let them 
+    annotate by the LLM.
+
+    Input
+    1. api_key (str)        : the API key of the user
+    2. model (str)          : name of the model they want to use
+    3. dataset_path (str)   : path to the dataset
+
+    Output
+    None
+    .json-file with all predictions per speech
+    """
+
+    # initialise empty dictionary to store predictions in for files
+    llm_predictions = {}
+
+    # load dataset
+    speeches = load_data(dataset_path)  
+
+    # iterate over speeches
+    for speech in speeches:
+        # save filename as key in the dictionary 
+        filename = speech["filename"]
+
+        # prompt to give the LLM
+        prompt= f"""
 It is going to be your task to identify the roles of Victim, Hero and Villain in a given speech. 
 
 Begin of Annotation Guidelines:
@@ -50,16 +94,22 @@ Mark the span you want to annotate and label it.
 Annotate the following speech:
 "{speech}"
 """
+        # call the inference to the model and save its response
+        response = llm_inference(api_key, model, prompt)
 
+        # add response (predictions) as value to the respective
+        # key 
+        llm_predictions[filename] = response
 
+    # generate output file with all predictions
+    predictions_json(model, llm_predictions)
+    
+# load API-key 
+with open(r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\WPS\openrouter_api.txt", "r") as f:
+    api_key = f.read()
 
-stream = ollama.chat(
-    model='deepseek-r1', # name of llama to use
-    messages=[{'role': 'user', 'content': prompt}],
-    stream=True # if true, output is printed word by word 
-)
+# run the script 
+run_inference(api_key, 
+              model="deepseek/deepseek-chat:free",
+              dataset_path=r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\WPS-HRI\data\train_dev_test_split\train.json")
 
-
-# loop over all chunks of output stream and give them out together
-for chunk in stream:
-    print(chunk["message"]["content"], end="", flush=True)

@@ -1,6 +1,7 @@
 import requests
 import json
 from together import Together
+import time
 
 def llm_inference(api_key:str, model:str, prompt:str):
     """
@@ -74,16 +75,41 @@ def llama_inference(model:str, prompt:str):
     client = Together(api_key=api_key)
 
     # Send a message to the Llama model
-    response = client.chat.completions.create(
-        model=model,  # Specify the model
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.2  # Adjust temperature between 0.0 (least random) to 1.0 (most random)
-)
-    # Print the response from the model
-    answer = response.choices[0].message.content
-    print(model)
-    print(answer)
-    return answer
+    # response = client.chat.completions.create(
+    #     model=model,  # Specify the model
+    #     messages=[{"role": "user", "content": prompt}],
+    #     temperature=0.2)  # Adjust temperature between 0.0 (least random) to 1.0 (most random)
+    
+
+    try:
+        # Send a message to the Llama model
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2
+        )
+
+        # save the response from the model
+        answer = response.choices[0].message.content
+        print(model)
+        print("Generated answer")
+
+        # Wait 200 seconds before making the next request
+        print("Waiting for 200 seconds to avoid rate limit...")
+        time.sleep(200)
+
+        return answer
+
+    except Exception as e:
+        print(f"Error: {e}")
+        print("Retrying after 200 seconds...")
+        time.sleep(200)
+
+    # # save the response from the model
+    # answer = response.choices[0].message.content
+    # print(model)
+    # print("Generated answer")
+    # return answer
 
 
 

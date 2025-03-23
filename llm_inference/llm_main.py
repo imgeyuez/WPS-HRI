@@ -49,6 +49,9 @@ def run_inference(api_key:str, model:str, dataset_path:str):
         # save filename as key in the dictionary 
         filename = speech["filename"]
 
+        with open(f"./WPS-HRI/data/wps_speeches/{filename}", "r", encoding="UTF-8") as f:
+            speech_text = f.read()
+
         # prompt to give the LLM
         prompt= f"""
 Task overview
@@ -146,13 +149,13 @@ Explanation: In this case, “woman” is portrayed both as a hero (for her vita
 INSTRUCTION: Rewrite the entire speech with the in-line tags included as specified. Do not provide any additional explanation or formatting. Only include the annotated text—nothing else. The output should strictly be the speech with the appropriate tags for the identified characters.
 
 Here is the speech to annotate: 
-“{speech}”
+“{speech_text}”
 """
         # call the inference to the model and save its response
-        if model == "meta-llama/Llama-3.3-70B-Instruct-Turbo":
-            response = llama_inference(model, prompt)
-        else:
-            response = llm_inference(api_key, model, prompt)
+        # if model == "meta-llama/Llama-3.3-70B-Instruct-Turbo":
+        response = llama_inference(model, prompt)
+        # else:
+        #     response = llm_inference(api_key, model, prompt)
 
         # add response (predictions) as value to the respective
         # key 
@@ -167,7 +170,7 @@ with open(r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\W
 
 # models that are listed within OpenRouter but do not work
 # "meta-llama/llama-3.3-70b-instruct:free"  -> https://github.com/continuedev/continue/issues/3378
-models = ["meta-llama/Llama-3.3-70B-Instruct-Turbo", "deepseek/deepseek-r1-zero:free"]
+models = ["deepseek-ai/DeepSeek-R1"] #"meta-llama/Llama-3.3-70B-Instruct-Turbo", , "deepseek/deepseek-r1-zero:free"] # 
 
 # run the script 
 for model in models:

@@ -152,10 +152,8 @@ def process_file(file_copy, file_original):
     for index, line in enumerate(file_original["raw_file_input"]):
 
         # get  previous label
-        prev_label = None if index == 0 else file_original["raw_file_input"][index - 1][3] if len(file_original["raw_file_input"][index - 1]) > 4 else None
+        prev_label = None if index == 0 else file_original["raw_file_input"][index - 1][3] if len(file_original["raw_file_input"][index - 1]) > 4 else prev_label
         
-        if prev_label:
-            prev_label = clean_label(prev_label)
 
         if len(line) == 1:  # New sentence
             if sentence_tokens:
@@ -173,13 +171,99 @@ def process_file(file_copy, file_original):
             token_offset = tuple(line[1].split("-"))
             sentence_tokens.append(token)
             sentence_offset.append(token_offset)
+            current_label = line[3]
 
-            if line[3] == "_":
+            # if current label has no label, append O
+            if current_label == "_":
                 sentence_goldlabels.append("O")
-            else:
-                current_label = clean_label(line[3])
+            
+            # if current label is equal to previous label
+            # we need to check if '|' is in the label to maintin
+            # consistent labeling of double-roles 
+            elif prev_label is not None and current_label == prev_label:
+                # if no multiple-role, label with I
+                if "|" not in current_label:
+                    sentence_goldlabels.append(f"I-{current_label.split('[')[0]}")
                 
-                label_token(prev_label, current_label, sentence_goldlabels)
+                # if multiple roles: split them and check the order 
+                else:
+                    # clean the label of HERO[3]|VILLAIN[4] for example
+                    # or HERO[3]| etc.
+                    labels = current_label.split("|")
+                    current_labels = list()
+                    for l in labels:
+                        current_labels.append(l.split('[')[0])
+                    label = '_'.join(current_labels)
+
+                    if label == "VILLAIN_VICTIM":
+                        current_label = "VICTIM_VILLAIN"
+                    elif label == "VILLAIN_HERO":
+                        current_label = "HERO_VILLAIN"
+                    elif label == "VICTIM_HERO":
+                        current_label = "HERO_VICTIM"
+                    else:
+                        current_label = label
+
+                    sentence_goldlabels.append(f'I-{current_label}')
+
+            # if current label is NOT '_' and also not equal to previous label
+            # investigate current and previous label with respect to multiple-label
+            # and if it is a single label, check if it is within the previous one (continue with I)
+            # if it is a multiple-label, start with B and doubled label
+            elif current_label !=  '_' and prev_label is not None and current_label == prev_label:
+                if '|' in current_label and '|' not in prev_label:
+                    labels = current_label.split("|")
+                    current_labels = list()
+                    for l in labels:
+                        current_labels.append(l.split("[")[0])
+                    label = '_'.join(current_labels)
+
+                    if label == "VILLAIN_VICTIM":
+                        current_label = "VICTIM_VILLAIN"
+                    elif label == "VILLAIN_HERO":
+                        current_label = "HERO_VILLAIN"
+                    elif label == "VICTIM_HERO":
+                        current_label = "HERO_VICTIM"
+                    else:
+                        current_label = label
+
+                    sentence_goldlabels.append(f'B-{current_label}')
+            
+                elif '|' in prev_label and '|' not in current_label:
+                    if current_label in prev_label:
+                        sentence_goldlabels.append(f'I-{current_label.split("[")[0]}')
+                    else:
+                        sentence_goldlabels.append(f'B-{current_label.split("[")[0]}')
+
+
+            # if it is none of the above, it has to be the beginning of a new
+            # entity, start with B
+            else:
+                if '|' in current_label:
+                    labels = current_label.split("|")
+                    current_labels = list()
+                    for l in labels:
+                        current_labels.append(l.split("[")[0])
+                    label = '_'.join(current_labels)
+
+                    if label == "VILLAIN_VICTIM":
+                        current_label = "VICTIM_VILLAIN"
+                    elif label == "VILLAIN_HERO":
+                        current_label = "HERO_VILLAIN"
+                    elif label == "VICTIM_HERO":
+                        current_label = "HERO_VICTIM"
+                    else:
+                        current_label = label
+
+                    sentence_goldlabels.append(f'B-{current_label}')
+                
+                else:
+                    sentence_goldlabels.append(f'B-{current_label.split("[")[0]}')
+
+
+                # current_label = clean_label(line[3])
+                
+                # label_token(prev_label, current_label, sentence_goldlabels)
 
 def json_output(files_copy, data_type):
 
@@ -198,6 +282,7 @@ def process_files(files, train, dev, test):
     files_copy = copy.deepcopy(files)  # Create a deep copy to modify
     
     for file_original, file_copy in zip(files, files_copy):
+
         process_file(file_copy, file_original)
 
     train_data, dev_data, test_data = [], [], []
@@ -239,10 +324,5 @@ Overview of which files belong to which dataset
 backup_path = './data/curation_backup_2025_03_20/curation'
 
 files = read_tsv_files(backup_path=backup_path)
-
-num_of_cols = set()
-for file in files:
-    for line in file["raw_file_input"]:
-        num_of_cols.add(len(line))
 
 process_files(files, train, dev, test)

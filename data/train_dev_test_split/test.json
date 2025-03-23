@@ -129,7 +129,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "O",
                     "O",
                     "O",
@@ -11251,7 +11251,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "I-HERO",
                     "I-HERO",
                     "I-HERO",
@@ -11335,7 +11335,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "I-HERO",
                     "I-HERO",
                     "I-HERO",
@@ -11412,7 +11412,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "I-HERO",
                     "I-HERO",
                     "I-HERO",
@@ -16113,7 +16113,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "I-HERO",
                     "I-HERO",
                     "I-HERO",
@@ -16190,7 +16190,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "I-HERO",
                     "I-HERO",
                     "I-HERO",
@@ -16444,7 +16444,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "I-HERO",
                     "I-HERO",
                     "I-HERO",
@@ -24384,7 +24384,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "I-HERO",
                     "I-HERO",
                     "I-HERO",

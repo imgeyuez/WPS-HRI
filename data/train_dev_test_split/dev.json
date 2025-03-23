@@ -769,7 +769,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "O",
                     "O",
                     "O",
@@ -15874,7 +15874,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "O",
                     "O",
                     "O",
@@ -15998,7 +15998,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "I-HERO",
                     "O",
                     "O",
@@ -16202,7 +16202,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "I-HERO",
                     "I-HERO",
                     "I-HERO",
@@ -16246,7 +16246,7 @@
                     "."
                 ],
                 "goldlabels": [
-                    "B-HERO",
+                    "I-HERO",
                     "I-HERO",
                     "I-HERO",
                     "I-HERO",
@@ -24266,7 +24266,7 @@
                     "I-VILLAIN",
                     "I-VILLAIN",
                     "B-VICTIM_VILLAIN",
-                    "I-VILLAIN",
+                    "B-VILLAIN",
                     "I-VILLAIN",
                     "I-VILLAIN",
                     "I-VILLAIN",
@@ -27853,7 +27853,7 @@
                     "I-HERO",
                     "I-HERO",
                     "B-HERO_VICTIM",
-                    "I-HERO",
+                    "B-HERO",
                     "I-HERO",
                     "I-HERO",
                     "I-HERO",
@@ -27865,7 +27865,7 @@
                     "B-HERO_VICTIM",
                     "I-HERO_VICTIM",
                     "I-HERO_VICTIM",
-                    "I-HERO",
+                    "B-HERO",
                     "O"
                 ],
                 "offset": [

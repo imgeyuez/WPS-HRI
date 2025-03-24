@@ -279,11 +279,11 @@ def extract_entity_counts_dicts(json_input):
 entity_counts_dict = extract_entity_counts_dicts(train_data)
 meta_data["annotations"] = meta_data["filename"].apply(lambda x: entity_counts_dict.get(x, {}))
 meta_data_filtered = meta_data[meta_data["annotations"].apply(lambda x: bool(x))]
-meta_data_filtered.to_csv("train_speeches_with_annotations.csv", index=False)
-print("Merged CSV file of annotations and meta-data saved successfully!")
-
 # Get token count per speech
 meta_data_filtered["num_tokens"] = meta_data_filtered["only text"].apply(lambda x: len(str(x).split()))
+print("Merged CSV file of annotations and meta-data saved successfully!")
+meta_data_filtered.to_csv("train_speeches_with_annotations.csv", index=False)
+
 
 # Get token count per country (for normalization)
 tokens_per_country = meta_data_filtered.groupby("country/organization")["num_tokens"].sum().reset_index()

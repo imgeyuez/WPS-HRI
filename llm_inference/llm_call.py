@@ -1,7 +1,7 @@
 from together import Together
 import time
 
-def llm_inference(api_key:str, model:str, prompt:str):
+def llm_inference(api_key:str, model:str, prompt:str, max_tokens: int = 4096):
     """
     Function which prompts to the LLM and saves the response
     in a variable.
@@ -23,7 +23,8 @@ def llm_inference(api_key:str, model:str, prompt:str):
         response = client.chat.completions.create(
             model=model,
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.2
+            temperature=0.2,
+            max_tokens=max_tokens
         )
 
         # save the response from the model
@@ -34,14 +35,26 @@ def llm_inference(api_key:str, model:str, prompt:str):
         if model == "deepseek-ai/DeepSeek-R1":
             # wait 200seconds bc of request limits 
             print("Waiting for 200 seconds to avoid request limit...")
-            time.sleep(200)
+            time.sleep(250)
 
         return answer
 
     except Exception as e:
         print(f"Error: {e}")
         print("Retrying after 200 seconds...")
-        time.sleep(200)
+        time.sleep(250)
+
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2,
+            max_tokens=max_tokens
+        )
+
+        # save the response from the model
+        answer = response.choices[0].message.content
+
+        print(f"{model} generated answer")
 
 
 # pip install ollama

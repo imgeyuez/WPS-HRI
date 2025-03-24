@@ -45,8 +45,7 @@ def run_inference(api_key:str, models:list, prompt_method:str, dataset_path:str)
     # prompts to give the LLM
     if prompt_method == "zero":
         # prompt for zero-shot
-        prompt= """
-Your goal: Rewrite the input speech with only in-line character role annotations, using precise tags, leaving spacing and spelling as is, and following all structural and role-based rules.
+        prompt= """Your goal: Rewrite the input speech with only in-line character role annotations, using precise tags, leaving spacing and spelling as is, and following all structural and role-based rules.
 
 Task overview
 You are given a speech from the United Nations Security Council. Your task is to identify and label characters within the speech. Label each identified character as either Hero, Villain, or Victim. These labels can also be combined to mark that an identified character is portrayed as fulfilling several roles, for example, as Hero and Victim. Some character spans may contain other character spans, for example, when a victim entity is mentioned within a villain entity.
@@ -153,13 +152,11 @@ Explanation: In this case, “women” are portrayed both as victims (since they
 INSTRUCTION: Rewrite the entire speech with the in-line tags included as specified. When annotating, do not rely on any external world knowledge about the entities described in the text. Focus on the way that the speaker portrays the entities in the text. In your output, do not provide any additional explanation or formatting. Make sure to include all spaces from the original text. Multiple spaces are not equivalent to line breaks. Keep the exact same number of spaces between words. Do not replace spaces with new lines. Do not change capitalization, punctuation, or spelling even if you find mistakes. Only include the annotated text—nothing else. The output should strictly be the speech with the appropriate tags for the identified characters.
 
 Annotate this speech: 
-{}
-        """
+{}"""
             
     else:
         # prompt for few-shot
-        prompt= """
-Your goal: Rewrite the input speech with only in-line character role annotations, using precise tags, leaving spacing and spelling as is, and following all structural and role-based rules.
+        prompt= """Your goal: Rewrite the input speech with only in-line character role annotations, using precise tags, leaving spacing and spelling as is, and following all structural and role-based rules.
 
 Task overview
 You are given a speech from the United Nations Security Council. Your task is to identify and label characters within the speech. Label each identified character as either Hero, Villain, or Victim. These labels can also be combined to mark that an identified character is portrayed as fulfilling several roles, for example, as Hero and Victim. Some character spans may contain other character spans, for example, when a victim entity is mentioned within a villain entity.
@@ -274,8 +271,7 @@ Mr. Juwayeyi (Malawi): <VIC>Those of us who are not  in the Security Council</VI
 INSTRUCTION: Rewrite the entire speech with the in-line tags included as specified. When annotating, do not rely on any external world knowledge about the entities described in the text. Focus on the way that the speaker portrays the entities in the text. In your output, do not provide any additional explanation or formatting. Make sure to include all spaces from the original text. Multiple spaces are not equivalent to line breaks. Keep the exact same number of spaces between words. Do not replace spaces with new lines. Do not change capitalization, punctuation, or spelling even if you find mistakes. Only include the annotated text—nothing else. The output should strictly be the speech with the appropriate tags for the identified characters.
 
 Annotate this speech: 
-{}
-        """
+{}"""
             
 
     # iterate over all models
@@ -349,7 +345,7 @@ models = ["meta-llama/Llama-3.3-70B-Instruct-Turbo", "deepseek-ai/DeepSeek-R1"]
 # run the script & specify which prompt to use
 run_inference(api_key, 
             models,
-            "few", # alternative: "few"
+            "few", # "zero" or "few"
             "./data/train_dev_test_split/dev.json")
     
 

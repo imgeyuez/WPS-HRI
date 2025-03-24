@@ -1,0 +1,86 @@
+Character 1,Character Label 1,Dependency Relation 1,Verb,Dependency Relation 2,Character Label 2,Character 2
+women,Hero,subject,play,advcl,Hero,Security Council  resolution 1325 (2000)
+Iceland,Hero,subject,has supported,object,Victim,women
+The Icelandic Government,Hero,subject,has been financing,object,Hero,a gender expert at the  United Nations Development Fund for Women  (UNIFEM) office in Kosovo
+Germany,Hero,subject,supports,object,Hero,the Ministry of  Women's and Veteran's Affairs
+Women,Hero,subject,serve,oblique,Hero,their male  counterparts
+we,Villain,subject,excluding,object,Victim,women
+women,Hero,subject,have begun,advcl,Victim,they
+The Taliban and other  anti-Government elements,Villain,subject,launch,oblique,Victim,"women  from all spectrums of society, from schoolgirls to  female leaders, including women police officers, human  rights defenders, media personnel and politicians"
+Austria,Hero,subject,believes,ccomp,Victim,women
+Austria,Hero,subject,believes,ccomp,Hero,women
+the Organization for Security and  Cooperation in Europe,Hero,subject,has achieved,object,Hero,women
+the  Office of the Special Adviser on Gender Issues and  Advancement of Women,Hero,subject,is appreciated,oblique,Hero,Ms.  Angela King
+the  Office of the Special Adviser on Gender Issues and  Advancement of Women,Hero,subject,encourage,oblique,Hero,Ms.  Angela King
+the  liberation movements,Hero,subject,have paved,oblique,Hero,women
+many of these countries,Victim,subject,have paved,oblique,Hero,women
+Belgium,Hero,subject,calls,oblique,Hero,women
+women,Hero,subject,must be involved,conj,Victim,they
+women,Hero,subject,must be involved,conj,Hero,they
+women,Victim,subject,must be involved,conj,Victim,they
+women,Victim,subject,must be involved,conj,Hero,they
+The Human Security Network,Hero,subject,emphasizes,object,Hero,women
+We,Hero,subject,encourage,object,Hero,women protection advisers
+The Fiji  peacekeeping deployment to Iraq,Hero,subject,will include,object,Hero,six  women
+The Government,Hero,subject,is addressing,oblique,Hero,its Ministry for Women
+The Government,Hero,subject,is addressing,oblique,Hero,the UNIFEM-  sponsored Women and Peace and Security Committee
+the  Government,Hero,subject,has supported,object,Hero,women police
+UN Women,Hero,subject,will grow,oblique,Victim,women
+UN Women,Hero,subject,will grow,oblique,Hero,women
+women,Hero,subject,are recognized,advcl,Victim,they
+girls and  women in affected regions,Victim,subject,associate,advcl,Hero,women participating in peacekeeping and police forces
+girls and  women in affected regions,Victim,subject,associate,advcl,Victim,victims
+women participating in peacekeeping and police forces,Hero,subject,will enhance,object,Victim,victims
+I,Hero,subject,pay,oblique,Victim,internally displaced women and girls
+I,Hero,subject,dedicated,oblique,Victim,internally displaced women
+Senegal,Hero,subject,ensure,object,Hero,women
+we,Hero,subject,implement,object,Victim,the  women of Afghanistan
+UN-Women,Hero,subject,has administered,oblique,Victim,women
+Afghanistan,Hero,subject,has submitted,oblique,Hero,UN-Women
+We,Hero,subject,are focusing,oblique,Hero,women political actors
+We,Hero,subject,understand,object,Victim,women
+my Special Envoy,Hero,subject,established,object,Hero,a  Yemeni women's technical advisory group
+we,Hero,subject,are moving,oblique,Hero,women in the military and the police components of  our operations
+I,Hero,subject,have appointed,object,Hero,many more women
+Switzerland,Hero,subject,has supported,object,Hero,"the NGO Working Group  on Women, Peace and Security, PeaceWomen and the  Global Network of Women Peacebuilders"
+Chile,Hero,subject,co-sponsored,conj,Hero,"the  Women, Peace and Security National Focal Points  Network"
+Resolution 1325 (2000),Hero,subject,acknowledged,ccomp,Victim,women
+Resolution 1325 (2000),Hero,subject,acknowledged,ccomp,Hero,women
+The international community,Hero,subject,attaches,object,Hero,women
+the  Department of Peacekeeping Operations,Hero,subject,has mandated,ccomp,Victim,women
+world leaders,Hero,subject,stressed,object,Hero,women
+women,Hero,subject,will be reflected,advcl,Hero,they
+women,Hero,subject,will be reflected,advcl,Victim,they
+women,Victim,subject,will be reflected,advcl,Hero,they
+women,Victim,subject,will be reflected,advcl,Victim,they
+the Security Council,Hero,subject,has reaffirmed,object,Victim,women in armed conflict
+women and girls,Victim,subject,has been strengthened,oblique,Hero,"the International Criminal Court (ICC),  the ad hoc and mixed tribunals, and the specialized  chambers in national tribunals"
+We,Hero,subject,deploy,object,Hero,women police
+we,Hero,subject,want,advcl,Hero,women in our military  contingents
+We,Hero,subject,welcome,object,Hero,Justice Rapid  Response and UN-Women
+We,Hero,subject,support,object,Hero,Justice Rapid  Response and UN-Women
+My Government,Hero,subject,attaches,object,Victim,women and girls
+"men,  women and children",Victim,subject,are abused,obl:agent,Villain,the Blue Helmets
+We,Hero,subject,condemn,object,Villain,all those parties that perpetuate acts of  violence and abuse against women and children
+we,Hero,subject,underscore,object,Hero,national and local women's groups
+women,Hero,subject,produces,advcl,Victim,"they, together with children"
+the Security Council,Villain,subject,address,object,Victim,women and  girls
+Egypt,Hero,subject,accords,object,Victim,women
+Egypt,Hero,subject,accords,object,Hero,women
+they,Hero,subject,took,advcl,Hero,women
+they,Victim,subject,took,advcl,Hero,women
+An ancient Chinese philosopher,Hero,subject,captured,object,Hero,women
+the Japanese Government,Hero,subject,dispatched,object,Hero,seven women  peacekeepers
+The  Government of Japan,Hero,subject,increase,object,Hero,women
+Indonesia,Hero,subject,condemns,oblique,Victim,women and  girls in armed conflicts
+Women,Victim,subject,be represented,oblique,Hero,resolution 1325 (2000)
+Women,Hero,subject,be represented,oblique,Hero,resolution 1325 (2000)
+we,Hero,subject,have built,object,Victim,women and children
+Grass-roots women's organizations,Hero,subject,have sponsored,parataxis,Hero,groups advocating peace across party and ethnic lines
+Grass-roots women's organizations,Hero,subject,have sponsored,parataxis,Hero,the  Organization of African Unity (OAU) African  Women's Committee on peace and development
+The United States,Hero,subject,applauds,object,Hero,these women
+gender advisors,Hero,subject,should draw,oblique,Hero,women's community groups
+the United States,Hero,subject,has supported,object,Hero,the Rwanda Women's Initiative
+The  Department of State,Hero,subject,has provided,object,Hero,the  Women's Commission for Refugee Women and  Children
+Those programmes,Hero,subject,not provide,object,Victim,women in war-torn areas
+My  delegation,Hero,subject,supports,object,Hero,"the Standing  Committee on Women, Peace and Security"

@@ -1,8 +1,69 @@
-import requests
-import json
 from together import Together
 import time
 
+def llm_inference(api_key:str, model:str, prompt:str):
+    """
+    Function which prompts to the LLM and saves the response
+    in a variable.
+
+    Input
+    api_key (str)   : String of the API-key
+    model (str)     : Name of the model
+    prompt (str)    : Prompt to give the model
+
+    Output
+    answer (str)    : Response of the LLM
+    """
+    
+    # Initialize the Together client with the correct argument name
+    client = Together(api_key=api_key)
+
+    try:
+        # Send a message to the Llama model
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2
+        )
+
+        # save the response from the model
+        answer = response.choices[0].message.content
+
+        print(f"{model} generated answer")
+
+        if model == "deepseek-ai/DeepSeek-R1":
+            # wait 200seconds bc of request limits 
+            print("Waiting for 200 seconds to avoid request limit...")
+            time.sleep(200)
+
+        return answer
+
+    except Exception as e:
+        print(f"Error: {e}")
+        print("Retrying after 200 seconds...")
+        time.sleep(200)
+
+
+# pip install ollama
+"""
+Previous script to interact with models on ollama
+Just keeping it in case. 
+
+import ollama 
+
+def llm_inference(model, prompt, temperature=0.7):
+    response = ollama.chat(
+        model=model, 
+        messages=[{'role': 'user', 'content': prompt}],
+        options={'temperature': temperature}  # Set the temperature
+    )
+
+    # return the answer of model
+    return response['message']['content']
+"""
+
+# inferencee using openrouter
+'''
 def llm_inference(api_key:str, model:str, prompt:str):
     """
     Function which prompts to the LLM and saves the response
@@ -65,69 +126,4 @@ def llm_inference(api_key:str, model:str, prompt:str):
 
     return answer
 
-
-def llama_inference(model:str, prompt:str):
-    # Read the API key from the file
-    with open(r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\WPS\togetherai_api.txt", "r") as f:
-        api_key = f.read().strip()  # Make sure there are no extra spaces or newline characters
-
-    # Initialize the Together client with the correct argument name
-    client = Together(api_key=api_key)
-
-    # Send a message to the Llama model
-    # response = client.chat.completions.create(
-    #     model=model,  # Specify the model
-    #     messages=[{"role": "user", "content": prompt}],
-    #     temperature=0.2)  # Adjust temperature between 0.0 (least random) to 1.0 (most random)
-    
-
-    try:
-        # Send a message to the Llama model
-        response = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.2
-        )
-
-        # save the response from the model
-        answer = response.choices[0].message.content
-        print(model)
-        print("Generated answer")
-
-        # Wait 200 seconds before making the next request
-        print("Waiting for 200 seconds to avoid rate limit...")
-        time.sleep(200)
-
-        return answer
-
-    except Exception as e:
-        print(f"Error: {e}")
-        print("Retrying after 200 seconds...")
-        time.sleep(200)
-
-    # # save the response from the model
-    # answer = response.choices[0].message.content
-    # print(model)
-    # print("Generated answer")
-    # return answer
-
-
-
-
-# pip install ollama
-"""
-Previous script to interact with models on ollama
-Just keeping it in case. 
-
-import ollama 
-
-def llm_inference(model, prompt, temperature=0.7):
-    response = ollama.chat(
-        model=model, 
-        messages=[{'role': 'user', 'content': prompt}],
-        options={'temperature': temperature}  # Set the temperature
-    )
-
-    # return the answer of model
-    return response['message']['content']
-"""
+'''

@@ -530,10 +530,12 @@ def link_characters_to_verbs(text, character_annotations):
 
 # don't forget to add LLM and RoBERTa files!!
 file_paths = [
-    '../../data/manual_character_annotations.json'
+    '../../data/manual_character_annotations.json',
+    '../../data/llm_annotations/deepseek_zeroshot.json'
 ]
 output_paths = [
-    '../../data/verb_links_manual_annotations.json'
+    '../../data/verb_links_manual_annotations.json',
+    '../../data/verb_links_deepseek_zeroshot_annotations.json'
 ]
 
 for file_path, output_path in zip(file_paths, output_paths):

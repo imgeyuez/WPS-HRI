@@ -93,7 +93,7 @@ def evaluate(model, dataloader, tokenizer, device, label_map, model_name):
     }
 
     # Save results to a JSON file
-    save_path = f"C:/Users/imgey/Desktop/MASTER_POTSDAM/WiSe2425/PM1_argument_mining/WPS-HRI/RoBERTa/predictions/{model_name}_predictions.json"
+    save_path = f"./predictions/{model_name}_predictions.json"
     with open(save_path, "w", encoding="utf-8") as f:
         json.dump(final_results, f, indent=4, ensure_ascii=False)
 
@@ -108,9 +108,9 @@ def evaluate(model, dataloader, tokenizer, device, label_map, model_name):
 tokenizer = RobertaTokenizerFast.from_pretrained("roberta-base", add_prefix_space=True)
 
 # Load train, dev and test datasets
-with open(r".\data\train_dev_test_split\train.json", "r") as file:
+with open("../data/train_dev_test_split/train.json", "r") as file:
     traindata = json.load(file)
-with open(r".\data\train_dev_test_split\dev.json", "r") as file:
+with open("../data/train_dev_test_split/dev.json", "r") as file:
     devdata = json.load(file)
 # with open(r".\data\train_dev_test_split\test.json", "r") as file:
 #     testdata = json.load(file)
@@ -138,15 +138,15 @@ dev_dataset = [encode_example(sentence) for speech in devdata for sentence in sp
 # test_dataset = [encode_example(sentence) for speech in testdata for sentence in speech["sentences"]]
 
 # Save processed dataset
-torch.save(train_dataset, "./RoBERTa/datasets/train_dataset.pt")
-torch.save(dev_dataset, "./RoBERTa/datasets/dev_dataset.pt")
+torch.save(train_dataset, "./datasets/train_dataset.pt")
+torch.save(dev_dataset, "./datasets/dev_dataset.pt")
 # torch.save(test_dataset, "test_dataset.pt")
 
 from dataloader import train_loader, dev_loader
 
 num_labels = len(label_map) - 1  # Exclude "PAD" label
 model = RobertaForTokenClassification.from_pretrained("roberta-base", num_labels=num_labels)
-device = torch.device("cpu")
+device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 model.to(device)
 
 #################
@@ -198,6 +198,6 @@ for key, values in hyperparameters.items():
         print(f"Loss: {total_loss / len(train_loader)}")
 
     # Save model
-    save_path = f"./RoBERTa/models/ner_roberta_{key}"
+    save_path = f"./models/ner_roberta_{key}"
     model.save_pretrained(save_path)
 

@@ -2,8 +2,8 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 
 # Load the processed dataset
-traindataset = torch.load(r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\train_dataset.pt")
-devdataset = torch.load(r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\dev_dataset.pt")
+traindataset = torch.load( "./datasets/train_dataset.pt")
+devdataset = torch.load("./datasets/dev_dataset.pt")
 
 class NERDataset(Dataset):
     def __init__(self, data):

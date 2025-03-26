@@ -115,16 +115,20 @@ with open("../data/train_dev_test_split/dev.json", "r") as file:
 # with open(r".\data\train_dev_test_split\test.json", "r") as file:
 #     testdata = json.load(file)
   
-# Extract unique entity labels from train dataset
-all_labels = set()
-for entry in traindata:
-    for sentence in entry["sentences"]:
-        all_labels.update(sentence["goldlabels"])
-
+all_labels = [
+    'B-HERO', 'I-HERO',
+    'B-VICTIM', 'I-VICTIM',
+    'B-VILLAIN', 'I-VILLAIN',
+    'B-HERO_VICTIM', 'I-HERO_VICTIM',
+    'B-HERO_VILLAIN', 'I-HERO_VILLAIN',
+    'B-VICTIM_VILLAIN', 'I-VICTIM_VILLAIN',
+    'B-*', 'I-*',
+    'B-HERO_HERO', 'I-HERO_HERO'
+]
 
 # Convert labels to numbers
 label_encoder = LabelEncoder()
-label_encoder.fit(list(all_labels))
+label_encoder.fit(all_labels)
 
 # Add special tokens
 label_map = {label: i for i, label in enumerate(label_encoder.classes_)}

@@ -296,7 +296,8 @@
       "speaker": "Mr. Hannesson",
       "country/organization": "Iceland",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -496,7 +497,8 @@
       "speaker": "Mr. Nebenzia",
       "country/organization": "Russian Federation",
       "language": "Russian",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -926,7 +928,8 @@
       "speaker": "Ms. Skare",
       "country/organization": "",
       "language": "English",
-      "gender": "f"
+      "gender": "f",
+      "split": "train"
     }
   },
   {
@@ -1336,7 +1339,8 @@
       "speaker": "Mr. Matussek",
       "country/organization": "Germany",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -1646,7 +1650,8 @@
       "speaker": "Mr. Mwakawago",
       "country/organization": "United Republic of Tanzania",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -2056,7 +2061,8 @@
       "speaker": "Mr. Oyarzun Marchesi",
       "country/organization": "Spain",
       "language": "Spanish",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -2596,7 +2602,8 @@
       "speaker": "Mr. Tanin",
       "country/organization": "Afghanistan",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -2876,7 +2883,8 @@
       "speaker": "Mr. Pfanzelter",
       "country/organization": "Austria",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -3056,7 +3064,8 @@
       "speaker": "Ms. Mayanja",
       "country/organization": "",
       "language": "English",
-      "gender": "f"
+      "gender": "f",
+      "split": "train"
     }
   },
   {
@@ -3416,7 +3425,8 @@
       "speaker": "Mr. Mahiga",
       "country/organization": "United Republic of Tanzania",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -3766,7 +3776,8 @@
       "speaker": "Mr. Nsengimana",
       "country/organization": "Rwanda",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -4136,7 +4147,8 @@
       "speaker": "Mr. Reynders",
       "country/organization": "Belgium",
       "language": "French",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -4626,7 +4638,8 @@
       "speaker": "Mr. Guerber",
       "country/organization": "Switzerland",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -4946,7 +4959,8 @@
       "speaker": "Mr. Fedotov",
       "country/organization": "",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -5326,7 +5340,8 @@
       "speaker": "Mr. Kau",
       "country/organization": "Fiji",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "test"
     }
   },
   {
@@ -5926,7 +5941,8 @@
       "speaker": "Ms. Power",
       "country/organization": "United States of America",
       "language": "English",
-      "gender": "f"
+      "gender": "f",
+      "split": "train"
     }
   },
   {
@@ -6396,7 +6412,8 @@
       "speaker": "Mr. Vilovic'",
       "country/organization": "Croatia",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -6696,7 +6713,8 @@
       "speaker": "Mrs. Mladineo",
       "country/organization": "Croatia",
       "language": "English",
-      "gender": "f"
+      "gender": "f",
+      "split": "train"
     }
   },
   {
@@ -7066,7 +7084,8 @@
       "speaker": "Mr. Wenaweser",
       "country/organization": "Liechtenstein",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -7856,7 +7875,8 @@
       "speaker": "Mr. Beyani",
       "country/organization": "",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "dev"
     }
   },
   {
@@ -8166,7 +8186,8 @@
       "speaker": "Ms. Rossignol",
       "country/organization": "France",
       "language": "French",
-      "gender": "f"
+      "gender": "f",
+      "split": "train"
     }
   },
   {
@@ -8516,7 +8537,8 @@
       "speaker": "Mr. Diallo",
       "country/organization": "Senegal",
       "language": "French",
-      "gender": "m"
+      "gender": "m",
+      "split": "test"
     }
   },
   {
@@ -9126,7 +9148,8 @@
       "speaker": "Mr. Faqiri",
       "country/organization": "Afghanistan",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -9326,7 +9349,8 @@
       "speaker": "Mr. Zagaynov",
       "country/organization": "Russian Federation",
       "language": "Russian",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -9646,7 +9670,8 @@
       "speaker": "Mrs. Viotti",
       "country/organization": "Brazil",
       "language": "English",
-      "gender": "f"
+      "gender": "f",
+      "split": "train"
     }
   },
   {
@@ -10156,7 +10181,8 @@
       "speaker": "The Secretary-General",
       "country/organization": "",
       "language": "English",
-      "gender": "u"
+      "gender": "u",
+      "split": "train"
     }
   },
   {
@@ -10496,7 +10522,8 @@
       "speaker": "Mr. Hilale",
       "country/organization": "Morocco",
       "language": "French",
-      "gender": "m"
+      "gender": "m",
+      "split": "dev"
     }
   },
   {
@@ -10776,7 +10803,8 @@
       "speaker": "Ms. Baeriswyl",
       "country/organization": "Switzerland",
       "language": "French",
-      "gender": "f"
+      "gender": "f",
+      "split": "train"
     }
   },
   {
@@ -11036,7 +11064,8 @@
       "speaker": "Mrs. Miturumbwe",
       "country/organization": "",
       "language": "French",
-      "gender": "f"
+      "gender": "f",
+      "split": "train"
     }
   },
   {
@@ -11376,7 +11405,8 @@
       "speaker": "Mr. Barros Melet",
       "country/organization": "Chile",
       "language": "Spanish",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -11676,7 +11706,8 @@
       "speaker": "Mr. Zidar",
       "country/organization": "Slovenia",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "dev"
     }
   },
   {
@@ -12026,7 +12057,8 @@
       "speaker": "Mr. Wang Guangya",
       "country/organization": "China",
       "language": "Chinese",
-      "gender": "m"
+      "gender": "m",
+      "split": "dev"
     }
   },
   {
@@ -12236,7 +12268,8 @@
       "speaker": "Mr. Heller",
       "country/organization": "Mexico",
       "language": "Spanish",
-      "gender": "m"
+      "gender": "m",
+      "split": "test"
     }
   },
   {
@@ -12656,7 +12689,8 @@
       "speaker": "Mr. Kolga",
       "country/organization": "Estonia",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -12966,7 +13000,8 @@
       "speaker": "Mr. Gata Mavita wa Lufuta",
       "country/organization": "Democratic Republic of the Congo",
       "language": "French",
-      "gender": "m"
+      "gender": "m",
+      "split": "test"
     }
   },
   {
@@ -13336,7 +13371,8 @@
       "speaker": "Mr. Pedersen",
       "country/organization": "Norway",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -13576,7 +13612,8 @@
       "speaker": "Mr. Matussek",
       "country/organization": "Germany",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -13936,7 +13973,8 @@
       "speaker": "Mr. Skoog",
       "country/organization": "Sweden",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -14136,7 +14174,8 @@
       "speaker": "Mr. Esono Mbengono",
       "country/organization": "Equatorial Guinea",
       "language": "Spanish",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -14606,7 +14645,8 @@
       "speaker": "Mr. Juwayeyi",
       "country/organization": "Malawi",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -15056,7 +15096,8 @@
       "speaker": "Mr. Meza-Cuadra",
       "country/organization": "Peru",
       "language": "Spanish",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -15756,7 +15797,8 @@
       "speaker": "Ms. Power",
       "country/organization": "United States of America",
       "language": "English",
-      "gender": "f"
+      "gender": "f",
+      "split": "train"
     }
   },
   {
@@ -16136,7 +16178,8 @@
       "speaker": "Mr. Kapambwe",
       "country/organization": "Zambia",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -16336,7 +16379,8 @@
       "speaker": "Mr. Kim Hyun Chong",
       "country/organization": "Republic of Korea",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -16756,7 +16800,8 @@
       "speaker": "Mr. Selim",
       "country/organization": "Egypt",
       "language": "Arabic",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -17086,7 +17131,8 @@
       "speaker": "Mr. Stanislaus",
       "country/organization": "Grenada",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -17346,7 +17392,8 @@
       "speaker": "Mr. Motomura",
       "country/organization": "Japan",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -17676,7 +17723,8 @@
       "speaker": "Ms. Gallardo Hernandez",
       "country/organization": "El Salvador",
       "language": "Spanish",
-      "gender": "f"
+      "gender": "f",
+      "split": "train"
     }
   },
   {
@@ -18056,7 +18104,8 @@
       "speaker": "Mr. Khan",
       "country/organization": "Indonesia",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -18366,7 +18415,8 @@
       "speaker": "Mr. Dauth",
       "country/organization": "Australia",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   },
   {
@@ -19256,7 +19306,8 @@
       "speaker": "Ms. King",
       "country/organization": "",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "dev"
     }
   },
   {
@@ -20056,7 +20107,8 @@
       "speaker": "Ms. Soderberg",
       "country/organization": "United States of America",
       "language": "English",
-      "gender": "f"
+      "gender": "f",
+      "split": "train"
     }
   },
   {
@@ -20446,7 +20498,8 @@
       "speaker": "Mr. Laassel",
       "country/organization": "Morocco",
       "language": "French",
-      "gender": "m"
+      "gender": "m",
+      "split": "test"
     }
   },
   {
@@ -20756,7 +20809,8 @@
       "speaker": "Mr. Jfirgenson",
       "country/organization": "Estonia",
       "language": "English",
-      "gender": "m"
+      "gender": "m",
+      "split": "train"
     }
   }
 ]

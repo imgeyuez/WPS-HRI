@@ -345,7 +345,7 @@ models = ["meta-llama/Llama-3.3-70B-Instruct-Turbo", "deepseek-ai/DeepSeek-R1"]
 # run the script & specify which prompt to use
 run_inference(api_key, 
             models,
-            "few", # "zero" or "few"
-            "./data/train_dev_test_split/dev.json")
+            "zero", # "zero" or "few"
+            "./data/train_dev_test_split/test.json")
     
 

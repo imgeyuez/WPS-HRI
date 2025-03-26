@@ -5,75 +5,53 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 import pandas as pd
+from collections import defaultdict
 
-# DIRECTORY
 current_dir = os.path.dirname(os.path.abspath(__file__))
 repo_root = os.path.dirname(current_dir)
+data_path = os.path.join(repo_root, "data", "manual_character_annotations.json")
+plot_path = os.path.join(repo_root, "plots", "annotation-stats")
+os.makedirs(plot_path, exist_ok=True)
 
-data_path = os.path.join(repo_root, "data", "train_dev_test_split")
+with open(data_path, 'r', encoding='utf-8') as f:
+    full_data = json.load(f)
 
-train_path = os.path.join(data_path, "train.json")
-dev_path = os.path.join(data_path, "dev.json")
-test_path = os.path.join(data_path, "test.json")
+train_data = [item for item in full_data if item['metadata']['split'] == 'train']
+dev_data = [item for item in full_data if item['metadata']['split'] == 'dev']
+test_data = [item for item in full_data if item['metadata']['split'] == 'test']
 
-# Load JSON data
-def load_json(path):
-    with open(path, "r", encoding="UTF8") as f:
-        return json.load(f)
-
-train_data = load_json(train_path)
-dev_data = load_json(dev_path)
-test_data = load_json(test_path)
-
-# Function to count entity frequencies
+# function to count entity frequencies
 def count_freqs(json_input):
     freq_dict = {}
-    for speech in json_input:
-        for sentence in speech["sentences"]:
-            for label in sentence["goldlabels"]:
-                if label.startswith("B"):
-                    l = label[2:]
-                    freq_dict[l] = freq_dict.get(l, 0) + 1
+    for item in json_input:
+        annotations = item["annotations"][0]["result"]
+        span_label_map = {}
+        for ann in annotations:
+            span = (ann["value"]["start"], ann["value"]["end"])
+            labels = tuple(sorted(label.upper() for label in ann["value"]["labels"]))
+            span_label_map.setdefault(span, set()).update(labels)
+        for labels in span_label_map.values():
+            label_key = " & ".join(sorted(labels))
+            freq_dict[label_key] = freq_dict.get(label_key, 0) + 1
     return freq_dict
-
 
 # function to extract actual entities
 def extract_entity_counts(json_input):
-    '''Extract a dictionary of entity counts from a json file'''
     entity_counts = {}
-
-    for speech in json_input:
-        for sentence in speech["sentences"]:
-            words = sentence["tokens"]
-            labels = sentence["goldlabels"]
-
-            entity = []
-            entity_label = None
-
-            for i, label in enumerate(labels):
-                if label.startswith("B-"):
-                    if entity and entity_label:
-                        entity_text = " ".join(entity).lower()
-                        entity_counts.setdefault(entity_label, {}).setdefault(entity_text, 0)
-                        entity_counts[entity_label][entity_text] += 1
-
-                    entity = [words[i].lower()]
-                    entity_label = label[2:]
-
-                elif label.startswith("I-") and entity:
-                    entity.append(words[i].lower())
-
-                else:
-                    if entity and entity_label:
-                        entity_text = " ".join(entity)
-                        entity_counts.setdefault(entity_label, {}).setdefault(entity_text, 0)
-                        entity_counts[entity_label][entity_text] += 1
-
-                    entity = []
-                    entity_label = None
-
+    for item in json_input:
+        annotations = item["annotations"][0]["result"]
+        span_label_map = {}
+        span_text_map = {}
+        for ann in annotations:
+            span = (ann["value"]["start"], ann["value"]["end"])
+            span_label_map.setdefault(span, set()).update(label.upper() for label in ann["value"]["labels"])
+            span_text_map[span] = ann["value"]["text"].lower()
+        for span, labels in span_label_map.items():
+            label_key = " & ".join(sorted(labels))
+            entity = span_text_map[span]
+            entity_counts.setdefault(label_key, {})
+            entity_counts[label_key][entity] = entity_counts[label_key].get(entity, 0) + 1
     return entity_counts
-
 
 # Count frequencies in each dataset
 train_freq = count_freqs(train_data)
@@ -119,7 +97,9 @@ ax.legend()
 for i, total in enumerate(total_counts):
     ax.text(total + 5, y_pos[i], str(total), va='center', fontsize=10)
 
-plt.show()
+plt.tight_layout()
+plt.savefig(os.path.join(plot_path, "label_distribution.png"))
+plt.close()
 
 train_entities = extract_entity_counts(train_data)
 
@@ -129,8 +109,11 @@ for label, entities in train_entities.items():
         print(f"  {entity}: {count}")
 
 
-fig, axs = plt.subplots(2, 3, figsize=(18,12))  # 2 rows, 3 columns
+fig, axs = plt.subplots(3, 2, figsize=(14, 16))
 axs = axs.flatten()
+
+axs = axs[:5]
+fig.delaxes(fig.axes[5])  # delete the 6th unused subplot
 
 # Set a maximum of top 10 entities per label
 top_n = 10
@@ -150,41 +133,38 @@ for i, (label, entities) in enumerate(train_entities.items()):
     axs[i].set_ylabel('Entities')
 
 plt.tight_layout()
-plt.show()
+plt.savefig(os.path.join(plot_path, "top_entities_per_label.png"))
+plt.close()
 
 
 ### DO SAME FOR SUBSTRINGS (?)
 
 def extract_token_counts(json_input):
-    # List of words to skip (common words like articles, conjunctions, punctuation)
     skip_words = {"the", "a", "and", "of", ",", ".", "(", ")", "to", "in", "on", "for"}
-
     token_counts = {}
 
     for speech in json_input:
-        for sentence in speech["sentences"]:
-            words = sentence["tokens"]
-            labels = sentence["goldlabels"]
+        text = speech["data"]["Text"]
+        annotations = speech["annotations"][0]["result"]
 
-            for i, label in enumerate(labels):
-                token = words[i].lower()  # Get the token and lowercase it
+        span_dict = {}
+        for ann in annotations:
+            span = (ann["value"]["start"], ann["value"]["end"])
+            span_dict.setdefault(span, set()).update(label.upper() for label in ann["value"]["labels"])
 
-                # Skip unwanted tokens
-                if token in skip_words:
-                    continue
+        for match in re.finditer(r"\b\w[\w'-]*\b", text):
+            token = match.group().lower()
+            start, end = match.start(), match.end()
 
-                if label.startswith("B-"):  # Start of a new entity
-                    entity_label = label[2:]  # Extract the entity label (e.g., 'hero', 'victim')
+            if token in skip_words:
+                continue
 
-                    # Count the token under the correct entity label
-                    token_counts.setdefault(entity_label, {}).setdefault(token, 0)
-                    token_counts[entity_label][token] += 1
-
-                elif label.startswith("I-"):  # Continuation of an entity
-                    # Count the token under the correct entity label
-                    token_counts.setdefault(entity_label, {}).setdefault(token, 0)
-                    token_counts[entity_label][token] += 1
-
+            for (span_start, span_end), labels in span_dict.items():
+                if start >= span_start and end <= span_end:
+                    label_key = " & ".join(sorted(labels))
+                    token_counts.setdefault(label_key, {}).setdefault(token, 0)
+                    token_counts[label_key][token] += 1
+                    break
     return token_counts
 
 
@@ -196,8 +176,11 @@ for label, entities in train_tokens.items():
         print(f"  {entity}: {count}")
 
 
-fig, axs = plt.subplots(2, 3, figsize=(18,12))  # 2 rows, 3 columns
+fig, axs = plt.subplots(3, 2, figsize=(14, 16))
 axs = axs.flatten()
+
+axs = axs[:5]
+fig.delaxes(fig.axes[5])  # delete the 6th unused subplot
 
 # Set a maximum of top 10 entities per label
 top_n = 10
@@ -217,78 +200,52 @@ for i, (label, entities) in enumerate(train_tokens.items()):
     axs[i].set_ylabel('Entities')
 
 plt.tight_layout()
-plt.show()
+plt.savefig(os.path.join(plot_path, "top_tokens_per_label.png"))
 
 
-### Get more information, merge annotation with meta-data
-meta_data_path = os.path.join(repo_root, "data", "wps_speeches.csv")
-meta_data = pd.read_csv(meta_data_path)
+data_rows = []
 
+for item in full_data:
+    text = item["data"]["Text"]
+    country = item["metadata"]["country/organization"]
+    year = item["metadata"]["year"]
+    gender = item["metadata"]["gender"]
+    
+    # Token count (excluding stopwords)
+    tokens = [match.group().lower() for match in re.finditer(r"\b\w[\w'-]*\b", text)]
+    tokens = [t for t in tokens]
+    num_tokens = len(tokens)
 
-# Function to extract entity counts as nested dictionaries per filename
-def extract_entity_counts_dicts(json_input):
-    '''Extract a dictionary of entity counts per filename from a json file.
-       The structure is { filename: { entity_label: { entity_text: count, ... }, ... }, ... }'''
-    entity_counts = {}
+    # Build annotation counts per merged label
+    entity_counts = defaultdict(lambda: defaultdict(int))
+    annotations = item["annotations"][0]["result"]
+    
+    span_dict = {}
+    for ann in annotations:
+        span = (ann["value"]["start"], ann["value"]["end"])
+        span_dict.setdefault(span, set()).update(label.upper() for label in ann["value"]["labels"])
 
-    for speech in json_input:
-        filename = speech["filename"]  # assuming each speech has a "filename" key
-        speech_entities = {}
+    for (start, end), labels in span_dict.items():
+        label_key = " & ".join(sorted(labels))
+        entity_text = text[start:end].lower()
+        entity_counts[label_key][entity_text] += 1
 
-        for sentence in speech["sentences"]:
-            words = sentence["tokens"]
-            labels = sentence["goldlabels"]
+    data_rows.append({
+        "country/organization": country,
+        "year": year,
+        "gender": gender,
+        "only text": text,
+        "num_tokens": num_tokens,
+        "annotations": dict(entity_counts)
+    })
 
-            entity = []
-            entity_label = None
+meta_data_filtered = pd.DataFrame(data_rows)
 
-            for i, label in enumerate(labels):
-                if label.startswith("B-"):
-                    if entity and entity_label:
-                        entity_text = " ".join(entity).lower()
-                        speech_entities.setdefault(entity_label, {}).setdefault(entity_text, 0)
-                        speech_entities[entity_label][entity_text] += 1
+# --- 2. Token count per country for normalization ---
 
-                    entity = [words[i].lower()]
-                    entity_label = label[2:]
-
-                elif label.startswith("I-") and entity:
-                    entity.append(words[i].lower())
-
-                else:
-                    if entity and entity_label:
-                        entity_text = " ".join(entity).lower()
-                        speech_entities.setdefault(entity_label, {}).setdefault(entity_text, 0)
-                        speech_entities[entity_label][entity_text] += 1
-
-                    entity = []
-                    entity_label = None
-
-        # In case the last token in the sentence was part of an entity
-        if entity and entity_label:
-            entity_text = " ".join(entity).lower()
-            speech_entities.setdefault(entity_label, {}).setdefault(entity_text, 0)
-            speech_entities[entity_label][entity_text] += 1
-
-        entity_counts[filename] = speech_entities
-
-    return entity_counts
-
-
-# Merge annotations for train set with meta-data
-entity_counts_dict = extract_entity_counts_dicts(train_data)
-meta_data["annotations"] = meta_data["filename"].apply(lambda x: entity_counts_dict.get(x, {}))
-meta_data_filtered = meta_data[meta_data["annotations"].apply(lambda x: bool(x))]
-# Get token count per speech
-meta_data_filtered["num_tokens"] = meta_data_filtered["only text"].apply(lambda x: len(str(x).split()))
-print("Merged CSV file of annotations and meta-data saved successfully!")
-meta_data_filtered.to_csv("train_speeches_with_annotations.csv", index=False)
-
-
-# Get token count per country (for normalization)
 tokens_per_country = meta_data_filtered.groupby("country/organization")["num_tokens"].sum().reset_index()
 
-
+# --- 3. Extract counts of labeled entities per country ---
 rows = []
 for _, row in meta_data_filtered.iterrows():
     country = row["country/organization"]
@@ -298,24 +255,26 @@ for _, row in meta_data_filtered.iterrows():
         total_count = sum(entity_dict.values())
         rows.append((country, entity_label, total_count))
 
-
 entity_df = pd.DataFrame(rows, columns=["country/organization", "entity_label", "count"])
 grouped_df = entity_df.groupby(["country/organization", "entity_label"])["count"].sum().reset_index()
 grouped_df = grouped_df.merge(tokens_per_country, on="country/organization")
-# normalize per 10 token in country token number
+
+# Normalize per 10 tokens
 grouped_df["normalized_count"] = (grouped_df["count"] / grouped_df["num_tokens"]) * 10
 
+# --- 4. Plot ---
 pivot_df = grouped_df.pivot(index="country/organization", columns="entity_label", values="normalized_count").fillna(0)
 pivot_df.plot(kind="bar", stacked=True, figsize=(12, 6), colormap="viridis", edgecolor="black")
 
-plt.xlabel("country/organization")
+plt.xlabel("Country/Organization")
 plt.ylabel("Entity Mentions per 10 Tokens")
 plt.title("Normalized Entity Mentions per Country (Stacked by Label)")
 plt.xticks(rotation=90)
 plt.legend(title="Entity Label", bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.grid(axis="y", linestyle="--", alpha=0.7)
 plt.tight_layout()
-plt.show()
+plt.savefig(os.path.join(plot_path, "normalized_entity_mentions_per_country.png"))
+plt.close()
 
 
 def extract_entities_by_name(df, entity_names, column="annotations"):
@@ -360,15 +319,15 @@ women_df = extract_entities_by_name(meta_data_filtered, ["women", "women's"])
 men_df = extract_entities_by_name(meta_data_filtered, ["men", "men's"])
 un_df = extract_entities_by_name(meta_data_filtered, ["Secretary-General", "resolution", "Council", "Council's", "UN","UN-", "UN's", "Secretary-General's"])
 
-def plot_mentions(df, group_by, normalize_by=None, title_suffix="", colormap="viridis"):
+def plot_mentions(df, group_by, normalize_by=None, title=None, colormap="viridis"):
     """
     Plots the mentions of entities in a dataset, with optional normalization.
 
     Parameters:
     - df: DataFrame containing 'country/organization' or 'year', 'entity_label', 'count', and 'num_tokens'.
-    - group_by: Column to group by ('country/organization' or 'year').
+    - group_by: Column to group by ('country/organization', 'year', etc).
     - normalize_by: Normalization method ('total' for percentage, 'tokens' for per-token count, None for raw counts).
-    - title_suffix: Custom title addition (e.g., 'for Women' or 'for Men').
+    - title: Full title for the plot. If None, a default will be generated.
     - colormap: Colormap for the plot.
     """
     aggregated_df = df.groupby([group_by, "entity_label", "entity", "num_tokens"])['count'].sum().reset_index()
@@ -376,16 +335,16 @@ def plot_mentions(df, group_by, normalize_by=None, title_suffix="", colormap="vi
     # Normalize
     if normalize_by == "tokens":
         aggregated_df["normalized_count"] = (aggregated_df["count"] / aggregated_df["num_tokens"]) * 10
-        ylabel = "Normalized Mentions Count (per 10 Token)"
+        ylabel = "Mentions per 10 Tokens"
     elif normalize_by == "total":
         total_counts = aggregated_df.groupby(group_by)['count'].sum().reset_index().rename(
             columns={'count': 'total_count'})
         aggregated_df = aggregated_df.merge(total_counts, on=group_by)
         aggregated_df["normalized_count"] = aggregated_df["count"] / aggregated_df["total_count"] * 100
-        ylabel = "Normalized Mentions Count (%)"
+        ylabel = "Mentions (% of Total)"
     else:
         aggregated_df["normalized_count"] = aggregated_df["count"]
-        ylabel = "Total Mentions Count"
+        ylabel = "Raw Mention Counts"
 
     # Pivot for plotting
     pivot_df = aggregated_df.pivot_table(index=group_by, columns="entity_label", values="normalized_count",
@@ -395,39 +354,152 @@ def plot_mentions(df, group_by, normalize_by=None, title_suffix="", colormap="vi
     pivot_df.plot(kind="bar", stacked=True, figsize=(12, 6), colormap=colormap, edgecolor="black")
     plt.xlabel(group_by.replace("/organization", "").title())
     plt.ylabel(ylabel)
-    plt.title(f"Mentions of Entities {title_suffix} Across {group_by.title()}")
+    plot_title = title if title else f"Mentions by Entity Label across {group_by.title()}"
+    plt.title(plot_title)
     plt.xticks(rotation=80)
     plt.legend(title="Entity Label", bbox_to_anchor=(1.05, 1), loc="upper left")
     plt.grid(axis="y", linestyle="--", alpha=0.7)
     plt.tight_layout()
-    plt.show()
+    
+    # Save plot
+    safe_title = re.sub(r'[^a-zA-Z0-9]+', '_', title.lower()).strip('_')
+    filename = f"{safe_title}.png"
+    plt.savefig(os.path.join(plot_path, filename))
+    plt.close()
+
+#### women mentions
+plot_mentions(
+    women_df,
+    group_by="year",
+    normalize_by="tokens",
+    title="Mentions of 'Women' and 'Women's' Entities by Year"
+)
+
+plot_mentions(
+    women_df,
+    group_by="year",
+    normalize_by="total",
+    title="Relative Frequency of 'Women' and 'Women's' Mentions by Year"
+)
+
+plot_mentions(
+    women_df,
+    group_by="country/organization",
+    normalize_by="total",
+    title="Relative Frequency of 'Women' and 'Women's' Mentions by Country"
+)
+
+plot_mentions(
+    women_df,
+    group_by="country/organization",
+    normalize_by="tokens",
+    title="Mentions of 'Women' and 'Women's' Entities by Country (per 10 Tokens)"
+)
+
+plot_mentions(
+    women_df,
+    group_by="gender",
+    normalize_by="total",
+    title="Relative Frequency of 'Women' and 'Women's' Mentions by Speaker Gender"
+)
+
+plot_mentions(
+    women_df,
+    group_by="gender",
+    normalize_by="tokens",
+    title="Mentions of 'Women' and 'Women's' Entities by Speaker Gender (per 10 Tokens)"
+)
 
 
-plot_mentions(women_df, group_by="year", normalize_by="tokens", title_suffix="for Women/Women's")
-plot_mentions(women_df, group_by="year", normalize_by="total", title_suffix="for Women/Women's")
-plot_mentions(women_df, group_by="country/organization", normalize_by="total", title_suffix="for Women/Women's")
-plot_mentions(women_df, group_by="country/organization", normalize_by="tokens", title_suffix="for Women/Women's")
-plot_mentions(women_df, group_by="gender", normalize_by="total", title_suffix="for Women/Women's")
-plot_mentions(women_df, group_by="gender", normalize_by="tokens", title_suffix="for Women/Women's")
+### men mentions
+plot_mentions(
+    men_df,
+    group_by="year",
+    normalize_by="tokens",
+    title="Mentions of 'Men' and 'Men's' Entities by Year"
+)
+
+plot_mentions(
+    men_df,
+    group_by="year",
+    normalize_by="total",
+    title="Relative Frequency of 'Men' and 'Men's' Mentions by Year"
+)
+
+plot_mentions(
+    men_df,
+    group_by="country/organization",
+    normalize_by="total",
+    title="Relative Frequency of 'Men' and 'Men's' Mentions by Country"
+)
+
+plot_mentions(
+    men_df,
+    group_by="country/organization",
+    normalize_by="tokens",
+    title="Mentions of 'Men' and 'Men's' Entities by Country (per 10 Tokens)"
+)
+
+plot_mentions(
+    men_df,
+    group_by="gender",
+    normalize_by="total",
+    title="Relative Frequency of 'Men' and 'Men's' Mentions by Speaker Gender"
+)
+
+plot_mentions(
+    men_df,
+    group_by="gender",
+    normalize_by="tokens",
+    title="Mentions of 'Men' and 'Men's' Entities by Speaker Gender (per 10 Tokens)"
+)
 
 
-plot_mentions(men_df, group_by="year", normalize_by="tokens", title_suffix="for Men/Men's")
-plot_mentions(men_df, group_by="year", normalize_by="total", title_suffix="for Men/Men's")
-plot_mentions(men_df, group_by="country/organization", normalize_by="total", title_suffix="for Men/Men's")
-plot_mentions(men_df, group_by="country/organization", normalize_by="tokens", title_suffix="for Men/Men's")
-plot_mentions(men_df, group_by="gender", normalize_by="total", title_suffix="for Men/Men's")
-plot_mentions(men_df, group_by="gender", normalize_by="tokens", title_suffix="for Men/Men's")
+### UN mentions
+plot_mentions(
+    un_df,
+    group_by="year",
+    normalize_by="tokens",
+    title="Mentions of UN, Resolution, Council, and Secretary-General by Year"
+)
+
+plot_mentions(
+    un_df,
+    group_by="year",
+    normalize_by="total",
+    title="Relative Frequency of UN, Resolution, Council, and Secretary-General Mentions by Year"
+)
+
+plot_mentions(
+    un_df,
+    group_by="country/organization",
+    normalize_by="total",
+    title="Relative Frequency of UN, Resolution, Council, and Secretary-General Mentions by Country"
+)
+
+plot_mentions(
+    un_df,
+    group_by="country/organization",
+    normalize_by="tokens",
+    title="Mentions of UN, Resolution, Council, and Secretary-General by Country (per 10 Tokens)"
+)
+
+plot_mentions(
+    un_df,
+    group_by="gender",
+    normalize_by="total",
+    title="Relative Frequency of UN, Resolution, Council, and Secretary-General Mentions by Speaker Gender"
+)
+
+plot_mentions(
+    un_df,
+    group_by="gender",
+    normalize_by="tokens",
+    title="Mentions of UN, Resolution, Council, and Secretary-General by Speaker Gender (per 10 Tokens)"
+)
 
 
-plot_mentions(un_df, group_by="year", normalize_by="tokens", title_suffix="for Secretary-General/Resolution/Council's/UN/UN-/UN's/Secretary-General's")
-plot_mentions(un_df, group_by="year", normalize_by="total", title_suffix="for Secretary-General/Resolution/Council's/UN/UN-/UN's/Secretary-General's")
-plot_mentions(un_df, group_by="country/organization", normalize_by="total", title_suffix="for Secretary-General/Resolution/Council's/UN/UN-/UN's/Secretary-General's")
-plot_mentions(un_df, group_by="country/organization", normalize_by="tokens", title_suffix="for Secretary-General/Resolution/Council's/UN/UN-/UN's/Secretary-General's")
-plot_mentions(un_df, group_by="gender", normalize_by="total", title_suffix="for Secretary-General/Resolution/Council's/UN/UN-/UN's/Secretary-General's")
-plot_mentions(un_df, group_by="gender", normalize_by="tokens", title_suffix="for Secretary-General/Resolution/Council's/UN/UN-/UN's/Secretary-General's")
-
-
-def plot_mentions_pie(df, entity_strings, column="annotations"):
+def plot_mentions_pie(df, entity_strings, title, column="annotations"):
     """
     Pie chart visualization for entity mentions across categories.
     - Supports multiple entity strings (e.g., ["women", "women's"])
@@ -491,10 +563,26 @@ def plot_mentions_pie(df, entity_strings, column="annotations"):
 
     plt.tight_layout()
     plt.suptitle(f"Mentions of Entities Containing {entity_strings} Across Categories")
-    plt.show()
+    safe_title = re.sub(r'[^a-zA-Z0-9]+', '_', title.lower()).strip('_')
+    filename = f"{safe_title}.png"
+    plt.savefig(os.path.join(plot_path, filename))
+    plt.close()
 
-# Call the function on your dataframe
-plot_mentions_pie(meta_data_filtered, ["women", "women's"])
-plot_mentions_pie(meta_data_filtered, ["men", "men's"])
-plot_mentions_pie(meta_data_filtered, ["Secretary-General", "resolution", "Council's", "UN", "UN-", "UN's", "Secretary-General's", "Council"])
+plot_mentions_pie(
+    meta_data_filtered,
+    ["women", "women's"],
+    title="Distribution of 'Women' Mentions Across Entity Categories"
+)
+
+plot_mentions_pie(
+    meta_data_filtered,
+    ["men", "men's"],
+    title="Distribution of 'Men' Mentions Across Entity Categories"
+)
+
+plot_mentions_pie(
+    meta_data_filtered,
+    ["Secretary-General", "resolution", "Council's", "UN", "UN-", "UN's", "Secretary-General's", "Council"],
+    title="Distribution of UN-Related Mentions Across Entity Categories"
+)
 

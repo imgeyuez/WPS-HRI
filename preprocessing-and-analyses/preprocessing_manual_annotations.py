@@ -4,6 +4,27 @@ import json
 import pandas as pd
 from collections import defaultdict
 
+repo_root = ".."
+train_path = os.path.join(repo_root, "data", "train_dev_test_split", "train.json")
+dev_path = os.path.join(repo_root, "data", "train_dev_test_split", "dev.json")
+test_path = os.path.join(repo_root, "data", "train_dev_test_split", "test.json")
+
+# Load train/dev/test to map filenames to splits
+with open(train_path, "r", encoding="utf-8") as f:
+    train_data = json.load(f)
+with open(dev_path, "r", encoding="utf-8") as f:
+    dev_data = json.load(f)
+with open(test_path, "r", encoding="utf-8") as f:
+    test_data = json.load(f)
+
+filename_to_split = {}
+for d in train_data:
+    filename_to_split[d["filename"]] = "train"
+for d in dev_data:
+    filename_to_split[d["filename"]] = "dev"
+for d in test_data:
+    filename_to_split[d["filename"]] = "test"
+
 def parse_annotated_files(filepath):
     with open(filepath, encoding='utf-8') as f:
         lines = f.readlines()
@@ -91,9 +112,10 @@ def collect_all_annotations(root_folder, metadata_df):
                 parsed["filename"] = base_filename
 
                 meta_row = metadata_df.loc[metadata_df["filename"] == base_filename]
+                metadata = {}
                 if not meta_row.empty:
                     row = meta_row.iloc[0]
-                    parsed["metadata"] = {
+                    metadata = {
                         "year": str(row.get("year")) if not pd.isna(row.get("year")) else "",
                         "speaker": str(row.get("speaker")) if not pd.isna(row.get("speaker")) else "",
                         "country/organization": str(row.get("country/organization")) if not pd.isna(row.get("country/organization")) else "",
@@ -101,7 +123,9 @@ def collect_all_annotations(root_folder, metadata_df):
                         "gender": str(row.get("gender")) if not pd.isna(row.get("gender")) else ""
                     }
 
+                metadata["split"] = filename_to_split.get(base_filename, "unknown")
 
+                parsed["metadata"] = metadata
                 output.append(parsed)
 
     return output

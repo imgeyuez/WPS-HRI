@@ -115,7 +115,7 @@ with open("../data/train_dev_test_split/dev.json", "r") as file:
 # with open(r".\data\train_dev_test_split\test.json", "r") as file:
 #     testdata = json.load(file)
   
-all_labels = [
+all_labels = [ 'O',
     'B-HERO', 'I-HERO',
     'B-VICTIM', 'I-VICTIM',
     'B-VILLAIN', 'I-VILLAIN',

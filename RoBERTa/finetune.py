@@ -37,7 +37,6 @@ def encode_example(sentence):
     }
 
 
-
 def evaluate(model, dataloader, tokenizer, device, label_map, model_name):
     model.eval()  # Set model to evaluation mode
 
@@ -112,8 +111,9 @@ with open("../data/train_dev_test_split/train.json", "r") as file:
     traindata = json.load(file)
 with open("../data/train_dev_test_split/dev.json", "r") as file:
     devdata = json.load(file)
-# with open(r".\data\train_dev_test_split\test.json", "r") as file:
-#     testdata = json.load(file)
+
+for speech in devdata:
+    traindata.append(speech)
   
 all_labels = [ 'O',
     'B-HERO', 'I-HERO',
@@ -138,15 +138,12 @@ label_map["PAD"] = -100  # Ignore padding tokens
 
 # Convert entire dataset
 train_dataset = [encode_example(sentence) for speech in traindata for sentence in speech["sentences"]]
-dev_dataset = [encode_example(sentence) for speech in devdata for sentence in speech["sentences"]]
-# test_dataset = [encode_example(sentence) for speech in testdata for sentence in speech["sentences"]]
 
 # Save processed dataset
-torch.save(train_dataset, "./datasets/train_dataset.pt")
-torch.save(dev_dataset, "./datasets/dev_dataset.pt")
-# torch.save(test_dataset, "test_dataset.pt")
+torch.save(train_dataset, "./datasets/trainfiles_dataset.pt")
 
-from dataloader import train_loader, dev_loader
+
+from dataloader import train_loader
 
 num_labels = len(label_map) - 1  # Exclude "PAD" label
 model = RobertaForTokenClassification.from_pretrained("roberta-base", num_labels=num_labels)
@@ -159,13 +156,13 @@ model.to(device)
 
 # learning rate, epochs, optimizer
 hyperparameters = {
-    "m0": [5e-5, 1, "AdamW"],
-    "m1": [5e-5, 3, "AdamW"],
-    "m2": [5e-5, 30, "AdamW"],
-    "m3": [1e-5, 3, "AdamW"],
+    # "m0": [5e-5, 1, "AdamW"],
+    # "m1": [5e-5, 3, "AdamW"],
+    # "m2": [5e-5, 30, "AdamW"],
+    # "m3": [1e-5, 3, "AdamW"],
     "m4": [1e-5, 30, "AdamW"],
-    "m5": [5e-5, 30, "SGD"],
-    "m6": [3e-5, 30, "SGD"],
+    # "m5": [5e-5, 30, "SGD"],
+    # "m6": [3e-5, 30, "SGD"],
 }
 
 for key, values in hyperparameters.items():
@@ -202,6 +199,6 @@ for key, values in hyperparameters.items():
         print(f"Loss: {total_loss / len(train_loader)}")
 
     # Save model
-    save_path = f"./models/ner_roberta_{key}"
+    save_path = f"./models/finetuned_ner_roberta_{key}"
     model.save_pretrained(save_path)
 

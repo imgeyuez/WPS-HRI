@@ -15,12 +15,9 @@ device = torch.device("cpu")  # Force CPU usage
 print(f"Using device: {device}")
 m = 'ner_roberta'
 tokenizer = RobertaTokenizerFast.from_pretrained("roberta-base", add_prefix_space=True)
-model_path = f"C:/Users/imgey/Desktop/MASTER_POTSDAM/WiSe2425/PM1_argument_mining/WPS-HRI/roBERTa/{m}"
+model_path = r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\models\finetuned_ner_roberta_m4"
 model = RobertaForTokenClassification.from_pretrained(model_path).to(device)  # Load model to CPU
 
-# Load dataset
-with open(r"C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\train_dev_test_data\train.json", "r") as file:
-    data = json.load(file)
 
 # Extract unique entity labels
 all_labels = [ 'O',
@@ -80,10 +77,6 @@ def predict(tokenized_sentence):
 
     # return word_preds
 
-    # filtered_predictions = [
-    #     decoded_predictions[i] for i in range(len(decoded_predictions)) if word_ids[i] is not None
-    # ]
-    # # predictions = [str(label) for label in predictions]
     preds = list()
     for item in word_preds:
         preds.append(item.astype(str).tolist())
@@ -94,14 +87,14 @@ def predict(tokenized_sentence):
 # tokenized_input = ['The', 'Council', 'supported', 'the', 'protection', 'of', 'women', 'and', 'girls', 'who', 'were', 'victims', 'of', 'rape']
 # print(predict(tokenized_input))
 
-data_to_evaluate = r'C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\WPS-HRI\data\train_dev_test_split\dev.json'
+data_to_evaluate = r'C:\Users\imgey\Desktop\MASTER_POTSDAM\WiSe2425\PM1_argument_mining\WPS-HRI\data\train_dev_test_split\test.json'
 with open(data_to_evaluate, 'r', encoding='UTF-8') as f:
     speeches = json.load(f)
 
-predictions = list()
+all_predictions = list()
     
 # go through the predictions to evaluate
-y_true, y_pred, toks = [], [], []
+y_true, y_pred = [], []
 
 for speech in speeches:
     filename = speech['filename']
@@ -112,28 +105,30 @@ for speech in speeches:
 
         predictions = predict(tokens)
 
-        if len(goldlabels) != len(predictions):
-            print(len(goldlabels))
-            print(goldlabels)
-            print(len(predictions))
-            print(predictions)
-
-        toks.append(tokens)
-        y_true.append(goldlabels)
-        y_pred.append(predictions)
-
         sent = {'tokens': tokens,
         'goldlabels': goldlabels,
         'preds': predictions}
 
         sentence_predictions.append(sent)
-    predictions.append({
+    all_predictions.append({
         'filename': filename,
         'sentences': sentence_predictions})
-    
-for k, (i, j) in enumerate(zip(y_pred, y_true)):
-    if len(i) != len(j):
-        print(toks[k])
+
+
+num_all_speeches = 0
+excluded_speeches = 0
+
+for speech in all_predictions:
+    for sentence in speech['sentences']:
+        num_all_speeches += 1
+        if len(sentence['goldlabels']) != len(sentence['preds']):
+            excluded_speeches += 1
+            sentence.update({"token_pred_mismatch": True})
+        else:
+            sentence.update({"token_pred_mismatch": False})
+            y_true.append(sentence['goldlabels'])
+            y_pred.append(sentence['preds'])
+
 
 print(f1_score(y_true, y_pred))
 
@@ -142,7 +137,3 @@ print(classification_report(y_true, y_pred))
 output_path = f'C:/Users/imgey/Desktop/MASTER_POTSDAM/WiSe2425/PM1_argument_mining/WPS-HRI/RoBERTa/predictions/{m}'
 with open(output_path, encoding='UTF-8') as f:
     json.dump(predictions, f, indent=4)
-
-
-
-    

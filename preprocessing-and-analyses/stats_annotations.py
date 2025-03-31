@@ -48,7 +48,7 @@ def extract_entity_counts(json_input):
             span_text_map[span] = ann["value"]["text"].lower()
         for span, labels in span_label_map.items():
             label_key = " & ".join(sorted(labels))
-            entity = span_text_map[span]
+            entity = re.sub(r'\s+', ' ', span_text_map[span].strip().lower())
             entity_counts.setdefault(label_key, {})
             entity_counts[label_key][entity] = entity_counts[label_key].get(entity, 0) + 1
     return entity_counts
@@ -144,7 +144,7 @@ def extract_token_counts(json_input):
     token_counts = {}
 
     for speech in json_input:
-        text = speech["data"]["Text"]
+        text = speech["data"]["Text"].strip()
         annotations = speech["annotations"][0]["result"]
 
         span_dict = {}
@@ -153,7 +153,7 @@ def extract_token_counts(json_input):
             span_dict.setdefault(span, set()).update(label.upper() for label in ann["value"]["labels"])
 
         for match in re.finditer(r"\b\w[\w'-]*\b", text):
-            token = match.group().lower()
+            token = re.sub(r'\s+', ' ', match.group()).strip().lower()
             start, end = match.start(), match.end()
 
             if token in skip_words:
@@ -206,13 +206,13 @@ plt.savefig(os.path.join(plot_path, "top_tokens_per_label.png"))
 data_rows = []
 
 for item in full_data:
-    text = item["data"]["Text"]
+    text = item["data"]["Text"].strip()
     country = item["metadata"]["country/organization"]
     year = item["metadata"]["year"]
     gender = item["metadata"]["gender"]
     
     # Token count (excluding stopwords)
-    tokens = [match.group().lower() for match in re.finditer(r"\b\w[\w'-]*\b", text)]
+    tokens = [match.group().strip().lower() for match in re.finditer(r"\b\w[\w'-]*\b", text)]
     tokens = [t for t in tokens]
     num_tokens = len(tokens)
 
@@ -227,7 +227,7 @@ for item in full_data:
 
     for (start, end), labels in span_dict.items():
         label_key = " & ".join(sorted(labels))
-        entity_text = text[start:end].lower()
+        entity_text = " ".join(text[start:end].lower().split())
         entity_counts[label_key][entity_text] += 1
 
     data_rows.append({
@@ -526,7 +526,7 @@ def plot_mentions_pie(df, entity_strings, title, column="annotations"):
     rows = math.ceil(num_categories / 2)
     cols = 2 if num_categories > 1 else 1
 
-    fig, axes = plt.subplots(rows, cols, figsize=(10, 5 * rows))
+    fig, axes = plt.subplots(rows, cols, figsize=(12, 6 * rows))
     axes = axes.flatten() if num_categories > 1 else [axes]
 
     cmap = plt.get_cmap("viridis")
@@ -555,6 +555,9 @@ def plot_mentions_pie(df, entity_strings, title, column="annotations"):
             textprops={'fontsize': 10},
             labeldistance=1
         )
+
+        for text in ax.texts:
+            text.set_rotation(45)  # Adjust the angle as needed
 
         ax.set_title(category, fontsize=14, fontweight="bold")
 

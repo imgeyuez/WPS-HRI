@@ -7,7 +7,48 @@
       "false_negatives": 44,
       "precision": 0.2907801418439716,
       "recall": 0.4823529411764706,
-      "f1_score": 0.36283185840707965
+      "f1_score": 0.36283185840707965,
+      "per_label": {
+        "Victim": {
+          "true_positives": 17,
+          "false_positives": 24,
+          "false_negatives": 14,
+          "precision": 0.4146341463414634,
+          "recall": 0.5483870967741935,
+          "f1_score": 0.4722222222222222
+        },
+        "Hero": {
+          "true_positives": 23,
+          "false_positives": 74,
+          "false_negatives": 27,
+          "precision": 0.23711340206185566,
+          "recall": 0.46,
+          "f1_score": 0.3129251700680272
+        },
+        "Villain": {
+          "true_positives": 1,
+          "false_positives": 2,
+          "false_negatives": 3,
+          "precision": 0.3333333333333333,
+          "recall": 0.25,
+          "f1_score": 0.28571428571428575
+        }
+      },
+      "micro_avg": {
+        "precision": 0.2907801418439716,
+        "recall": 0.4823529411764706,
+        "f1_score": 0.36283185840707965
+      },
+      "macro_avg": {
+        "precision": 0.32836029391221744,
+        "recall": 0.4194623655913978,
+        "f1_score": 0.3569538926681784
+      },
+      "weighted_avg": {
+        "precision": 0.3063842585060174,
+        "recall": 0.4823529411764706,
+        "f1_score": 0.3697412298252634
+      }
     },
     "partial_overlap": {
       "true_positives": 59,
@@ -15,7 +56,48 @@
       "false_negatives": 26,
       "precision": 0.41843971631205673,
       "recall": 0.6941176470588235,
-      "f1_score": 0.5221238938053098
+      "f1_score": 0.5221238938053098,
+      "per_label": {
+        "Hero": {
+          "true_positives": 38,
+          "false_positives": 59,
+          "false_negatives": 12,
+          "precision": 0.3917525773195876,
+          "recall": 0.76,
+          "f1_score": 0.5170068027210885
+        },
+        "Victim": {
+          "true_positives": 20,
+          "false_positives": 21,
+          "false_negatives": 11,
+          "precision": 0.4878048780487805,
+          "recall": 0.6451612903225806,
+          "f1_score": 0.5555555555555556
+        },
+        "Villain": {
+          "true_positives": 1,
+          "false_positives": 2,
+          "false_negatives": 3,
+          "precision": 0.3333333333333333,
+          "recall": 0.25,
+          "f1_score": 0.28571428571428575
+        }
+      },
+      "micro_avg": {
+        "precision": 0.41843971631205673,
+        "recall": 0.6941176470588235,
+        "f1_score": 0.5221238938053098
+      },
+      "macro_avg": {
+        "precision": 0.4042969295672338,
+        "recall": 0.5517204301075269,
+        "f1_score": 0.4527588813303099
+      },
+      "weighted_avg": {
+        "precision": 0.42403427551558726,
+        "recall": 0.6941176470588235,
+        "f1_score": 0.5201814058956916
+      }
     }
   },
   "llama_fewshot.json": {
@@ -26,7 +108,48 @@
       "false_negatives": 80,
       "precision": 0.2824427480916031,
       "recall": 0.4805194805194805,
-      "f1_score": 0.3557692307692308
+      "f1_score": 0.3557692307692308,
+      "per_label": {
+        "Victim": {
+          "true_positives": 26,
+          "false_positives": 44,
+          "false_negatives": 20,
+          "precision": 0.37142857142857144,
+          "recall": 0.5652173913043478,
+          "f1_score": 0.4482758620689655
+        },
+        "Hero": {
+          "true_positives": 47,
+          "false_positives": 142,
+          "false_negatives": 57,
+          "precision": 0.24867724867724866,
+          "recall": 0.4519230769230769,
+          "f1_score": 0.32081911262798635
+        },
+        "Villain": {
+          "true_positives": 1,
+          "false_positives": 2,
+          "false_negatives": 3,
+          "precision": 0.3333333333333333,
+          "recall": 0.25,
+          "f1_score": 0.28571428571428575
+        }
+      },
+      "micro_avg": {
+        "precision": 0.2824427480916031,
+        "recall": 0.4805194805194805,
+        "f1_score": 0.3557692307692308
+      },
+      "macro_avg": {
+        "precision": 0.3178130511463844,
+        "recall": 0.42238015607580826,
+        "f1_score": 0.35160308680374586
+      },
+      "weighted_avg": {
+        "precision": 0.28754208754208754,
+        "recall": 0.4805194805194805,
+        "f1_score": 0.35797879552818274
+      }
     },
     "partial_overlap": {
       "true_positives": 100,
@@ -34,7 +157,48 @@
       "false_negatives": 54,
       "precision": 0.3816793893129771,
       "recall": 0.6493506493506493,
-      "f1_score": 0.48076923076923084
+      "f1_score": 0.48076923076923084,
+      "per_label": {
+        "Hero": {
+          "true_positives": 68,
+          "false_positives": 121,
+          "false_negatives": 36,
+          "precision": 0.35978835978835977,
+          "recall": 0.6538461538461539,
+          "f1_score": 0.4641638225255972
+        },
+        "Victim": {
+          "true_positives": 30,
+          "false_positives": 40,
+          "false_negatives": 16,
+          "precision": 0.42857142857142855,
+          "recall": 0.6521739130434783,
+          "f1_score": 0.5172413793103448
+        },
+        "Villain": {
+          "true_positives": 2,
+          "false_positives": 1,
+          "false_negatives": 2,
+          "precision": 0.6666666666666666,
+          "recall": 0.5,
+          "f1_score": 0.5714285714285715
+        }
+      },
+      "micro_avg": {
+        "precision": 0.3816793893129771,
+        "recall": 0.6493506493506493,
+        "f1_score": 0.4807692307692308
+      },
+      "macro_avg": {
+        "precision": 0.48500881834215165,
+        "recall": 0.6020066889632107,
+        "f1_score": 0.5176112577548379
+      },
+      "weighted_avg": {
+        "precision": 0.3883048168762454,
+        "recall": 0.6493506493506493,
+        "f1_score": 0.48280425504319646
+      }
     }
   },
   "llama_zeroshot.json": {
@@ -45,7 +209,48 @@
       "false_negatives": 99,
       "precision": 0.1909722222222222,
       "recall": 0.35714285714285715,
-      "f1_score": 0.248868778280543
+      "f1_score": 0.248868778280543,
+      "per_label": {
+        "Hero": {
+          "true_positives": 30,
+          "false_positives": 179,
+          "false_negatives": 74,
+          "precision": 0.14354066985645933,
+          "recall": 0.28846153846153844,
+          "f1_score": 0.1916932907348243
+        },
+        "Victim": {
+          "true_positives": 24,
+          "false_positives": 51,
+          "false_negatives": 22,
+          "precision": 0.32,
+          "recall": 0.5217391304347826,
+          "f1_score": 0.39669421487603307
+        },
+        "Villain": {
+          "true_positives": 1,
+          "false_positives": 3,
+          "false_negatives": 3,
+          "precision": 0.25,
+          "recall": 0.25,
+          "f1_score": 0.25
+        }
+      },
+      "micro_avg": {
+        "precision": 0.1909722222222222,
+        "recall": 0.35714285714285715,
+        "f1_score": 0.248868778280543
+      },
+      "macro_avg": {
+        "precision": 0.2378468899521531,
+        "recall": 0.3534002229654403,
+        "f1_score": 0.2794625018702858
+      },
+      "weighted_avg": {
+        "precision": 0.19901447834462188,
+        "recall": 0.35714285714285715,
+        "f1_score": 0.25444179299168346
+      }
     },
     "partial_overlap": {
       "true_positives": 94,
@@ -53,7 +258,48 @@
       "false_negatives": 60,
       "precision": 0.3263888888888889,
       "recall": 0.6103896103896104,
-      "f1_score": 0.4253393665158371
+      "f1_score": 0.4253393665158371,
+      "per_label": {
+        "Hero": {
+          "true_positives": 61,
+          "false_positives": 148,
+          "false_negatives": 43,
+          "precision": 0.291866028708134,
+          "recall": 0.5865384615384616,
+          "f1_score": 0.3897763578274761
+        },
+        "Victim": {
+          "true_positives": 30,
+          "false_positives": 45,
+          "false_negatives": 16,
+          "precision": 0.4,
+          "recall": 0.6521739130434783,
+          "f1_score": 0.4958677685950412
+        },
+        "Villain": {
+          "true_positives": 3,
+          "false_positives": 1,
+          "false_negatives": 1,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1_score": 0.75
+        }
+      },
+      "micro_avg": {
+        "precision": 0.3263888888888889,
+        "recall": 0.6103896103896104,
+        "f1_score": 0.4253393665158371
+      },
+      "macro_avg": {
+        "precision": 0.480622009569378,
+        "recall": 0.6629041248606465,
+        "f1_score": 0.5452147088075058
+      },
+      "weighted_avg": {
+        "precision": 0.3360653700366619,
+        "recall": 0.6103896103896104,
+        "f1_score": 0.4308224582430481
+      }
     }
   },
   "deepseek_fewshot.json": {
@@ -64,7 +310,48 @@
       "false_negatives": 60,
       "precision": 0.46534653465346537,
       "recall": 0.6103896103896104,
-      "f1_score": 0.5280898876404494
+      "f1_score": 0.5280898876404494,
+      "per_label": {
+        "Victim": {
+          "true_positives": 27,
+          "false_positives": 15,
+          "false_negatives": 19,
+          "precision": 0.6428571428571429,
+          "recall": 0.5869565217391305,
+          "f1_score": 0.6136363636363638
+        },
+        "Villain": {
+          "true_positives": 2,
+          "false_positives": 1,
+          "false_negatives": 2,
+          "precision": 0.6666666666666666,
+          "recall": 0.5,
+          "f1_score": 0.5714285714285715
+        },
+        "Hero": {
+          "true_positives": 65,
+          "false_positives": 92,
+          "false_negatives": 39,
+          "precision": 0.4140127388535032,
+          "recall": 0.625,
+          "f1_score": 0.49808429118773945
+        }
+      },
+      "micro_avg": {
+        "precision": 0.46534653465346537,
+        "recall": 0.6103896103896104,
+        "f1_score": 0.5280898876404494
+      },
+      "macro_avg": {
+        "precision": 0.5745121827924375,
+        "recall": 0.5706521739130435,
+        "f1_score": 0.561049742084225
+      },
+      "weighted_avg": {
+        "precision": 0.4889312992133738,
+        "recall": 0.6103896103896104,
+        "f1_score": 0.5345048915357917
+      }
     },
     "partial_overlap": {
       "true_positives": 108,
@@ -72,7 +359,48 @@
       "false_negatives": 46,
       "precision": 0.5346534653465347,
       "recall": 0.7012987012987013,
-      "f1_score": 0.6067415730337079
+      "f1_score": 0.6067415730337079,
+      "per_label": {
+        "Hero": {
+          "true_positives": 75,
+          "false_positives": 82,
+          "false_negatives": 29,
+          "precision": 0.47770700636942676,
+          "recall": 0.7211538461538461,
+          "f1_score": 0.574712643678161
+        },
+        "Victim": {
+          "true_positives": 31,
+          "false_positives": 11,
+          "false_negatives": 15,
+          "precision": 0.7380952380952381,
+          "recall": 0.6739130434782609,
+          "f1_score": 0.7045454545454546
+        },
+        "Villain": {
+          "true_positives": 2,
+          "false_positives": 1,
+          "false_negatives": 2,
+          "precision": 0.6666666666666666,
+          "recall": 0.5,
+          "f1_score": 0.5714285714285715
+        }
+      },
+      "micro_avg": {
+        "precision": 0.5346534653465347,
+        "recall": 0.7012987012987013,
+        "f1_score": 0.6067415730337079
+      },
+      "macro_avg": {
+        "precision": 0.6274896370437771,
+        "recall": 0.6316889632107023,
+        "f1_score": 0.616895556550729
+      },
+      "weighted_avg": {
+        "precision": 0.560393352477065,
+        "recall": 0.7012987012987013,
+        "f1_score": 0.6134085723203503
+      }
     }
   }
 }

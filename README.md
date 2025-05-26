@@ -9,3 +9,5 @@ It also includes our annotated data on 54 selected speeches of the Women, Peace 
 The finalized fine-tuned RoBERTa model is too big to be uploaded on GitHub. If you are interested in it, feel free to contact us. 
 
 Soon we'll upload an inference script with which a user can just pass a tokenised text as input and will get an output with role-predictions.
+
+📄 [Read the full paper here](./WPS_PM_HRI.pdf)

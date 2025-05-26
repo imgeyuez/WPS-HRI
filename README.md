@@ -10,4 +10,4 @@ The finalized fine-tuned RoBERTa model is too big to be uploaded on GitHub. If y
 
 Soon we'll upload an inference script with which a user can just pass a tokenised text as input and will get an output with role-predictions.
 
-📄 [Read the full paper here](./WPS_PM_HRI.pdf)
+📄 Read the associated paper [here](./WPS_PM_HRI.pdf)

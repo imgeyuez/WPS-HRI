@@ -17,5 +17,10 @@ Soon we'll upload an inference script with which a user can just pass a tokenise
 Rilla, R., Steinbach, H., & Yüzüncüoglu, I. (2025). *Heroes, Villains, and Victims: Character Narratives in the WPS Agenda of the UNSC*. Unpublished course paper, Universität Potsdam. [PDF](https://github.com/imgeyuez/WPS-HRI/blob/main/WPS_PM_HRI.pdf)
 
 ```bibtex
-@misc{rillasteinbachyuez2025, author = {Raluca Rilla and Hannah Steinbach and Imge Yüzüncüoglu}, title = {Heroes, Villains, and Victims: Character Narratives in the WPS Agenda of the UNSC}, year = {2025}, url = {https://github.com/imgeyuez/WPS-HRI/blob/main/WPS_PM_HRI.pdf}, note = {Unpublished course paper, Universität Potsdam, 2025}, }
+@misc{rillasteinbachyuez2025,
+ author = {Raluca Rilla and Hannah Steinbach and Imge Yüzüncüoglu},
+ title = {Heroes, Villains, and Victims: Character Narratives in the WPS Agenda of the UNSC},
+year = {2025},
+ url = {https://github.com/imgeyuez/WPS-HRI/blob/main/WPS_PM_HRI.pdf},
+note = {Unpublished course paper, Universität Potsdam, 2025}, }
  ```

@@ -9,18 +9,3 @@ It also includes our annotated data on 54 selected speeches of the Women, Peace 
 The finalized fine-tuned RoBERTa model is too big to be uploaded on GitHub. If you are interested in it, feel free to contact us. 
 
 Soon we'll upload an inference script with which a user can just pass a tokenised text as input and will get an output with role-predictions.
-
-📄 Read the associated paper [here](./WPS_PM_HRI.pdf)
-
-### Citation
-
-Rilla, R., Steinbach, H., & Yüzüncüoglu, I. (2025). *Heroes, Villains, and Victims: Character Narratives in the WPS Agenda of the UNSC*. Unpublished course paper, Universität Potsdam. [PDF](https://github.com/imgeyuez/WPS-HRI/blob/main/WPS_PM_HRI.pdf)
-
-```bibtex
-@misc{rillasteinbachyuez2025,
-  author = {Raluca Rilla and Hannah Steinbach and Imge Yüzüncüoglu},
-  title = {Heroes, Villains, and Victims: Character Narratives in the WPS Agenda of the UNSC},
-  year = {2025},
-  url = {https://github.com/imgeyuez/WPS-HRI/blob/main/WPS_PM_HRI.pdf},
-  note = {Unpublished course paper, Universität Potsdam, 2025}}
- ```

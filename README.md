@@ -4,7 +4,7 @@ This repository's content are various tools to analyse and identify depictions o
 
 There is no main script, with which the different tools could be used. It is rather a collection of methods which represent our approach to the task. Unfortunatly, some absolute paths are still included in some scripts. But it will be genralised over time. 
 
-It also includes our annotated data on 54 selected speeches of the Women, Peace and Security corpus. Our annotation guidelines will also soon be uplaoded. We had to write our term paper first. :)
+It also includes our annotated data on 54 selected speeches of the Women, Peace and Security corpus.
 
 The finalized fine-tuned RoBERTa model is too big to be uploaded on GitHub. If you are interested in it, feel free to contact us. 
 
